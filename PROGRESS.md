@@ -143,7 +143,23 @@
   - [ ] Add flush() method for batch writes
   - [ ] Unit tests for conflict resolution
 
-#### Week 4: Database & State Management
+#### Week 4: Pipeline Integration (Days 1-7) - IN PROGRESS
+
+**Strategy Pivot**: Originally planned for database/state management, pivoted to complete core pipeline stages first (better architecture flow)
+
+**Completed (Days 1-3)**:
+- [x] Day 1: Pipeline Primitives (PipelineContext + Stage protocol)
+- [x] Day 2: Core Processing Pipeline (LaborCalculator + ProcessingStage)
+- [x] Day 3: Pattern Integration (PatternLearningStage)
+- [x] 67 tests, 98.5% pass rate, 100% coverage on stages
+
+**Planned (Days 4-7)**:
+- [ ] Day 4: IngestionStage (CSV/ZIP loading, validation, IngestionResult)
+- [ ] Day 5: StorageStage (Database writes, transaction handling, StorageResult)
+- [ ] Day 6: End-to-end Pipeline Integration Tests
+- [ ] Day 7: Polish & Documentation
+
+**Deferred to Week 5** (Database infrastructure not needed for pipeline logic):
 - [ ] Implement database clients
   - [ ] `src/infrastructure/database/supabase_client.py`
   - [ ] `src/infrastructure/database/state_tracker.py`

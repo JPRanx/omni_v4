@@ -1,0 +1,20 @@
+# OMNI V4 - Python Dependencies
+
+# Core dependencies
+python-dotenv==1.0.0        # Environment variable management
+pyyaml==6.0.1               # YAML configuration parsing
+supabase==2.3.0             # Supabase database client
+pandas==2.1.4               # Data manipulation (Toast CSV processing)
+
+# Testing
+pytest==7.4.3               # Test framework
+pytest-cov==4.1.0           # Coverage reporting
+pytest-mock==3.12.0         # Mocking utilities
+
+# Type checking & linting (optional)
+mypy==1.7.1                 # Static type checking
+black==23.12.0              # Code formatting
+flake8==6.1.0               # Linting
+
+# Development utilities
+ipython==8.18.1             # Interactive shell

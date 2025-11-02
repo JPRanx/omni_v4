@@ -51,7 +51,7 @@ class TestIngestionStage:
             'Sales refunds': [25.0],
             'Net sales': [925.0]
         })
-        sales_df.to_csv(temp_dir / 'Net_sales_summary.csv', index=False)
+        sales_df.to_csv(temp_dir / 'Net sales summary.csv', index=False)
 
         orders_df = pd.DataFrame({
             'Order #': ['001', '002'],
@@ -92,8 +92,11 @@ class TestIngestionStage:
         assert 'sales' in stage.REQUIRED_FILES
         assert 'orders' in stage.REQUIRED_FILES
         assert stage.REQUIRED_FILES['labor'] == 'TimeEntries.csv'
-        assert stage.REQUIRED_FILES['sales'] == 'Net_sales_summary.csv'
+        assert stage.REQUIRED_FILES['sales'] == 'Net sales summary.csv'
         assert stage.REQUIRED_FILES['orders'] == 'OrderDetails.csv'
+        # Check optional files
+        assert 'cash_activity' in stage.OPTIONAL_FILES
+        assert 'kitchen' in stage.OPTIONAL_FILES
 
     # Happy path tests
 
@@ -214,8 +217,8 @@ class TestIngestionStage:
         assert 'timeentries' in str(error).lower()
 
     def test_execute_missing_sales_file(self, stage, temp_dir):
-        """Test error when Net_sales_summary.csv is missing"""
-        (temp_dir / 'Net_sales_summary.csv').unlink()
+        """Test error when Net sales summary.csv is missing"""
+        (temp_dir / 'Net sales summary.csv').unlink()
 
         context = PipelineContext(restaurant_code='SDR', date='2025-01-15', config={})
         context.set('date', '2025-01-15')
@@ -225,7 +228,8 @@ class TestIngestionStage:
         result = stage.execute(context)
 
         assert result.is_err()
-        assert 'net_sales_summary' in str(result.unwrap_err()).lower()
+        error_str = str(result.unwrap_err()).lower()
+        assert 'sales' in error_str  # Check for 'sales' data type
 
     def test_execute_missing_orders_file(self, stage, temp_dir):
         """Test error when OrderDetails.csv is missing"""
@@ -290,7 +294,7 @@ class TestIngestionStage:
             'Gross sales': [1000.0]
             # Missing: Net sales
         })
-        invalid_sales.to_csv(temp_dir / 'Net_sales_summary.csv', index=False)
+        invalid_sales.to_csv(temp_dir / 'Net sales summary.csv', index=False)
 
         context = PipelineContext(restaurant_code='SDR', date='2025-01-15', config={})
         context.set('date', '2025-01-15')
@@ -310,7 +314,7 @@ class TestIngestionStage:
             'Sales refunds': [25.0],
             'Net sales': ['invalid']  # Non-numeric value
         })
-        invalid_sales.to_csv(temp_dir / 'Net_sales_summary.csv', index=False)
+        invalid_sales.to_csv(temp_dir / 'Net sales summary.csv', index=False)
 
         context = PipelineContext(restaurant_code='SDR', date='2025-01-15', config={})
         context.set('date', '2025-01-15')

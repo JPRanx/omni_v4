@@ -26,12 +26,19 @@ class IngestionStage:
     DTO with quality metrics.
     """
 
-    # Required CSV files mapping
+    # Priority 1: Required CSV files (core operations)
     # Note: Toast exports use different naming patterns
     REQUIRED_FILES = {
         'labor': 'TimeEntries.csv',  # Or TimeEntries_YYYY_MM_DD.csv
         'sales': 'Net sales summary.csv',  # Note: space in filename, not underscore
         'orders': 'OrderDetails.csv',  # Or OrderDetails_YYYY_MM_DD.csv
+    }
+
+    # Priority 2: Optional CSV files (efficiency & management)
+    # Enable higher quality levels when present
+    OPTIONAL_FILES = {
+        'cash_activity': 'Cash activity.csv',
+        'kitchen': 'Kitchen Details.csv',  # Or Kitchen Details_YYYY_MM_DD.csv
     }
 
     def __init__(self, validator: DataValidator):
@@ -116,13 +123,14 @@ class IngestionStage:
 
         temp_paths = temp_paths_result.unwrap()
 
+        # Determine quality level based on available files
+        quality_level = self._determine_quality_level(dfs)
+
         # Create IngestionResult DTO
-        #  Note: Using quality_level=1 for basic ingestion
-        # L2+ requires timeslots_path which is generated downstream
         ingestion_result = IngestionResult.create(
             restaurant_code=restaurant,
             business_date=date,
-            quality_level=1,  # Basic ingestion (L1 validation passed)
+            quality_level=quality_level,
             toast_data_path=temp_paths.get('sales', ''),
             employee_data_path=temp_paths.get('labor'),
             metadata=quality_metrics  # Include L2 metrics in metadata
@@ -178,7 +186,11 @@ class IngestionStage:
 
     def _load_csvs(self, source: DataSource, date: str) -> Result[Dict[str, pd.DataFrame]]:
         """
-        Load all required CSV files with flexible naming.
+        Load all required CSV files with flexible naming, plus optional files.
+
+        Implements graceful degradation:
+        - Required files (Priority 1): Failure aborts pipeline
+        - Optional files (Priority 2): Failure logged but pipeline continues
 
         Args:
             source: Data source to load from
@@ -189,6 +201,7 @@ class IngestionStage:
         """
         dfs = {}
 
+        # Load required files (Priority 1) - must succeed
         for data_type, base_filename in self.REQUIRED_FILES.items():
             # Find the actual filename (handles date suffixes)
             filename_result = self._find_file(source, base_filename, date)
@@ -215,6 +228,21 @@ class IngestionStage:
                 )
 
             dfs[data_type] = result.unwrap()
+
+        # Load optional files (Priority 2) - graceful degradation
+        for data_type, base_filename in self.OPTIONAL_FILES.items():
+            filename_result = self._find_file(source, base_filename, date)
+
+            if filename_result.is_err():
+                # Optional file not found - skip silently
+                continue
+
+            actual_filename = filename_result.unwrap()
+            result = source.get_csv(actual_filename)
+
+            if result.is_ok():
+                dfs[data_type] = result.unwrap()
+            # If loading fails, skip silently (graceful degradation)
 
         return Result.ok(dfs)
 
@@ -302,6 +330,26 @@ class IngestionStage:
                 )
 
         return Result.ok(temp_paths)
+
+    def _determine_quality_level(self, dfs: Dict[str, pd.DataFrame]) -> int:
+        """
+        Determine quality level based on available files.
+
+        Note: For now, always returns 1 since quality levels 2+ require
+        timeslots_path which is generated downstream. Optional files are
+        tracked in metadata instead.
+
+        Args:
+            dfs: Dictionary of loaded DataFrames
+
+        Returns:
+            int: Quality level (always 1 for ingestion stage)
+        """
+        # Always return 1 for ingestion stage
+        # Quality levels 2+ require timeslots_path which is generated
+        # in downstream processing stages
+        # Optional files loaded are tracked in L2 metrics instead
+        return 1
 
     def __repr__(self) -> str:
         return f"IngestionStage(validator={self.validator})"

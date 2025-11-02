@@ -1,9 +1,10 @@
 """
-Data validation for Toast POS CSV files.
+Data validation for Toast POS CSV files - Enhanced version.
 
-Implements two-level validation:
+Implements two-level validation with graceful degradation:
 - L1 (Fatal): Schema validation, required columns
 - L2 (Metrics): Quality tracking, parse rates, completeness
+- Supports both required and optional files
 """
 
 from typing import Dict, List, Set
@@ -15,12 +16,13 @@ from src.core.errors import ValidationError
 
 class DataValidator:
     """
-    Validates Toast POS CSV data quality.
+    Validates Toast POS CSV data quality with graceful degradation.
 
     Performs structural validation (L1) and quality metrics calculation (L2).
+    Supports both required files (Priority 1) and optional files (Priority 2).
     """
 
-    # Required columns for each CSV type
+    # Priority 1: Core operations (required for basic pipeline)
     REQUIRED_COLUMNS = {
         'labor': {
             'Employee', 'Job Title', 'In Date', 'Out Date',
@@ -34,18 +36,32 @@ class DataValidator:
         }
     }
 
+    # Priority 2: Efficiency & management (optional, enables L2+ quality)
+    OPTIONAL_COLUMNS = {
+        'cash_activity': {
+            'Total cash payments', 'Cash adjustments', 'Cash refunds',
+            'Cash before tipouts', 'Total cash'
+        },
+        'kitchen': {
+            'Location', 'Server', 'Check #', 'Fired Date',
+            'Fulfilled Date', 'Fulfillment Time'
+        }
+    }
+
     def validate_l1(self, dfs: Dict[str, pd.DataFrame]) -> Result[None]:
         """
         L1 (Fatal) validation - schema and required columns.
 
         Checks:
-        - All required DataFrames present
+        - All required DataFrames present (labor, sales, orders)
         - Required columns exist in each DataFrame
         - DataFrames are not empty
+        - Optional files validated if present
 
         Args:
             dfs: Dictionary mapping data type to DataFrame
-                 Expected keys: 'labor', 'sales', 'orders'
+                 Required keys: 'labor', 'sales', 'orders'
+                 Optional keys: 'cash_activity', 'kitchen'
 
         Returns:
             Result[None]: Success or ValidationError
@@ -62,14 +78,18 @@ class DataValidator:
                 )
             )
 
-        # Validate each DataFrame
+        # Validate required DataFrames
         for data_type, df in dfs.items():
-            # Skip if not in required columns map
-            if data_type not in self.REQUIRED_COLUMNS:
+            # Skip if not in any columns map
+            if data_type not in self.REQUIRED_COLUMNS and data_type not in self.OPTIONAL_COLUMNS:
                 continue
 
             # Check DataFrame not empty
             if df.empty:
+                # Empty optional files are warnings, not errors
+                if data_type in self.OPTIONAL_COLUMNS:
+                    continue
+
                 return Result.fail(
                     ValidationError(
                         f"DataFrame is empty: {data_type}",
@@ -78,11 +98,19 @@ class DataValidator:
                 )
 
             # Check required columns present
-            required_cols = self.REQUIRED_COLUMNS[data_type]
+            column_map = (
+                self.REQUIRED_COLUMNS if data_type in self.REQUIRED_COLUMNS
+                else self.OPTIONAL_COLUMNS
+            )
+            required_cols = column_map[data_type]
             df_cols = set(df.columns)
             missing_cols = required_cols - df_cols
 
             if missing_cols:
+                # Missing columns in optional files are warnings, not errors
+                if data_type in self.OPTIONAL_COLUMNS:
+                    continue
+
                 return Result.fail(
                     ValidationError(
                         f"Missing required columns in {data_type}: {', '.join(sorted(missing_cols))}",
@@ -120,7 +148,13 @@ class DataValidator:
             'warnings': [],
             'row_counts': {},
             'completeness': {},
+            'optional_files_present': []
         }
+
+        # Track which optional files are present
+        for optional_type in self.OPTIONAL_COLUMNS.keys():
+            if optional_type in dfs:
+                metrics['optional_files_present'].append(optional_type)
 
         # Calculate row counts
         for data_type, df in dfs.items():
@@ -132,9 +166,10 @@ class DataValidator:
             metrics['timestamp_quality'] = timestamp_quality
 
         # Calculate data completeness (non-null rates)
+        all_columns = {**self.REQUIRED_COLUMNS, **self.OPTIONAL_COLUMNS}
         for data_type, df in dfs.items():
-            if data_type in self.REQUIRED_COLUMNS:
-                required_cols = self.REQUIRED_COLUMNS[data_type]
+            if data_type in all_columns:
+                required_cols = all_columns[data_type]
                 completeness = {}
 
                 for col in required_cols:
@@ -200,4 +235,4 @@ class DataValidator:
         return successful_parses / total_timestamps
 
     def __repr__(self) -> str:
-        return "DataValidator(levels=['L1', 'L2'])"
+        return "DataValidator(levels=['L1', 'L2'], optional_files=True)"

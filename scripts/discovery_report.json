@@ -1,0 +1,1104 @@
+{
+  "inventory": {
+    "restaurants": {
+      "SDR": {
+        "path": "tests\\fixtures\\sample_data\\2025-10-20\\SDR",
+        "file_count": 30,
+        "files": [
+          "Cash activity.csv",
+          "Cash summary.csv",
+          "Check Discounts.csv",
+          "Day of week (totals).csv",
+          "Deferred summary.csv",
+          "Dining options summary.csv",
+          "DiscountDetails_2025_10_20.csv",
+          "EOD_2025_10_20.csv",
+          "Kitchen Details_2025_10_20.csv",
+          "Menu Item Discounts.csv",
+          "Net sales summary.csv",
+          "OrderDetails_2025_10_20.csv",
+          "Payments summary.csv",
+          "PayrollExport_2025_10_20.csv",
+          "Revenue center summary.csv",
+          "Revenue summary.csv",
+          "Sales by day.csv",
+          "Sales category summary.csv",
+          "Service Daypart summary.csv",
+          "Service charge summary.csv",
+          "Service mode summary.csv",
+          "Shifts_Closed_2025_10_20.csv",
+          "Tax summary.csv",
+          "Time of day (totals).csv",
+          "TimeEntries_2025_10_20.csv",
+          "Tip summary.csv",
+          "Unpaid orders summary.csv",
+          "Void summary.csv",
+          "VoidDetails_2025_10_20.csv",
+          "cash-mgmt_2025_10_20.csv"
+        ]
+      },
+      "T12": {
+        "path": "tests\\fixtures\\sample_data\\2025-10-20\\T12",
+        "file_count": 30,
+        "files": [
+          "Cash activity.csv",
+          "Cash summary.csv",
+          "Check Discounts.csv",
+          "Day of week (totals).csv",
+          "Deferred summary.csv",
+          "Dining options summary.csv",
+          "DiscountDetails_2025_10_20.csv",
+          "EOD_2025_10_20.csv",
+          "Kitchen Details_2025_10_20.csv",
+          "Menu Item Discounts.csv",
+          "Net sales summary.csv",
+          "OrderDetails_2025_10_20.csv",
+          "Payments summary.csv",
+          "PayrollExport_2025_10_20.csv",
+          "Revenue center summary.csv",
+          "Revenue summary.csv",
+          "Sales by day.csv",
+          "Sales category summary.csv",
+          "Service Daypart summary.csv",
+          "Service charge summary.csv",
+          "Service mode summary.csv",
+          "Shifts_Closed_2025_10_20.csv",
+          "Tax summary.csv",
+          "Time of day (totals).csv",
+          "TimeEntries_2025_10_20.csv",
+          "Tip summary.csv",
+          "Unpaid orders summary.csv",
+          "Void summary.csv",
+          "VoidDetails_2025_10_20.csv",
+          "cash-mgmt_2025_10_20.csv"
+        ]
+      },
+      "TK9": {
+        "path": "tests\\fixtures\\sample_data\\2025-10-20\\TK9",
+        "file_count": 30,
+        "files": [
+          "Cash activity.csv",
+          "Cash summary.csv",
+          "Check Discounts.csv",
+          "Day of week (totals).csv",
+          "Deferred summary.csv",
+          "Dining options summary.csv",
+          "DiscountDetails_2025_10_20.csv",
+          "EOD_2025_10_20.csv",
+          "Kitchen Details_2025_10_20.csv",
+          "Menu Item Discounts.csv",
+          "Net sales summary.csv",
+          "OrderDetails_2025_10_20.csv",
+          "Payments summary.csv",
+          "PayrollExport_2025_10_20.csv",
+          "Revenue center summary.csv",
+          "Revenue summary.csv",
+          "Sales by day.csv",
+          "Sales category summary.csv",
+          "Service Daypart summary.csv",
+          "Service charge summary.csv",
+          "Service mode summary.csv",
+          "Shifts_Closed_2025_10_20.csv",
+          "Tax summary.csv",
+          "Time of day (totals).csv",
+          "TimeEntries_2025_10_20.csv",
+          "Tip summary.csv",
+          "Unpaid orders summary.csv",
+          "Void summary.csv",
+          "VoidDetails_2025_10_20.csv",
+          "cash-mgmt_2025_10_20.csv"
+        ]
+      }
+    },
+    "universal_files": [
+      "Cash activity.csv",
+      "Cash summary.csv",
+      "Check Discounts.csv",
+      "Day of week (totals).csv",
+      "Deferred summary.csv",
+      "Dining options summary.csv",
+      "DiscountDetails_2025_10_20.csv",
+      "EOD_2025_10_20.csv",
+      "Kitchen Details_2025_10_20.csv",
+      "Menu Item Discounts.csv",
+      "Net sales summary.csv",
+      "OrderDetails_2025_10_20.csv",
+      "Payments summary.csv",
+      "PayrollExport_2025_10_20.csv",
+      "Revenue center summary.csv",
+      "Revenue summary.csv",
+      "Sales by day.csv",
+      "Sales category summary.csv",
+      "Service Daypart summary.csv",
+      "Service charge summary.csv",
+      "Service mode summary.csv",
+      "Shifts_Closed_2025_10_20.csv",
+      "Tax summary.csv",
+      "Time of day (totals).csv",
+      "TimeEntries_2025_10_20.csv",
+      "Tip summary.csv",
+      "Unpaid orders summary.csv",
+      "Void summary.csv",
+      "VoidDetails_2025_10_20.csv",
+      "cash-mgmt_2025_10_20.csv"
+    ],
+    "restaurant_specific": {},
+    "file_schemas": {},
+    "file_volumes": {},
+    "missing_files": {}
+  },
+  "schema_analysis": {
+    "Cash activity.csv": {
+      "columns": [
+        "Total cash payments",
+        "Cash adjustments",
+        "Cash refunds",
+        "Cash before tipouts",
+        "Cash gratuity",
+        "Credit/non-cash gratuity",
+        "Credit/non-cash tips",
+        "Tipouts tips withheld",
+        "Total cash"
+      ],
+      "variations": [],
+      "is_consistent": true
+    },
+    "Cash summary.csv": {
+      "columns": [
+        "Expected closeout cash",
+        "Actual closeout cash",
+        "Cash overage/shortage",
+        "Expected deposit",
+        "Actual deposit",
+        "Deposit overage/shortage"
+      ],
+      "variations": [],
+      "is_consistent": true
+    },
+    "Check Discounts.csv": {
+      "columns": [
+        "Discount",
+        "Count",
+        "Orders",
+        "Amount"
+      ],
+      "variations": [],
+      "is_consistent": true
+    },
+    "Day of week (totals).csv": {
+      "columns": [
+        "Day of week",
+        "Net sales",
+        "Total orders",
+        "Total guests"
+      ],
+      "variations": [],
+      "is_consistent": true
+    },
+    "Deferred summary.csv": {
+      "columns": {},
+      "variations": [
+        "SDR: Error reading file - No columns to parse from file",
+        "T12: Error reading file - No columns to parse from file",
+        "TK9: Error reading file - No columns to parse from file"
+      ],
+      "is_consistent": false
+    },
+    "Dining options summary.csv": {
+      "columns": [
+        "Dining option",
+        "Orders",
+        "Net sales",
+        "Discount amount",
+        "Gross sales",
+        "Tax amount"
+      ],
+      "variations": [],
+      "is_consistent": true
+    },
+    "DiscountDetails_2025_10_20.csv": {
+      "columns": [
+        "Location",
+        "Order #",
+        "Opened Date",
+        "Server",
+        "Table",
+        "Discount Name",
+        "Discount Reason",
+        "Comment",
+        "Discount Amount"
+      ],
+      "variations": [],
+      "is_consistent": true
+    },
+    "EOD_2025_10_20.csv": {
+      "columns": [
+        "Payment Id",
+        "Check Id",
+        "Check #",
+        "Table",
+        "Payment Type",
+        "Server",
+        "Cashier",
+        "Tip",
+        "Amount",
+        "Cash Drawer",
+        "Date",
+        "Opened Date"
+      ],
+      "variations": [],
+      "is_consistent": true
+    },
+    "Kitchen Details_2025_10_20.csv": {
+      "columns": [
+        "Location",
+        "Server",
+        "Check #",
+        "Table",
+        "Station",
+        "Expediter Level",
+        "Fired Date",
+        "Fulfilled Date",
+        "Fulfillment Time",
+        "Fulfilled By"
+      ],
+      "variations": [],
+      "is_consistent": true
+    },
+    "Menu Item Discounts.csv": {
+      "columns": [
+        "Discount",
+        "Count",
+        "Orders",
+        "Amount"
+      ],
+      "variations": [],
+      "is_consistent": true
+    },
+    "Net sales summary.csv": {
+      "columns": [
+        "Gross sales",
+        "Sales discounts",
+        "Sales refunds",
+        "Net sales"
+      ],
+      "variations": [],
+      "is_consistent": true
+    },
+    "OrderDetails_2025_10_20.csv": {
+      "columns": [
+        "Location",
+        "Order #",
+        "Opened",
+        "# of Guests",
+        "Server",
+        "Table",
+        "Discount Amount",
+        "Amount",
+        "Tax",
+        "Tip",
+        "Gratuity"
+      ],
+      "variations": [],
+      "is_consistent": true
+    },
+    "Payments summary.csv": {
+      "columns": [
+        "Payment type",
+        "Payment sub type",
+        "Count",
+        "Amount",
+        "Tips",
+        "Grat",
+        "Tax amount",
+        "Refunds",
+        "Tip refunds",
+        "Legacy tips",
+        "Total",
+        "Tips/Grat %"
+      ],
+      "variations": [],
+      "is_consistent": true
+    },
+    "PayrollExport_2025_10_20.csv": {
+      "columns": [
+        "Employee",
+        "Job Title",
+        "Regular Hours",
+        "Overtime Hours",
+        "Hourly Rate",
+        "Regular Pay",
+        "Overtime Pay",
+        "Total Pay",
+        "Net Sales",
+        "Declared Tips",
+        "Non-Cash Tips",
+        "Total Tips",
+        "Tips Withheld",
+        "Total Gratuity",
+        "Employee ID",
+        "Job Code",
+        "Location",
+        "Location Code"
+      ],
+      "variations": [],
+      "is_consistent": true
+    },
+    "Revenue center summary.csv": {
+      "columns": [
+        "Revenue center",
+        "Items",
+        "Net sales",
+        "Discount amount",
+        "Refund amount",
+        "Gross sales",
+        "Tax amount"
+      ],
+      "variations": [],
+      "is_consistent": true
+    },
+    "Revenue summary.csv": {
+      "columns": [
+        "Net sales",
+        "Gratuity",
+        "Tax amount",
+        "Fundraising Contributions",
+        "Fundraising Contribution Refunds",
+        "Tips",
+        "Deferred (gift cards)",
+        "Deferred (house accounts)",
+        "Deferred (other)",
+        "deferredTaxAmount",
+        "Paid in total",
+        "Total"
+      ],
+      "variations": [],
+      "is_consistent": true
+    },
+    "Sales by day.csv": {
+      "columns": [
+        "yyyyMMdd",
+        "Net sales",
+        "Total orders",
+        "Total guests"
+      ],
+      "variations": [],
+      "is_consistent": true
+    },
+    "Sales category summary.csv": {
+      "columns": [
+        "Sales category",
+        "Items",
+        "Net sales",
+        "Discount amount",
+        "Refund amount",
+        "Gross sales",
+        "Tax amount"
+      ],
+      "variations": [],
+      "is_consistent": true
+    },
+    "Service Daypart summary.csv": {
+      "columns": [
+        "Service / day part",
+        "Orders",
+        "Net sales",
+        "Discount amount",
+        "Refund amount",
+        "Gross sales",
+        "Tax amount"
+      ],
+      "variations": [],
+      "is_consistent": true
+    },
+    "Service charge summary.csv": {
+      "columns": {},
+      "variations": [
+        "TK9: Error reading file - No columns to parse from file"
+      ],
+      "is_consistent": false
+    },
+    "Service mode summary.csv": {
+      "columns": [
+        "Service mode",
+        "Net sales",
+        "Total guests",
+        "Avg/Guest",
+        "Total payments",
+        "Avg/Payment",
+        "Total orders",
+        "Avg/Order",
+        "Turn time (minutes)"
+      ],
+      "variations": [],
+      "is_consistent": true
+    },
+    "Shifts_Closed_2025_10_20.csv": {
+      "columns": [
+        "Unnamed: 0",
+        "Location",
+        "Employee",
+        "Job Title",
+        "In Date",
+        "Shift Closed Date",
+        "Out Date",
+        "Hours",
+        "Cash Tips Decl.",
+        "Cash on Hand",
+        "Cash in Drawer",
+        "Non-Cash Tips",
+        "Cash Gratuity",
+        "Non-Cash Gratuity",
+        "Tips Withheld",
+        "Non-Cash Sales",
+        "Cash Sales",
+        "Total Sales",
+        "Cash Collected?",
+        "Tips Paid?",
+        "Open",
+        "Paid",
+        "Closed",
+        "Tip Share Total"
+      ],
+      "variations": [],
+      "is_consistent": true
+    },
+    "Tax summary.csv": {
+      "columns": [
+        "Tax rate",
+        "Tax amount",
+        "Taxable amount"
+      ],
+      "variations": [],
+      "is_consistent": true
+    },
+    "Time of day (totals).csv": {
+      "columns": [
+        "Hour of day",
+        "Net sales",
+        "Total orders",
+        "Total guests"
+      ],
+      "variations": [],
+      "is_consistent": true
+    },
+    "TimeEntries_2025_10_20.csv": {
+      "columns": [
+        "Location",
+        "Employee",
+        "Job Title",
+        "In Date",
+        "Out Date",
+        "Total Hours",
+        "Unpaid Break Time",
+        "Paid Break Time",
+        "Payable Hours"
+      ],
+      "variations": [],
+      "is_consistent": true
+    },
+    "Tip summary.csv": {
+      "columns": [
+        "Tips collected",
+        "Tips refunded",
+        "Total tips"
+      ],
+      "variations": [],
+      "is_consistent": true
+    },
+    "Unpaid orders summary.csv": {
+      "columns": [
+        "Unpaid amount"
+      ],
+      "variations": [],
+      "is_consistent": true
+    },
+    "Void summary.csv": {
+      "columns": [
+        "Void amount",
+        "Void order count",
+        "Void item count",
+        "Void amount %"
+      ],
+      "variations": [],
+      "is_consistent": true
+    },
+    "VoidDetails_2025_10_20.csv": {
+      "columns": [
+        "Order #",
+        "Opened Date",
+        "Void Date",
+        "Server",
+        "Approver",
+        "Item Name",
+        "Reason",
+        "Item Quantity",
+        "Total Price"
+      ],
+      "variations": [],
+      "is_consistent": true
+    },
+    "cash-mgmt_2025_10_20.csv": {
+      "columns": [
+        "Location",
+        "Entry Id",
+        "Created Date",
+        "Action",
+        "Amount",
+        "Cash Drawer",
+        "Payout Reason",
+        "No Sale Reason",
+        "Comment",
+        "Employee",
+        "Employee 2"
+      ],
+      "variations": [],
+      "is_consistent": true
+    }
+  },
+  "volume_analysis": {
+    "Cash activity.csv": {
+      "SDR": {
+        "row_count": 1,
+        "column_count": 9,
+        "memory_mb": 0.00019073486328125
+      },
+      "T12": {
+        "row_count": 1,
+        "column_count": 9,
+        "memory_mb": 0.00019073486328125
+      },
+      "TK9": {
+        "row_count": 1,
+        "column_count": 9,
+        "memory_mb": 0.00019073486328125
+      }
+    },
+    "Cash summary.csv": {
+      "SDR": {
+        "row_count": 1,
+        "column_count": 6,
+        "memory_mb": 0.0001678466796875
+      },
+      "T12": {
+        "row_count": 1,
+        "column_count": 6,
+        "memory_mb": 0.0001678466796875
+      },
+      "TK9": {
+        "row_count": 1,
+        "column_count": 6,
+        "memory_mb": 0.0001678466796875
+      }
+    },
+    "Check Discounts.csv": {
+      "SDR": {
+        "row_count": 3,
+        "column_count": 4,
+        "memory_mb": 0.00039386749267578125
+      },
+      "T12": {
+        "row_count": 3,
+        "column_count": 4,
+        "memory_mb": 0.00038909912109375
+      },
+      "TK9": {
+        "row_count": 2,
+        "column_count": 4,
+        "memory_mb": 0.00029277801513671875
+      }
+    },
+    "Day of week (totals).csv": {
+      "SDR": {
+        "row_count": 1,
+        "column_count": 4,
+        "memory_mb": 0.000202178955078125
+      },
+      "T12": {
+        "row_count": 1,
+        "column_count": 4,
+        "memory_mb": 0.000202178955078125
+      },
+      "TK9": {
+        "row_count": 1,
+        "column_count": 4,
+        "memory_mb": 0.000202178955078125
+      }
+    },
+    "Deferred summary.csv": {
+      "SDR": {
+        "error": "No columns to parse from file"
+      },
+      "T12": {
+        "error": "No columns to parse from file"
+      },
+      "TK9": {
+        "error": "No columns to parse from file"
+      }
+    },
+    "Dining options summary.csv": {
+      "SDR": {
+        "row_count": 4,
+        "column_count": 6,
+        "memory_mb": 0.0005207061767578125
+      },
+      "T12": {
+        "row_count": 4,
+        "column_count": 6,
+        "memory_mb": 0.0005207061767578125
+      },
+      "TK9": {
+        "row_count": 4,
+        "column_count": 6,
+        "memory_mb": 0.0005207061767578125
+      }
+    },
+    "DiscountDetails_2025_10_20.csv": {
+      "SDR": {
+        "row_count": 16,
+        "column_count": 9,
+        "memory_mb": 0.006398200988769531
+      },
+      "T12": {
+        "row_count": 24,
+        "column_count": 9,
+        "memory_mb": 0.009116172790527344
+      },
+      "TK9": {
+        "row_count": 2,
+        "column_count": 9,
+        "memory_mb": 0.0007915496826171875
+      }
+    },
+    "EOD_2025_10_20.csv": {
+      "SDR": {
+        "row_count": 175,
+        "column_count": 12,
+        "memory_mb": 0.07968902587890625
+      },
+      "T12": {
+        "row_count": 363,
+        "column_count": 12,
+        "memory_mb": 0.16464519500732422
+      },
+      "TK9": {
+        "row_count": 255,
+        "column_count": 12,
+        "memory_mb": 0.12114334106445312
+      }
+    },
+    "Kitchen Details_2025_10_20.csv": {
+      "SDR": {
+        "row_count": 57,
+        "column_count": 10,
+        "memory_mb": 0.029104232788085938
+      },
+      "T12": {
+        "row_count": 140,
+        "column_count": 10,
+        "memory_mb": 0.06984901428222656
+      },
+      "TK9": {
+        "row_count": 27,
+        "column_count": 10,
+        "memory_mb": 0.012210845947265625
+      }
+    },
+    "Menu Item Discounts.csv": {
+      "SDR": {
+        "row_count": 3,
+        "column_count": 4,
+        "memory_mb": 0.0003795623779296875
+      },
+      "T12": {
+        "row_count": 5,
+        "column_count": 4,
+        "memory_mb": 0.0005731582641601562
+      },
+      "TK9": {
+        "row_count": 2,
+        "column_count": 4,
+        "memory_mb": 0.0002918243408203125
+      }
+    },
+    "Net sales summary.csv": {
+      "SDR": {
+        "row_count": 1,
+        "column_count": 4,
+        "memory_mb": 0.000152587890625
+      },
+      "T12": {
+        "row_count": 1,
+        "column_count": 4,
+        "memory_mb": 0.000152587890625
+      },
+      "TK9": {
+        "row_count": 1,
+        "column_count": 4,
+        "memory_mb": 0.000152587890625
+      }
+    },
+    "OrderDetails_2025_10_20.csv": {
+      "SDR": {
+        "row_count": 168,
+        "column_count": 11,
+        "memory_mb": 0.04562568664550781
+      },
+      "T12": {
+        "row_count": 330,
+        "column_count": 11,
+        "memory_mb": 0.09074878692626953
+      },
+      "TK9": {
+        "row_count": 250,
+        "column_count": 11,
+        "memory_mb": 0.06668472290039062
+      }
+    },
+    "Payments summary.csv": {
+      "SDR": {
+        "row_count": 9,
+        "column_count": 12,
+        "memory_mb": 0.00177764892578125
+      },
+      "T12": {
+        "row_count": 9,
+        "column_count": 12,
+        "memory_mb": 0.0017719268798828125
+      },
+      "TK9": {
+        "row_count": 8,
+        "column_count": 12,
+        "memory_mb": 0.001567840576171875
+      }
+    },
+    "PayrollExport_2025_10_20.csv": {
+      "SDR": {
+        "row_count": 17,
+        "column_count": 18,
+        "memory_mb": 0.0055141448974609375
+      },
+      "T12": {
+        "row_count": 20,
+        "column_count": 18,
+        "memory_mb": 0.006556510925292969
+      },
+      "TK9": {
+        "row_count": 9,
+        "column_count": 18,
+        "memory_mb": 0.0029754638671875
+      }
+    },
+    "Revenue center summary.csv": {
+      "SDR": {
+        "row_count": 4,
+        "column_count": 7,
+        "memory_mb": 0.0005636215209960938
+      },
+      "T12": {
+        "row_count": 2,
+        "column_count": 7,
+        "memory_mb": 0.0003376007080078125
+      },
+      "TK9": {
+        "row_count": 3,
+        "column_count": 7,
+        "memory_mb": 0.00044727325439453125
+      }
+    },
+    "Revenue summary.csv": {
+      "SDR": {
+        "row_count": 1,
+        "column_count": 12,
+        "memory_mb": 0.000213623046875
+      },
+      "T12": {
+        "row_count": 1,
+        "column_count": 12,
+        "memory_mb": 0.000213623046875
+      },
+      "TK9": {
+        "row_count": 1,
+        "column_count": 12,
+        "memory_mb": 0.000213623046875
+      }
+    },
+    "Sales by day.csv": {
+      "SDR": {
+        "row_count": 1,
+        "column_count": 4,
+        "memory_mb": 0.000152587890625
+      },
+      "T12": {
+        "row_count": 1,
+        "column_count": 4,
+        "memory_mb": 0.000152587890625
+      },
+      "TK9": {
+        "row_count": 1,
+        "column_count": 4,
+        "memory_mb": 0.000152587890625
+      }
+    },
+    "Sales category summary.csv": {
+      "SDR": {
+        "row_count": 5,
+        "column_count": 7,
+        "memory_mb": 0.0006570816040039062
+      },
+      "T12": {
+        "row_count": 4,
+        "column_count": 7,
+        "memory_mb": 0.0005474090576171875
+      },
+      "TK9": {
+        "row_count": 3,
+        "column_count": 7,
+        "memory_mb": 0.00044155120849609375
+      }
+    },
+    "Service Daypart summary.csv": {
+      "SDR": {
+        "row_count": 5,
+        "column_count": 7,
+        "memory_mb": 0.0006561279296875
+      },
+      "T12": {
+        "row_count": 5,
+        "column_count": 7,
+        "memory_mb": 0.0006561279296875
+      },
+      "TK9": {
+        "row_count": 5,
+        "column_count": 7,
+        "memory_mb": 0.0006561279296875
+      }
+    },
+    "Service charge summary.csv": {
+      "SDR": {
+        "row_count": 2,
+        "column_count": 3,
+        "memory_mb": 0.0002765655517578125
+      },
+      "T12": {
+        "row_count": 2,
+        "column_count": 3,
+        "memory_mb": 0.0002765655517578125
+      },
+      "TK9": {
+        "error": "No columns to parse from file"
+      }
+    },
+    "Service mode summary.csv": {
+      "SDR": {
+        "row_count": 3,
+        "column_count": 9,
+        "memory_mb": 0.0004978179931640625
+      },
+      "T12": {
+        "row_count": 3,
+        "column_count": 9,
+        "memory_mb": 0.0004978179931640625
+      },
+      "TK9": {
+        "row_count": 3,
+        "column_count": 9,
+        "memory_mb": 0.0004978179931640625
+      }
+    },
+    "Shifts_Closed_2025_10_20.csv": {
+      "SDR": {
+        "row_count": 11,
+        "column_count": 24,
+        "memory_mb": 0.0072460174560546875
+      },
+      "T12": {
+        "row_count": 13,
+        "column_count": 24,
+        "memory_mb": 0.008607864379882812
+      },
+      "TK9": {
+        "row_count": 4,
+        "column_count": 24,
+        "memory_mb": 0.0027208328247070312
+      }
+    },
+    "Tax summary.csv": {
+      "SDR": {
+        "row_count": 2,
+        "column_count": 3,
+        "memory_mb": 0.000274658203125
+      },
+      "T12": {
+        "row_count": 2,
+        "column_count": 3,
+        "memory_mb": 0.00028324127197265625
+      },
+      "TK9": {
+        "row_count": 2,
+        "column_count": 3,
+        "memory_mb": 0.000274658203125
+      }
+    },
+    "Time of day (totals).csv": {
+      "SDR": {
+        "row_count": 13,
+        "column_count": 4,
+        "memory_mb": 0.000518798828125
+      },
+      "T12": {
+        "row_count": 15,
+        "column_count": 4,
+        "memory_mb": 0.000579833984375
+      },
+      "TK9": {
+        "row_count": 14,
+        "column_count": 4,
+        "memory_mb": 0.00054931640625
+      }
+    },
+    "TimeEntries_2025_10_20.csv": {
+      "SDR": {
+        "row_count": 17,
+        "column_count": 9,
+        "memory_mb": 0.006455421447753906
+      },
+      "T12": {
+        "row_count": 22,
+        "column_count": 9,
+        "memory_mb": 0.008418083190917969
+      },
+      "TK9": {
+        "row_count": 9,
+        "column_count": 9,
+        "memory_mb": 0.0034732818603515625
+      }
+    },
+    "Tip summary.csv": {
+      "SDR": {
+        "row_count": 1,
+        "column_count": 3,
+        "memory_mb": 0.00014495849609375
+      },
+      "T12": {
+        "row_count": 1,
+        "column_count": 3,
+        "memory_mb": 0.00014495849609375
+      },
+      "TK9": {
+        "row_count": 1,
+        "column_count": 3,
+        "memory_mb": 0.00014495849609375
+      }
+    },
+    "Unpaid orders summary.csv": {
+      "SDR": {
+        "row_count": 1,
+        "column_count": 1,
+        "memory_mb": 0.00012969970703125
+      },
+      "T12": {
+        "row_count": 1,
+        "column_count": 1,
+        "memory_mb": 0.00012969970703125
+      },
+      "TK9": {
+        "row_count": 1,
+        "column_count": 1,
+        "memory_mb": 0.00012969970703125
+      }
+    },
+    "Void summary.csv": {
+      "SDR": {
+        "row_count": 1,
+        "column_count": 4,
+        "memory_mb": 0.000152587890625
+      },
+      "T12": {
+        "row_count": 1,
+        "column_count": 4,
+        "memory_mb": 0.000152587890625
+      },
+      "TK9": {
+        "row_count": 1,
+        "column_count": 4,
+        "memory_mb": 0.000152587890625
+      }
+    },
+    "VoidDetails_2025_10_20.csv": {
+      "SDR": {
+        "row_count": 8,
+        "column_count": 9,
+        "memory_mb": 0.0036468505859375
+      },
+      "T12": {
+        "row_count": 44,
+        "column_count": 9,
+        "memory_mb": 0.019364356994628906
+      },
+      "TK9": {
+        "row_count": 12,
+        "column_count": 9,
+        "memory_mb": 0.00530242919921875
+      }
+    },
+    "cash-mgmt_2025_10_20.csv": {
+      "SDR": {
+        "row_count": 33,
+        "column_count": 11,
+        "memory_mb": 0.016035079956054688
+      },
+      "T12": {
+        "row_count": 78,
+        "column_count": 11,
+        "memory_mb": 0.039488792419433594
+      },
+      "TK9": {
+        "row_count": 170,
+        "column_count": 11,
+        "memory_mb": 0.08071613311767578
+      }
+    }
+  },
+  "categorized": {
+    "1": [
+      "Net sales summary.csv",
+      "OrderDetails_2025_10_20.csv",
+      "TimeEntries_2025_10_20.csv"
+    ],
+    "2": [
+      "Cash activity.csv",
+      "Kitchen Details_2025_10_20.csv"
+    ],
+    "3": [],
+    "4": [
+      "Revenue center summary.csv"
+    ],
+    "5": [
+      "Cash summary.csv",
+      "Check Discounts.csv",
+      "Day of week (totals).csv",
+      "Deferred summary.csv",
+      "Dining options summary.csv",
+      "DiscountDetails_2025_10_20.csv",
+      "EOD_2025_10_20.csv",
+      "Menu Item Discounts.csv",
+      "Payments summary.csv",
+      "PayrollExport_2025_10_20.csv",
+      "Revenue summary.csv",
+      "Sales by day.csv",
+      "Sales category summary.csv",
+      "Service Daypart summary.csv",
+      "Service charge summary.csv",
+      "Service mode summary.csv",
+      "Shifts_Closed_2025_10_20.csv",
+      "Tax summary.csv",
+      "Time of day (totals).csv",
+      "Tip summary.csv",
+      "Unpaid orders summary.csv",
+      "Void summary.csv",
+      "VoidDetails_2025_10_20.csv",
+      "cash-mgmt_2025_10_20.csv"
+    ]
+  }
+}

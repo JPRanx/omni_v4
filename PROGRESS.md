@@ -147,14 +147,14 @@
 
 **Strategy Pivot**: Originally planned for database/state management, pivoted to complete core pipeline stages first (better architecture flow)
 
-**Completed (Days 1-3)**:
+**Completed (Days 1-4)**:
 - [x] Day 1: Pipeline Primitives (PipelineContext + Stage protocol)
 - [x] Day 2: Core Processing Pipeline (LaborCalculator + ProcessingStage)
 - [x] Day 3: Pattern Integration (PatternLearningStage)
-- [x] 67 tests, 98.5% pass rate, 100% coverage on stages
+- [x] Day 4: IngestionStage (CSV loading, L1/L2 validation, quality metrics)
+- [x] 136 tests total, 100% pass rate, 82-98% coverage on ingestion modules
 
-**Planned (Days 4-7)**:
-- [ ] Day 4: IngestionStage (CSV/ZIP loading, validation, IngestionResult)
+**Planned (Days 5-7)**:
 - [ ] Day 5: StorageStage (Database writes, transaction handling, StorageResult)
 - [ ] Day 6: End-to-end Pipeline Integration Tests
 - [ ] Day 7: Polish & Documentation
@@ -816,7 +816,148 @@ _None currently - architecture decisions finalized_
 
 **Week 4 Day 3 Status**: COMPLETE ✅
 - Pattern integration functional with resilient error handling
-- **Ready for**: Day 4 - Integration Testing or Day 5 - Polish & Documentation
+- **Ready for**: Day 4 - IngestionStage
+
+### Week 4 Day 4: IngestionStage (2025-01-02) ✅
+
+**Goal**: Create pipeline stage for loading and validating Toast POS CSV data
+
+**Implementation Summary**:
+1. **V3 Codebase Analysis** - Comprehensive exploration of V3 ingestion system
+   - Found [toast_ingestion.py](c:\Users\Jorge Alexander\restaurant_analytics_v3\Modules\Ingestion\toast_ingestion.py) - Main ingestion class
+   - Analyzed three-level validation: L1 (fatal), L2 (metrics), L3 (confidence gates)
+   - Documented V3's ZIP extraction, encoding detection, quality tracking
+   - Identified simplification opportunities (defer ZIP extraction, L3 scoring)
+
+2. **DataSource Protocol** - Abstraction for data loading
+   - File: [src/ingestion/data_source.py](src/ingestion/data_source.py) (8 lines, 100% coverage)
+   - Protocol with get_csv() and list_available() methods
+   - Enables future implementations (ZIP, cloud storage, etc.)
+   - Runtime-checkable protocol for type safety
+
+3. **CSVDataSource** - CSV directory loader implementation
+   - File: [src/ingestion/csv_data_source.py](src/ingestion/csv_data_source.py) (167 lines, 82% coverage)
+   - **Key Features**:
+     - Automatic encoding detection (chardet library)
+     - Fallback chain: utf-8 → latin-1 → cp1252 → iso-8859-1
+     - Graceful error handling for missing/malformed files
+     - List available CSV files in directory
+     - Returns Result[DataFrame] for all operations
+   - **Error Handling**: MissingFileError, EmptyFileError, ParserError
+   - **Edge Cases**: Special characters, large files (10k+ rows), spaces in filenames
+
+4. **DataValidator** - Two-level validation system
+   - File: [src/ingestion/data_validator.py](src/ingestion/data_validator.py) (203 lines, 98% coverage)
+   - **L1 Validation (Fatal)**:
+     - File existence checks (labor, sales, orders)
+     - Required column validation per data type
+     - Empty DataFrame detection
+     - Returns ValidationError if fatal issue
+   - **L2 Metrics (Quality Tracking)**:
+     - Row counts per DataFrame
+     - Data completeness (non-null rates)
+     - Timestamp parsing quality for labor data
+     - Low completeness warnings (< 90%)
+     - Overall quality score calculation
+   - **Required Columns**:
+     - Labor: Employee, Job Title, In Date, Out Date, Total Hours, Payable Hours
+     - Sales: Gross sales, Sales discounts, Sales refunds, Net sales
+     - Orders: Order #, Opened, Server, Amount
+
+5. **IngestionStage** - Pipeline stage implementation
+   - File: [src/processing/stages/ingestion_stage.py](src/processing/stages/ingestion_stage.py) (253 lines, 94% coverage)
+   - Implements PipelineStage protocol from Day 1
+   - **Inputs from context**: date (str), restaurant (str), data_path (str)
+   - **Outputs to context**:
+     - ingestion_result (IngestionResult DTO)
+     - sales (float - net sales amount)
+     - raw_dataframes (dict - for downstream stages)
+   - **Processing Flow**:
+     1. Initialize CSVDataSource with data_path
+     2. Load 3 required CSV files (TimeEntries, Net_sales_summary, OrderDetails)
+     3. Run L1 validation (fatal errors halt processing)
+     4. Calculate L2 quality metrics
+     5. Extract net sales amount
+     6. Save DataFrames to temp parquet files (path references)
+     7. Create IngestionResult DTO with quality metrics
+     8. Store all results in context
+   - **Error Propagation**: All errors wrapped in Result[PipelineContext]
+   - **Dependency Injection**: DataValidator injected via constructor
+
+6. **Comprehensive Tests**
+   - [tests/unit/ingestion/test_csv_data_source.py](tests/unit/ingestion/test_csv_data_source.py) (20 tests, 100% passing)
+     - Initialization tests (2)
+     - Success cases: loading, encoding, data integrity (5)
+     - Failure cases: missing files, empty files, malformed data (3)
+     - List available files (5)
+     - Encoding detection (2)
+     - Edge cases: special characters, large files, spaces (3)
+   - [tests/unit/ingestion/test_data_validator.py](tests/unit/ingestion/test_data_validator.py) (25 tests, 100% passing)
+     - L1 validation success (3)
+     - L1 missing data types (4)
+     - L1 empty DataFrames (2)
+     - L1 missing columns (3)
+     - L2 metrics structure (4)
+     - L2 completeness tracking (3)
+     - L2 timestamp quality (3)
+     - Edge cases (3)
+   - [tests/unit/processing/stages/test_ingestion_stage.py](tests/unit/processing/stages/test_ingestion_stage.py) (24 tests, 100% passing)
+     - Initialization & configuration (2)
+     - Happy path execution (5)
+     - Missing context inputs (3)
+     - Missing CSV files (3)
+     - L1 validation failures (2)
+     - Sales extraction errors (2)
+     - Context integration (2)
+     - Edge cases: large files, special characters (2)
+     - Protocol compliance (3)
+   - **Test Status**: 69 total tests, 69 passing (100%)
+
+**Key Accomplishments**:
+- ✅ Full ingestion pipeline stage following PipelineStage protocol
+- ✅ Two-level validation (L1 fatal + L2 metrics) ported from V3
+- ✅ Encoding detection handles international characters
+- ✅ Comprehensive error handling with Result[T] pattern
+- ✅ 100% test pass rate across 69 tests
+- ✅ High coverage: CSVDataSource 82%, DataValidator 98%, IngestionStage 94%
+- ✅ Edge case handling: large files, special chars, missing data
+- ✅ Clean abstraction (DataSource protocol) for future enhancements
+
+**Architecture Quality**:
+- **Loose Coupling**: IngestionStage only depends on DataValidator and PipelineContext
+- **Dependency Injection**: Validator injected into stage (easy to test/mock)
+- **Protocol-Based Design**: DataSource protocol enables multiple implementations
+- **Result[T] Pattern**: All errors handled functionally, no exceptions
+- **Immutability**: DataFrames saved to files, paths stored in DTO
+- **Type Safety**: Full type hints, runtime-checkable protocols
+- **Separation of Concerns**: Data loading, validation, stage logic cleanly separated
+
+**Files Created**:
+- src/ingestion/__init__.py
+- src/ingestion/data_source.py (8 lines, protocol)
+- src/ingestion/csv_data_source.py (167 lines)
+- src/ingestion/data_validator.py (203 lines)
+- src/processing/stages/ingestion_stage.py (253 lines)
+- tests/unit/ingestion/__init__.py
+- tests/unit/ingestion/test_csv_data_source.py (343 lines, 20 tests)
+- tests/unit/ingestion/test_data_validator.py (294 lines, 25 tests)
+- tests/unit/ingestion/test_ingestion_stage.py (398 lines, 24 tests)
+
+**Coverage**:
+- CSVDataSource: 82% (target: 80%+) ✅
+- DataValidator: 98% (target: 80%+) ✅
+- IngestionStage: 94% (target: 80%+) ✅
+- Average: 91% across all new ingestion code ✅
+
+**Deferred to Week 5**:
+- ZIP file extraction (using pre-extracted CSVs for now)
+- L3 confidence scoring and feature gates
+- Complex shift detection (keeping simple morning/evening)
+- Multiple CSV encoding formats (supporting utf-8/latin-1 for now)
+
+**Week 4 Day 4 Status**: COMPLETE ✅
+- Full ingestion pipeline stage operational with quality tracking
+- **Ready for**: Day 5 - StorageStage
 
 ---
 

@@ -1,0 +1,115 @@
+# OMNI V4 Base Configuration
+# System-wide defaults - DO NOT EDIT without team approval
+# All values extracted from V3 hardcoded constants
+
+system:
+  version: "4.0.0"
+  project_name: "OMNI V4 - Restaurant Analytics Pipeline"
+
+  # Parallelization strategy (6x speedup target)
+  parallelization:
+    max_workers: 6
+    day_level: 2          # Process 2 days concurrently
+    restaurant_level: 3   # Process 3 restaurants concurrently
+
+# Business performance standards (fallback when no patterns exist)
+# Source: V3 Modules/main_v3.py lines 74-78
+business_standards:
+  service_time_targets:
+    Lobby: 15.0          # Maximum acceptable service time (minutes)
+    Drive-Thru: 8.0      # Maximum acceptable service time (minutes)
+    ToGo: 10.0           # Maximum acceptable service time (minutes)
+
+# Shift configuration
+# Source: V3 Modules/shift_splitter.py line 7
+shifts:
+  cutoff_hour: 14        # 2 PM - splits day into morning/evening shifts
+
+  # Manager job title hierarchy for shift manager identification
+  # Source: V3 Modules/shift_splitter.py lines 8-27
+  manager_hierarchy:
+    "general manager": 100
+    "shift manager / assistant Manager": 80
+    "shift manager": 75
+    "assistant manager": 70
+    "shift leader": 60
+    "drive-thru": 25
+    "server": 20
+    "host": 19
+    "cook": 18
+    "busser": 10
+    "regular": 5
+
+# Pattern learning configuration
+# Source: V3 Modules/pattern_manager.py
+pattern_learning:
+  enabled: true
+
+  # Learning rates control how quickly patterns adapt to new data
+  # Source: V3 lines 233 & 477
+  learning_rates:
+    early_observations: 0.3    # First 5 observations (fast adaptation)
+    mature_observations: 0.2   # After 5 observations (stability)
+    observation_threshold: 5   # Switch threshold
+
+  # Reliability thresholds determine when patterns are trusted
+  # Source: V3 lines 155 & 264
+  reliability_thresholds:
+    min_confidence: 0.6        # Minimum confidence to use pattern
+    min_observations: 4        # Minimum sample size
+
+  # Quality thresholds prevent pattern corruption
+  # Source: V3 lines 384 & 389
+  quality_thresholds:
+    update_confidence: 0.8     # Min confidence to update patterns (80%)
+    max_age_days: 14           # Skip updates for data older than 2 weeks
+
+  # Pattern variance and confidence constraints
+  # Source: V3 pattern_manager.py
+  constraints:
+    min_variance: 0.5          # Floor for pattern variance
+    max_confidence: 0.95       # Ceiling for pattern confidence
+
+# Overtime rules
+# Source: V3 labor processing logic
+overtime:
+  weekly_threshold: 40.0       # hours per week
+
+# Data quality settings
+# Source: V3 Modules/pattern_manager.py
+data_quality:
+  pagination_limit: 1000       # Max records per database query
+  fuzzy_match_threshold: 0.85  # Employee name matching threshold
+
+# Confidence level definitions
+# Source: V3 grading logic
+confidence_levels:
+  low: 0.3
+  medium: 0.6
+  high: 0.8
+
+# Processing quality levels
+quality_levels:
+  L1: "basic"         # Data ingestion and validation
+  L2: "labor"         # Labor metrics and shift analysis
+  L3: "efficiency"    # Full efficiency analysis with patterns
+
+# Logging configuration
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  date_format: "%Y-%m-%d %H:%M:%S"
+
+# Database settings (base defaults)
+database:
+  timeout: 30          # seconds
+  pool_size: 5
+  retry_attempts: 3
+  retry_delay: 1       # seconds
+
+# Feature flags (base defaults)
+features:
+  shadow_mode: false           # Write to v4_* tables
+  dry_run: false              # Skip actual writes
+  verbose_logging: false
+  pattern_backfill: false     # Allow pattern updates from historical data

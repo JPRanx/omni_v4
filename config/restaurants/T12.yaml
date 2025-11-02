@@ -1,0 +1,56 @@
+# Tink-A-Tako #12 Configuration
+# Restaurant-specific settings and overrides
+# Source: V3 Modules/restaurant_config.py
+
+restaurant:
+  code: "T12"
+  display_name: "Tink-A-Tako #12"
+  short_name: "Tako #12"
+  type: "Fast Casual"
+  established: "2018"
+
+  # Physical attributes
+  capacity: 80           # Total customer capacity
+  tables: 20            # Number of tables
+
+  # Visual identity (for dashboard display)
+  icon: "🌮"
+  color: "#5B8A72"      # Brand color (hex)
+
+# Weekly vendor costs (dollars)
+# Source: V3 Modules/restaurant_config.py
+vendor_costs:
+  Sysco: 2800
+  "US Foods": 2200
+  Labatt: 1800
+  "Restaurant Depot": 950
+  "Produce Direct": 650
+  # Total: $8,400/week
+
+# Weekly overhead costs (dollars)
+# Source: V3 Modules/restaurant_config.py
+overhead_costs:
+  "Electric Company": 1200
+  "Gas Service": 450
+  "Water & Sewer": 280
+  "Internet/Phone": 199
+  "Waste Management": 350
+  Landscaping: 225
+  Insurance: 450
+  # Total: $3,154/week
+
+# Cash payment percentages
+# Source: V3 Modules/restaurant_config.py
+cash_percentages:
+  regular_wages: 0.12      # 12% of regular wages paid in cash
+  overtime_wages: 0.03     # 3% of overtime wages paid in cash
+
+# Restaurant-specific business standards (optional overrides)
+# Uncomment to override base.yaml defaults
+# business_standards:
+#   service_time_targets:
+#     Drive-Thru: 7.0  # Stricter drive-thru target
+
+# Restaurant-specific shift configuration (optional overrides)
+# shifts:
+#   cutoff_hour: 15  # Different shift split time

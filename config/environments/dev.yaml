@@ -1,0 +1,60 @@
+# Development Environment Configuration
+# Settings for local development and testing
+# Loads after base.yaml and restaurant configs
+
+environment: "dev"
+
+# Database connection (uses environment variables)
+database:
+  url: "${SUPABASE_URL}"
+  key: "${SUPABASE_KEY}"
+  service_key: "${SUPABASE_SERVICE_KEY}"
+  timeout: 30          # seconds (shorter for dev)
+  pool_size: 5         # smaller pool for local dev
+  retry_attempts: 2
+  retry_delay: 1       # seconds
+
+# Logging configuration (verbose for development)
+logging:
+  level: "DEBUG"
+  file: "logs/omni_v4_dev.log"
+  console: true        # Also log to console
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(funcName)s:%(lineno)d - %(message)s"
+
+# Relaxed quality thresholds for testing with historical data
+pattern_learning:
+  quality_thresholds:
+    update_confidence: 0.5    # Lower for dev testing (vs 0.8 in base)
+    max_age_days: 365         # Allow historical data testing
+
+# Development features
+features:
+  shadow_mode: true           # Write to v4_* tables (safe for testing)
+  dry_run: false              # Actually write data
+  verbose_logging: true       # Extra debug output
+  pattern_backfill: true      # Allow pattern updates from old data
+
+# Path overrides for development
+paths:
+  input: "./data/input"
+  state: "./data/state"
+  logs: "./logs"
+  checkpoints: "./data/state/checkpoints"
+  fixtures: "./tests/fixtures"
+
+# Processing configuration (development settings)
+processing:
+  quality_level: 3            # Full L3 processing in dev
+  parallel_workers: 2         # Reduced for easier debugging
+
+# Monitoring (disabled in dev)
+monitoring:
+  metrics_enabled: false
+  health_check_enabled: false
+  sentry_enabled: false
+
+# Development-specific overrides (optional)
+# Uncomment to override business standards for testing
+# business_standards:
+#   service_time_targets:
+#     Lobby: 20.0  # More lenient for testing

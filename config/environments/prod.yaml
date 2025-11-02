@@ -1,0 +1,70 @@
+# Production Environment Configuration
+# Settings for production deployment
+# Loads after base.yaml and restaurant configs
+
+environment: "prod"
+
+# Database connection (uses environment variables)
+database:
+  url: "${SUPABASE_URL}"
+  key: "${SUPABASE_KEY}"
+  service_key: "${SUPABASE_SERVICE_KEY}"
+  timeout: 60          # seconds (longer for production reliability)
+  pool_size: 10        # larger pool for production load
+  retry_attempts: 3    # more retries for production
+  retry_delay: 2       # seconds
+
+# Logging configuration (production-level)
+logging:
+  level: "INFO"
+  file: "logs/omni_v4_prod.log"
+  console: false       # File-only in production
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+
+# Strict quality thresholds for production
+pattern_learning:
+  quality_thresholds:
+    update_confidence: 0.8    # Strict confidence requirement
+    max_age_days: 14          # Only recent data
+
+# Production features
+features:
+  shadow_mode: false          # Write to production tables (v4 migration)
+  dry_run: false              # Actually write data
+  verbose_logging: false      # Minimal logging
+  pattern_backfill: false     # No historical pattern updates
+
+# Path overrides for production
+paths:
+  input: "/var/omni/data/input"
+  state: "/var/omni/data/state"
+  logs: "/var/omni/logs"
+  checkpoints: "/var/omni/data/state/checkpoints"
+
+# Processing configuration (production settings)
+processing:
+  quality_level: 3            # Full L3 processing
+  parallel_workers: 6         # Full parallelization (6x speedup)
+
+# Monitoring (enabled in production)
+monitoring:
+  metrics_enabled: true
+  health_check_enabled: true
+  sentry_enabled: false
+  # sentry_dsn: "${SENTRY_DSN}"  # Uncomment when Sentry is configured
+
+# Error handling (production settings)
+error_handling:
+  fail_fast: false            # Continue processing other restaurants on error
+  max_retries: 3
+  retry_backoff: true         # Exponential backoff
+
+# Performance optimization
+performance:
+  cache_enabled: true
+  batch_size: 500             # Records per batch write
+  connection_pooling: true
+
+# Production-specific overrides (use with caution)
+# DO NOT override business_standards in production
+# All business logic should match base.yaml values

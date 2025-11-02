@@ -1,0 +1,56 @@
+# Sandra's Mexican Cuisine Configuration
+# Restaurant-specific settings and overrides
+# Source: V3 Modules/restaurant_config.py
+
+restaurant:
+  code: "SDR"
+  display_name: "Sandra's Mexican Cuisine"
+  short_name: "Sandra's"
+  type: "Mexican Cuisine"
+  established: "2015"
+
+  # Physical attributes
+  capacity: 120          # Total customer capacity
+  tables: 30            # Number of tables
+
+  # Visual identity (for dashboard display)
+  icon: "🌯"
+  color: "#C67B5C"      # Brand color (hex)
+
+# Weekly vendor costs (dollars)
+# Source: V3 Modules/restaurant_config.py
+vendor_costs:
+  Sysco: 2800
+  "US Foods": 2200
+  Labatt: 1800
+  "Restaurant Depot": 950
+  "Produce Direct": 650
+  # Total: $8,400/week
+
+# Weekly overhead costs (dollars)
+# Source: V3 Modules/restaurant_config.py
+overhead_costs:
+  "Electric Company": 1200
+  "Gas Service": 450
+  "Water & Sewer": 280
+  "Internet/Phone": 199
+  "Waste Management": 350
+  Landscaping: 225
+  Insurance: 450
+  # Total: $3,154/week
+
+# Cash payment percentages
+# Source: V3 Modules/restaurant_config.py
+cash_percentages:
+  regular_wages: 0.12      # 12% of regular wages paid in cash
+  overtime_wages: 0.03     # 3% of overtime wages paid in cash
+
+# Restaurant-specific business standards (optional overrides)
+# Uncomment to override base.yaml defaults
+# business_standards:
+#   service_time_targets:
+#     Lobby: 16.0  # Sandra's allows slightly longer service time
+
+# Restaurant-specific shift configuration (optional overrides)
+# shifts:
+#   cutoff_hour: 15  # Different shift split time

@@ -27,10 +27,11 @@ class IngestionStage:
     """
 
     # Required CSV files mapping
+    # Note: Toast exports use different naming patterns
     REQUIRED_FILES = {
-        'labor': 'TimeEntries.csv',
-        'sales': 'Net_sales_summary.csv',
-        'orders': 'OrderDetails.csv',
+        'labor': 'TimeEntries.csv',  # Or TimeEntries_YYYY_MM_DD.csv
+        'sales': 'Net sales summary.csv',  # Note: space in filename, not underscore
+        'orders': 'OrderDetails.csv',  # Or OrderDetails_YYYY_MM_DD.csv
     }
 
     def __init__(self, validator: DataValidator):
@@ -86,8 +87,8 @@ class IngestionStage:
         # Initialize data source
         source = CSVDataSource(Path(data_path))
 
-        # Load required CSV files
-        dfs_result = self._load_csvs(source)
+        # Load required CSV files (with flexible date-suffixed naming)
+        dfs_result = self._load_csvs(source, date)
         if dfs_result.is_err():
             return Result.fail(dfs_result.unwrap_err())
 
@@ -137,25 +138,78 @@ class IngestionStage:
 
         return Result.ok(context)
 
-    def _load_csvs(self, source: DataSource) -> Result[Dict[str, pd.DataFrame]]:
+    def _find_file(self, source: DataSource, base_name: str, date: str) -> Result[str]:
         """
-        Load all required CSV files.
+        Find a CSV file with flexible naming (with or without date suffix).
+
+        Toast exports can use different naming patterns:
+        - TimeEntries.csv
+        - TimeEntries_2025_10_20.csv
+
+        Args:
+            source: Data source to search
+            base_name: Base filename (e.g., 'TimeEntries.csv')
+            date: Date string (YYYY-MM-DD format)
+
+        Returns:
+            Result[str]: Found filename or error
+        """
+        # Try exact match first
+        result = source.get_csv(base_name)
+        if result.is_ok():
+            return Result.ok(base_name)
+
+        # Try with date suffix (YYYY_MM_DD format)
+        date_formatted = date.replace('-', '_')
+        base_without_ext = base_name.replace('.csv', '')
+        date_suffixed = f"{base_without_ext}_{date_formatted}.csv"
+
+        result = source.get_csv(date_suffixed)
+        if result.is_ok():
+            return Result.ok(date_suffixed)
+
+        # Neither pattern found
+        return Result.fail(
+            IngestionError(
+                f"Could not find file: tried '{base_name}' and '{date_suffixed}'",
+                context={'base_name': base_name, 'date': date}
+            )
+        )
+
+    def _load_csvs(self, source: DataSource, date: str) -> Result[Dict[str, pd.DataFrame]]:
+        """
+        Load all required CSV files with flexible naming.
 
         Args:
             source: Data source to load from
+            date: Business date (YYYY-MM-DD) for finding date-suffixed files
 
         Returns:
             Result[Dict[str, pd.DataFrame]]: Loaded DataFrames or error
         """
         dfs = {}
 
-        for data_type, filename in self.REQUIRED_FILES.items():
-            result = source.get_csv(filename)
+        for data_type, base_filename in self.REQUIRED_FILES.items():
+            # Find the actual filename (handles date suffixes)
+            filename_result = self._find_file(source, base_filename, date)
+
+            if filename_result.is_err():
+                return Result.fail(
+                    IngestionError(
+                        f"Failed to find required file for {data_type}",
+                        context={'data_type': data_type, 'error': str(filename_result.unwrap_err())}
+                    )
+                )
+
+            actual_filename = filename_result.unwrap()
+
+            # Load the file
+            result = source.get_csv(actual_filename)
 
             if result.is_err():
                 return Result.fail(
                     IngestionError(
-                        f"Failed to load required file: {filename}",
+                        f"Failed to load required file: {actual_filename}",
                         context={'data_type': data_type, 'error': str(result.unwrap_err())}
                     )
                 )

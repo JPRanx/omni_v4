@@ -1,0 +1,10 @@
+Employee,Job Title,Regular Hours,Overtime Hours,Hourly Rate,Regular Pay,Overtime Pay,Total Pay,Net Sales,Declared Tips,Non-Cash Tips,Total Tips,Tips Withheld,Total Gratuity,Employee ID,Job Code,Location,Location Code
+"CASHIER, AM",General Manager,14.13,0.0,,,,,459.69,,1.00,1.00,0.00,0.00,,,2919 Blanco Rd,
+"Hernandez, Celinda",Cook,9.25,0.0,16.00,148.00,0.00,148.00,0.00,,0.00,0.00,0.00,0.00,,,2919 Blanco Rd,
+"Hernandez, Fidelia ",Cook,8.89,0.0,14.00,124.46,0.00,124.46,0.00,,0.00,0.00,0.00,0.00,,,2919 Blanco Rd,
+"Melendez, Ninoska",Tortillero/a,14.84,0.0,13.00,192.92,0.00,192.92,0.00,,0.00,0.00,0.00,0.00,,,2919 Blanco Rd,
+"Ovalle , Martina",Drive-Thru,14.07,0.0,,,,,1518.94,,34.00,34.00,0.00,0.00,,,2919 Blanco Rd,
+"Rivera, Dante Antonio ",Cook,6.86,0.0,,,,,0.00,,0.00,0.00,0.00,0.00,,,2919 Blanco Rd,
+"Salazar, Maria ",Shift Manager / Assistant Manager,14.39,0.0,,,,,70.61,,7.00,7.00,0.00,0.00,,,2919 Blanco Rd,
+"Villalobos , Veronica ",Cook,7.05,0.0,14.00,98.70,0.00,98.70,0.00,,0.00,0.00,0.00,0.00,,,2919 Blanco Rd,
+"lopez, samantha",Server,12.24,0.0,3.00,36.72,0.00,36.72,851.45,,16.00,16.00,0.00,0.00,,,2919 Blanco Rd,

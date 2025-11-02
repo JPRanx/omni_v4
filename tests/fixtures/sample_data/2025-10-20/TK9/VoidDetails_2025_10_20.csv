@@ -1,0 +1,13 @@
+Order #,Opened Date,Void Date,Server,Approver,Item Name,Reason,Item Quantity,Total Price
+56,10/20/25 7:54 AM,10/20/25 5:02 PM,AM CASHIER,AM CASHIER,Chorizo & Bean Taco,Server Error,1.0,2.49
+56,10/20/25 7:54 AM,10/20/25 5:02 PM,AM CASHIER,AM CASHIER,Bean & Cheese Taco,Server Error,1.0,2.99
+56,10/20/25 7:54 AM,10/20/25 5:02 PM,AM CASHIER,AM CASHIER,Bean & Cheese Taco,Server Error,1.0,1.99
+56,10/20/25 7:54 AM,10/20/25 5:02 PM,AM CASHIER,AM CASHIER,Dr. Pepper,Server Error,1.0,3.15
+86,10/20/25 4:52 PM,10/20/25 5:01 PM,AM CASHIER,AM CASHIER,Barbacoa Taco,Customer Changed Mind,1.0,4.79
+62,10/20/25 7:56 AM,10/20/25 5:57 PM,Maria  Salazar,AM CASHIER,Papa & Egg Taco,Customer Changed Mind,1.0,2.49
+62,10/20/25 7:56 AM,10/20/25 5:57 PM,Maria  Salazar,AM CASHIER,Bean & Cheese Taco,Customer Changed Mind,1.0,1.99
+62,10/20/25 7:56 AM,10/20/25 5:57 PM,Maria  Salazar,AM CASHIER,-------------,Customer Changed Mind,1.0,0.00
+62,10/20/25 7:56 AM,10/20/25 5:57 PM,Maria  Salazar,AM CASHIER,Frijol& Bacon Taco,Customer Changed Mind,1.0,1.99
+62,10/20/25 7:56 AM,10/20/25 5:57 PM,Maria  Salazar,AM CASHIER,frijol huevo,Customer Changed Mind,1.0,1.99
+62,10/20/25 7:56 AM,10/20/25 5:57 PM,Maria  Salazar,AM CASHIER,Coca-Cola,Customer Changed Mind,1.0,3.15
+62,10/20/25 7:56 AM,10/20/25 5:57 PM,Maria  Salazar,AM CASHIER,Red Flash,Customer Changed Mind,1.0,3.15

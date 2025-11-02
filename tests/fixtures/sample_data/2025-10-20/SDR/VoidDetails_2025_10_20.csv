@@ -1,0 +1,9 @@
+Order #,Opened Date,Void Date,Server,Approver,Item Name,Reason,Item Quantity,Total Price
+27001,10/20/25 9:48 AM,10/20/25 6:04 PM,Leticia Roman,Candy Del Angel,Picadillo Taco,Customer Changed Mind,1.0,2.99
+9001,10/20/25 8:25 AM,10/20/25 8:30 AM,Leticia Roman,Zoila Salinas,Egg & Cheese Taco,Server Error,1.0,1.99
+42,10/20/25 7:52 PM,10/20/25 9:13 PM,Candy Del Angel,Candy Del Angel,beef fajita,Customer Changed Mind,1.0,5.49
+31032,10/20/25 10:24 AM,10/20/25 6:20 PM,Melissa  Urena,Candy Del Angel,Papa & Egg Taco,Customer Changed Mind,1.0,1.99
+31032,10/20/25 10:24 AM,10/20/25 6:20 PM,Melissa  Urena,Candy Del Angel,Bacon & Egg Taco,Customer Changed Mind,2.0,3.98
+31032,10/20/25 10:24 AM,10/20/25 6:20 PM,Melissa  Urena,Candy Del Angel,_______________,Customer Changed Mind,1.0,0.00
+31032,10/20/25 10:24 AM,10/20/25 6:20 PM,Melissa  Urena,Candy Del Angel,Carne Guisada Taco,Customer Changed Mind,1.0,4.39
+42,10/20/25 7:52 PM,10/20/25 9:13 PM,Candy Del Angel,Candy Del Angel,-------------,Customer Changed Mind,1.0,0.00

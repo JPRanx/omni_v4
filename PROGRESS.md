@@ -1,8 +1,8 @@
 # OMNI V4 - Development Progress (Real Status)
 
 **Project Start**: 2025-01-02
-**Last Updated**: 2025-11-03 (Week 6, Day 5 Complete)
-**Current Status**: Foundation Complete + Core Efficiency Features In Progress
+**Last Updated**: 2025-11-03 (Week 7, Day 3 Complete)
+**Current Status**: Foundation Complete + Pattern Learning & Overtime Detection Complete
 
 ---
 
@@ -17,12 +17,12 @@
 | **Order Analysis** | ✅ (Lobby/Drive-Thru/ToGo) | ✅ (accurate) | 100% |
 | **Timeslot Grading** | ✅ (15-min windows) | ✅ (64 slots/day) | 100% |
 | **Shift Analysis** | ✅ (AM/PM split) | ✅ (morning/evening) | 100% |
-| **Pattern Learning** | ✅ (timeslot-level) | ✅ (daily-level only) | 30% |
+| **Pattern Learning** | ✅ (timeslot-level) | ✅ (timeslot + daily) | 70% |
 | **Financial Tracking** | ✅ (COGS, P&L) | ❌ (labor only) | 20% |
-| **Employee Management** | ✅ (overtime, auto-clockout) | ❌ | 0% |
+| **Employee Management** | ✅ (overtime, auto-clockout) | ✅ (overtime tracking) | 30% |
 | **Database** | ✅ (Supabase) | ✅ (in-memory only) | 50% |
 
-**Overall V4 Feature Completeness**: ~35% of V3's feature set (up from 20%)
+**Overall V4 Feature Completeness**: ~43% of V3's feature set (up from 35%)
 
 ---
 
@@ -152,6 +152,65 @@ Ingestion → Categorization → Timeslot Grading → Processing → Pattern Lea
 
 ---
 
+## ✅ Week 7: Pattern Learning & Overtime Detection - COMPLETE
+
+### Week 7 Accomplishments (3 Days)
+
+**Week 7, Day 1: Timeslot Pattern Learning Infrastructure** ✅
+- [x] Fixed critical bug: fulfillment_minutes=0 for all orders
+- [x] Created TimeslotPattern model (140 lines)
+- [x] Created TimeslotPatternManager (262 lines)
+- [x] Extended PatternLearningStage for timeslot patterns (+80 lines)
+- [x] Exponential moving average learning (alpha=0.2)
+- [x] Reliability threshold: confidence ≥0.6 AND observations ≥4
+- [x] Pattern key: {restaurant}_{day_of_week}_{shift}_{timeslot}_{category}
+- [x] Results: Pass rates now realistic (17-62% vs 100% false positive)
+
+**Week 7, Day 2: Integration Tests** ✅
+- [x] Created comprehensive test suite (524 lines, 12 tests)
+- [x] Tests: Single observation, confidence growth, EMA learning, variance
+- [x] Tests: Reliability threshold, day of week retrieval, statistics
+- [x] Tests: Real data integration, multi-day learning, pattern persistence
+- [x] Results: 12/12 tests passing in 3.2s
+- [x] Coverage: TimeslotPatternManager 84%, TimeslotPattern 89%
+- [x] Key finding: Confidence grows slowly (~90 obs to reach 0.6 threshold)
+
+**Week 7, Day 3: Overtime Detection** ✅
+- [x] Added overtime to JSON export (+3 lines)
+- [x] Added overtime to dashboard export (+12 lines)
+- [x] Discovered V4 already had overtime infrastructure in place
+- [x] LaborDTO already had overtime fields (Week 4)
+- [x] extract_labor_dto_from_payroll() already extracted overtime
+- [x] Only export layers needed updates (15 lines total)
+- [x] Tested with real and synthetic data
+
+**Files Created (Week 7)**:
+- `src/models/timeslot_pattern.py` (140 lines)
+- `src/core/patterns/timeslot_pattern_manager.py` (262 lines)
+- `src/processing/stages/pattern_learning_stage.py` (+80 lines extended)
+- `tests/integration/test_timeslot_pattern_learning.py` (524 lines)
+- `scripts/run_date_range.py` (+3 lines for overtime)
+- `scripts/generate_dashboard_data.py` (+12 lines for overtime)
+- `docs/WEEK7_DAY1_PROGRESS.md`
+- `docs/WEEK7_DAY2_PROGRESS.md`
+- `docs/WEEK7_DAY3_PROGRESS.md`
+
+**Total New Code (Week 7)**: ~1,021 lines (production code + tests + docs)
+
+**Key Metrics**:
+- ✅ Timeslot patterns learned: ~219 patterns over 12-day run
+- ✅ Integration tests: 12/12 passing
+- ✅ Overtime extraction: Working (tested with real PayrollExport data)
+- ✅ Bug fix impact: Pass rates now 17-62% (was broken at 100%)
+- ✅ Feature completeness: 43% (up from 35%)
+
+**Documentation**:
+- [x] WEEK7_DAY1_PROGRESS.md (Pattern learning + bug fix)
+- [x] WEEK7_DAY2_PROGRESS.md (Integration tests)
+- [x] WEEK7_DAY3_PROGRESS.md (Overtime detection)
+
+---
+
 ## ❌ Phase 4: Remaining Features (Gap from V3)
 
 ### Priority 1: Critical Missing Features 🔴
@@ -216,37 +275,36 @@ These features are **essential** for full analytics suite and exist in V3 but no
 **Effort**: 1-2 days
 **Business Value**: Critical (complete P&L)
 
-#### 5. Timeslot Pattern Learning 🟡
-**Status**: Infrastructure ready, learning not yet implemented
-**Impact**: No adaptive timeslot-level standards yet
-**V3 Implementation**:
-- Learns patterns per timeslot per category
-- Pattern: `{restaurant}_{day}_{shift}_{timeslot}_{category}`
-- Exponential moving average
-- Stores in Supabase daily_labor_patterns table
-**V4 Current**:
-- ✅ Daily-level patterns working
-- ✅ Timeslot grading infrastructure complete
-- ✅ Dual grading system ready (standards + patterns)
-- ❌ No timeslot-level pattern storage yet
-- ❌ No pattern learning for timeslots yet
-**To Implement**:
-- [ ] Extend PatternLearningStage for timeslot patterns
-- [ ] Store patterns by time_window + category + day_of_week
-- [ ] Update TimeslotGradingStage to use learned patterns
-- [ ] Connect to Supabase (optional, works with in-memory)
+#### 5. Timeslot Pattern Learning ✅
+**Status**: COMPLETE (Week 7, Day 1-2)
+**Impact**: Can now learn and use timeslot-level performance baselines
+**V4 Implementation**:
+- ✅ TimeslotPattern model with EMA learning
+- ✅ TimeslotPatternManager with reliability thresholds
+- ✅ Extended PatternLearningStage for timeslot patterns
+- ✅ Pattern key: `{restaurant}_{day_of_week}_{shift}_{timeslot}_{category}`
+- ✅ Exponential moving average (alpha=0.2)
+- ✅ Reliability: confidence ≥0.6 AND observations ≥4
+- ✅ In-memory storage (Supabase optional)
+- ✅ 12 integration tests, all passing
+- ✅ Tested with real data (~219 patterns over 12 days)
 **Complexity**: Medium
-**Effort**: 2-3 days
+**Effort**: 2.5 days (actual)
 **Business Value**: High (adaptive grading)
 
 ### Priority 2: Important Missing Features 🟡
 
-#### 6. Overtime Detection 🟡
-**Status**: Not implemented
-**Impact**: Cannot track overtime trends
-**V3 Has**: Identifies employees with >40 hours, calculates overtime cost
-**V4 Gap**: PayrollExport has Overtime Hours column but not aggregated
-**Effort**: 1 day
+#### 6. Overtime Detection ✅
+**Status**: COMPLETE (Week 7, Day 3)
+**Impact**: Can now track overtime hours and costs
+**V4 Implementation**:
+- ✅ LaborDTO already had overtime fields (from Week 4)
+- ✅ extract_labor_dto_from_payroll() already extracted overtime
+- ✅ Added overtime_hours to JSON export
+- ✅ Added overtime_cost to JSON export
+- ✅ Added overtimeHours to dashboard export
+- ✅ Tested with real PayrollExport data
+**Effort**: 1 hour (actual - infrastructure already existed)
 
 #### 7. Stress Metrics 🟡
 **Status**: Not implemented

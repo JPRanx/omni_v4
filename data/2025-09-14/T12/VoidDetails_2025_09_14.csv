@@ -1,0 +1,11 @@
+Order #,Opened Date,Void Date,Server,Approver,Item Name,Reason,Item Quantity,Total Price
+10,9/14/25 8:17 AM,9/14/25 8:50 AM,Maria Majana,Rosie  ORDONEZ,Side Fries,Server Error,1.0,2.50
+40,9/14/25 9:08 AM,9/14/25 3:01 PM,Daniela Torres,Mayra Luna,Side Sausage,Customer Changed Mind,1.0,2.99
+89,9/14/25 10:01 AM,9/14/25 3:05 PM,Sergio Abundiz,Rosie  ORDONEZ,Carne Guisada Taco,Server Error,1.0,4.39
+225,9/14/25 11:40 AM,9/14/25 11:40 AM,Daniela Torres,Mayra Luna,Carne Guisada Taco,Customer Changed Mind,3.0,14.67
+238,9/14/25 11:53 AM,9/14/25 3:07 PM,Silvia Hernandez,Mayra Luna,Tripa Taco,Customer Changed Mind,1.0,4.99
+260,9/14/25 12:08 PM,9/14/25 12:47 PM,Mayra Luna,Mayra Luna,Mini Taco Plate,Customer Changed Mind,1.0,12.99
+260,9/14/25 12:08 PM,9/14/25 12:47 PM,Mayra Luna,Mayra Luna,---------------------,Customer Changed Mind,1.0,0.00
+286,9/14/25 12:25 PM,9/14/25 12:32 PM,Daniela Torres,Mayra Luna,aguas frescas,Customer Changed Mind,1.0,7.99
+302,9/14/25 12:37 PM,9/14/25 3:13 PM,Rosie  ORDONEZ,Rosie  ORDONEZ,Barbacoa Taco,Customer Changed Mind,1.0,4.79
+338,9/14/25 1:12 PM,9/14/25 2:17 PM,Juan  Camacho,Rosie  ORDONEZ,Papa & Egg Taco,Server Error,1.0,1.99

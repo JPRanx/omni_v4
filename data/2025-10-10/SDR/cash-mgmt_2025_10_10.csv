@@ -1,0 +1,38 @@
+Location,Entry Id,Created Date,Action,Amount,Cash Drawer,Payout Reason,No Sale Reason,Comment,Employee,Employee 2
+12060 Potranco Road,800000030567898816,10/10/25 6:47 AM,CASH_PAYMENT,1.94,DRIVE THRU 1,,,Cash payment,Melissa  Urena,
+12060 Potranco Road,800000030568351414,10/10/25 7:19 AM,CASH_PAYMENT,10.59,DRIVE THRU 1,,,Cash payment,Melissa  Urena,
+12060 Potranco Road,800000030568360359,10/10/25 7:19 AM,CASH_PAYMENT,6.47,DRIVE THRU 1,,,Cash payment,Melissa  Urena,
+12060 Potranco Road,800000030568401955,10/10/25 7:22 AM,CASH_PAYMENT,7.01,DRIVE THRU 1,,,Cash payment,Melissa  Urena,
+12060 Potranco Road,800000030568422224,10/10/25 7:23 AM,CASH_PAYMENT,4.31,DRIVE THRU 1,,,Cash payment,Melissa  Urena,
+12060 Potranco Road,800000030569356585,10/10/25 8:11 AM,CASH_PAYMENT,4.31,DRIVE THRU 1,,,Cash payment,Melissa  Urena,
+12060 Potranco Road,800000030570110608,10/10/25 8:48 AM,CASH_PAYMENT,4.85,DRIVE THRU 1,,,Cash payment,Melissa  Urena,
+12060 Potranco Road,800000030570207321,10/10/25 8:52 AM,CASH_PAYMENT,14.45,DRIVE THRU 1,,,Cash payment,Melissa  Urena,
+12060 Potranco Road,800000030570225106,10/10/25 8:53 AM,CASH_PAYMENT,8.72,DRIVE THRU 1,,,Cash payment,Melissa  Urena,
+12060 Potranco Road,800000030570927063,10/10/25 9:25 AM,CASH_PAYMENT,4.42,DRIVE THRU 1,,,Cash payment,Melissa  Urena,
+12060 Potranco Road,800000030571122466,10/10/25 9:34 AM,CASH_PAYMENT,23.50,DRIVE THRU 1,,,Cash payment,Melissa  Urena,
+12060 Potranco Road,800000030571285522,10/10/25 9:41 AM,CASH_PAYMENT,6.69,DRIVE THRU 1,,,Cash payment,Melissa  Urena,
+12060 Potranco Road,800000030571622955,10/10/25 9:55 AM,CASH_PAYMENT,19.30,DRIVE THRU 1,,,Cash payment,Melissa  Urena,
+12060 Potranco Road,800000030572333892,10/10/25 10:21 AM,CASH_PAYMENT,5.72,DRIVE THRU 1,,,Cash payment,Melissa  Urena,
+12060 Potranco Road,800000030572394065,10/10/25 10:23 AM,CASH_PAYMENT,5.72,DRIVE THRU 1,,,Cash payment,Melissa  Urena,
+12060 Potranco Road,800000030573491647,10/10/25 10:55 AM,CASH_PAYMENT,7.11,DRIVE THRU 1,,,Cash payment,Melissa  Urena,
+12060 Potranco Road,800000030573764109,10/10/25 11:02 AM,CASH_PAYMENT,5.72,DRIVE THRU 1,,,Cash payment,Melissa  Urena,
+12060 Potranco Road,800000030576563277,10/10/25 11:59 AM,CASH_PAYMENT,4.32,DRIVE THRU 1,,,Cash payment,Melissa  Urena,
+12060 Potranco Road,800000030581435259,10/10/25 1:38 PM,CASH_PAYMENT,38.35,DRIVE THRU 1,,,Cash payment,Melissa  Urena,
+12060 Potranco Road,800000030583082411,10/10/25 2:16 PM,CASH_PAYMENT,14.58,DRIVE THRU 1,,,Cash payment,Melissa  Urena,
+12060 Potranco Road,800000030583342118,10/10/25 2:21 PM,TIP_OUT,-77.20,House,,,Tips paid out from shift review.,Melissa  Urena,Melissa  Urena
+12060 Potranco Road,800000030583936263,10/10/25 2:35 PM,CASH_COLLECTED,126.27,House,,,Cash revenue collected from shift review.,Leticia Roman,Leticia Roman
+12060 Potranco Road,800000030583936517,10/10/25 2:35 PM,TIP_OUT,-71.99,House,,,Tips paid out from shift review.,Leticia Roman,Leticia Roman
+12060 Potranco Road,800000030583999025,10/10/25 2:37 PM,TIP_OUT,-110.98,House,,,Tips paid out from shift review.,Sugey Cabrera,Sugey Cabrera
+12060 Potranco Road,800000030583999461,10/10/25 2:37 PM,CASH_COLLECTED,87.98,House,,,Cash revenue collected from shift review.,Sugey Cabrera,Sugey Cabrera
+12060 Potranco Road,800000030584294378,10/10/25 2:44 PM,TIP_OUT,-94.17,House,,,Tips paid out from shift review.,Lizbeth Garcia,Lizbeth Garcia
+12060 Potranco Road,800000030584294940,10/10/25 2:44 PM,CASH_COLLECTED,183.24,House,,,Cash revenue collected from shift review.,Lizbeth Garcia,Lizbeth Garcia
+12060 Potranco Road,800000030584629523,10/10/25 2:52 PM,CASH_COLLECTED,11.90,House,,,Cash revenue collected from shift review.,Carlos Morales,Carlos Morales
+12060 Potranco Road,800000030584630277,10/10/25 2:52 PM,TIP_OUT,-2.00,House,,,Tips paid out from shift review.,Carlos Morales,Carlos Morales
+12060 Potranco Road,800000030586694865,10/10/25 3:39 PM,CASH_PAYMENT,14.04,DRIVE THRU 1,,,Cash payment,Mario Jimenez,
+12060 Potranco Road,800000030588133561,10/10/25 4:07 PM,CASH_PAYMENT,7.58,DRIVE THRU 1,,,Cash payment,Mario Jimenez,
+12060 Potranco Road,800000030610884386,10/10/25 8:59 PM,TIP_OUT,-60.75,House,,,Tips paid out from shift review.,Mario Jimenez,Mario Jimenez
+12060 Potranco Road,800000030611236866,10/10/25 9:06 PM,CASH_COLLECTED,83.26,House,,,Cash revenue collected from shift review.,Lisa Velasquez,Lisa Velasquez
+12060 Potranco Road,800000030611236874,10/10/25 9:06 PM,TIP_OUT,-62.77,House,,,Tips paid out from shift review.,Lisa Velasquez,Lisa Velasquez
+12060 Potranco Road,800000030611741236,10/10/25 9:16 PM,TIP_OUT,-54.79,House,,,Tips paid out from shift review.,Emanuel Sanchez,Emanuel Sanchez
+12060 Potranco Road,800000030611741443,10/10/25 9:16 PM,CASH_COLLECTED,22.70,House,,,Cash revenue collected from shift review.,Emanuel Sanchez,Emanuel Sanchez
+12060 Potranco Road,800000030612130776,10/10/25 9:25 PM,TIP_OUT,-46.29,House,,,Tips paid out from shift review.,Fernanda  Loera,Fernanda  Loera

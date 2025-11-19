@@ -1,0 +1,32 @@
+Location,Entry Id,Created Date,Action,Amount,Cash Drawer,Payout Reason,No Sale Reason,Comment,Employee,Employee 2
+12060 Potranco Road,800000030500235145,10/8/25 8:17 AM,CASH_PAYMENT,19.00,DRIVE THRU 1,,,Cash payment,Melissa  Urena,
+12060 Potranco Road,800000030500363404,10/8/25 8:24 AM,CASH_PAYMENT,25.33,Host Drawer,,,Cash payment,Emanuel Sanchez,
+12060 Potranco Road,800000030500949088,10/8/25 9:00 AM,CASH_PAYMENT,5.50,DRIVE THRU 1,,,Cash payment,Melissa  Urena,
+12060 Potranco Road,800000030501623010,10/8/25 9:39 AM,CASH_PAYMENT,19.75,Host Drawer,,,Cash payment,Candy Del Angel,
+12060 Potranco Road,800000030501634988,10/8/25 9:40 AM,CASH_PAYMENT,12.41,Host Drawer,,,Cash payment,Candy Del Angel,
+12060 Potranco Road,800000030501839263,10/8/25 9:51 AM,CASH_PAYMENT,5.72,DRIVE THRU 1,,,Cash payment,Melissa  Urena,
+12060 Potranco Road,800000030502656708,10/8/25 10:29 AM,CASH_PAYMENT,4.63,DRIVE THRU 1,,,Cash payment,Melissa  Urena,
+12060 Potranco Road,800000030504839635,10/8/25 11:34 AM,CASH_PAYMENT,7.11,DRIVE THRU 1,,,Cash payment,Melissa  Urena,
+12060 Potranco Road,800000030505023086,10/8/25 11:39 AM,CASH_PAYMENT,4.09,DRIVE THRU 1,,,Cash payment,Melissa  Urena,
+12060 Potranco Road,800000030507344824,10/8/25 12:37 PM,CASH_PAYMENT,12.71,DRIVE THRU 1,,,Cash payment,Melissa  Urena,
+12060 Potranco Road,800000030508830109,10/8/25 1:20 PM,CASH_PAYMENT,14.87,DRIVE THRU 1,,,Cash payment,Melissa  Urena,
+12060 Potranco Road,800000030509301580,10/8/25 1:34 PM,CASH_PAYMENT,32.74,DRIVE THRU 1,,,Cash payment,Melissa  Urena,
+12060 Potranco Road,800000030509942069,10/8/25 1:54 PM,TIP_OUT,-1.00,House,,,Tips paid out from shift review.,Candy Del Angel,Candy Del Angel
+12060 Potranco Road,800000030510202355,10/8/25 2:02 PM,PAY_OUT,-13.50,House,Supplies,,culebra,Candy Del Angel,
+12060 Potranco Road,800000030510556744,10/8/25 2:14 PM,TIP_OUT,-61.51,House,,,Tips paid out from shift review.,Emanuel Sanchez,Emanuel Sanchez
+12060 Potranco Road,800000030510557358,10/8/25 2:14 PM,CASH_COLLECTED,87.13,House,,,Cash revenue collected from shift review.,Emanuel Sanchez,Emanuel Sanchez
+12060 Potranco Road,800000030510598410,10/8/25 2:15 PM,CASH_COLLECTED,94.17,House,,,Cash revenue collected from shift review.,Lizbeth Garcia,Lizbeth Garcia
+12060 Potranco Road,800000030510598477,10/8/25 2:15 PM,TIP_OUT,-83.49,House,,,Tips paid out from shift review.,Lizbeth Garcia,Lizbeth Garcia
+12060 Potranco Road,800000030510825110,10/8/25 2:22 PM,TIP_OUT,-52.00,House,,,Tips paid out from shift review.,Melissa  Urena,Melissa  Urena
+12060 Potranco Road,800000030510870220,10/8/25 2:23 PM,PAY_OUT,-60.00,House,Supplies,,landscaping,Candy Del Angel,
+12060 Potranco Road,800000030510883443,10/8/25 2:24 PM,PAY_OUT,-23.00,House,Supplies,,knives,Candy Del Angel,
+12060 Potranco Road,800000030510970351,10/8/25 2:27 PM,CASH_PAYMENT,6.15,Host Drawer,,,Cash payment,Carlos Morales,
+12060 Potranco Road,800000030511328294,10/8/25 2:38 PM,CASH_COLLECTED,22.31,House,,,Cash revenue collected from shift review.,Adrian Morales,Adrian Morales
+12060 Potranco Road,800000030511328819,10/8/25 2:38 PM,TIP_OUT,-72.93,House,,,Tips paid out from shift review.,Adrian Morales,Adrian Morales
+12060 Potranco Road,800000030521106105,10/8/25 6:24 PM,CASH_PAYMENT,11.90,DRIVE THRU 1,,,Cash payment,Mario Jimenez,
+12060 Potranco Road,800000030525512943,10/8/25 7:50 PM,CASH_PAYMENT,38.93,Host Drawer,,,Cash payment,Candy Del Angel,
+12060 Potranco Road,800000030527906046,10/8/25 8:59 PM,TIP_OUT,-10.85,House,,,Tips paid out from shift review.,Mario Jimenez,Mario Jimenez
+12060 Potranco Road,800000030528096871,10/8/25 9:06 PM,CASH_COLLECTED,27.89,House,,,Cash revenue collected from shift review.,Lisa Velasquez,Lisa Velasquez
+12060 Potranco Road,800000030528097554,10/8/25 9:06 PM,TIP_OUT,-82.40,House,,,Tips paid out from shift review.,Lisa Velasquez,Lisa Velasquez
+12060 Potranco Road,800000030528189505,10/8/25 9:10 PM,CASH_COLLECTED,137.15,House,,,Cash revenue collected from shift review.,Melissa  Urena,Melissa  Urena
+12060 Potranco Road,800000030528189507,10/8/25 9:10 PM,TIP_OUT,-69.00,House,,,Tips paid out from shift review.,Melissa  Urena,Melissa  Urena

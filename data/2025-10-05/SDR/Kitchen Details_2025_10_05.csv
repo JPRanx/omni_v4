@@ -1,0 +1,656 @@
+Location,Server,Check #,Table,Station,Expediter Level,Fired Date,Fulfilled Date,Fulfillment Time,Fulfilled By
+12060 Potranco Road,Mario Jimenez,1,,Drive Thru,,10/5/25 7:59 AM,10/5/25 8:06 AM,6 minutes and 59 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,1,,Food,,10/5/25 7:59 AM,10/5/25 8:06 AM,6 minutes and 59 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,3,,Drive Thru,,10/5/25 8:06 AM,10/5/25 8:10 AM,4 minutes and 12 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,3,,Food,,10/5/25 8:06 AM,10/5/25 8:10 AM,4 minutes and 12 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,4,,Drive Thru,,10/5/25 8:11 AM,10/5/25 8:15 AM,3 minutes and 56 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,5,,Drive Thru,,10/5/25 8:13 AM,10/5/25 8:15 AM,1 minute and 50 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,5,,Food,,10/5/25 8:13 AM,10/5/25 8:15 AM,1 minute and 50 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,4,,Food,,10/5/25 8:11 AM,10/5/25 8:15 AM,3 minutes and 56 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,8,,Drive Thru,,10/5/25 8:16 AM,10/5/25 8:18 AM,2 minutes and 3 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,8,,Food,,10/5/25 8:16 AM,10/5/25 8:18 AM,2 minutes and 3 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,9,,Drive Thru,,10/5/25 8:19 AM,10/5/25 8:21 AM,2 minutes and 42 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,9,,Food,,10/5/25 8:19 AM,10/5/25 8:21 AM,2 minutes and 42 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,11,3,No Print,,10/5/25 8:21 AM,10/5/25 8:26 AM,4 minutes and 14 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,11,3,Food,,10/5/25 8:21 AM,10/5/25 8:26 AM,4 minutes and 14 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mia Juliet,12,,Food,,10/5/25 8:23 AM,10/5/25 8:30 AM,6 minutes and 40 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mia Juliet,12,,Drive Thru,,10/5/25 8:23 AM,10/5/25 8:30 AM,6 minutes and 40 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mia Juliet,12,,,1,10/5/25 8:30 AM,10/5/25 8:36 AM,6 minutes and 10 seconds,Zoila Salinas
+12060 Potranco Road,Leticia Roman,11,3,,1,10/5/25 8:26 AM,10/5/25 8:37 AM,11 minutes and 22 seconds,Zoila Salinas
+12060 Potranco Road,Leticia Roman,6,18,,1,10/5/25 8:27 AM,10/5/25 8:37 AM,9 minutes and 55 seconds,Zoila Salinas
+12060 Potranco Road,Mario Jimenez,10,,Drive Thru,,10/5/25 8:35 AM,10/5/25 8:39 AM,3 minutes and 34 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,10,,Food,,10/5/25 8:35 AM,10/5/25 8:39 AM,3 minutes and 34 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,15,,Drive Thru,,10/5/25 8:38 AM,10/5/25 8:41 AM,3 minutes and 1 second,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,15,,Food,,10/5/25 8:38 AM,10/5/25 8:41 AM,3 minutes and 1 second,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,16,,Drive Thru,,10/5/25 8:40 AM,10/5/25 8:44 AM,3 minutes and 52 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,16,,Food,,10/5/25 8:40 AM,10/5/25 8:44 AM,3 minutes and 52 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,14,35,No Print,,10/5/25 8:41 AM,10/5/25 8:44 AM,3 minutes and 36 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,14,35,Food,,10/5/25 8:41 AM,10/5/25 8:44 AM,3 minutes and 36 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,13,5,No Print,,10/5/25 8:36 AM,10/5/25 8:46 AM,10 minutes and 16 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,13,5,Food,,10/5/25 8:36 AM,10/5/25 8:46 AM,10 minutes and 16 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,13,5,Drive Thru,,10/5/25 8:36 AM,10/5/25 8:46 AM,10 minutes and 16 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,17,,Drive Thru,,10/5/25 8:43 AM,10/5/25 8:47 AM,3 minutes and 15 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,17,,Food,,10/5/25 8:43 AM,10/5/25 8:47 AM,3 minutes and 15 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,13,5,,1,10/5/25 8:46 AM,10/5/25 8:47 AM,52 seconds,Zoila Salinas
+12060 Potranco Road,Mario Jimenez,19,,Drive Thru,,10/5/25 8:46 AM,10/5/25 8:47 AM,1 minute and 33 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,19,,Food,,10/5/25 8:46 AM,10/5/25 8:47 AM,1 minute and 33 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,14,35,,1,10/5/25 8:44 AM,10/5/25 8:48 AM,4 minutes and 10 seconds,Zoila Salinas
+12060 Potranco Road,Mario Jimenez,20,,Drive Thru,,10/5/25 8:48 AM,10/5/25 8:53 AM,5 minutes and 50 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,20,,Food,,10/5/25 8:48 AM,10/5/25 8:53 AM,5 minutes and 50 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,21,,Drive Thru,,10/5/25 8:48 AM,10/5/25 8:54 AM,5 minutes and 41 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,21,,Food,,10/5/25 8:48 AM,10/5/25 8:54 AM,5 minutes and 41 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,23,,Drive Thru,,10/5/25 8:50 AM,10/5/25 8:54 AM,4 minutes and 16 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,23,,Food,,10/5/25 8:50 AM,10/5/25 8:54 AM,4 minutes and 16 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mia Juliet,24,,No Print,,10/5/25 8:51 AM,10/5/25 8:56 AM,4 minutes and 51 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mia Juliet,24,,Food,,10/5/25 8:51 AM,10/5/25 8:56 AM,4 minutes and 51 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,25,,Drive Thru,,10/5/25 8:56 AM,10/5/25 8:58 AM,2 minutes and 40 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,25,,Food,,10/5/25 8:56 AM,10/5/25 8:58 AM,2 minutes and 40 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,29,,Drive Thru,,10/5/25 8:58 AM,10/5/25 9:03 AM,4 minutes and 55 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,29,,Food,,10/5/25 8:58 AM,10/5/25 9:03 AM,4 minutes and 55 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,26,,Drive Thru,,10/5/25 8:58 AM,10/5/25 9:04 AM,6 minutes and 37 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,26,,Food,,10/5/25 8:58 AM,10/5/25 9:04 AM,6 minutes and 37 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,30,,Drive Thru,,10/5/25 8:59 AM,10/5/25 9:06 AM,7 minutes and 1 second,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,30,,Food,,10/5/25 8:59 AM,10/5/25 9:06 AM,7 minutes and 1 second,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,31,,Drive Thru,,10/5/25 9:00 AM,10/5/25 9:06 AM,5 minutes and 56 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,31,,Food,,10/5/25 9:00 AM,10/5/25 9:06 AM,5 minutes and 56 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,32,,Drive Thru,,10/5/25 9:02 AM,10/5/25 9:10 AM,7 minutes and 19 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,32,,Food,,10/5/25 9:02 AM,10/5/25 9:10 AM,7 minutes and 19 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,33,,Drive Thru,,10/5/25 9:09 AM,10/5/25 9:10 AM,1 minute and 13 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,33,,Food,,10/5/25 9:09 AM,10/5/25 9:10 AM,1 minute and 13 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,35,,Food,,10/5/25 9:09 AM,10/5/25 9:14 AM,4 minutes and 39 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,35,,Drive Thru,,10/5/25 9:09 AM,10/5/25 9:14 AM,4 minutes and 39 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,38,1,No Print,,10/5/25 9:14 AM,10/5/25 9:16 AM,2 minutes and 27 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,38,1,Food,,10/5/25 9:14 AM,10/5/25 9:16 AM,2 minutes and 27 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mia Juliet,24,,,1,10/5/25 8:56 AM,10/5/25 9:18 AM,22 minutes and 17 seconds,Zoila Salinas
+12060 Potranco Road,Mario Jimenez,35,,,1,10/5/25 9:14 AM,10/5/25 9:18 AM,4 minutes and 11 seconds,Zoila Salinas
+12060 Potranco Road,Emanuel Sanchez,38,1,,1,10/5/25 9:16 AM,10/5/25 9:18 AM,1 minute and 49 seconds,Zoila Salinas
+12060 Potranco Road,Mario Jimenez,37,,Food,,10/5/25 9:19 AM,10/5/25 9:20 AM,1 minute and 50 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mia Juliet,40,,Food,,10/5/25 9:17 AM,10/5/25 9:21 AM,4 minutes and 7 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mia Juliet,40,,Drive Thru,,10/5/25 9:17 AM,10/5/25 9:21 AM,4 minutes and 7 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,41,17,No Print,,10/5/25 9:18 AM,10/5/25 9:21 AM,3 minutes and 37 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,41,17,Food,,10/5/25 9:18 AM,10/5/25 9:21 AM,3 minutes and 37 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,43,,Drive Thru,,10/5/25 9:21 AM,10/5/25 9:24 AM,2 minutes and 31 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,43,,Food,,10/5/25 9:21 AM,10/5/25 9:24 AM,2 minutes and 31 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mia Juliet,40,,,1,10/5/25 9:21 AM,10/5/25 9:26 AM,5 minutes and 23 seconds,Zoila Salinas
+12060 Potranco Road,Leticia Roman,41,17,,1,10/5/25 9:21 AM,10/5/25 9:27 AM,5 minutes and 11 seconds,Zoila Salinas
+12060 Potranco Road,Emanuel Sanchez,44,2,No Print,,10/5/25 9:21 AM,10/5/25 9:27 AM,5 minutes and 33 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,44,2,Food,,10/5/25 9:21 AM,10/5/25 9:27 AM,5 minutes and 33 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lisa Velasquez,39,3,No Print,,10/5/25 9:21 AM,10/5/25 9:27 AM,5 minutes and 35 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lisa Velasquez,39,3,Food,,10/5/25 9:21 AM,10/5/25 9:27 AM,5 minutes and 35 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,44,2,,1,10/5/25 9:27 AM,10/5/25 9:28 AM,56 seconds,Zoila Salinas
+12060 Potranco Road,Mario Jimenez,46,,Drive Thru,,10/5/25 9:24 AM,10/5/25 9:28 AM,3 minutes and 58 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,46,,Food,,10/5/25 9:24 AM,10/5/25 9:28 AM,3 minutes and 58 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lisa Velasquez,39,3,,1,10/5/25 9:27 AM,10/5/25 9:30 AM,3 minutes and 29 seconds,Zoila Salinas
+12060 Potranco Road,Mia Juliet,51,,Food,,10/5/25 9:29 AM,10/5/25 9:31 AM,2 minutes and 13 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mia Juliet,51,,Drive Thru,,10/5/25 9:29 AM,10/5/25 9:31 AM,2 minutes and 13 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,45,,Drive Thru,,10/5/25 9:29 AM,10/5/25 9:31 AM,2 minutes and 16 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,45,,Food,,10/5/25 9:29 AM,10/5/25 9:31 AM,2 minutes and 16 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mia Juliet,51,,,1,10/5/25 9:31 AM,10/5/25 9:32 AM,57 seconds,Zoila Salinas
+12060 Potranco Road,Leticia Roman,50,14,Food,,10/5/25 9:28 AM,10/5/25 9:32 AM,4 minutes and 51 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,50,14,No Print,,10/5/25 9:28 AM,10/5/25 9:32 AM,4 minutes and 51 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,14,35,,1,10/5/25 9:30 AM,10/5/25 9:33 AM,2 minutes and 51 seconds,Zoila Salinas
+12060 Potranco Road,Leticia Roman,50,14,,1,10/5/25 9:32 AM,10/5/25 9:38 AM,5 minutes and 1 second,Zoila Salinas
+12060 Potranco Road,Lisa Velasquez,47,7,,1,10/5/25 9:33 AM,10/5/25 9:41 AM,8 minutes and 7 seconds,Zoila Salinas
+12060 Potranco Road,Emanuel Sanchez,44,2,Food,,10/5/25 9:39 AM,10/5/25 9:42 AM,3 minutes and 8 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,44,2,No Print,,10/5/25 9:39 AM,10/5/25 9:42 AM,3 minutes and 8 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,44,2,,1,10/5/25 9:42 AM,10/5/25 9:43 AM,1 minute and 28 seconds,Zoila Salinas
+12060 Potranco Road,Mario Jimenez,54,,Drive Thru,,10/5/25 9:41 AM,10/5/25 9:44 AM,3 minutes and 1 second,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,54,,Food,,10/5/25 9:41 AM,10/5/25 9:44 AM,3 minutes and 1 second,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,52,,Drive Thru,,10/5/25 9:40 AM,10/5/25 9:44 AM,4 minutes and 18 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,52,,Food,,10/5/25 9:40 AM,10/5/25 9:44 AM,4 minutes and 18 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,27,37,Food,,10/5/25 9:35 AM,10/5/25 9:45 AM,9 minutes and 37 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,27,37,No Print,,10/5/25 9:35 AM,10/5/25 9:45 AM,9 minutes and 37 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,27,37,Drive Thru,,10/5/25 9:35 AM,10/5/25 9:45 AM,9 minutes and 37 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,55,,Drive Thru,,10/5/25 9:43 AM,10/5/25 9:46 AM,2 minutes and 52 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,55,,Food,,10/5/25 9:43 AM,10/5/25 9:46 AM,2 minutes and 52 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,27,37,,1,10/5/25 9:45 AM,10/5/25 9:47 AM,2 minutes and 17 seconds,Zoila Salinas
+12060 Potranco Road,Mario Jimenez,56,,Drive Thru,,10/5/25 9:44 AM,10/5/25 9:48 AM,3 minutes and 59 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,56,,Food,,10/5/25 9:44 AM,10/5/25 9:48 AM,3 minutes and 59 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,57,,Drive Thru,,10/5/25 9:46 AM,10/5/25 9:48 AM,1 minute and 42 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,57,,Food,,10/5/25 9:46 AM,10/5/25 9:48 AM,1 minute and 42 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,59,,Drive Thru,,10/5/25 9:48 AM,10/5/25 9:51 AM,2 minutes and 54 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,59,,Food,,10/5/25 9:48 AM,10/5/25 9:51 AM,2 minutes and 54 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mia Juliet,58,,Food,,10/5/25 9:45 AM,10/5/25 9:52 AM,6 minutes and 33 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mia Juliet,58,,Drive Thru,,10/5/25 9:45 AM,10/5/25 9:52 AM,6 minutes and 33 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mia Juliet,58,,Drinks,,10/5/25 9:45 AM,10/5/25 9:52 AM,6 minutes and 33 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mia Juliet,58,,No Print,,10/5/25 9:45 AM,10/5/25 9:52 AM,6 minutes and 33 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,60,,Drive Thru,,10/5/25 9:50 AM,10/5/25 9:53 AM,3 minutes and 2 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,60,,Food,,10/5/25 9:50 AM,10/5/25 9:53 AM,3 minutes and 2 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,62,,Drive Thru,,10/5/25 9:52 AM,10/5/25 9:54 AM,2 minutes and 42 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,62,,Food,,10/5/25 9:52 AM,10/5/25 9:54 AM,2 minutes and 42 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,64,,Drive Thru,,10/5/25 9:56 AM,10/5/25 9:57 AM,1 minute and 37 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,64,,Food,,10/5/25 9:56 AM,10/5/25 9:57 AM,1 minute and 37 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,66,,Drive Thru,,10/5/25 9:56 AM,10/5/25 9:58 AM,2 minutes and 15 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,66,,Food,,10/5/25 9:56 AM,10/5/25 9:58 AM,2 minutes and 15 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mia Juliet,58,,,1,10/5/25 9:52 AM,10/5/25 9:59 AM,7 minutes and 26 seconds,Zoila Salinas
+12060 Potranco Road,Mario Jimenez,67,,Drive Thru,,10/5/25 9:57 AM,10/5/25 10:02 AM,4 minutes and 33 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,67,,Food,,10/5/25 9:57 AM,10/5/25 10:02 AM,4 minutes and 33 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,68,,Drive Thru,,10/5/25 9:58 AM,10/5/25 10:02 AM,3 minutes and 56 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,68,,Food,,10/5/25 9:58 AM,10/5/25 10:02 AM,3 minutes and 56 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,70,,Drive Thru,,10/5/25 9:59 AM,10/5/25 10:03 AM,3 minutes and 59 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,70,,Food,,10/5/25 9:59 AM,10/5/25 10:03 AM,3 minutes and 59 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,68,,Drive Thru,,10/5/25 10:02 AM,10/5/25 10:03 AM,1 minute and 31 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,68,,Food,,10/5/25 10:02 AM,10/5/25 10:03 AM,1 minute and 31 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lisa Velasquez,69,15,No Print,,10/5/25 9:59 AM,10/5/25 10:03 AM,4 minutes and 46 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,65,16,Food,,10/5/25 9:56 AM,10/5/25 10:03 AM,7 minutes and 10 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,65,16,No Print,,10/5/25 9:56 AM,10/5/25 10:03 AM,7 minutes and 10 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lisa Velasquez,69,15,Food,,10/5/25 9:59 AM,10/5/25 10:03 AM,4 minutes and 46 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,65,16,,1,10/5/25 10:03 AM,10/5/25 10:04 AM,7 seconds,Zoila Salinas
+12060 Potranco Road,Mario Jimenez,71,,Drive Thru,,10/5/25 10:01 AM,10/5/25 10:04 AM,3 minutes and 45 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,71,,Food,,10/5/25 10:01 AM,10/5/25 10:04 AM,3 minutes and 45 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,73,,Drive Thru,,10/5/25 10:03 AM,10/5/25 10:06 AM,3 minutes and 43 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,73,,Food,,10/5/25 10:03 AM,10/5/25 10:06 AM,3 minutes and 43 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,75,,Drive Thru,,10/5/25 10:03 AM,10/5/25 10:08 AM,4 minutes and 57 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,75,,Food,,10/5/25 10:03 AM,10/5/25 10:08 AM,4 minutes and 57 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,77,,Food,,10/5/25 10:06 AM,10/5/25 10:09 AM,2 minutes and 45 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,77,,Drive Thru,,10/5/25 10:06 AM,10/5/25 10:09 AM,2 minutes and 45 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,76,,Drive Thru,,10/5/25 10:05 AM,10/5/25 10:10 AM,4 minutes and 37 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,76,,Food,,10/5/25 10:05 AM,10/5/25 10:10 AM,4 minutes and 37 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mia Juliet,79,,Food,,10/5/25 10:08 AM,10/5/25 10:12 AM,4 minutes and 8 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mia Juliet,79,,Drive Thru,,10/5/25 10:08 AM,10/5/25 10:12 AM,4 minutes and 8 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,84,12,No Print,,10/5/25 10:10 AM,10/5/25 10:13 AM,3 minutes and 5 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,84,12,Food,,10/5/25 10:10 AM,10/5/25 10:13 AM,3 minutes and 5 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,78,,Drive Thru,,10/5/25 10:06 AM,10/5/25 10:13 AM,6 minutes and 29 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,78,,Food,,10/5/25 10:06 AM,10/5/25 10:13 AM,6 minutes and 29 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,84,12,,1,10/5/25 10:13 AM,10/5/25 10:13 AM,24 seconds,Zoila Salinas
+12060 Potranco Road,Mario Jimenez,77,,,1,10/5/25 10:09 AM,10/5/25 10:13 AM,4 minutes and 23 seconds,Zoila Salinas
+12060 Potranco Road,Lisa Velasquez,69,15,,1,10/5/25 10:03 AM,10/5/25 10:13 AM,9 minutes and 48 seconds,Zoila Salinas
+12060 Potranco Road,Mia Juliet,79,,,1,10/5/25 10:12 AM,10/5/25 10:13 AM,1 minute and 14 seconds,Zoila Salinas
+12060 Potranco Road,Mario Jimenez,81,,Drive Thru,,10/5/25 10:09 AM,10/5/25 10:15 AM,5 minutes and 52 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,81,,Food,,10/5/25 10:09 AM,10/5/25 10:15 AM,5 minutes and 52 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,86,,Drive Thru,,10/5/25 10:11 AM,10/5/25 10:15 AM,4 minutes and 51 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,86,,Food,,10/5/25 10:11 AM,10/5/25 10:15 AM,4 minutes and 51 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,84,12,No Print,,10/5/25 10:14 AM,10/5/25 10:15 AM,1 minute and 14 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,84,12,Food,,10/5/25 10:14 AM,10/5/25 10:15 AM,1 minute and 14 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,84,12,,1,10/5/25 10:15 AM,10/5/25 10:16 AM,7 seconds,Zoila Salinas
+12060 Potranco Road,Mario Jimenez,90,,Drive Thru,,10/5/25 10:12 AM,10/5/25 10:18 AM,5 minutes and 41 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,90,,Food,,10/5/25 10:12 AM,10/5/25 10:18 AM,5 minutes and 41 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,89,,Drive Thru,,10/5/25 10:11 AM,10/5/25 10:18 AM,6 minutes and 51 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,89,,Food,,10/5/25 10:11 AM,10/5/25 10:18 AM,6 minutes and 51 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,89,,Drinks,,10/5/25 10:11 AM,10/5/25 10:18 AM,6 minutes and 51 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,89,,No Print,,10/5/25 10:11 AM,10/5/25 10:18 AM,6 minutes and 51 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,93,11,No Print,,10/5/25 10:14 AM,10/5/25 10:20 AM,5 minutes and 51 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,93,11,Food,,10/5/25 10:14 AM,10/5/25 10:20 AM,5 minutes and 51 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,74,2,No Print,,10/5/25 10:11 AM,10/5/25 10:20 AM,8 minutes and 40 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,74,2,Food,,10/5/25 10:11 AM,10/5/25 10:20 AM,8 minutes and 40 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lisa Velasquez,85,21,No Print,,10/5/25 10:14 AM,10/5/25 10:20 AM,6 minutes and 21 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lisa Velasquez,85,21,Food,,10/5/25 10:14 AM,10/5/25 10:20 AM,6 minutes and 21 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,91,,Drive Thru,,10/5/25 10:16 AM,10/5/25 10:22 AM,6 minutes and 22 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,91,,Food,,10/5/25 10:16 AM,10/5/25 10:22 AM,6 minutes and 22 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,93,11,,1,10/5/25 10:20 AM,10/5/25 10:23 AM,2 minutes and 52 seconds,Zoila Salinas
+12060 Potranco Road,Emanuel Sanchez,74,2,,1,10/5/25 10:20 AM,10/5/25 10:23 AM,2 minutes and 29 seconds,Zoila Salinas
+12060 Potranco Road,Mario Jimenez,94,,Food,,10/5/25 10:16 AM,10/5/25 10:24 AM,7 minutes and 54 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,94,,Drive Thru,,10/5/25 10:16 AM,10/5/25 10:24 AM,7 minutes and 54 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,100,,Drive Thru,,10/5/25 10:21 AM,10/5/25 10:26 AM,4 minutes and 41 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,100,,Food,,10/5/25 10:21 AM,10/5/25 10:26 AM,4 minutes and 41 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,72,1,No Print,,10/5/25 10:16 AM,10/5/25 10:26 AM,9 minutes and 54 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,72,1,Food,,10/5/25 10:16 AM,10/5/25 10:26 AM,9 minutes and 54 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,88,14,No Print,,10/5/25 10:15 AM,10/5/25 10:26 AM,11 minutes and 8 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,88,14,Food,,10/5/25 10:15 AM,10/5/25 10:26 AM,11 minutes and 8 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,88,14,Drive Thru,,10/5/25 10:15 AM,10/5/25 10:26 AM,11 minutes and 8 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lisa Velasquez,97,34,No Print,,10/5/25 10:19 AM,10/5/25 10:26 AM,6 minutes and 50 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lisa Velasquez,97,34,Food,,10/5/25 10:19 AM,10/5/25 10:26 AM,6 minutes and 50 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,99,18,No Print,,10/5/25 10:21 AM,10/5/25 10:26 AM,4 minutes and 53 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,99,18,Food,,10/5/25 10:21 AM,10/5/25 10:26 AM,4 minutes and 53 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,72,1,,1,10/5/25 10:26 AM,10/5/25 10:26 AM,14 seconds,Zoila Salinas
+12060 Potranco Road,Mario Jimenez,101,,Drive Thru,,10/5/25 10:22 AM,10/5/25 10:27 AM,4 minutes and 48 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,101,,Food,,10/5/25 10:22 AM,10/5/25 10:27 AM,4 minutes and 48 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,102,,Drive Thru,,10/5/25 10:26 AM,10/5/25 10:28 AM,2 minutes and 17 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,102,,Food,,10/5/25 10:26 AM,10/5/25 10:28 AM,2 minutes and 17 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,88,14,Food,,10/5/25 10:27 AM,10/5/25 10:28 AM,45 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,95,,Drive Thru,,10/5/25 10:20 AM,10/5/25 10:30 AM,9 minutes and 41 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,95,,Food,,10/5/25 10:20 AM,10/5/25 10:30 AM,9 minutes and 41 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,95,,Drinks,,10/5/25 10:20 AM,10/5/25 10:30 AM,9 minutes and 41 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,95,,No Print,,10/5/25 10:20 AM,10/5/25 10:30 AM,9 minutes and 41 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,88,14,,1,10/5/25 10:28 AM,10/5/25 10:31 AM,3 minutes and 14 seconds,Zoila Salinas
+12060 Potranco Road,Leticia Roman,88,14,,1,10/5/25 10:26 AM,10/5/25 10:32 AM,5 minutes and 55 seconds,Zoila Salinas
+12060 Potranco Road,Lisa Velasquez,85,21,,1,10/5/25 10:20 AM,10/5/25 10:32 AM,12 minutes and 4 seconds,Zoila Salinas
+12060 Potranco Road,Lisa Velasquez,85,21,,1,10/5/25 10:27 AM,10/5/25 10:32 AM,5 minutes and 19 seconds,Zoila Salinas
+12060 Potranco Road,Adrian Morales,99,18,,1,10/5/25 10:31 AM,10/5/25 10:33 AM,1 minute and 59 seconds,Zoila Salinas
+12060 Potranco Road,Lisa Velasquez,97,34,,1,10/5/25 10:26 AM,10/5/25 10:33 AM,6 minutes and 54 seconds,Zoila Salinas
+12060 Potranco Road,Adrian Morales,99,18,,1,10/5/25 10:26 AM,10/5/25 10:33 AM,7 minutes and 7 seconds,Zoila Salinas
+12060 Potranco Road,Mario Jimenez,98,,Food,,10/5/25 10:33 AM,10/5/25 10:34 AM,53 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,98,,Drive Thru,,10/5/25 10:33 AM,10/5/25 10:34 AM,53 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,107,,Drive Thru,,10/5/25 10:31 AM,10/5/25 10:34 AM,2 minutes and 55 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,107,,Food,,10/5/25 10:31 AM,10/5/25 10:34 AM,2 minutes and 55 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,98,,,1,10/5/25 10:34 AM,10/5/25 10:37 AM,3 minutes and 13 seconds,Zoila Salinas
+12060 Potranco Road,Emanuel Sanchez,93,11,No Print,,10/5/25 10:24 AM,10/5/25 10:38 AM,14 minutes,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,93,11,Food,,10/5/25 10:24 AM,10/5/25 10:38 AM,14 minutes,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,93,11,Drive Thru,,10/5/25 10:24 AM,10/5/25 10:38 AM,14 minutes,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,104,8,No Print,,10/5/25 10:30 AM,10/5/25 10:38 AM,8 minutes and 22 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,105,25,No Print,,10/5/25 10:30 AM,10/5/25 10:38 AM,7 minutes and 26 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,105,25,Food,,10/5/25 10:30 AM,10/5/25 10:38 AM,7 minutes and 26 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,104,8,Food,,10/5/25 10:30 AM,10/5/25 10:38 AM,8 minutes and 22 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,93,11,,1,10/5/25 10:38 AM,10/5/25 10:40 AM,1 minute and 57 seconds,Zoila Salinas
+12060 Potranco Road,Adrian Morales,104,8,,1,10/5/25 10:38 AM,10/5/25 10:40 AM,1 minute and 54 seconds,Zoila Salinas
+12060 Potranco Road,Leticia Roman,105,25,,1,10/5/25 10:38 AM,10/5/25 10:40 AM,1 minute and 57 seconds,Zoila Salinas
+12060 Potranco Road,Emanuel Sanchez,106,4,Food,,10/5/25 10:36 AM,10/5/25 10:40 AM,4 minutes and 13 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,106,4,No Print,,10/5/25 10:36 AM,10/5/25 10:40 AM,4 minutes and 13 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,106,4,,1,10/5/25 10:40 AM,10/5/25 10:41 AM,1 minute and 30 seconds,Zoila Salinas
+12060 Potranco Road,Lisa Velasquez,85,21,No Print,,10/5/25 10:39 AM,10/5/25 10:41 AM,2 minutes and 25 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lisa Velasquez,85,21,Food,,10/5/25 10:39 AM,10/5/25 10:41 AM,2 minutes and 25 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lisa Velasquez,85,21,,1,10/5/25 10:41 AM,10/5/25 10:42 AM,1 minute and 1 second,Zoila Salinas
+12060 Potranco Road,Lisa Velasquez,111,22,No Print,,10/5/25 10:38 AM,10/5/25 10:45 AM,6 minutes and 52 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lisa Velasquez,111,22,Food,,10/5/25 10:38 AM,10/5/25 10:45 AM,6 minutes and 52 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lisa Velasquez,111,22,Drive Thru,,10/5/25 10:38 AM,10/5/25 10:45 AM,6 minutes and 52 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lisa Velasquez,111,22,Drinks,,10/5/25 10:38 AM,10/5/25 10:45 AM,6 minutes and 52 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,106,4,No Print,,10/5/25 10:43 AM,10/5/25 10:46 AM,3 minutes and 23 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,106,4,Food,,10/5/25 10:43 AM,10/5/25 10:46 AM,3 minutes and 23 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lisa Velasquez,111,22,,1,10/5/25 10:45 AM,10/5/25 10:48 AM,2 minutes and 46 seconds,Zoila Salinas
+12060 Potranco Road,Mia Juliet,110,,Food,,10/5/25 10:41 AM,10/5/25 10:49 AM,7 minutes and 33 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mia Juliet,110,,Drive Thru,,10/5/25 10:41 AM,10/5/25 10:49 AM,7 minutes and 33 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,113,32,No Print,,10/5/25 10:41 AM,10/5/25 10:49 AM,8 minutes and 33 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,113,32,Food,,10/5/25 10:41 AM,10/5/25 10:49 AM,8 minutes and 33 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,106,4,,1,10/5/25 10:46 AM,10/5/25 10:50 AM,3 minutes and 37 seconds,Zoila Salinas
+12060 Potranco Road,Mia Juliet,110,,,1,10/5/25 10:49 AM,10/5/25 10:50 AM,47 seconds,Zoila Salinas
+12060 Potranco Road,Mario Jimenez,112,,Drive Thru,,10/5/25 10:46 AM,10/5/25 10:50 AM,3 minutes and 42 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,112,,Food,,10/5/25 10:46 AM,10/5/25 10:50 AM,3 minutes and 42 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,114,26,No Print,,10/5/25 10:44 AM,10/5/25 10:51 AM,6 minutes and 26 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,114,26,Food,,10/5/25 10:44 AM,10/5/25 10:51 AM,6 minutes and 26 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,114,26,Drive Thru,,10/5/25 10:44 AM,10/5/25 10:51 AM,6 minutes and 26 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,116,31,No Print,,10/5/25 10:44 AM,10/5/25 10:53 AM,8 minutes and 42 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,116,31,Food,,10/5/25 10:44 AM,10/5/25 10:53 AM,8 minutes and 42 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,113,32,,1,10/5/25 10:49 AM,10/5/25 10:54 AM,4 minutes and 32 seconds,Zoila Salinas
+12060 Potranco Road,Emanuel Sanchez,117,5,No Print,,10/5/25 10:48 AM,10/5/25 10:54 AM,5 minutes and 32 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,117,5,Food,,10/5/25 10:48 AM,10/5/25 10:54 AM,5 minutes and 32 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,117,5,,1,10/5/25 10:54 AM,10/5/25 10:55 AM,1 minute and 25 seconds,Zoila Salinas
+12060 Potranco Road,Mario Jimenez,123,,Drive Thru,,10/5/25 10:53 AM,10/5/25 10:56 AM,3 minutes and 19 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,123,,Food,,10/5/25 10:53 AM,10/5/25 10:56 AM,3 minutes and 19 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,118,,Drive Thru,,10/5/25 10:54 AM,10/5/25 10:57 AM,3 minutes and 26 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,118,,Food,,10/5/25 10:54 AM,10/5/25 10:57 AM,3 minutes and 26 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mia Juliet,24,,No Print,,10/5/25 10:57 AM,10/5/25 10:58 AM,58 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mia Juliet,24,,Food,,10/5/25 10:57 AM,10/5/25 10:58 AM,58 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,124,,Drive Thru,,10/5/25 10:54 AM,10/5/25 10:58 AM,4 minutes and 26 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,124,,Food,,10/5/25 10:54 AM,10/5/25 10:58 AM,4 minutes and 26 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,125,,Drive Thru,,10/5/25 10:55 AM,10/5/25 11:01 AM,6 minutes and 3 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,125,,Food,,10/5/25 10:55 AM,10/5/25 11:01 AM,6 minutes and 3 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,116,31,,1,10/5/25 10:53 AM,10/5/25 11:01 AM,8 minutes and 42 seconds,Zoila Salinas
+12060 Potranco Road,Leticia Roman,114,26,,1,10/5/25 10:51 AM,10/5/25 11:01 AM,10 minutes and 30 seconds,Zoila Salinas
+12060 Potranco Road,Mia Juliet,24,,,1,10/5/25 10:58 AM,10/5/25 11:01 AM,3 minutes and 7 seconds,Zoila Salinas
+12060 Potranco Road,Emanuel Sanchez,127,6,No Print,,10/5/25 11:03 AM,10/5/25 11:03 AM,45 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,127,6,Food,,10/5/25 11:03 AM,10/5/25 11:03 AM,45 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,126,,Drive Thru,,10/5/25 10:59 AM,10/5/25 11:04 AM,5 minutes and 25 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,126,,Food,,10/5/25 10:59 AM,10/5/25 11:04 AM,5 minutes and 25 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,72,1,No Print,,10/5/25 11:04 AM,10/5/25 11:05 AM,1 minute and 28 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,72,1,Food,,10/5/25 11:04 AM,10/5/25 11:05 AM,1 minute and 28 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,120,17,No Print,,10/5/25 10:53 AM,10/5/25 11:06 AM,12 minutes and 56 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,120,17,Food,,10/5/25 10:53 AM,10/5/25 11:06 AM,12 minutes and 56 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,120,17,Drive Thru,,10/5/25 10:53 AM,10/5/25 11:06 AM,12 minutes and 56 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,120,17,Drinks,,10/5/25 10:53 AM,10/5/25 11:06 AM,12 minutes and 56 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,122,27,No Print,,10/5/25 11:01 AM,10/5/25 11:07 AM,6 minutes and 16 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,122,27,Food,,10/5/25 11:01 AM,10/5/25 11:07 AM,6 minutes and 16 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,122,27,Drive Thru,,10/5/25 11:01 AM,10/5/25 11:07 AM,6 minutes and 16 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,128,,Drive Thru,,10/5/25 11:03 AM,10/5/25 11:08 AM,4 minutes and 20 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,128,,Food,,10/5/25 11:03 AM,10/5/25 11:08 AM,4 minutes and 20 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,127,6,,1,10/5/25 11:03 AM,10/5/25 11:08 AM,4 minutes and 26 seconds,Zoila Salinas
+12060 Potranco Road,Mario Jimenez,131,,Drive Thru,,10/5/25 11:04 AM,10/5/25 11:09 AM,5 minutes and 48 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,131,,Food,,10/5/25 11:04 AM,10/5/25 11:09 AM,5 minutes and 48 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,134,,Drive Thru,,10/5/25 11:04 AM,10/5/25 11:10 AM,5 minutes and 53 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,134,,Food,,10/5/25 11:04 AM,10/5/25 11:10 AM,5 minutes and 53 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mia Juliet,133,,,1,10/5/25 11:05 AM,10/5/25 11:10 AM,5 minutes and 22 seconds,Zoila Salinas
+12060 Potranco Road,Adrian Morales,120,17,,1,10/5/25 11:06 AM,10/5/25 11:11 AM,4 minutes and 55 seconds,Zoila Salinas
+12060 Potranco Road,Mario Jimenez,135,,Drive Thru,,10/5/25 11:06 AM,10/5/25 11:11 AM,5 minutes and 30 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,135,,Food,,10/5/25 11:06 AM,10/5/25 11:11 AM,5 minutes and 30 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,138,16,No Print,,10/5/25 11:08 AM,10/5/25 11:12 AM,4 minutes,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,138,16,Food,,10/5/25 11:08 AM,10/5/25 11:12 AM,4 minutes,KDS - Login Don't Delete
+12060 Potranco Road,Lisa Velasquez,130,20,Food,,10/5/25 11:03 AM,10/5/25 11:12 AM,8 minutes and 21 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lisa Velasquez,130,20,No Print,,10/5/25 11:03 AM,10/5/25 11:12 AM,8 minutes and 21 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,141,2,No Print,,10/5/25 11:11 AM,10/5/25 11:13 AM,2 minutes,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,141,2,Food,,10/5/25 11:11 AM,10/5/25 11:13 AM,2 minutes,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,122,27,,1,10/5/25 11:07 AM,10/5/25 11:13 AM,5 minutes and 45 seconds,Zoila Salinas
+12060 Potranco Road,Leticia Roman,72,1,,1,10/5/25 11:05 AM,10/5/25 11:13 AM,7 minutes and 53 seconds,Zoila Salinas
+12060 Potranco Road,Adrian Morales,138,16,,1,10/5/25 11:12 AM,10/5/25 11:14 AM,2 minutes and 43 seconds,Zoila Salinas
+12060 Potranco Road,Mia Juliet,132,,Food,,10/5/25 11:05 AM,10/5/25 11:15 AM,9 minutes and 42 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mia Juliet,132,,Drive Thru,,10/5/25 11:05 AM,10/5/25 11:15 AM,9 minutes and 42 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mia Juliet,132,,,1,10/5/25 11:15 AM,10/5/25 11:15 AM,32 seconds,Zoila Salinas
+12060 Potranco Road,Lisa Velasquez,130,20,,1,10/5/25 11:12 AM,10/5/25 11:15 AM,3 minutes and 43 seconds,Zoila Salinas
+12060 Potranco Road,Leticia Roman,141,2,,1,10/5/25 11:13 AM,10/5/25 11:17 AM,3 minutes and 51 seconds,Zoila Salinas
+12060 Potranco Road,Adrian Morales,136,18,No Print,,10/5/25 11:05 AM,10/5/25 11:18 AM,12 minutes and 6 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,136,18,Food,,10/5/25 11:05 AM,10/5/25 11:18 AM,12 minutes and 6 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lisa Velasquez,139,8,No Print,,10/5/25 11:09 AM,10/5/25 11:18 AM,9 minutes and 8 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lisa Velasquez,139,8,Food,,10/5/25 11:09 AM,10/5/25 11:18 AM,9 minutes and 8 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,140,,Drive Thru,,10/5/25 11:11 AM,10/5/25 11:18 AM,7 minutes and 44 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,140,,Food,,10/5/25 11:11 AM,10/5/25 11:18 AM,7 minutes and 44 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,144,,Drive Thru,,10/5/25 11:16 AM,10/5/25 11:19 AM,2 minutes and 56 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,144,,Food,,10/5/25 11:16 AM,10/5/25 11:19 AM,2 minutes and 56 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mia Juliet,143,,Food,,10/5/25 11:15 AM,10/5/25 11:20 AM,4 minutes and 52 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,146,,Drive Thru,,10/5/25 11:17 AM,10/5/25 11:21 AM,3 minutes and 50 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,146,,Food,,10/5/25 11:17 AM,10/5/25 11:21 AM,3 minutes and 50 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mia Juliet,24,,No Print,,10/5/25 11:12 AM,10/5/25 11:21 AM,9 minutes,KDS - Login Don't Delete
+12060 Potranco Road,Mia Juliet,24,,Food,,10/5/25 11:12 AM,10/5/25 11:21 AM,9 minutes,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,147,,Drive Thru,,10/5/25 11:19 AM,10/5/25 11:22 AM,3 minutes and 13 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,147,,Food,,10/5/25 11:19 AM,10/5/25 11:22 AM,3 minutes and 13 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,136,18,Food,,10/5/25 11:20 AM,10/5/25 11:23 AM,3 minutes and 6 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,136,18,Drive Thru,,10/5/25 11:20 AM,10/5/25 11:23 AM,3 minutes and 6 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mia Juliet,143,,Food,,10/5/25 11:13 AM,10/5/25 11:23 AM,10 minutes and 5 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mia Juliet,143,,Drive Thru,,10/5/25 11:13 AM,10/5/25 11:23 AM,10 minutes and 5 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,150,,Drive Thru,,10/5/25 11:21 AM,10/5/25 11:24 AM,2 minutes and 58 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,150,,Food,,10/5/25 11:21 AM,10/5/25 11:24 AM,2 minutes and 58 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,145,,Food,,10/5/25 11:19 AM,10/5/25 11:26 AM,6 minutes and 46 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,145,,Drive Thru,,10/5/25 11:19 AM,10/5/25 11:26 AM,6 minutes and 46 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lisa Velasquez,139,8,,1,10/5/25 11:18 AM,10/5/25 11:26 AM,8 minutes and 6 seconds,Zoila Salinas
+12060 Potranco Road,Adrian Morales,136,18,,1,10/5/25 11:18 AM,10/5/25 11:26 AM,8 minutes and 36 seconds,Zoila Salinas
+12060 Potranco Road,Mia Juliet,24,,,1,10/5/25 11:21 AM,10/5/25 11:26 AM,4 minutes and 53 seconds,Zoila Salinas
+12060 Potranco Road,Mia Juliet,143,,,1,10/5/25 11:23 AM,10/5/25 11:26 AM,2 minutes and 50 seconds,Zoila Salinas
+12060 Potranco Road,Mia Juliet,143,,,1,10/5/25 11:20 AM,10/5/25 11:26 AM,6 minutes and 21 seconds,Zoila Salinas
+12060 Potranco Road,Mario Jimenez,151,,Drive Thru,,10/5/25 11:22 AM,10/5/25 11:26 AM,3 minutes and 45 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,151,,Food,,10/5/25 11:22 AM,10/5/25 11:26 AM,3 minutes and 45 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,145,,,1,10/5/25 11:26 AM,10/5/25 11:26 AM,44 seconds,Zoila Salinas
+12060 Potranco Road,Mario Jimenez,153,,Drive Thru,,10/5/25 11:23 AM,10/5/25 11:27 AM,3 minutes and 55 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,153,,Food,,10/5/25 11:23 AM,10/5/25 11:27 AM,3 minutes and 55 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,136,18,,1,10/5/25 11:23 AM,10/5/25 11:29 AM,5 minutes and 23 seconds,Zoila Salinas
+12060 Potranco Road,Emanuel Sanchez,127,6,Food,,10/5/25 11:28 AM,10/5/25 11:29 AM,49 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,148,7,No Print,,10/5/25 11:22 AM,10/5/25 11:29 AM,7 minutes and 20 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,148,7,Food,,10/5/25 11:22 AM,10/5/25 11:29 AM,7 minutes and 20 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,148,7,Drive Thru,,10/5/25 11:22 AM,10/5/25 11:29 AM,7 minutes and 20 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,148,7,,1,10/5/25 11:29 AM,10/5/25 11:30 AM,1 minute and 14 seconds,Zoila Salinas
+12060 Potranco Road,Mario Jimenez,154,,Drive Thru,,10/5/25 11:25 AM,10/5/25 11:30 AM,5 minutes and 22 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,154,,Food,,10/5/25 11:25 AM,10/5/25 11:30 AM,5 minutes and 22 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,157,,Food,,10/5/25 11:29 AM,10/5/25 11:32 AM,3 minutes and 6 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,157,,Drive Thru,,10/5/25 11:29 AM,10/5/25 11:32 AM,3 minutes and 6 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,158,10,No Print,,10/5/25 11:29 AM,10/5/25 11:32 AM,3 minutes and 16 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,158,10,Food,,10/5/25 11:29 AM,10/5/25 11:32 AM,3 minutes and 16 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,159,,Drive Thru,,10/5/25 11:30 AM,10/5/25 11:34 AM,4 minutes and 5 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,159,,Food,,10/5/25 11:30 AM,10/5/25 11:34 AM,4 minutes and 5 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,160,,Drive Thru,,10/5/25 11:31 AM,10/5/25 11:34 AM,3 minutes and 27 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,160,,Food,,10/5/25 11:31 AM,10/5/25 11:34 AM,3 minutes and 27 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,161,,Drive Thru,,10/5/25 11:31 AM,10/5/25 11:35 AM,4 minutes,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,161,,Food,,10/5/25 11:31 AM,10/5/25 11:35 AM,4 minutes,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,127,6,,1,10/5/25 11:29 AM,10/5/25 11:35 AM,6 minutes and 37 seconds,Zoila Salinas
+12060 Potranco Road,Adrian Morales,158,10,,1,10/5/25 11:32 AM,10/5/25 11:36 AM,3 minutes and 6 seconds,Zoila Salinas
+12060 Potranco Road,Leticia Roman,152,14,No Print,,10/5/25 11:30 AM,10/5/25 11:37 AM,6 minutes and 29 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,152,14,Food,,10/5/25 11:30 AM,10/5/25 11:37 AM,6 minutes and 29 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,158,10,Food,,10/5/25 11:35 AM,10/5/25 11:37 AM,1 minute and 24 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,158,10,Drive Thru,,10/5/25 11:35 AM,10/5/25 11:37 AM,1 minute and 24 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,152,14,,1,10/5/25 11:37 AM,10/5/25 11:37 AM,51 seconds,Zoila Salinas
+12060 Potranco Road,Adrian Morales,158,10,,1,10/5/25 11:37 AM,10/5/25 11:37 AM,37 seconds,Zoila Salinas
+12060 Potranco Road,Adrian Morales,116,31,,1,10/5/25 11:24 AM,10/5/25 11:38 AM,13 minutes and 44 seconds,Zoila Salinas
+12060 Potranco Road,Adrian Morales,138,16,No Print,,10/5/25 11:33 AM,10/5/25 11:39 AM,6 minutes,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,138,16,Food,,10/5/25 11:33 AM,10/5/25 11:39 AM,6 minutes,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,165,,Drive Thru,,10/5/25 11:37 AM,10/5/25 11:39 AM,2 minutes and 47 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,165,,Food,,10/5/25 11:37 AM,10/5/25 11:39 AM,2 minutes and 47 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,138,16,,1,10/5/25 11:39 AM,10/5/25 11:40 AM,58 seconds,Zoila Salinas
+12060 Potranco Road,Mario Jimenez,168,,Drive Thru,,10/5/25 11:37 AM,10/5/25 11:40 AM,3 minutes and 17 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,168,,Food,,10/5/25 11:37 AM,10/5/25 11:40 AM,3 minutes and 17 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,163,25,No Print,,10/5/25 11:36 AM,10/5/25 11:43 AM,7 minutes and 23 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,163,25,Food,,10/5/25 11:36 AM,10/5/25 11:43 AM,7 minutes and 23 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,163,25,No Print,,10/5/25 11:35 AM,10/5/25 11:43 AM,8 minutes and 2 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,163,25,Food,,10/5/25 11:35 AM,10/5/25 11:43 AM,8 minutes and 2 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,169,,Drive Thru,,10/5/25 11:40 AM,10/5/25 11:44 AM,4 minutes and 24 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,169,,Food,,10/5/25 11:40 AM,10/5/25 11:44 AM,4 minutes and 24 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,164,3,No Print,,10/5/25 11:34 AM,10/5/25 11:44 AM,9 minutes and 51 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,164,3,Food,,10/5/25 11:34 AM,10/5/25 11:44 AM,9 minutes and 51 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,164,3,,1,10/5/25 11:44 AM,10/5/25 11:45 AM,32 seconds,Zoila Salinas
+12060 Potranco Road,Leticia Roman,163,25,,1,10/5/25 11:43 AM,10/5/25 11:45 AM,1 minute and 15 seconds,Zoila Salinas
+12060 Potranco Road,Emanuel Sanchez,167,37,No Print,,10/5/25 11:39 AM,10/5/25 11:45 AM,6 minutes and 50 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,167,37,Food,,10/5/25 11:39 AM,10/5/25 11:45 AM,6 minutes and 50 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,167,37,Drive Thru,,10/5/25 11:39 AM,10/5/25 11:45 AM,6 minutes and 50 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lisa Velasquez,166,21,No Print,,10/5/25 11:42 AM,10/5/25 11:47 AM,5 minutes and 3 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lisa Velasquez,166,21,Food,,10/5/25 11:42 AM,10/5/25 11:47 AM,5 minutes and 3 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lisa Velasquez,166,21,Drive Thru,,10/5/25 11:42 AM,10/5/25 11:47 AM,5 minutes and 3 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,173,,Drive Thru,,10/5/25 11:45 AM,10/5/25 11:48 AM,3 minutes and 42 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,173,,Food,,10/5/25 11:45 AM,10/5/25 11:48 AM,3 minutes and 42 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,172,,Drive Thru,,10/5/25 11:40 AM,10/5/25 11:49 AM,8 minutes and 29 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,172,,Food,,10/5/25 11:40 AM,10/5/25 11:49 AM,8 minutes and 29 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,163,25,Food,,10/5/25 11:51 AM,10/5/25 11:51 AM,12 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,163,25,,1,10/5/25 11:43 AM,10/5/25 11:51 AM,7 minutes and 30 seconds,Zoila Salinas
+12060 Potranco Road,Leticia Roman,163,25,Drive Thru,,10/5/25 11:51 AM,10/5/25 11:51 AM,12 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,175,,Drive Thru,,10/5/25 11:46 AM,10/5/25 11:52 AM,6 minutes and 15 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,175,,Food,,10/5/25 11:46 AM,10/5/25 11:52 AM,6 minutes and 15 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,177,,Drive Thru,,10/5/25 11:46 AM,10/5/25 11:53 AM,6 minutes and 31 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,177,,Food,,10/5/25 11:46 AM,10/5/25 11:53 AM,6 minutes and 31 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,178,,Drive Thru,,10/5/25 11:51 AM,10/5/25 11:53 AM,2 minutes and 10 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,178,,Food,,10/5/25 11:51 AM,10/5/25 11:53 AM,2 minutes and 10 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,176,15,No Print,,10/5/25 11:46 AM,10/5/25 11:54 AM,7 minutes and 6 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,176,15,Food,,10/5/25 11:46 AM,10/5/25 11:54 AM,7 minutes and 6 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,183,2,No Print,,10/5/25 11:53 AM,10/5/25 11:54 AM,1 minute and 13 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,183,2,Food,,10/5/25 11:53 AM,10/5/25 11:54 AM,1 minute and 13 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,182,,Drive Thru,,10/5/25 11:54 AM,10/5/25 11:56 AM,1 minute and 58 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,182,,Food,,10/5/25 11:54 AM,10/5/25 11:56 AM,1 minute and 58 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,164,3,No Print,,10/5/25 11:54 AM,10/5/25 11:58 AM,3 minutes and 59 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,164,3,Food,,10/5/25 11:54 AM,10/5/25 11:58 AM,3 minutes and 59 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,185,,Drive Thru,,10/5/25 11:58 AM,10/5/25 11:59 AM,56 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,185,,Food,,10/5/25 11:58 AM,10/5/25 11:59 AM,56 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,179,5,No Print,,10/5/25 11:50 AM,10/5/25 12:00 PM,9 minutes and 47 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,179,5,Food,,10/5/25 11:50 AM,10/5/25 12:00 PM,9 minutes and 47 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mia Juliet,180,,Food,,10/5/25 11:51 AM,10/5/25 12:01 PM,10 minutes and 19 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mia Juliet,180,,Drive Thru,,10/5/25 11:51 AM,10/5/25 12:01 PM,10 minutes and 19 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mia Juliet,184,,Food,,10/5/25 11:55 AM,10/5/25 12:01 PM,6 minutes and 1 second,KDS - Login Don't Delete
+12060 Potranco Road,Mia Juliet,184,,Drive Thru,,10/5/25 11:55 AM,10/5/25 12:01 PM,6 minutes and 1 second,KDS - Login Don't Delete
+12060 Potranco Road,Lisa Velasquez,156,29,Food,,10/5/25 11:51 AM,10/5/25 12:02 PM,11 minutes and 19 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lisa Velasquez,156,29,No Print,,10/5/25 11:51 AM,10/5/25 12:02 PM,11 minutes and 19 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mia Juliet,180,,,1,10/5/25 12:01 PM,10/5/25 12:03 PM,2 minutes and 21 seconds,Zoila Salinas
+12060 Potranco Road,Mia Juliet,184,,,1,10/5/25 12:01 PM,10/5/25 12:03 PM,2 minutes and 23 seconds,Zoila Salinas
+12060 Potranco Road,Emanuel Sanchez,167,37,,1,10/5/25 11:45 AM,10/5/25 12:06 PM,20 minutes and 14 seconds,Zoila Salinas
+12060 Potranco Road,Lisa Velasquez,166,21,,1,10/5/25 11:47 AM,10/5/25 12:06 PM,18 minutes and 36 seconds,Zoila Salinas
+12060 Potranco Road,Adrian Morales,179,5,,1,10/5/25 12:00 PM,10/5/25 12:06 PM,6 minutes and 2 seconds,Zoila Salinas
+12060 Potranco Road,Adrian Morales,176,15,,1,10/5/25 11:54 AM,10/5/25 12:06 PM,12 minutes and 33 seconds,Zoila Salinas
+12060 Potranco Road,Mario Jimenez,186,,Drive Thru,,10/5/25 12:03 PM,10/5/25 12:08 PM,5 minutes and 8 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,186,,Food,,10/5/25 12:03 PM,10/5/25 12:08 PM,5 minutes and 8 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,186,,Drinks,,10/5/25 12:03 PM,10/5/25 12:08 PM,5 minutes and 8 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,186,,No Print,,10/5/25 12:03 PM,10/5/25 12:08 PM,5 minutes and 8 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lisa Velasquez,156,29,,1,10/5/25 12:02 PM,10/5/25 12:11 PM,8 minutes and 45 seconds,Zoila Salinas
+12060 Potranco Road,Leticia Roman,163,25,,1,10/5/25 11:51 AM,10/5/25 12:11 PM,20 minutes and 10 seconds,Zoila Salinas
+12060 Potranco Road,Leticia Roman,183,2,,1,10/5/25 11:54 AM,10/5/25 12:11 PM,16 minutes and 40 seconds,Zoila Salinas
+12060 Potranco Road,Emanuel Sanchez,164,3,,1,10/5/25 11:58 AM,10/5/25 12:11 PM,13 minutes and 11 seconds,Zoila Salinas
+12060 Potranco Road,Mario Jimenez,188,,Drive Thru,,10/5/25 12:08 PM,10/5/25 12:12 PM,3 minutes and 39 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,188,,Food,,10/5/25 12:08 PM,10/5/25 12:12 PM,3 minutes and 39 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,188,,Drive Thru,,10/5/25 12:10 PM,10/5/25 12:12 PM,1 minute and 34 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,188,,Food,,10/5/25 12:10 PM,10/5/25 12:12 PM,1 minute and 34 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lisa Velasquez,189,1,No Print,,10/5/25 12:05 PM,10/5/25 12:14 PM,9 minutes,KDS - Login Don't Delete
+12060 Potranco Road,Lisa Velasquez,189,1,Food,,10/5/25 12:05 PM,10/5/25 12:14 PM,9 minutes,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,191,16,No Print,,10/5/25 12:07 PM,10/5/25 12:14 PM,7 minutes and 20 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,191,16,Food,,10/5/25 12:07 PM,10/5/25 12:14 PM,7 minutes and 20 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lisa Velasquez,189,1,,1,10/5/25 12:14 PM,10/5/25 12:14 PM,10 seconds,Zoila Salinas
+12060 Potranco Road,Adrian Morales,187,31,No Print,,10/5/25 12:05 PM,10/5/25 12:14 PM,9 minutes and 26 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,187,31,Food,,10/5/25 12:05 PM,10/5/25 12:14 PM,9 minutes and 26 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,187,31,Drive Thru,,10/5/25 12:05 PM,10/5/25 12:14 PM,9 minutes and 26 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,187,31,Drinks,,10/5/25 12:05 PM,10/5/25 12:14 PM,9 minutes and 26 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,194,,Drive Thru,,10/5/25 12:11 PM,10/5/25 12:15 PM,3 minutes and 42 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,194,,Food,,10/5/25 12:11 PM,10/5/25 12:15 PM,3 minutes and 42 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,192,,Drive Thru,,10/5/25 12:10 PM,10/5/25 12:16 PM,5 minutes and 58 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,192,,Food,,10/5/25 12:10 PM,10/5/25 12:16 PM,5 minutes and 58 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,193,,Drive Thru,,10/5/25 12:11 PM,10/5/25 12:16 PM,5 minutes and 27 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,193,,Food,,10/5/25 12:11 PM,10/5/25 12:16 PM,5 minutes and 27 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mia Juliet,180,,Food,,10/5/25 12:15 PM,10/5/25 12:17 PM,1 minute and 25 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,198,,Drive Thru,,10/5/25 12:16 PM,10/5/25 12:17 PM,1 minute and 26 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,198,,Food,,10/5/25 12:16 PM,10/5/25 12:17 PM,1 minute and 26 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,187,31,,1,10/5/25 12:14 PM,10/5/25 12:19 PM,4 minutes and 52 seconds,Zoila Salinas
+12060 Potranco Road,Emanuel Sanchez,197,11,No Print,,10/5/25 12:13 PM,10/5/25 12:20 PM,7 minutes and 15 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,197,11,Food,,10/5/25 12:13 PM,10/5/25 12:20 PM,7 minutes and 15 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lisa Velasquez,189,1,Food,,10/5/25 12:19 PM,10/5/25 12:21 PM,1 minute and 16 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lisa Velasquez,189,1,Drive Thru,,10/5/25 12:19 PM,10/5/25 12:21 PM,1 minute and 16 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,199,,Food,,10/5/25 12:18 PM,10/5/25 12:21 PM,3 minutes and 1 second,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,199,,Drive Thru,,10/5/25 12:18 PM,10/5/25 12:21 PM,3 minutes and 1 second,KDS - Login Don't Delete
+12060 Potranco Road,Mia Juliet,180,,,1,10/5/25 12:17 PM,10/5/25 12:22 PM,5 minutes and 31 seconds,Zoila Salinas
+12060 Potranco Road,Lisa Velasquez,189,1,,1,10/5/25 12:21 PM,10/5/25 12:22 PM,1 minute and 36 seconds,Zoila Salinas
+12060 Potranco Road,Mario Jimenez,201,,Drive Thru,,10/5/25 12:19 PM,10/5/25 12:24 PM,4 minutes and 26 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,201,,Food,,10/5/25 12:19 PM,10/5/25 12:24 PM,4 minutes and 26 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,197,11,,1,10/5/25 12:20 PM,10/5/25 12:24 PM,3 minutes and 38 seconds,Zoila Salinas
+12060 Potranco Road,Mario Jimenez,199,,Drive Thru,,10/5/25 12:22 PM,10/5/25 12:24 PM,1 minute and 49 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,199,,Food,,10/5/25 12:22 PM,10/5/25 12:24 PM,1 minute and 49 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,196,17,No Print,,10/5/25 12:18 PM,10/5/25 12:25 PM,6 minutes and 54 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,196,17,Food,,10/5/25 12:18 PM,10/5/25 12:25 PM,6 minutes and 54 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,202,,Drive Thru,,10/5/25 12:21 PM,10/5/25 12:25 PM,3 minutes and 31 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,202,,Food,,10/5/25 12:21 PM,10/5/25 12:25 PM,3 minutes and 31 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,204,,Drive Thru,,10/5/25 12:26 PM,10/5/25 12:29 PM,2 minutes and 43 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,204,,Food,,10/5/25 12:26 PM,10/5/25 12:29 PM,2 minutes and 43 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lisa Velasquez,190,8,No Print,,10/5/25 12:23 PM,10/5/25 12:29 PM,6 minutes and 8 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lisa Velasquez,190,8,Food,,10/5/25 12:23 PM,10/5/25 12:29 PM,6 minutes and 8 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,191,16,,1,10/5/25 12:14 PM,10/5/25 12:29 PM,15 minutes and 23 seconds,Zoila Salinas
+12060 Potranco Road,Adrian Morales,196,17,,1,10/5/25 12:25 PM,10/5/25 12:29 PM,4 minutes and 34 seconds,Zoila Salinas
+12060 Potranco Road,Adrian Morales,196,17,No Print,,10/5/25 12:25 PM,10/5/25 12:32 PM,6 minutes and 43 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,196,17,Food,,10/5/25 12:25 PM,10/5/25 12:32 PM,6 minutes and 43 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,205,,Drive Thru,,10/5/25 12:28 PM,10/5/25 12:33 PM,4 minutes and 58 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,205,,Food,,10/5/25 12:28 PM,10/5/25 12:33 PM,4 minutes and 58 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,200,6,No Print,,10/5/25 12:25 PM,10/5/25 12:33 PM,8 minutes and 35 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,200,6,Food,,10/5/25 12:25 PM,10/5/25 12:33 PM,8 minutes and 35 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mia Juliet,24,,No Print,,10/5/25 12:32 PM,10/5/25 12:34 PM,1 minute and 59 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mia Juliet,24,,Food,,10/5/25 12:32 PM,10/5/25 12:34 PM,1 minute and 59 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lisa Velasquez,190,8,,1,10/5/25 12:29 PM,10/5/25 12:34 PM,5 minutes and 14 seconds,Zoila Salinas
+12060 Potranco Road,Mario Jimenez,203,,Food,,10/5/25 12:23 PM,10/5/25 12:35 PM,11 minutes and 41 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,203,,Drive Thru,,10/5/25 12:23 PM,10/5/25 12:35 PM,11 minutes and 41 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,200,6,,1,10/5/25 12:33 PM,10/5/25 12:35 PM,1 minute and 53 seconds,Zoila Salinas
+12060 Potranco Road,Mario Jimenez,206,,Drive Thru,,10/5/25 12:29 PM,10/5/25 12:36 PM,7 minutes and 32 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,206,,Food,,10/5/25 12:29 PM,10/5/25 12:36 PM,7 minutes and 32 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,196,17,,1,10/5/25 12:32 PM,10/5/25 12:38 PM,6 minutes,Zoila Salinas
+12060 Potranco Road,Mia Juliet,24,,,1,10/5/25 12:34 PM,10/5/25 12:38 PM,3 minutes and 46 seconds,Zoila Salinas
+12060 Potranco Road,Mario Jimenez,207,,Drive Thru,,10/5/25 12:31 PM,10/5/25 12:38 PM,6 minutes and 28 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,207,,Food,,10/5/25 12:31 PM,10/5/25 12:38 PM,6 minutes and 28 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,209,,Drive Thru,,10/5/25 12:36 PM,10/5/25 12:41 PM,4 minutes and 29 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,209,,Food,,10/5/25 12:36 PM,10/5/25 12:41 PM,4 minutes and 29 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,212,,Drive Thru,,10/5/25 12:41 PM,10/5/25 12:42 PM,57 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,212,,Food,,10/5/25 12:41 PM,10/5/25 12:42 PM,57 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,210,,Food,,10/5/25 12:42 PM,10/5/25 12:46 PM,3 minutes and 55 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,210,,Drive Thru,,10/5/25 12:42 PM,10/5/25 12:46 PM,3 minutes and 55 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,210,,,1,10/5/25 12:46 PM,10/5/25 12:46 PM,19 seconds,Zoila Salinas
+12060 Potranco Road,Mario Jimenez,218,,Drive Thru,,10/5/25 12:49 PM,10/5/25 12:51 PM,2 minutes and 10 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,218,,Food,,10/5/25 12:49 PM,10/5/25 12:51 PM,2 minutes and 10 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,216,4,No Print,,10/5/25 12:50 PM,10/5/25 12:54 PM,3 minutes and 56 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,216,4,Food,,10/5/25 12:50 PM,10/5/25 12:54 PM,3 minutes and 56 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lisa Velasquez,220,1,No Print,,10/5/25 12:55 PM,10/5/25 12:56 PM,1 minute and 10 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lisa Velasquez,220,1,Food,,10/5/25 12:55 PM,10/5/25 12:56 PM,1 minute and 10 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,216,4,,1,10/5/25 12:54 PM,10/5/25 12:58 PM,3 minutes and 56 seconds,Zoila Salinas
+12060 Potranco Road,Lisa Velasquez,220,1,,1,10/5/25 12:56 PM,10/5/25 12:58 PM,2 minutes and 34 seconds,Zoila Salinas
+12060 Potranco Road,Mario Jimenez,222,,Drive Thru,,10/5/25 12:58 PM,10/5/25 1:03 PM,4 minutes and 34 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,222,,Food,,10/5/25 12:58 PM,10/5/25 1:03 PM,4 minutes and 34 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,223,,Drive Thru,,10/5/25 1:00 PM,10/5/25 1:03 PM,3 minutes and 3 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,223,,Food,,10/5/25 1:00 PM,10/5/25 1:03 PM,3 minutes and 3 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,226,,Drive Thru,,10/5/25 1:02 PM,10/5/25 1:03 PM,1 minute and 6 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,226,,Food,,10/5/25 1:02 PM,10/5/25 1:03 PM,1 minute and 6 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,217,2,No Print,,10/5/25 12:58 PM,10/5/25 1:04 PM,5 minutes and 33 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,217,2,Food,,10/5/25 12:58 PM,10/5/25 1:04 PM,5 minutes and 33 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,213,3,No Print,,10/5/25 12:43 PM,10/5/25 1:04 PM,20 minutes and 52 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,213,3,Food,,10/5/25 12:43 PM,10/5/25 1:04 PM,20 minutes and 52 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,213,3,Drive Thru,,10/5/25 12:43 PM,10/5/25 1:04 PM,20 minutes and 52 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,213,3,Drinks,,10/5/25 12:43 PM,10/5/25 1:04 PM,20 minutes and 52 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,213,3,,1,10/5/25 1:04 PM,10/5/25 1:05 PM,1 minute and 24 seconds,Zoila Salinas
+12060 Potranco Road,Mario Jimenez,227,,Drive Thru,,10/5/25 1:02 PM,10/5/25 1:06 PM,3 minutes and 54 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,227,,Food,,10/5/25 1:02 PM,10/5/25 1:06 PM,3 minutes and 54 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mia Juliet,221,,Food,,10/5/25 12:58 PM,10/5/25 1:10 PM,12 minutes and 46 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mia Juliet,221,,Drive Thru,,10/5/25 12:58 PM,10/5/25 1:10 PM,12 minutes and 46 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mia Juliet,224,,Food,,10/5/25 1:00 PM,10/5/25 1:11 PM,10 minutes and 4 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mia Juliet,224,,Drive Thru,,10/5/25 1:00 PM,10/5/25 1:11 PM,10 minutes and 4 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,225,,Drive Thru,,10/5/25 1:00 PM,10/5/25 1:11 PM,11 minutes and 6 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,225,,Food,,10/5/25 1:00 PM,10/5/25 1:11 PM,11 minutes and 6 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,232,,Drive Thru,,10/5/25 1:07 PM,10/5/25 1:14 PM,6 minutes and 47 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,232,,Food,,10/5/25 1:07 PM,10/5/25 1:14 PM,6 minutes and 47 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,233,,Drive Thru,,10/5/25 1:08 PM,10/5/25 1:14 PM,5 minutes and 51 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,233,,Food,,10/5/25 1:08 PM,10/5/25 1:14 PM,5 minutes and 51 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,235,12,,1,10/5/25 1:11 PM,10/5/25 1:15 PM,3 minutes and 35 seconds,Zoila Salinas
+12060 Potranco Road,Mario Jimenez,228,,Drive Thru,,10/5/25 1:06 PM,10/5/25 1:15 PM,9 minutes and 48 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,228,,Food,,10/5/25 1:06 PM,10/5/25 1:15 PM,9 minutes and 48 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,234,16,No Print,,10/5/25 1:11 PM,10/5/25 1:16 PM,5 minutes and 27 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,234,16,Food,,10/5/25 1:11 PM,10/5/25 1:16 PM,5 minutes and 27 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,230,7,No Print,,10/5/25 1:06 PM,10/5/25 1:17 PM,10 minutes and 17 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,230,7,Food,,10/5/25 1:06 PM,10/5/25 1:17 PM,10 minutes and 17 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mia Juliet,221,,,1,10/5/25 1:10 PM,10/5/25 1:18 PM,7 minutes and 26 seconds,Zoila Salinas
+12060 Potranco Road,Mia Juliet,224,,,1,10/5/25 1:11 PM,10/5/25 1:18 PM,7 minutes and 36 seconds,Zoila Salinas
+12060 Potranco Road,Mario Jimenez,238,,Drive Thru,,10/5/25 1:18 PM,10/5/25 1:19 PM,1 minute and 30 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,238,,Food,,10/5/25 1:18 PM,10/5/25 1:19 PM,1 minute and 30 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,217,2,,1,10/5/25 1:04 PM,10/5/25 1:20 PM,15 minutes and 39 seconds,Zoila Salinas
+12060 Potranco Road,Emanuel Sanchez,230,7,,1,10/5/25 1:17 PM,10/5/25 1:20 PM,3 minutes and 6 seconds,Zoila Salinas
+12060 Potranco Road,Adrian Morales,234,16,,1,10/5/25 1:16 PM,10/5/25 1:20 PM,3 minutes and 37 seconds,Zoila Salinas
+12060 Potranco Road,Lisa Velasquez,237,15,No Print,,10/5/25 1:13 PM,10/5/25 1:21 PM,8 minutes and 6 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lisa Velasquez,237,15,Food,,10/5/25 1:13 PM,10/5/25 1:21 PM,8 minutes and 6 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lisa Velasquez,236,21,No Print,,10/5/25 1:11 PM,10/5/25 1:21 PM,9 minutes and 50 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lisa Velasquez,236,21,Food,,10/5/25 1:11 PM,10/5/25 1:21 PM,9 minutes and 50 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,240,,Drive Thru,,10/5/25 1:19 PM,10/5/25 1:23 PM,4 minutes and 8 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,240,,Food,,10/5/25 1:19 PM,10/5/25 1:23 PM,4 minutes and 8 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lisa Velasquez,237,15,,1,10/5/25 1:21 PM,10/5/25 1:23 PM,1 minute and 51 seconds,Zoila Salinas
+12060 Potranco Road,Lisa Velasquez,236,21,,1,10/5/25 1:21 PM,10/5/25 1:23 PM,1 minute and 58 seconds,Zoila Salinas
+12060 Potranco Road,Mario Jimenez,241,,Drive Thru,,10/5/25 1:22 PM,10/5/25 1:26 PM,4 minutes,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,241,,Food,,10/5/25 1:22 PM,10/5/25 1:26 PM,4 minutes,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,229,25,No Print,,10/5/25 1:16 PM,10/5/25 1:26 PM,10 minutes and 2 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,229,25,Food,,10/5/25 1:16 PM,10/5/25 1:26 PM,10 minutes and 2 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,239,14,No Print,,10/5/25 1:19 PM,10/5/25 1:26 PM,7 minutes and 7 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,239,14,Food,,10/5/25 1:19 PM,10/5/25 1:26 PM,7 minutes and 7 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,229,25,,1,10/5/25 1:26 PM,10/5/25 1:28 PM,1 minute and 54 seconds,Zoila Salinas
+12060 Potranco Road,Leticia Roman,239,14,,1,10/5/25 1:26 PM,10/5/25 1:28 PM,1 minute and 52 seconds,Zoila Salinas
+12060 Potranco Road,Mario Jimenez,243,,Drive Thru,,10/5/25 1:24 PM,10/5/25 1:30 PM,6 minutes and 6 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,243,,Food,,10/5/25 1:24 PM,10/5/25 1:30 PM,6 minutes and 6 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,244,,Drive Thru,,10/5/25 1:25 PM,10/5/25 1:30 PM,4 minutes and 52 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,244,,Food,,10/5/25 1:25 PM,10/5/25 1:30 PM,4 minutes and 52 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,244,,Drive Thru,,10/5/25 1:30 PM,10/5/25 1:33 PM,3 minutes and 15 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,244,,Food,,10/5/25 1:30 PM,10/5/25 1:33 PM,3 minutes and 15 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,250,,Drive Thru,,10/5/25 1:33 PM,10/5/25 1:35 PM,1 minute and 46 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,250,,Food,,10/5/25 1:33 PM,10/5/25 1:35 PM,1 minute and 46 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lisa Velasquez,246,20,No Print,,10/5/25 1:27 PM,10/5/25 1:35 PM,8 minutes and 18 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lisa Velasquez,246,20,Food,,10/5/25 1:27 PM,10/5/25 1:35 PM,8 minutes and 18 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,248,10,No Print,,10/5/25 1:29 PM,10/5/25 1:35 PM,6 minutes and 26 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,248,10,Food,,10/5/25 1:29 PM,10/5/25 1:35 PM,6 minutes and 26 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mia Juliet,24,,No Print,,10/5/25 1:27 PM,10/5/25 1:36 PM,8 minutes and 49 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mia Juliet,24,,Food,,10/5/25 1:27 PM,10/5/25 1:36 PM,8 minutes and 49 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mia Juliet,24,,,1,10/5/25 1:36 PM,10/5/25 1:38 PM,2 minutes and 2 seconds,Zoila Salinas
+12060 Potranco Road,Lisa Velasquez,246,20,,1,10/5/25 1:35 PM,10/5/25 1:38 PM,2 minutes and 30 seconds,Zoila Salinas
+12060 Potranco Road,Emanuel Sanchez,242,4,No Print,,10/5/25 1:33 PM,10/5/25 1:38 PM,5 minutes and 1 second,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,242,4,Food,,10/5/25 1:33 PM,10/5/25 1:38 PM,5 minutes and 1 second,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,249,,Drive Thru,,10/5/25 1:35 PM,10/5/25 1:40 PM,4 minutes and 45 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,249,,Food,,10/5/25 1:35 PM,10/5/25 1:40 PM,4 minutes and 45 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,252,17,No Print,,10/5/25 1:38 PM,10/5/25 1:42 PM,3 minutes and 57 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,252,17,Food,,10/5/25 1:38 PM,10/5/25 1:42 PM,3 minutes and 57 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,252,17,Drive Thru,,10/5/25 1:38 PM,10/5/25 1:42 PM,3 minutes and 57 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,248,10,,1,10/5/25 1:35 PM,10/5/25 1:42 PM,7 minutes and 12 seconds,Zoila Salinas
+12060 Potranco Road,Emanuel Sanchez,242,4,,1,10/5/25 1:38 PM,10/5/25 1:42 PM,4 minutes and 20 seconds,Zoila Salinas
+12060 Potranco Road,Mia Juliet,24,,No Print,,10/5/25 1:27 PM,10/5/25 1:45 PM,17 minutes and 42 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mia Juliet,24,,Food,,10/5/25 1:27 PM,10/5/25 1:45 PM,17 minutes and 42 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,255,,Drive Thru,,10/5/25 1:40 PM,10/5/25 1:47 PM,6 minutes and 10 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mario Jimenez,255,,Food,,10/5/25 1:40 PM,10/5/25 1:47 PM,6 minutes and 10 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mia Juliet,253,,Food,,10/5/25 1:42 PM,10/5/25 1:49 PM,6 minutes and 46 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mia Juliet,253,,Drive Thru,,10/5/25 1:42 PM,10/5/25 1:49 PM,6 minutes and 46 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mia Juliet,24,,,1,10/5/25 1:45 PM,10/5/25 1:53 PM,7 minutes and 49 seconds,Zoila Salinas
+12060 Potranco Road,Carlos Morales,261,,Drive Thru,,10/5/25 1:55 PM,10/5/25 2:01 PM,5 minutes and 37 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,261,,Food,,10/5/25 1:55 PM,10/5/25 2:01 PM,5 minutes and 37 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,263,,Drive Thru,,10/5/25 1:57 PM,10/5/25 2:01 PM,4 minutes and 36 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,263,,Food,,10/5/25 1:57 PM,10/5/25 2:01 PM,4 minutes and 36 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,269,34,No Print,,10/5/25 2:03 PM,10/5/25 2:07 PM,3 minutes and 52 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,269,34,Food,,10/5/25 2:03 PM,10/5/25 2:07 PM,3 minutes and 52 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,269,34,Drive Thru,,10/5/25 2:03 PM,10/5/25 2:07 PM,3 minutes and 52 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,262,2,No Print,,10/5/25 1:54 PM,10/5/25 2:07 PM,13 minutes and 41 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,262,2,Food,,10/5/25 1:54 PM,10/5/25 2:07 PM,13 minutes and 41 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lisa Velasquez,265,1,No Print,,10/5/25 1:58 PM,10/5/25 2:07 PM,9 minutes and 2 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lisa Velasquez,265,1,Food,,10/5/25 1:58 PM,10/5/25 2:07 PM,9 minutes and 2 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mia Juliet,266,,Food,,10/5/25 2:01 PM,10/5/25 2:09 PM,8 minutes and 6 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mia Juliet,266,,Drive Thru,,10/5/25 2:01 PM,10/5/25 2:09 PM,8 minutes and 6 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,264,,Drive Thru,,10/5/25 2:09 PM,10/5/25 2:11 PM,2 minutes and 11 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,264,,Food,,10/5/25 2:09 PM,10/5/25 2:11 PM,2 minutes and 11 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,252,17,,1,10/5/25 1:42 PM,10/5/25 2:16 PM,33 minutes and 50 seconds,Zoila Salinas
+12060 Potranco Road,Mia Juliet,253,,,1,10/5/25 1:49 PM,10/5/25 2:16 PM,27 minutes and 12 seconds,Zoila Salinas
+12060 Potranco Road,Lisa Velasquez,265,1,,1,10/5/25 2:07 PM,10/5/25 2:16 PM,8 minutes and 19 seconds,Zoila Salinas
+12060 Potranco Road,Leticia Roman,262,2,,1,10/5/25 2:07 PM,10/5/25 2:16 PM,8 minutes and 25 seconds,Zoila Salinas
+12060 Potranco Road,Mia Juliet,266,,,1,10/5/25 2:09 PM,10/5/25 2:16 PM,7 minutes and 9 seconds,Zoila Salinas
+12060 Potranco Road,Emanuel Sanchez,257,31,No Print,,10/5/25 2:07 PM,10/5/25 2:19 PM,11 minutes and 52 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,257,31,Food,,10/5/25 2:07 PM,10/5/25 2:19 PM,11 minutes and 52 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,270,,Drive Thru,,10/5/25 2:12 PM,10/5/25 2:20 PM,8 minutes and 42 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,270,,Food,,10/5/25 2:12 PM,10/5/25 2:20 PM,8 minutes and 42 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,273,,Drive Thru,,10/5/25 2:20 PM,10/5/25 2:20 PM,51 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,273,,Food,,10/5/25 2:20 PM,10/5/25 2:20 PM,51 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mia Juliet,24,,,1,10/5/25 2:13 PM,10/5/25 2:23 PM,9 minutes and 30 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,271,18,No Print,,10/5/25 2:17 PM,10/5/25 2:27 PM,10 minutes and 30 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,271,18,Food,,10/5/25 2:17 PM,10/5/25 2:27 PM,10 minutes and 30 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,269,34,,1,10/5/25 2:07 PM,10/5/25 2:29 PM,21 minutes and 50 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,257,31,,1,10/5/25 2:19 PM,10/5/25 2:29 PM,10 minutes and 13 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,271,18,,1,10/5/25 2:29 PM,10/5/25 2:30 PM,1 minute and 8 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,276,,Drive Thru,,10/5/25 2:26 PM,10/5/25 2:30 PM,3 minutes and 58 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,276,,Food,,10/5/25 2:26 PM,10/5/25 2:30 PM,3 minutes and 58 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,275,14,No Print,,10/5/25 2:22 PM,10/5/25 2:30 PM,8 minutes and 9 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,275,14,Food,,10/5/25 2:22 PM,10/5/25 2:30 PM,8 minutes and 9 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,272,,Food,,10/5/25 2:30 PM,10/5/25 2:34 PM,4 minutes and 12 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,272,,Drive Thru,,10/5/25 2:30 PM,10/5/25 2:34 PM,4 minutes and 12 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,272,,Food,,10/5/25 2:22 PM,10/5/25 2:34 PM,11 minutes and 48 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,272,,Drive Thru,,10/5/25 2:22 PM,10/5/25 2:34 PM,11 minutes and 48 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,280,,Drive Thru,,10/5/25 2:41 PM,10/5/25 2:48 PM,6 minutes and 18 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,280,,Food,,10/5/25 2:41 PM,10/5/25 2:48 PM,6 minutes and 18 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,279,34,Food,,10/5/25 2:39 PM,10/5/25 2:50 PM,11 minutes and 26 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,279,34,No Print,,10/5/25 2:39 PM,10/5/25 2:50 PM,11 minutes and 26 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,279,34,Drive Thru,,10/5/25 2:39 PM,10/5/25 2:50 PM,11 minutes and 26 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,278,3,No Print,,10/5/25 2:41 PM,10/5/25 2:50 PM,9 minutes,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,278,3,Food,,10/5/25 2:41 PM,10/5/25 2:50 PM,9 minutes,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,278,3,,1,10/5/25 2:50 PM,10/5/25 2:54 PM,4 minutes and 13 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,272,,,1,10/5/25 2:34 PM,10/5/25 2:55 PM,21 minutes,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,272,,,1,10/5/25 2:34 PM,10/5/25 2:55 PM,21 minutes,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,279,34,,1,10/5/25 2:50 PM,10/5/25 2:55 PM,4 minutes and 49 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,275,14,,1,10/5/25 2:30 PM,10/5/25 2:55 PM,24 minutes and 21 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,271,18,,1,10/5/25 2:27 PM,10/5/25 2:55 PM,27 minutes and 28 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,281,,Drive Thru,,10/5/25 2:47 PM,10/5/25 3:17 PM,29 minutes and 14 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,281,,Food,,10/5/25 2:47 PM,10/5/25 3:17 PM,29 minutes and 14 seconds,KDS - Login Don't Delete

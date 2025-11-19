@@ -1,0 +1,10 @@
+Order #,Opened Date,Void Date,Server,Approver,Item Name,Reason,Item Quantity,Total Price
+108,10/21/25 9:11 AM,10/21/25 8:42 PM,Juan  Camacho,Rosie  ORDONEZ,Small Menudo,Customer Changed Mind,1.0,9.99
+108,10/21/25 9:11 AM,10/21/25 8:42 PM,Juan  Camacho,Rosie  ORDONEZ,Small Menudo,Customer Changed Mind,1.0,9.99
+108,10/21/25 9:11 AM,10/21/25 8:42 PM,Juan  Camacho,Rosie  ORDONEZ,Sweet Tea,Customer Changed Mind,1.0,3.45
+108,10/21/25 9:11 AM,10/21/25 8:42 PM,Juan  Camacho,Rosie  ORDONEZ,Unsweet Tea,Customer Changed Mind,1.0,3.45
+108,10/21/25 9:11 AM,10/21/25 8:42 PM,Juan  Camacho,Rosie  ORDONEZ,TO GO,Customer Changed Mind,1.0,0.25
+108,10/21/25 9:11 AM,10/21/25 8:42 PM,Juan  Camacho,Rosie  ORDONEZ,TO GO,Customer Changed Mind,1.0,0.25
+337,10/21/25 4:33 PM,10/21/25 8:51 PM,Sergio Abundiz,Rosie  ORDONEZ,Dos Equis XX,Server Error,1.0,10.99
+337,10/21/25 4:33 PM,10/21/25 8:51 PM,Sergio Abundiz,Rosie  ORDONEZ,Enchiladas Plate,Server Error,1.0,11.49
+377,10/21/25 7:37 PM,10/21/25 8:44 PM,Nadia  Reyes,Rosie  ORDONEZ,Large Tortilla Soup,Server Error,1.0,12.99

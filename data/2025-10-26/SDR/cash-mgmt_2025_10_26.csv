@@ -1,0 +1,32 @@
+Location,Entry Id,Created Date,Action,Amount,Cash Drawer,Payout Reason,No Sale Reason,Comment,Employee,Employee 2
+12060 Potranco Road,800000031215853271,10/26/25 8:16 AM,CASH_PAYMENT,4.31,DRIVE THRU 1,,,Cash payment,Mario Jimenez,
+12060 Potranco Road,800000031216290031,10/26/25 8:40 AM,CASH_PAYMENT,20.48,DRIVE THRU 1,,,Cash payment,Mario Jimenez,
+12060 Potranco Road,800000031216426419,10/26/25 8:47 AM,CASH_PAYMENT,9.70,DRIVE THRU 1,,,Cash payment,Mario Jimenez,
+12060 Potranco Road,800000031216498672,10/26/25 8:51 AM,CASH_PAYMENT,7.34,DRIVE THRU 1,,,Cash payment,Mario Jimenez,
+12060 Potranco Road,800000031216579470,10/26/25 8:54 AM,CASH_PAYMENT,19.29,DRIVE THRU 1,,,Cash payment,Mario Jimenez,
+12060 Potranco Road,800000031217010204,10/26/25 9:12 AM,CASH_PAYMENT,10.02,DRIVE THRU 1,,,Cash payment,Mario Jimenez,
+12060 Potranco Road,800000031217080753,10/26/25 9:15 AM,CASH_PAYMENT,45.44,DRIVE THRU 1,,,Cash payment,Mario Jimenez,
+12060 Potranco Road,800000031217142845,10/26/25 9:17 AM,CASH_PAYMENT,8.61,Host Drawer,,,Cash payment,siri quiroz,
+12060 Potranco Road,800000031218036315,10/26/25 9:48 AM,CASH_PAYMENT,18.67,Host Drawer,,,Cash payment,siri quiroz,
+12060 Potranco Road,800000031218181059,10/26/25 9:52 AM,CASH_PAYMENT,33.48,Host Drawer,,,Cash payment,siri quiroz,
+12060 Potranco Road,800000031219484968,10/26/25 10:28 AM,CASH_PAYMENT,12.63,DRIVE THRU 1,,,Cash payment,Mario Jimenez,
+12060 Potranco Road,800000031220471455,10/26/25 10:51 AM,CASH_PAYMENT,14.35,Host Drawer,,,Cash payment,siri quiroz,
+12060 Potranco Road,800000031221836664,10/26/25 11:17 AM,CASH_PAYMENT,6.90,DRIVE THRU 1,,,Cash payment,Mario Jimenez,
+12060 Potranco Road,800000031227057758,10/26/25 12:41 PM,TIP_OUT,-34.18,House,,,Tips paid out from shift review.,Fernanda  Loera,Fernanda  Loera
+12060 Potranco Road,800000031231385897,10/26/25 1:52 PM,CASH_COLLECTED,254.18,House,,,Cash revenue collected from shift review.,Mario Jimenez,Mario Jimenez
+12060 Potranco Road,800000031231386699,10/26/25 1:52 PM,TIP_OUT,-96.90,House,,,Tips paid out from shift review.,Mario Jimenez,Mario Jimenez
+12060 Potranco Road,800000031231499716,10/26/25 1:54 PM,CASH_PAYMENT,37.24,Host Drawer,,,Cash payment,Brianna Aragon,
+12060 Potranco Road,800000031231597545,10/26/25 1:56 PM,CASH_PAYMENT,30.26,Host Drawer,,,Cash payment,siri quiroz,
+12060 Potranco Road,800000031233150081,10/26/25 2:24 PM,CASH_PAYMENT,4.32,Host Drawer,,,Cash payment,siri quiroz,
+12060 Potranco Road,800000031234738922,10/26/25 2:54 PM,TIP_OUT,-70.43,House,,,Tips paid out from shift review.,Adrian Morales,Adrian Morales
+12060 Potranco Road,800000031234739022,10/26/25 2:54 PM,CASH_COLLECTED,66.32,House,,,Cash revenue collected from shift review.,Adrian Morales,Adrian Morales
+12060 Potranco Road,800000031235173983,10/26/25 3:03 PM,CASH_COLLECTED,0.05,House,,,Cash revenue collected from shift review.,Carlos Morales,Carlos Morales
+12060 Potranco Road,800000031235174920,10/26/25 3:03 PM,TIP_OUT,-1.00,House,,,Tips paid out from shift review.,Carlos Morales,Carlos Morales
+12060 Potranco Road,800000031235180815,10/26/25 3:03 PM,TIP_OUT,-14.88,House,,,Tips paid out from shift review.,siri quiroz,siri quiroz
+12060 Potranco Road,800000031235604829,10/26/25 3:11 PM,CASH_COLLECTED,67.90,House,,,Cash revenue collected from shift review.,Brianna Aragon,Brianna Aragon
+12060 Potranco Road,800000031235614188,10/26/25 3:11 PM,TIP_OUT,-28.11,House,,,Tips paid out from shift review.,Brianna Aragon,Brianna Aragon
+12060 Potranco Road,800000031235770782,10/26/25 3:14 PM,PAY_OUT,-36.25,House,Supplies,,dulces,Candy Del Angel,
+12060 Potranco Road,800000031235825481,10/26/25 3:15 PM,TIP_OUT,-69.95,House,,,Tips paid out from shift review.,Sugey Cabrera,Sugey Cabrera
+12060 Potranco Road,800000031235826833,10/26/25 3:15 PM,CASH_COLLECTED,42.12,House,,,Cash revenue collected from shift review.,Sugey Cabrera,Sugey Cabrera
+12060 Potranco Road,800000031235841124,10/26/25 3:15 PM,CASH_COLLECTED,22.36,House,,,Cash revenue collected from shift review.,Emanuel Sanchez,Emanuel Sanchez
+12060 Potranco Road,800000031235841741,10/26/25 3:15 PM,TIP_OUT,-67.43,House,,,Tips paid out from shift review.,Emanuel Sanchez,Emanuel Sanchez

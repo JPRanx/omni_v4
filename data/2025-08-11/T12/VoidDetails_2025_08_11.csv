@@ -1,0 +1,7 @@
+Order #,Opened Date,Void Date,Server,Approver,Item Name,Reason,Item Quantity,Total Price
+53,8/11/25 8:05 AM,8/11/25 8:51 AM,Maria Majana,Mayra Luna,Bean & Bacon Taco,Customer Changed Mind,1.0,1.99
+149,8/11/25 9:55 AM,8/11/25 12:02 PM,Silvia Hernandez,Mayra Luna,Papa ala Mex Taco,Customer Changed Mind,1.0,2.29
+254,8/11/25 12:42 PM,8/11/25 1:51 PM,Silvia Hernandez,Mayra Luna,Chicken Breast Plate,Customer Changed Mind,2.0,29.98
+267,8/11/25 1:07 PM,8/11/25 9:05 PM,Arturo Rangel,Arturo Rangel,Caldo de Pollo,Server Error,1.0,10.99
+327,8/11/25 5:07 PM,8/11/25 5:19 PM,Arturo Rangel,Arturo Rangel,Sprite,Customer Changed Mind,1.0,3.15
+348,8/11/25 6:31 PM,8/11/25 9:15 PM,Sergio Abundiz,Arturo Rangel,Kids Hamburguer,Server Error,2.0,13.98

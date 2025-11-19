@@ -1,0 +1,30 @@
+Order #,Opened Date,Void Date,Server,Approver,Item Name,Reason,Item Quantity,Total Price
+102,9/5/25 8:51 AM,9/5/25 9:36 AM,Esperansa Caviedes,Rosie  ORDONEZ,Sweet Tea,Server Error,1.0,3.45
+102,9/5/25 8:51 AM,9/5/25 9:36 AM,Esperansa Caviedes,Rosie  ORDONEZ,Sweet Tea,Server Error,1.0,3.45
+102,9/5/25 8:51 AM,9/5/25 9:36 AM,Esperansa Caviedes,Rosie  ORDONEZ,TO GO,Server Error,1.0,0.25
+102,9/5/25 8:51 AM,9/5/25 9:36 AM,Esperansa Caviedes,Rosie  ORDONEZ,TO GO,Server Error,1.0,0.25
+102,9/5/25 8:51 AM,9/5/25 9:36 AM,Esperansa Caviedes,Rosie  ORDONEZ,Sweet Tea,Server Error,1.0,3.45
+102,9/5/25 8:51 AM,9/5/25 9:36 AM,Esperansa Caviedes,Rosie  ORDONEZ,TO GO,Server Error,1.0,0.25
+102,9/5/25 8:51 AM,9/5/25 9:36 AM,Esperansa Caviedes,Rosie  ORDONEZ,Big Red,Server Error,1.0,3.69
+102,9/5/25 8:51 AM,9/5/25 9:36 AM,Esperansa Caviedes,Rosie  ORDONEZ,TO GO,Server Error,1.0,0.25
+102,9/5/25 8:51 AM,9/5/25 9:36 AM,Esperansa Caviedes,Rosie  ORDONEZ,Chilaquiles Plate,Server Error,1.0,9.99
+102,9/5/25 8:51 AM,9/5/25 9:36 AM,Esperansa Caviedes,Rosie  ORDONEZ,Side Bacon,Server Error,1.0,3.99
+102,9/5/25 8:51 AM,9/5/25 9:36 AM,Esperansa Caviedes,Rosie  ORDONEZ,-------------,Server Error,1.0,0.00
+102,9/5/25 8:51 AM,9/5/25 9:36 AM,Esperansa Caviedes,Rosie  ORDONEZ,Chilaquiles Plate,Server Error,1.0,9.99
+102,9/5/25 8:51 AM,9/5/25 9:36 AM,Esperansa Caviedes,Rosie  ORDONEZ,-------------,Server Error,1.0,0.00
+102,9/5/25 8:51 AM,9/5/25 9:36 AM,Esperansa Caviedes,Rosie  ORDONEZ,Pancake Special SP,Server Error,1.0,8.99
+102,9/5/25 8:51 AM,9/5/25 9:36 AM,Esperansa Caviedes,Rosie  ORDONEZ,-------------,Server Error,1.0,0.00
+102,9/5/25 8:51 AM,9/5/25 9:36 AM,Esperansa Caviedes,Rosie  ORDONEZ,Bean and cheese,Server Error,1.0,1.79
+102,9/5/25 8:51 AM,9/5/25 9:36 AM,Esperansa Caviedes,Rosie  ORDONEZ,-------------,Server Error,1.0,0.00
+102,9/5/25 8:51 AM,9/5/25 9:36 AM,Esperansa Caviedes,Rosie  ORDONEZ,Papa & Egg Taco,Server Error,1.0,2.99
+102,9/5/25 8:51 AM,9/5/25 9:36 AM,Esperansa Caviedes,Rosie  ORDONEZ,Papa Ranchera Taco,Server Error,1.0,1.99
+102,9/5/25 8:51 AM,9/5/25 9:36 AM,Esperansa Caviedes,Rosie  ORDONEZ,-------------,Server Error,1.0,0.00
+102,9/5/25 8:51 AM,9/5/25 9:36 AM,Esperansa Caviedes,Rosie  ORDONEZ,Bean and cheese,Server Error,1.0,2.79
+102,9/5/25 8:51 AM,9/5/25 9:36 AM,Esperansa Caviedes,Rosie  ORDONEZ,Papa & Egg Taco,Server Error,1.0,2.99
+102,9/5/25 8:51 AM,9/5/25 9:36 AM,Esperansa Caviedes,Rosie  ORDONEZ,C. Guisada w/ Chz,Server Error,1.0,5.00
+102,9/5/25 8:51 AM,9/5/25 9:36 AM,Esperansa Caviedes,Rosie  ORDONEZ,Chorizo & Egg Taco,Server Error,1.0,1.99
+102,9/5/25 8:51 AM,9/5/25 9:36 AM,Esperansa Caviedes,Rosie  ORDONEZ,Papa & Egg Taco,Server Error,1.0,2.99
+341,9/5/25 1:54 PM,9/5/25 1:58 PM,Rosie  ORDONEZ,Rosie  ORDONEZ,Bacon & Egg Taco,Server Error,1.0,1.99
+353,9/5/25 2:16 PM,9/5/25 9:12 PM,Isabel Cisneros,Mayra Luna,Chicken Mole Plt,Customer Changed Mind,1.0,11.99
+359,9/5/25 2:28 PM,9/5/25 10:01 PM,Lizeth Alonso,Mayra Luna,Super Nacho,Customer Changed Mind,1.0,12.99
+359,9/5/25 2:28 PM,9/5/25 10:01 PM,Lizeth Alonso,Mayra Luna,Bean & Cheese Taco,Customer Changed Mind,2.0,3.58

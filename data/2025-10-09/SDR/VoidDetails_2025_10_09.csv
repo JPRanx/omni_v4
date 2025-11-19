@@ -1,0 +1,24 @@
+Order #,Opened Date,Void Date,Server,Approver,Item Name,Reason,Item Quantity,Total Price
+54,10/9/25 9:14 AM,10/9/25 2:31 PM,Sugey Cabrera,Sugey Cabrera,Lengua Taco,Customer Changed Mind,1.0,4.39
+161,10/9/25 1:59 PM,10/9/25 2:31 PM,Sugey Cabrera,Sugey Cabrera,Lemonade,Customer Changed Mind,1.0,4.25
+186,10/9/25 4:20 PM,10/9/25 9:46 PM,Leticia Roman,Candy Del Angel,Horchata,Customer Changed Mind,1.0,4.25
+186,10/9/25 4:20 PM,10/9/25 9:46 PM,Leticia Roman,Candy Del Angel,beef fajita,Customer Changed Mind,1.0,4.99
+228,10/9/25 7:15 PM,10/9/25 9:33 PM,Zoila Salinas,Zoila Salinas,Guacamole 8oz,Customer Changed Mind,1.0,7.99
+237,10/9/25 7:29 PM,10/9/25 8:29 PM,Leticia Roman,Zoila Salinas,Carne Guisada Plate,Server Error,0.1111111111111111,1.44
+237,10/9/25 7:29 PM,10/9/25 8:29 PM,Leticia Roman,Zoila Salinas,Negra Modelo,Server Error,0.3333333333333333,1.56
+228,10/9/25 7:15 PM,10/9/25 9:33 PM,Zoila Salinas,Zoila Salinas,Buffet #3,Customer Changed Mind,32.0,703.68
+228,10/9/25 7:15 PM,10/9/25 9:33 PM,Zoila Salinas,Zoila Salinas,Kids,Customer Changed Mind,4.0,35.96
+237,10/9/25 7:29 PM,10/9/25 8:29 PM,Leticia Roman,Zoila Salinas,Negra Modelo,Server Error,0.3333333333333333,1.56
+237,10/9/25 7:29 PM,10/9/25 8:29 PM,Leticia Roman,Zoila Salinas,Carne Guisada Plate,Server Error,0.1111111111111111,1.44
+237,10/9/25 7:29 PM,10/9/25 8:29 PM,Leticia Roman,Zoila Salinas,Negra Modelo,Server Error,0.3333333333333333,1.56
+237,10/9/25 7:29 PM,10/9/25 8:29 PM,Leticia Roman,Zoila Salinas,Negra Modelo,Server Error,0.3333333333333333,1.56
+237,10/9/25 7:29 PM,10/9/25 8:30 PM,Leticia Roman,Zoila Salinas,Carne Guisada Plate,Customer Changed Mind,0.1111111111111111,1.44
+237,10/9/25 7:29 PM,10/9/25 8:30 PM,Leticia Roman,Zoila Salinas,Negra Modelo,Customer Changed Mind,0.3333333333333333,1.56
+237,10/9/25 7:29 PM,10/9/25 8:30 PM,Leticia Roman,Zoila Salinas,Negra Modelo,Customer Changed Mind,0.3333333333333333,1.56
+237,10/9/25 7:29 PM,10/9/25 8:29 PM,Leticia Roman,Zoila Salinas,Carne Guisada Plate,Server Error,0.1111111111111111,1.44
+237,10/9/25 7:29 PM,10/9/25 8:29 PM,Leticia Roman,Zoila Salinas,Carne Guisada Plate,Server Error,0.1111111111111111,1.44
+237,10/9/25 7:29 PM,10/9/25 8:29 PM,Leticia Roman,Zoila Salinas,Carne Guisada Plate,Server Error,0.1111111111111111,1.44
+237,10/9/25 7:29 PM,10/9/25 8:29 PM,Leticia Roman,Zoila Salinas,Carne Guisada Plate,Server Error,0.1111111111111111,1.44
+237,10/9/25 7:29 PM,10/9/25 8:30 PM,Leticia Roman,Zoila Salinas,Carne Guisada Plate,Customer Changed Mind,0.1111111111111111,1.44
+237,10/9/25 7:29 PM,10/9/25 8:30 PM,Leticia Roman,Zoila Salinas,Carne Guisada Plate,Customer Changed Mind,0.1111111111111111,1.44
+254,10/9/25 9:12 PM,10/9/25 9:32 PM,Zoila Salinas,Zoila Salinas,Buffet #3,Customer Changed Mind,4.0,87.96

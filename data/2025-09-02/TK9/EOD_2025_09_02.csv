@@ -1,0 +1,273 @@
+Check #,Table,Payment Type,Server,Cashier,Tip,Amount,Cash Drawer,Date,Opened Date
+1,,CASH,Maria ,Maria ,0.00,7.61,Front Box Cash Drawer,9/2/25 6:04 AM,9/2/25 6:00 AM
+3,,CASH,Maria ,Maria ,0.00,4.31,Front Box Cash Drawer,9/2/25 6:07 AM,9/2/25 6:03 AM
+4,,CREDIT,Martina,Martina,0.00,21.54,,9/2/25 6:09 AM,9/2/25 6:05 AM
+5,,CREDIT,Martina,Martina,1.00,4.31,,9/2/25 6:10 AM,9/2/25 6:07 AM
+6,,CASH,Martina,Martina,0.00,2.15,Drive Thru Cash Drawer,9/2/25 6:12 AM,9/2/25 6:12 AM
+7,,CREDIT,Martina,Martina,0.00,3.78,,9/2/25 6:14 AM,9/2/25 6:13 AM
+8,,CASH,Martina,Martina,0.00,4.31,Drive Thru Cash Drawer,9/2/25 6:16 AM,9/2/25 6:15 AM
+14,,CREDIT,Martina,Martina,1.00,12.34,,9/2/25 6:26 AM,9/2/25 6:24 AM
+15,,CASH,Martina,Martina,0.00,14.09,Drive Thru Cash Drawer,9/2/25 6:28 AM,9/2/25 6:25 AM
+10,,CREDIT,Martina,Martina,0.00,6.26,,9/2/25 6:29 AM,9/2/25 6:19 AM
+17,,CASH,Martina,Martina,0.00,6.46,Drive Thru Cash Drawer,9/2/25 6:32 AM,9/2/25 6:32 AM
+13,,CASH,Maria ,Maria ,0.00,4.30,Front Box Cash Drawer,9/2/25 6:36 AM,9/2/25 6:30 AM
+19,,CASH,Martina,Martina,0.00,3.24,Drive Thru Cash Drawer,9/2/25 6:37 AM,9/2/25 6:37 AM
+21,,CREDIT,Martina,Martina,0.00,4.30,,9/2/25 6:39 AM,9/2/25 6:37 AM
+23,,CREDIT,Maria ,Maria ,0.00,17.24,,9/2/25 6:39 AM,9/2/25 6:39 AM
+20,,CREDIT,Martina,Martina,0.00,9.56,,9/2/25 6:49 AM,9/2/25 6:48 AM
+26,,CREDIT,Martina,Martina,3.00,16.78,,9/2/25 6:52 AM,9/2/25 6:51 AM
+25,,CREDIT,Martina,Martina,0.00,2.15,,9/2/25 6:55 AM,9/2/25 6:54 AM
+24,,CREDIT,Maria ,Maria ,0.00,8.69,,9/2/25 7:00 AM,9/2/25 7:00 AM
+27,,CREDIT,Martina,Martina,0.00,26.00,,9/2/25 7:02 AM,9/2/25 7:00 AM
+32,,CASH,Martina,Martina,0.00,2.15,Drive Thru Cash Drawer,9/2/25 7:05 AM,9/2/25 7:05 AM
+33,,CREDIT,Martina,Martina,0.00,5.56,,9/2/25 7:08 AM,9/2/25 7:07 AM
+34,,CREDIT,Martina,Martina,0.00,4.63,,9/2/25 7:09 AM,9/2/25 7:07 AM
+35,,CREDIT,Martina,Martina,0.00,5.39,,9/2/25 7:10 AM,9/2/25 7:08 AM
+36,,CREDIT,Martina,Martina,0.00,8.90,,9/2/25 7:11 AM,9/2/25 7:09 AM
+37,,CREDIT,Martina,Martina,0.00,2.48,,9/2/25 7:12 AM,9/2/25 7:10 AM
+38,,CREDIT,Martina,Martina,0.00,3.24,,9/2/25 7:13 AM,9/2/25 7:11 AM
+39,,CASH,Martina,Martina,0.00,5.39,Drive Thru Cash Drawer,9/2/25 7:13 AM,9/2/25 7:12 AM
+40,,CASH,Martina,Martina,0.00,2.15,Drive Thru Cash Drawer,9/2/25 7:15 AM,9/2/25 7:14 AM
+41,,CASH,Martina,Martina,0.00,22.56,Drive Thru Cash Drawer,9/2/25 7:18 AM,9/2/25 7:14 AM
+42,,CASH,Martina,Martina,0.00,4.30,Drive Thru Cash Drawer,9/2/25 7:18 AM,9/2/25 7:18 AM
+29,,CREDIT,Martina,Martina,0.00,15.97,,9/2/25 7:22 AM,9/2/25 7:21 AM
+44,,CREDIT,Martina,Martina,1.00,5.39,,9/2/25 7:23 AM,9/2/25 7:21 AM
+45,,CREDIT,Martina,Martina,0.00,4.30,,9/2/25 7:25 AM,9/2/25 7:21 AM
+47,,CREDIT,Martina,Martina,0.00,7.55,,9/2/25 7:25 AM,9/2/25 7:24 AM
+48,,CREDIT,Martina,Martina,2.00,9.99,,9/2/25 7:27 AM,9/2/25 7:25 AM
+49,,CASH,Martina,Martina,0.00,26.32,Drive Thru Cash Drawer,9/2/25 7:29 AM,9/2/25 7:26 AM
+54,,CASH,Maria ,Maria ,0.00,6.78,Front Box Cash Drawer,9/2/25 7:29 AM,9/2/25 7:29 AM
+55,,CREDIT,Maria ,Maria ,1.00,5.72,,9/2/25 7:30 AM,9/2/25 7:30 AM
+51,,CASH,Martina,Martina,0.00,4.31,Drive Thru Cash Drawer,9/2/25 7:30 AM,9/2/25 7:27 AM
+52,,CREDIT,Martina,Martina,5.00,9.87,,9/2/25 7:31 AM,9/2/25 7:28 AM
+57,,CREDIT,Martina,Martina,0.00,8.62,,9/2/25 7:33 AM,9/2/25 7:31 AM
+31,10,CREDIT,Maria ,Maria ,0.00,14.19,,9/2/25 7:34 AM,9/2/25 7:03 AM
+58,,CREDIT,Martina,Martina,0.00,10.63,,9/2/25 7:34 AM,9/2/25 7:32 AM
+59,,CASH,Martina,Martina,0.00,5.18,Drive Thru Cash Drawer,9/2/25 7:35 AM,9/2/25 7:34 AM
+61,,CREDIT,Martina,Martina,0.00,13.44,,9/2/25 7:36 AM,9/2/25 7:35 AM
+50,13,CREDIT,Maria ,Maria ,5.00,10.59,,9/2/25 7:37 AM,9/2/25 7:26 AM
+53,,CREDIT,Maria ,Maria ,0.00,4.85,,9/2/25 7:38 AM,9/2/25 7:29 AM
+46,,CASH,Martina,Martina,0.00,7.71,Drive Thru Cash Drawer,9/2/25 7:40 AM,9/2/25 7:39 AM
+62,,CASH,Martina,Martina,0.00,4.30,Drive Thru Cash Drawer,9/2/25 7:44 AM,9/2/25 7:43 AM
+64,,CREDIT,Martina,Martina,0.00,8.62,,9/2/25 7:46 AM,9/2/25 7:45 AM
+65,,CREDIT,Martina,Martina,2.00,10.63,,9/2/25 7:48 AM,9/2/25 7:45 AM
+63,,CASH,Martina,Martina,0.00,24.97,Drive Thru Cash Drawer,9/2/25 7:51 AM,9/2/25 7:50 AM
+67,,CREDIT,Martina,Martina,0.00,14.55,,9/2/25 7:52 AM,9/2/25 7:51 AM
+68,,CREDIT,Maria ,Maria ,0.00,10.26,,9/2/25 7:54 AM,9/2/25 7:54 AM
+71,,CREDIT,Maria ,Maria ,2.00,8.58,,9/2/25 7:54 AM,9/2/25 7:54 AM
+70,,CASH,Martina,Martina,0.00,7.94,Drive Thru Cash Drawer,9/2/25 7:56 AM,9/2/25 7:54 AM
+73,,CREDIT,Martina,Martina,0.00,4.30,,9/2/25 7:58 AM,9/2/25 7:58 AM
+69,,CASH,Martina,Martina,0.00,8.62,Drive Thru Cash Drawer,9/2/25 8:00 AM,9/2/25 7:53 AM
+74,,CASH,Martina,Martina,0.00,7.61,Drive Thru Cash Drawer,9/2/25 8:01 AM,9/2/25 7:59 AM
+75,,CREDIT,Martina,Martina,1.00,4.31,,9/2/25 8:02 AM,9/2/25 7:59 AM
+76,,CREDIT,Martina,Martina,0.00,5.56,,9/2/25 8:04 AM,9/2/25 8:00 AM
+78,,CREDIT,Martina,Martina,0.00,7.34,,9/2/25 8:05 AM,9/2/25 8:03 AM
+80,,CASH,Maria ,Maria ,0.00,6.46,Front Box Cash Drawer,9/2/25 8:07 AM,9/2/25 8:07 AM
+66,,CREDIT,Martina,Martina,0.00,4.75,,9/2/25 8:10 AM,9/2/25 8:08 AM
+83,,CREDIT,Martina,Martina,0.00,5.40,,9/2/25 8:10 AM,9/2/25 8:08 AM
+85,,CREDIT,Martina,Martina,1.00,6.75,,9/2/25 8:12 AM,9/2/25 8:09 AM
+82,,CREDIT,Maria ,Maria ,0.00,5.72,,9/2/25 8:12 AM,9/2/25 8:08 AM
+86,,CREDIT,Maria ,Martina,0.00,2.15,,9/2/25 8:12 AM,9/2/25 8:10 AM
+87,,CREDIT,Martina,Martina,0.00,2.15,,9/2/25 8:13 AM,9/2/25 8:12 AM
+89,,CASH,Maria ,Maria ,0.00,3.73,Front Box Cash Drawer,9/2/25 8:13 AM,9/2/25 8:13 AM
+84,,CREDIT,Martina,Martina,0.00,8.04,,9/2/25 8:17 AM,9/2/25 8:16 AM
+91,,CREDIT,Martina,Martina,0.00,8.04,,9/2/25 8:18 AM,9/2/25 8:18 AM
+93,,CREDIT,Maria ,Maria ,0.00,9.73,,9/2/25 8:20 AM,9/2/25 8:20 AM
+92,,CASH,Martina,Martina,0.00,4.63,Drive Thru Cash Drawer,9/2/25 8:21 AM,9/2/25 8:18 AM
+90,,CASH,Martina,Martina,0.00,10.02,Drive Thru Cash Drawer,9/2/25 8:25 AM,9/2/25 8:24 AM
+97,,CREDIT,Martina,Martina,0.00,6.46,,9/2/25 8:28 AM,9/2/25 8:28 AM
+96,,CREDIT,Martina,Martina,0.00,8.94,,9/2/25 8:32 AM,9/2/25 8:31 AM
+99,,CREDIT,Martina,Martina,0.00,9.12,,9/2/25 8:34 AM,9/2/25 8:34 AM
+103,,CREDIT,Martina,Martina,1.02,15.98,,9/2/25 8:37 AM,9/2/25 8:37 AM
+104,,CASH,Martina,Martina,0.00,6.22,Drive Thru Cash Drawer,9/2/25 8:39 AM,9/2/25 8:37 AM
+94,,CREDIT,Martina,Martina,0.00,4.85,,9/2/25 8:40 AM,9/2/25 8:33 AM
+102,,CREDIT,Martina,Martina,0.00,10.24,,9/2/25 8:44 AM,9/2/25 8:43 AM
+101,,CREDIT,Maria ,Maria ,0.00,3.73,,9/2/25 8:44 AM,9/2/25 8:44 AM
+95,4,CREDIT,Sami,Maria ,5.00,25.56,,9/2/25 8:46 AM,9/2/25 8:24 AM
+105,,CREDIT,Martina,Martina,0.00,2.15,,9/2/25 8:47 AM,9/2/25 8:44 AM
+107,,CREDIT,Martina,Martina,0.00,20.83,,9/2/25 8:47 AM,9/2/25 8:46 AM
+108,,CASH,Maria ,Maria ,0.00,3.73,Front Box Cash Drawer,9/2/25 8:48 AM,9/2/25 8:48 AM
+109,,CREDIT,Maria ,Maria ,1.69,4.31,,9/2/25 8:49 AM,9/2/25 8:49 AM
+112,,CREDIT,Martina,Martina,0.00,11.65,,9/2/25 8:53 AM,9/2/25 8:52 AM
+113,,CREDIT,Martina,Martina,0.00,6.46,,9/2/25 8:56 AM,9/2/25 8:52 AM
+116,,CASH,Martina,Martina,0.00,3.24,Drive Thru Cash Drawer,9/2/25 8:57 AM,9/2/25 8:54 AM
+119,,CREDIT,Martina,Martina,0.00,18.86,,9/2/25 9:03 AM,9/2/25 9:02 AM
+122,,CASH,Maria ,Maria ,0.00,4.86,Front Box Cash Drawer,9/2/25 9:04 AM,9/2/25 9:04 AM
+120,,CASH,Martina,Martina,0.00,4.63,Drive Thru Cash Drawer,9/2/25 9:06 AM,9/2/25 9:03 AM
+111,5,CREDIT,Sami,Maria ,0.00,7.83,,9/2/25 9:09 AM,9/2/25 8:51 AM
+117,,CREDIT,Martina,Martina,0.00,2.70,,9/2/25 9:10 AM,9/2/25 9:09 AM
+128,,CREDIT,Martina,Martina,0.00,9.69,,9/2/25 9:11 AM,9/2/25 9:11 AM
+129,,CREDIT,Martina,Martina,0.00,4.31,,9/2/25 9:12 AM,9/2/25 9:11 AM
+130,,CASH,Martina,Martina,0.00,5.13,Drive Thru Cash Drawer,9/2/25 9:14 AM,9/2/25 9:13 AM
+123,,CASH,Maria ,Maria ,0.00,6.23,Front Box Cash Drawer,9/2/25 9:17 AM,9/2/25 9:07 AM
+127,,CREDIT,Martina,Martina,0.00,4.31,,9/2/25 9:19 AM,9/2/25 9:18 AM
+136,,CASH,Martina,Martina,0.00,5.06,Drive Thru Cash Drawer,9/2/25 9:26 AM,9/2/25 9:24 AM
+137,,CASH,Martina,Martina,0.00,4.31,Drive Thru Cash Drawer,9/2/25 9:28 AM,9/2/25 9:27 AM
+133,,CREDIT,Martina,Martina,0.00,20.46,,9/2/25 9:30 AM,9/2/25 9:21 AM
+118,8,CASH,Sami,Maria ,0.00,6.62,Front Box Cash Drawer,9/2/25 9:40 AM,9/2/25 9:01 AM
+144,,CREDIT,Maria ,Maria ,0.00,11.64,,9/2/25 9:42 AM,9/2/25 9:42 AM
+142,,CREDIT,Maria ,Maria ,0.00,4.30,,9/2/25 9:43 AM,9/2/25 9:40 AM
+135,6,CASH,Sami,Maria ,0.00,20.01,Front Box Cash Drawer,9/2/25 9:44 AM,9/2/25 9:22 AM
+138,,CREDIT,Martina,Martina,0.50,13.81,,9/2/25 9:47 AM,9/2/25 9:44 AM
+125,7,CREDIT,Sami,Maria ,0.00,37.35,,9/2/25 9:48 AM,9/2/25 9:08 AM
+146,,CREDIT,Martina,Martina,0.00,11.01,,9/2/25 9:49 AM,9/2/25 9:46 AM
+147,,CREDIT,Martina,Martina,0.00,15.58,,9/2/25 9:54 AM,9/2/25 9:53 AM
+149,,CASH,Maria ,Maria ,0.00,15.93,Front Box Cash Drawer,9/2/25 9:54 AM,9/2/25 9:54 AM
+151,,CREDIT,Martina,Martina,2.00,7.23,,9/2/25 10:03 AM,9/2/25 10:02 AM
+156,,CREDIT,Martina,Martina,0.00,15.67,,9/2/25 10:04 AM,9/2/25 10:02 AM
+143,5,CASH,Sami,Maria ,0.00,15.13,Front Box Cash Drawer,9/2/25 10:05 AM,9/2/25 9:43 AM
+139,3,CREDIT,Sami,Maria ,2.97,27.03,,9/2/25 10:06 AM,9/2/25 9:33 AM
+158,,CREDIT,Martina,Martina,0.00,23.75,,9/2/25 10:07 AM,9/2/25 10:04 AM
+159,,CREDIT,Martina,Martina,0.00,9.71,,9/2/25 10:08 AM,9/2/25 10:06 AM
+161,,CASH,Maria ,Maria ,0.00,13.38,Front Box Cash Drawer,9/2/25 10:09 AM,9/2/25 10:09 AM
+162,,CASH,Martina,Martina,0.00,14.08,Drive Thru Cash Drawer,9/2/25 10:10 AM,9/2/25 10:07 AM
+157,,CREDIT,Martina,Martina,0.00,8.92,,9/2/25 10:16 AM,9/2/25 10:15 AM
+167,,CASH,Martina,Martina,0.00,2.15,Drive Thru Cash Drawer,9/2/25 10:17 AM,9/2/25 10:16 AM
+168,,CREDIT,Martina,Martina,0.00,10.78,,9/2/25 10:20 AM,9/2/25 10:19 AM
+140,4,CASH,Sami,Maria ,0.00,18.15,Front Box Cash Drawer,9/2/25 10:20 AM,9/2/25 9:37 AM
+145,2,CREDIT,Sami,Maria ,8.00,46.51,,9/2/25 10:21 AM,9/2/25 9:45 AM
+170,,CASH,Martina,Martina,0.00,7.57,Drive Thru Cash Drawer,9/2/25 10:22 AM,9/2/25 10:20 AM
+163,,CREDIT,Maria ,Maria ,0.00,15.44,,9/2/25 10:23 AM,9/2/25 10:16 AM
+172,,CREDIT,Martina,Martina,0.00,5.39,,9/2/25 10:23 AM,9/2/25 10:22 AM
+141,19,CASH,Sami,Maria ,0.00,18.92,Front Box Cash Drawer,9/2/25 10:24 AM,9/2/25 9:40 AM
+173,,CREDIT,Martina,Martina,0.00,14.03,,9/2/25 10:25 AM,9/2/25 10:23 AM
+175,,CASH,Martina,Martina,0.00,15.27,Drive Thru Cash Drawer,9/2/25 10:27 AM,9/2/25 10:25 AM
+176,,CASH,Martina,Martina,0.00,4.31,Drive Thru Cash Drawer,9/2/25 10:29 AM,9/2/25 10:28 AM
+155,25,CREDIT,Sami,Maria ,3.00,30.27,,9/2/25 10:31 AM,9/2/25 10:02 AM
+181,,CREDIT,Martina,Martina,1.00,22.45,,9/2/25 10:34 AM,9/2/25 10:34 AM
+165,,CREDIT,Maria ,Maria ,0.00,14.65,,9/2/25 10:34 AM,9/2/25 10:19 AM
+154,6,CASH,Sami,Maria ,0.00,17.61,Front Box Cash Drawer,9/2/25 10:35 AM,9/2/25 9:58 AM
+169,,CASH,Martina,Martina,0.00,9.06,Drive Thru Cash Drawer,9/2/25 10:39 AM,9/2/25 10:36 AM
+183,,CASH,Martina,Martina,0.00,5.39,Drive Thru Cash Drawer,9/2/25 10:39 AM,9/2/25 10:36 AM
+178,,CREDIT,Martina,Martina,0.00,6.75,,9/2/25 10:44 AM,9/2/25 10:32 AM
+177,,CREDIT,Maria ,Maria ,0.00,7.57,,9/2/25 10:50 AM,9/2/25 10:31 AM
+189,,CREDIT,Martina,Martina,0.00,26.14,,9/2/25 10:50 AM,9/2/25 10:49 AM
+193,,CASH,Martina,Martina,0.00,7.01,Drive Thru Cash Drawer,9/2/25 10:56 AM,9/2/25 10:54 AM
+164,15,CREDIT,Sami,Maria ,5.00,28.66,,9/2/25 10:57 AM,9/2/25 10:17 AM
+194,,CREDIT,Martina,Martina,1.00,11.34,,9/2/25 10:57 AM,9/2/25 10:54 AM
+180,4,CASH,Sami,Maria ,0.00,41.73,Front Box Cash Drawer,9/2/25 10:58 AM,9/2/25 10:33 AM
+199,,CREDIT,Martina,Martina,0.00,6.48,,9/2/25 10:59 AM,9/2/25 10:59 AM
+197,,CREDIT,Maria ,Maria ,0.00,12.31,,9/2/25 10:59 AM,9/2/25 10:59 AM
+195,,CREDIT,Martina,Martina,0.00,10.14,,9/2/25 11:00 AM,9/2/25 10:57 AM
+196,,CREDIT,Martina,Martina,2.00,17.19,,9/2/25 11:02 AM,9/2/25 10:59 AM
+201,,CASH,Martina,Martina,0.00,2.15,Drive Thru Cash Drawer,9/2/25 11:04 AM,9/2/25 11:02 AM
+186,5,CASH,Sami,Maria ,0.00,22.80,Front Box Cash Drawer,9/2/25 11:07 AM,9/2/25 10:43 AM
+202,,CREDIT,Martina,Martina,0.00,29.69,,9/2/25 11:10 AM,9/2/25 11:09 AM
+204,,CASH,Maria ,Maria ,0.00,7.31,Front Box Cash Drawer,9/2/25 11:12 AM,9/2/25 11:11 AM
+203,,CASH,Martina,Martina,0.00,5.39,Drive Thru Cash Drawer,9/2/25 11:17 AM,9/2/25 11:13 AM
+209,,CREDIT,Martina,Martina,0.00,5.39,,9/2/25 11:22 AM,9/2/25 11:22 AM
+188,17,CASH,Sami,Maria ,0.00,23.52,Front Box Cash Drawer,9/2/25 11:23 AM,9/2/25 10:46 AM
+198,,CASH,Martina,Maria ,0.00,38.93,Front Box Cash Drawer,9/2/25 11:25 AM,9/2/25 11:04 AM
+160,8,CREDIT,Sami,Maria ,4.00,7.13,,9/2/25 11:26 AM,9/2/25 10:07 AM
+206,,CASH,Martina,Martina,0.00,8.61,Drive Thru Cash Drawer,9/2/25 11:28 AM,9/2/25 11:27 AM
+185,9,CASH,Sami,Maria ,0.00,10.55,Front Box Cash Drawer,9/2/25 11:29 AM,9/2/25 10:44 AM
+190,2,CREDIT,Sami,Maria ,0.00,11.68,,9/2/25 11:31 AM,9/2/25 10:50 AM
+211,,CASH,Martina,Martina,0.00,9.50,Drive Thru Cash Drawer,9/2/25 11:31 AM,9/2/25 11:29 AM
+212,,CASH,Martina,Martina,0.00,11.60,Drive Thru Cash Drawer,9/2/25 11:32 AM,9/2/25 11:31 AM
+210,,CREDIT,Martina,Martina,0.00,6.90,,9/2/25 11:35 AM,9/2/25 11:33 AM
+216,,CASH,Maria ,Maria ,0.00,3.24,Front Box Cash Drawer,9/2/25 11:38 AM,9/2/25 11:38 AM
+217,,CREDIT,Martina,Martina,0.00,8.04,,9/2/25 11:40 AM,9/2/25 11:38 AM
+219,,CREDIT,Maria ,Maria ,0.00,2.15,,9/2/25 11:41 AM,9/2/25 11:41 AM
+207,20,CASH,Sami,Maria ,0.00,39.07,Front Box Cash Drawer,9/2/25 11:42 AM,9/2/25 11:15 AM
+214,,CASH,Martina,Martina,0.00,4.63,Drive Thru Cash Drawer,9/2/25 11:45 AM,9/2/25 11:43 AM
+208,7,CREDIT,Sami,Maria ,0.00,20.89,,9/2/25 11:50 AM,9/2/25 11:20 AM
+213,4,CREDIT,Sami,Maria ,4.76,9.24,,9/2/25 11:55 AM,9/2/25 11:35 AM
+226,,CREDIT,Maria ,Maria ,1.00,11.35,,9/2/25 11:56 AM,9/2/25 11:56 AM
+223,,CREDIT,Martina,Martina,0.00,29.47,,9/2/25 12:00 PM,9/2/25 12:00 PM
+220,2,CREDIT,Sami,Maria ,10.00,18.22,,9/2/25 12:02 PM,9/2/25 11:43 AM
+224,25,CREDIT,Sami,Maria ,6.00,25.52,,9/2/25 12:02 PM,9/2/25 11:47 AM
+230,,CASH,Martina,Martina,0.00,14.53,Drive Thru Cash Drawer,9/2/25 12:05 PM,9/2/25 12:04 PM
+221,,CREDIT,Martina,Martina,0.00,15.50,,9/2/25 12:06 PM,9/2/25 11:43 AM
+233,,CREDIT,Martina,Martina,2.00,10.81,,9/2/25 12:07 PM,9/2/25 12:07 PM
+239,4,CREDIT,Sami,Maria ,0.00,10.81,,9/2/25 12:12 PM,9/2/25 12:12 PM
+235,,CREDIT,Martina,Martina,0.00,10.81,,9/2/25 12:12 PM,9/2/25 12:08 PM
+225,4,CREDIT,Sami,Maria ,4.00,11.19,,9/2/25 12:12 PM,9/2/25 11:55 AM
+237,,CREDIT,Martina,Martina,0.00,17.08,,9/2/25 12:14 PM,9/2/25 12:11 PM
+237,,CREDIT,Martina,Martina,0.00,0.75,,9/2/25 12:16 PM,9/2/25 12:11 PM
+240,,CREDIT,Martina,Martina,0.00,8.94,,9/2/25 12:16 PM,9/2/25 12:12 PM
+245,,CREDIT,Martina,Martina,0.00,3.73,,9/2/25 12:17 PM,9/2/25 12:17 PM
+228,15,CASH,Sami,Maria ,0.00,11.90,Front Box Cash Drawer,9/2/25 12:21 PM,9/2/25 12:00 PM
+246,,CREDIT,Martina,Martina,0.00,14.65,,9/2/25 12:23 PM,9/2/25 12:23 PM
+238,,CASH,Martina,Martina,0.00,11.21,Drive Thru Cash Drawer,9/2/25 12:30 PM,9/2/25 12:26 PM
+234,5,CASH,Sami,Maria ,0.00,16.01,Front Box Cash Drawer,9/2/25 12:30 PM,9/2/25 12:09 PM
+249,,CREDIT,Martina,Martina,0.00,11.88,,9/2/25 12:32 PM,9/2/25 12:30 PM
+250,,CASH,Martina,Martina,0.00,19.00,Drive Thru Cash Drawer,9/2/25 12:33 PM,9/2/25 12:33 PM
+231,7,CASH,Sami,Maria ,0.00,8.60,Front Box Cash Drawer,9/2/25 12:37 PM,9/2/25 12:06 PM
+247,,CREDIT,Martina,Martina,0.00,8.36,,9/2/25 12:37 PM,9/2/25 12:34 PM
+244,10,CREDIT,Sami,Maria ,5.00,18.17,,9/2/25 12:39 PM,9/2/25 12:17 PM
+,,TIP_OUT,Cinthia,Sami,-57.73,0.00,Front Box Cash Drawer,9/2/25 12:51 PM,9/2/25 12:51 PM
+,,TIP_OUT,Maria ,Maria ,-10.69,0.00,Front Box Cash Drawer,9/2/25 12:51 PM,9/2/25 12:51 PM
+,,CLOSE_OUT_EXACT,Maria ,,0.00,0.00,Front Box Cash Drawer,9/2/25 12:51 PM,9/2/25 12:51 PM
+252,,CREDIT,Martina,Martina,3.00,30.96,,9/2/25 12:53 PM,9/2/25 12:52 PM
+254,,CREDIT,AM,AM,0.00,4.31,,9/2/25 12:54 PM,9/2/25 12:54 PM
+251,,CASH,Martina,Martina,0.00,7.57,Drive Thru Cash Drawer,9/2/25 1:03 PM,9/2/25 12:55 PM
+256,,CASH,Martina,Martina,0.00,4.63,Drive Thru Cash Drawer,9/2/25 1:12 PM,9/2/25 1:10 PM
+258,,CREDIT,Martina,Martina,0.00,11.90,,9/2/25 1:15 PM,9/2/25 1:14 PM
+253,20,CASH,Sami,AM,0.00,21.63,Front Box Cash Drawer (2),9/2/25 1:25 PM,9/2/25 12:52 PM
+261,,CREDIT,Martina,Martina,0.00,14.06,,9/2/25 1:35 PM,9/2/25 1:35 PM
+260,,CASH,AM,AM,0.00,21.59,Front Box Cash Drawer (2),9/2/25 1:37 PM,9/2/25 1:37 PM
+248,8,CREDIT,Sami,AM,0.00,33.62,,9/2/25 1:40 PM,9/2/25 12:29 PM
+257,18,CREDIT,Sami,AM,3.00,27.79,,9/2/25 1:41 PM,9/2/25 12:57 PM
+262,,CREDIT,Martina,Martina,0.00,13.40,,9/2/25 1:42 PM,9/2/25 1:40 PM
+263,,CREDIT,Martina,Martina,2.00,8.95,,9/2/25 1:48 PM,9/2/25 1:46 PM
+265,,CREDIT,Martina,Martina,0.00,5.39,,9/2/25 1:50 PM,9/2/25 1:47 PM
+268,,CASH,AM,AM,0.00,4.31,Front Box Cash Drawer (2),9/2/25 1:55 PM,9/2/25 1:55 PM
+266,,CREDIT,Martina,Martina,0.00,9.24,,9/2/25 1:56 PM,9/2/25 1:52 PM
+269,,CREDIT,Martina,Martina,0.00,15.14,,9/2/25 2:09 PM,9/2/25 2:03 PM
+272,,CASH,Martina,Martina,0.00,25.25,Drive Thru Cash Drawer,9/2/25 2:13 PM,9/2/25 2:11 PM
+267,,CREDIT,Martina,Martina,0.00,7.33,,9/2/25 2:20 PM,9/2/25 2:18 PM
+271,19,CASH,Sami,AM,0.00,9.73,Front Box Cash Drawer (2),9/2/25 2:33 PM,9/2/25 2:04 PM
+276,,CASH,AM,AM,0.00,4.31,Front Box Cash Drawer (2),9/2/25 2:37 PM,9/2/25 2:37 PM
+274,,CASH,Martina,Martina,0.00,6.47,Drive Thru Cash Drawer,9/2/25 2:39 PM,9/2/25 2:36 PM
+277,,CASH,Martina,Martina,0.00,5.39,Drive Thru Cash Drawer,9/2/25 2:41 PM,9/2/25 2:40 PM
+278,,CASH,AM,AM,0.00,3.73,Front Box Cash Drawer (2),9/2/25 2:48 PM,9/2/25 2:48 PM
+275,,CASH,Martina,Martina,0.00,10.79,Drive Thru Cash Drawer,9/2/25 2:54 PM,9/2/25 2:49 PM
+280,,CASH,Martina,Martina,0.00,23.78,Drive Thru Cash Drawer,9/2/25 3:07 PM,9/2/25 3:00 PM
+282,,CREDIT,Martina,Martina,0.00,19.71,,9/2/25 3:15 PM,9/2/25 3:11 PM
+243,3,CREDIT,Sami,AM,4.00,25.21,,9/2/25 3:18 PM,9/2/25 12:14 PM
+281,,CREDIT,Martina,Martina,0.00,20.32,,9/2/25 3:26 PM,9/2/25 3:23 PM
+284,,CREDIT,Martina,Martina,0.00,14.55,,9/2/25 3:30 PM,9/2/25 3:26 PM
+285,,CREDIT,Martina,Martina,0.00,14.54,,9/2/25 3:33 PM,9/2/25 3:30 PM
+287,,CREDIT,Martina,Martina,0.00,10.19,,9/2/25 3:41 PM,9/2/25 3:38 PM
+283,,CASH,Martina,Martina,0.00,5.13,Drive Thru Cash Drawer,9/2/25 3:52 PM,9/2/25 3:50 PM
+289,,CREDIT,Martina,Martina,0.00,17.07,,9/2/25 4:13 PM,9/2/25 4:12 PM
+290,,CREDIT,Martina,Martina,0.00,16.24,,9/2/25 4:23 PM,9/2/25 4:21 PM
+,,TIP_OUT,Martina,Martina,-31.52,0.00,Drive Thru Cash Drawer,9/2/25 4:27 PM,9/2/25 4:27 PM
+,,CLOSE_OUT_EXACT,Martina,,0.00,0.00,Drive Thru Cash Drawer,9/2/25 4:27 PM,9/2/25 4:27 PM
+293,,CASH,Cin,Cin,0.00,14.22,Drive Thru Cash Drawer (2),9/2/25 4:29 PM,9/2/25 4:28 PM
+296,,CASH,AM,AM,0.00,12.46,Front Box Cash Drawer (2),9/2/25 4:29 PM,9/2/25 4:29 PM
+259,,CASH,AM,AM,0.00,10.89,Front Box Cash Drawer (2),9/2/25 4:31 PM,9/2/25 1:32 PM
+291,,CASH,AM,AM,0.00,7.03,Front Box Cash Drawer (2),9/2/25 4:31 PM,9/2/25 4:24 PM
+298,,CASH,Sami,AM,0.00,2.15,Front Box Cash Drawer (2),9/2/25 4:47 PM,9/2/25 4:46 PM
+301,,CASH,Cin,Cin,0.00,6.45,Drive Thru Cash Drawer (2),9/2/25 4:59 PM,9/2/25 4:58 PM
+302,,CASH,Cin,Cin,0.00,11.30,Drive Thru Cash Drawer (2),9/2/25 5:03 PM,9/2/25 5:00 PM
+297,11,CREDIT,Sami,AM,2.00,58.80,,9/2/25 5:08 PM,9/2/25 4:41 PM
+303,,CREDIT,AM,AM,2.00,10.78,,9/2/25 5:18 PM,9/2/25 5:07 PM
+305,,CREDIT,Cin,Cin,0.00,19.45,,9/2/25 5:20 PM,9/2/25 5:17 PM
+299,8,CREDIT,Sami,AM,0.00,45.54,,9/2/25 5:23 PM,9/2/25 4:57 PM
+306,,CREDIT,Cin,Cin,0.00,7.83,,9/2/25 5:25 PM,9/2/25 5:22 PM
+307,,CREDIT,AM,AM,0.00,14.06,,9/2/25 5:27 PM,9/2/25 5:26 PM
+300,21,CREDIT,Sami,AM,2.78,12.22,,9/2/25 5:28 PM,9/2/25 4:57 PM
+308,,CASH,Cin,Cin,0.00,11.90,Drive Thru Cash Drawer (2),9/2/25 5:44 PM,9/2/25 5:43 PM
+310,,CREDIT,Cin,Cin,0.00,18.93,,9/2/25 5:49 PM,9/2/25 5:46 PM
+311,,CASH,Cin,Cin,0.00,17.30,Drive Thru Cash Drawer (2),9/2/25 5:58 PM,9/2/25 5:55 PM
+312,,CASH,AM,AM,0.00,4.75,Front Box Cash Drawer (2),9/2/25 5:59 PM,9/2/25 5:59 PM
+314,,CASH,AM,AM,0.00,23.33,Front Box Cash Drawer (2),9/2/25 6:32 PM,9/2/25 6:32 PM
+317,,CREDIT,Cin,Cin,0.00,8.62,,9/2/25 6:36 PM,9/2/25 6:35 PM
+315,,CASH,AM,AM,0.00,20.00,Front Box Cash Drawer (2),9/2/25 6:38 PM,9/2/25 6:37 PM
+315,,CREDIT,AM,AM,0.00,1.02,,9/2/25 6:38 PM,9/2/25 6:37 PM
+319,,CASH,Cin,Cin,0.00,19.94,Drive Thru Cash Drawer (2),9/2/25 6:43 PM,9/2/25 6:40 PM
+320,,CREDIT,Cin,Cin,2.00,18.89,,9/2/25 6:59 PM,9/2/25 6:57 PM
+321,,CREDIT,Cin,Cin,3.00,17.82,,9/2/25 7:01 PM,9/2/25 6:59 PM
+313,5,CASH,Sami,AM,0.00,28.98,Front Box Cash Drawer (2),9/2/25 7:02 PM,9/2/25 6:31 PM
+323,,CASH,AM,AM,0.00,12.54,Front Box Cash Drawer (2),9/2/25 7:16 PM,9/2/25 7:16 PM
+324,,CREDIT,AM,AM,0.00,10.37,,9/2/25 7:22 PM,9/2/25 7:22 PM
+327,,CREDIT,Cin,Cin,0.00,2.15,,9/2/25 7:28 PM,9/2/25 7:27 PM
+316,15,CREDIT,Sami,AM,0.00,16.76,,9/2/25 7:35 PM,9/2/25 6:38 PM
+325,7,CASH,Sami,AM,0.00,6.42,Front Box Cash Drawer (2),9/2/25 7:58 PM,9/2/25 7:22 PM
+,,TIP_OUT,Cinthia,Sami,-11.78,0.00,Front Box Cash Drawer (2),9/2/25 8:02 PM,9/2/25 8:02 PM
+,,TIP_OUT,AM,AM,-2.00,0.00,Front Box Cash Drawer (2),9/2/25 8:02 PM,9/2/25 8:02 PM
+,,CLOSE_OUT_EXACT,AM,,0.00,0.00,Front Box Cash Drawer (2),9/2/25 8:02 PM,9/2/25 8:02 PM
+,,TIP_OUT,Cin,Cin,-5.00,0.00,Drive Thru Cash Drawer (2),9/2/25 8:07 PM,9/2/25 8:07 PM
+,,CLOSE_OUT_EXACT,Cin,,0.00,0.00,Drive Thru Cash Drawer (2),9/2/25 8:07 PM,9/2/25 8:07 PM
+,,TOTAL,,,0.00,3113.04,,,

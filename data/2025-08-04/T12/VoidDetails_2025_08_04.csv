@@ -1,0 +1,8 @@
+Order #,Opened Date,Void Date,Server,Approver,Item Name,Reason,Item Quantity,Total Price
+18,8/4/25 7:03 AM,8/4/25 11:49 AM,Maria Majana,Mayra Luna,Budweiser,Customer Changed Mind,1.0,2.99
+212,8/4/25 11:39 AM,8/4/25 12:18 PM,Maria Majana,Mayra Luna,Caldo de Res,Testing/Training,1.0,11.99
+221,8/4/25 11:51 AM,8/4/25 12:24 PM,Ivana Abundiz,Mayra Luna,Bean & Cheese Taco,Customer Changed Mind,1.0,1.79
+221,8/4/25 11:51 AM,8/4/25 12:29 PM,Ivana Abundiz,Mayra Luna,Side Bacon,Server Error,1.0,3.99
+221,8/4/25 11:51 AM,8/4/25 12:24 PM,Ivana Abundiz,Mayra Luna,Papa & Egg Taco,Customer Changed Mind,2.0,3.98
+221,8/4/25 11:51 AM,8/4/25 12:24 PM,Ivana Abundiz,Mayra Luna,Bean & Cheese Taco,Customer Changed Mind,1.0,2.79
+310,8/4/25 4:30 PM,8/4/25 4:33 PM,Arturo Rangel,Arturo Rangel,Crispy Taco,Customer Changed Mind,2.0,6.98

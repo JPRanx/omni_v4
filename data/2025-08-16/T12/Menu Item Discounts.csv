@@ -1,0 +1,5 @@
+Discount,Count,Orders,Amount
+Military Discount,10,4,6.08
+Employee Discount - Item,3,2,9.16
+Police Discount,3,2,10.37
+Total,16,8,25.61

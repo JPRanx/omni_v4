@@ -1,0 +1,583 @@
+Location,Server,Check #,Table,Station,Expediter Level,Fired Date,Fulfilled Date,Fulfillment Time,Fulfilled By
+Tink-a-Tako - Potranco,Daniela Torres,1,,Lobby,,8/12/25 6:32 AM,8/12/25 6:38 AM,5 minutes and 42 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,2,31,Lobby,,8/12/25 6:42 AM,8/12/25 6:44 AM,2 minutes and 13 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,3,,Lobby,,8/12/25 6:46 AM,8/12/25 6:47 AM,1 minute and 11 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,5,,Lobby,,8/12/25 6:47 AM,8/12/25 6:48 AM,1 minute and 19 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,6,,Lobby,,8/12/25 6:49 AM,8/12/25 6:49 AM,17 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Rosie  ORDONEZ,4,35,Lobby,,8/12/25 6:48 AM,8/12/25 6:50 AM,1 minute and 23 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,7,,Lobby,,8/12/25 6:52 AM,8/12/25 6:53 AM,38 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,2,31,,2,8/12/25 6:44 AM,8/12/25 6:54 AM,9 minutes and 50 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Rosie  ORDONEZ,4,35,,2,8/12/25 6:50 AM,8/12/25 6:54 AM,4 minutes and 20 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Rosie  ORDONEZ,4,35,Lobby,,8/12/25 6:47 AM,8/12/25 6:54 AM,7 minutes and 5 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,9,,Lobby,,8/12/25 6:55 AM,8/12/25 6:58 AM,2 minutes and 2 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,8,,Lobby,,8/12/25 6:57 AM,8/12/25 7:00 AM,2 minutes and 51 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,11,,Lobby,,8/12/25 7:04 AM,8/12/25 7:05 AM,1 minute and 1 second,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,12,,Lobby,,8/12/25 7:05 AM,8/12/25 7:06 AM,1 minute and 22 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,10,24,Lobby,,8/12/25 7:01 AM,8/12/25 7:09 AM,8 minutes and 37 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,10,24,Tortillero,,8/12/25 7:01 AM,8/12/25 7:09 AM,8 minutes and 37 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Rosie  ORDONEZ,4,35,,2,8/12/25 6:54 AM,8/12/25 7:15 AM,20 minutes and 42 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,10,24,,2,8/12/25 7:09 AM,8/12/25 7:15 AM,6 minutes and 1 second,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,14,,Lobby,,8/12/25 7:15 AM,8/12/25 7:16 AM,22 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Rosie  ORDONEZ,13,,Lobby,,8/12/25 7:14 AM,8/12/25 7:19 AM,5 minutes and 3 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,17,,Lobby,,8/12/25 7:19 AM,8/12/25 7:19 AM,46 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,16,,Lobby,,8/12/25 7:18 AM,8/12/25 7:20 AM,1 minute and 57 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,18,,Lobby,,8/12/25 7:24 AM,8/12/25 7:24 AM,30 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,20,,Lobby,,8/12/25 7:33 AM,8/12/25 7:35 AM,2 minutes and 3 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,21,,Lobby,,8/12/25 7:36 AM,8/12/25 7:37 AM,49 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,23,,Lobby,,8/12/25 7:39 AM,8/12/25 7:41 AM,1 minute and 58 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,25,,Lobby,,8/12/25 7:40 AM,8/12/25 7:41 AM,1 minute and 20 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,26,,Lobby,,8/12/25 7:41 AM,8/12/25 7:41 AM,29 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,24,,Lobby,,8/12/25 7:39 AM,8/12/25 7:42 AM,2 minutes and 47 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,22,,Lobby,,8/12/25 7:38 AM,8/12/25 7:43 AM,4 minutes and 52 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,27,,Lobby,,8/12/25 7:45 AM,8/12/25 7:47 AM,1 minute and 32 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,27,,Prep,,8/12/25 7:45 AM,8/12/25 7:47 AM,1 minute and 32 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,28,,Lobby,,8/12/25 7:46 AM,8/12/25 7:48 AM,1 minute and 36 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,15,,Lobby,,8/12/25 7:51 AM,8/12/25 7:51 AM,38 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,29,,Prep,,8/12/25 7:51 AM,8/12/25 7:52 AM,54 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,29,,Lobby,,8/12/25 7:51 AM,8/12/25 7:52 AM,54 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,32,31,Lobby,,8/12/25 7:53 AM,8/12/25 7:55 AM,1 minute and 51 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,31,31,Lobby,,8/12/25 7:53 AM,8/12/25 7:56 AM,2 minutes and 52 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,30,,Lobby,,8/12/25 7:58 AM,8/12/25 7:58 AM,31 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,34,,Lobby,,8/12/25 7:58 AM,8/12/25 7:59 AM,32 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Giselle Cisneross,36,,Lobby,,8/12/25 7:59 AM,8/12/25 8:01 AM,2 minutes and 27 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,33,,Lobby,,8/12/25 8:00 AM,8/12/25 8:01 AM,1 minute and 49 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,38,,Lobby,,8/12/25 8:00 AM,8/12/25 8:02 AM,1 minute and 29 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,35,,Lobby,,8/12/25 8:00 AM,8/12/25 8:03 AM,2 minutes and 41 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,40,,Lobby,,8/12/25 8:05 AM,8/12/25 8:05 AM,29 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,39,25,Lobby,,8/12/25 8:02 AM,8/12/25 8:07 AM,4 minutes and 10 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,37,,Lobby,,8/12/25 8:08 AM,8/12/25 8:09 AM,52 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,45,31,Lobby,,8/12/25 8:10 AM,8/12/25 8:11 AM,1 minute and 28 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,41,11,Lobby,,8/12/25 8:07 AM,8/12/25 8:11 AM,4 minutes and 4 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,46,,Lobby,,8/12/25 8:10 AM,8/12/25 8:12 AM,1 minute and 42 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,42,,Lobby,,8/12/25 8:12 AM,8/12/25 8:12 AM,19 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,44,,Lobby,,8/12/25 8:09 AM,8/12/25 8:12 AM,2 minutes and 45 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,41,11,Lobby,,8/12/25 8:10 AM,8/12/25 8:13 AM,2 minutes and 36 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Giselle Cisneross,43,,Lobby,,8/12/25 8:10 AM,8/12/25 8:17 AM,6 minutes and 39 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,49,,Lobby,,8/12/25 8:20 AM,8/12/25 8:21 AM,1 minute and 15 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,48,31,Lobby,,8/12/25 8:22 AM,8/12/25 8:24 AM,1 minute and 41 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,47,,Lobby,,8/12/25 8:26 AM,8/12/25 8:27 AM,37 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,48,31,Lobby,,8/12/25 8:28 AM,8/12/25 8:28 AM,6 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,51,,Lobby,,8/12/25 8:28 AM,8/12/25 8:29 AM,1 minute and 13 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,52,,Lobby,,8/12/25 8:28 AM,8/12/25 8:29 AM,44 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,53,,Lobby,,8/12/25 8:30 AM,8/12/25 8:31 AM,28 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,54,,Lobby,,8/12/25 8:31 AM,8/12/25 8:32 AM,55 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Giselle Cisneross,43,,Lobby,,8/12/25 8:27 AM,8/12/25 8:33 AM,5 minutes and 37 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,60,31,Lobby,,8/12/25 8:33 AM,8/12/25 8:36 AM,2 minutes and 25 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,55,31,Lobby,,8/12/25 8:32 AM,8/12/25 8:36 AM,4 minutes and 18 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,50,,Lobby,,8/12/25 8:31 AM,8/12/25 8:36 AM,4 minutes and 51 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Maria Majana,56,11,Lobby,,8/12/25 8:32 AM,8/12/25 8:37 AM,4 minutes and 42 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Maria Majana,59,16,Lobby,,8/12/25 8:33 AM,8/12/25 8:37 AM,3 minutes and 58 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,57,31,Lobby,,8/12/25 8:32 AM,8/12/25 8:37 AM,5 minutes and 4 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,62,,Lobby,,8/12/25 8:34 AM,8/12/25 8:37 AM,3 minutes and 4 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,63,,Lobby,,8/12/25 8:35 AM,8/12/25 8:38 AM,3 minutes and 13 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,61,,Lobby,,8/12/25 8:34 AM,8/12/25 8:39 AM,4 minutes and 54 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,65,,Lobby,,8/12/25 8:37 AM,8/12/25 8:39 AM,1 minute and 47 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,64,,Lobby,,8/12/25 8:35 AM,8/12/25 8:40 AM,4 minutes and 52 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,66,31,Lobby,,8/12/25 8:42 AM,8/12/25 8:44 AM,1 minute and 16 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,67,31,Lobby,,8/12/25 8:42 AM,8/12/25 8:44 AM,1 minute and 16 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,68,31,Lobby,,8/12/25 8:42 AM,8/12/25 8:46 AM,3 minutes and 40 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,69,,Lobby,,8/12/25 8:42 AM,8/12/25 8:46 AM,4 minutes and 11 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,71,,Lobby,,8/12/25 8:45 AM,8/12/25 8:46 AM,39 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,75,31,Lobby,,8/12/25 8:48 AM,8/12/25 8:49 AM,24 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Maria Majana,70,18,Lobby,,8/12/25 8:46 AM,8/12/25 8:49 AM,3 minutes and 3 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Maria Majana,70,18,Tortillero,,8/12/25 8:46 AM,8/12/25 8:49 AM,3 minutes and 3 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Maria Majana,70,18,Prep,,8/12/25 8:46 AM,8/12/25 8:49 AM,3 minutes and 3 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Isabel Cisneros,72,21,Lobby,,8/12/25 8:47 AM,8/12/25 8:49 AM,1 minute and 39 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,73,,Lobby,,8/12/25 8:47 AM,8/12/25 8:49 AM,2 minutes and 18 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,74,,Lobby,,8/12/25 8:47 AM,8/12/25 8:50 AM,2 minutes and 20 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,76,,Lobby,,8/12/25 8:48 AM,8/12/25 8:50 AM,1 minute and 55 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,77,,Lobby,,8/12/25 8:51 AM,8/12/25 8:52 AM,48 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,80,7,Lobby,,8/12/25 8:52 AM,8/12/25 8:52 AM,30 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,78,,Lobby,,8/12/25 8:52 AM,8/12/25 8:53 AM,1 minute and 15 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,76,,Lobby,,8/12/25 8:55 AM,8/12/25 8:55 AM,32 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,60,31,,2,8/12/25 8:36 AM,8/12/25 8:55 AM,19 minutes and 41 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,81,39,Lobby,,8/12/25 8:54 AM,8/12/25 8:55 AM,1 minute and 3 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Maria Majana,56,11,,2,8/12/25 8:37 AM,8/12/25 8:55 AM,18 minutes and 55 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Giselle Cisneross,43,,Lobby,,8/12/25 8:57 AM,8/12/25 8:59 AM,1 minute and 41 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,82,32,Lobby,,8/12/25 8:57 AM,8/12/25 8:59 AM,2 minutes and 47 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Maria Majana,83,38,Lobby,,8/12/25 8:58 AM,8/12/25 9:00 AM,1 minute and 27 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,84,,Lobby,,8/12/25 8:59 AM,8/12/25 9:00 AM,1 minute,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,85,,Prep,,8/12/25 9:00 AM,8/12/25 9:01 AM,48 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,85,,Lobby,,8/12/25 9:00 AM,8/12/25 9:01 AM,48 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,86,,Lobby,,8/12/25 9:01 AM,8/12/25 9:02 AM,39 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Maria Majana,87,33,Lobby,,8/12/25 9:02 AM,8/12/25 9:03 AM,1 minute,Zoila Salinas
+Tink-a-Tako - Potranco,Isabel Cisneros,89,19,Lobby,,8/12/25 9:02 AM,8/12/25 9:05 AM,2 minutes and 12 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,88,9,Lobby,,8/12/25 9:05 AM,8/12/25 9:06 AM,1 minute and 53 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,92,,Lobby,,8/12/25 9:05 AM,8/12/25 9:07 AM,1 minute and 19 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,92,,Lobby,,8/12/25 9:05 AM,8/12/25 9:08 AM,2 minutes and 56 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,90,31,Lobby,,8/12/25 9:06 AM,8/12/25 9:09 AM,2 minutes and 10 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Isabel Cisneros,91,37,Lobby,,8/12/25 9:05 AM,8/12/25 9:09 AM,3 minutes and 27 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Isabel Cisneros,91,37,Tortillero,,8/12/25 9:05 AM,8/12/25 9:09 AM,3 minutes and 27 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Isabel Cisneros,91,37,Prep,,8/12/25 9:05 AM,8/12/25 9:09 AM,3 minutes and 27 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,94,,Lobby,,8/12/25 9:06 AM,8/12/25 9:09 AM,3 minutes and 23 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Isabel Cisneros,72,21,,2,8/12/25 8:49 AM,8/12/25 9:10 AM,20 minutes and 59 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,80,7,,2,8/12/25 8:52 AM,8/12/25 9:10 AM,17 minutes and 9 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Maria Majana,70,18,,2,8/12/25 8:49 AM,8/12/25 9:10 AM,21 minutes,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,75,31,,2,8/12/25 8:49 AM,8/12/25 9:10 AM,21 minutes,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,81,39,,2,8/12/25 8:55 AM,8/12/25 9:10 AM,14 minutes and 13 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,67,31,,2,8/12/25 8:44 AM,8/12/25 9:10 AM,25 minutes and 57 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,68,31,,2,8/12/25 8:46 AM,8/12/25 9:10 AM,23 minutes and 34 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,66,31,,2,8/12/25 8:44 AM,8/12/25 9:10 AM,26 minutes,Zoila Salinas
+Tink-a-Tako - Potranco,Giselle Cisneross,43,,,2,8/12/25 8:59 AM,8/12/25 9:10 AM,11 minutes and 15 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,82,32,,2,8/12/25 8:59 AM,8/12/25 9:10 AM,10 minutes and 23 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Giselle Cisneross,93,,Tortillero,,8/12/25 9:06 AM,8/12/25 9:11 AM,4 minutes and 54 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Giselle Cisneross,93,,Prep,,8/12/25 9:06 AM,8/12/25 9:11 AM,4 minutes and 54 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Giselle Cisneross,93,,Lobby,,8/12/25 9:06 AM,8/12/25 9:11 AM,4 minutes and 54 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Isabel Cisneros,96,,Lobby,,8/12/25 9:08 AM,8/12/25 9:12 AM,3 minutes and 42 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Maria Majana,59,16,,2,8/12/25 8:37 AM,8/12/25 9:12 AM,35 minutes and 37 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Isabel Cisneros,91,37,,2,8/12/25 9:09 AM,8/12/25 9:12 AM,3 minutes and 33 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Isabel Cisneros,89,19,,2,8/12/25 9:05 AM,8/12/25 9:12 AM,7 minutes and 30 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,55,31,,2,8/12/25 8:36 AM,8/12/25 9:12 AM,36 minutes and 11 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Maria Majana,83,38,,2,8/12/25 9:00 AM,8/12/25 9:12 AM,12 minutes and 15 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Giselle Cisneross,43,,,2,8/12/25 8:33 AM,8/12/25 9:12 AM,39 minutes and 10 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,61,,,2,8/12/25 8:39 AM,8/12/25 9:12 AM,33 minutes and 33 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Maria Majana,87,33,,2,8/12/25 9:03 AM,8/12/25 9:12 AM,8 minutes and 47 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,48,31,,2,8/12/25 8:28 AM,8/12/25 9:12 AM,44 minutes and 4 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,57,31,,2,8/12/25 8:37 AM,8/12/25 9:12 AM,35 minutes and 28 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,45,31,,2,8/12/25 8:11 AM,8/12/25 9:12 AM,"1 hour, 1 minute and 8 seconds",Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,48,31,,2,8/12/25 8:24 AM,8/12/25 9:12 AM,48 minutes and 10 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,41,11,,2,8/12/25 8:11 AM,8/12/25 9:12 AM,1 hour and 51 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,31,31,,2,8/12/25 7:56 AM,8/12/25 9:12 AM,"1 hour, 16 minutes and 22 seconds",Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,39,25,,2,8/12/25 8:07 AM,8/12/25 9:12 AM,"1 hour, 5 minutes and 49 seconds",Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,28,,,2,8/12/25 7:48 AM,8/12/25 9:12 AM,"1 hour, 24 minutes and 45 seconds",Zoila Salinas
+Tink-a-Tako - Potranco,Giselle Cisneross,36,,,2,8/12/25 8:01 AM,8/12/25 9:12 AM,"1 hour, 10 minutes and 54 seconds",Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,41,11,,2,8/12/25 8:13 AM,8/12/25 9:13 AM,59 minutes and 44 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Giselle Cisneross,43,,,2,8/12/25 8:17 AM,8/12/25 9:12 AM,55 minutes and 45 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,88,9,,2,8/12/25 9:06 AM,8/12/25 9:12 AM,6 minutes and 1 second,Zoila Salinas
+Tink-a-Tako - Potranco,Rosie  ORDONEZ,13,,,2,8/12/25 7:19 AM,8/12/25 9:12 AM,"1 hour, 53 minutes and 35 seconds",Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,32,31,,2,8/12/25 7:55 AM,8/12/25 9:12 AM,"1 hour, 17 minutes and 30 seconds",Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,90,31,,2,8/12/25 9:09 AM,8/12/25 9:13 AM,3 minutes and 57 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Giselle Cisneross,93,,,2,8/12/25 9:11 AM,8/12/25 9:13 AM,1 minute and 44 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,21,,,2,8/12/25 7:37 AM,8/12/25 9:13 AM,"1 hour, 35 minutes and 43 seconds",Zoila Salinas
+Tink-a-Tako - Potranco,Isabel Cisneros,96,,,2,8/12/25 9:12 AM,8/12/25 9:13 AM,50 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,98,,Lobby,,8/12/25 9:13 AM,8/12/25 9:14 AM,47 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,99,,Lobby,,8/12/25 9:14 AM,8/12/25 9:14 AM,21 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,57,31,Lobby,,8/12/25 9:15 AM,8/12/25 9:16 AM,24 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,100,2,Lobby,,8/12/25 9:14 AM,8/12/25 9:16 AM,1 minute and 49 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,101,,Lobby,,8/12/25 9:15 AM,8/12/25 9:16 AM,1 minute and 8 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,102,31,Lobby,,8/12/25 9:17 AM,8/12/25 9:18 AM,1 minute and 8 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,102,31,Tortillero,,8/12/25 9:17 AM,8/12/25 9:18 AM,1 minute and 8 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,103,31,Lobby,,8/12/25 9:19 AM,8/12/25 9:20 AM,1 minute and 33 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,106,26,Lobby,,8/12/25 9:23 AM,8/12/25 9:25 AM,1 minute and 20 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,104,,Lobby,,8/12/25 9:22 AM,8/12/25 9:26 AM,4 minutes and 4 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,100,2,Lobby,,8/12/25 9:25 AM,8/12/25 9:26 AM,39 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,100,2,,2,8/12/25 9:16 AM,8/12/25 9:28 AM,11 minutes and 58 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,57,31,,2,8/12/25 9:16 AM,8/12/25 9:28 AM,12 minutes,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,106,26,,2,8/12/25 9:25 AM,8/12/25 9:28 AM,2 minutes and 58 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,108,,Prep,,8/12/25 9:27 AM,8/12/25 9:28 AM,1 minute and 20 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,108,,Lobby,,8/12/25 9:27 AM,8/12/25 9:28 AM,1 minute and 20 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Maria Majana,97,11,Lobby,,8/12/25 9:26 AM,8/12/25 9:28 AM,2 minutes and 25 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,107,,Lobby,,8/12/25 9:26 AM,8/12/25 9:29 AM,2 minutes and 43 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,107,,Tortillero,,8/12/25 9:26 AM,8/12/25 9:29 AM,2 minutes and 43 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,110,31,Lobby,,8/12/25 9:29 AM,8/12/25 9:31 AM,1 minute and 41 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,110,31,Tortillero,,8/12/25 9:29 AM,8/12/25 9:31 AM,1 minute and 41 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,111,,Lobby,,8/12/25 9:31 AM,8/12/25 9:32 AM,35 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Isabel Cisneros,91,37,Lobby,,8/12/25 9:33 AM,8/12/25 9:34 AM,16 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,112,,Lobby,,8/12/25 9:34 AM,8/12/25 9:36 AM,1 minute and 10 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,60,31,Lobby,,8/12/25 9:35 AM,8/12/25 9:37 AM,1 minute and 27 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,102,31,Lobby,,8/12/25 9:39 AM,8/12/25 9:40 AM,32 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,113,,Lobby,,8/12/25 9:40 AM,8/12/25 9:42 AM,2 minutes and 2 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,109,,Lobby,,8/12/25 9:42 AM,8/12/25 9:43 AM,1 minute and 35 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,116,,Lobby,,8/12/25 9:42 AM,8/12/25 9:44 AM,1 minute and 53 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,114,,Lobby,,8/12/25 9:41 AM,8/12/25 9:46 AM,5 minutes and 29 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,114,,Tortillero,,8/12/25 9:41 AM,8/12/25 9:46 AM,5 minutes and 29 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,114,,Prep,,8/12/25 9:41 AM,8/12/25 9:46 AM,5 minutes and 29 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,110,31,,2,8/12/25 9:31 AM,8/12/25 9:48 AM,16 minutes and 38 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,100,2,,2,8/12/25 9:26 AM,8/12/25 9:48 AM,21 minutes and 53 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,60,31,,2,8/12/25 9:37 AM,8/12/25 9:48 AM,11 minutes and 22 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Maria Majana,97,11,,2,8/12/25 9:28 AM,8/12/25 9:48 AM,19 minutes and 51 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Isabel Cisneros,91,37,,2,8/12/25 9:34 AM,8/12/25 9:48 AM,14 minutes and 11 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,102,31,,2,8/12/25 9:18 AM,8/12/25 9:48 AM,29 minutes and 39 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,102,31,,2,8/12/25 9:40 AM,8/12/25 9:48 AM,8 minutes and 10 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,103,31,,2,8/12/25 9:20 AM,8/12/25 9:48 AM,27 minutes and 27 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Maria Majana,118,33,Lobby,,8/12/25 9:47 AM,8/12/25 9:48 AM,1 minute and 32 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Isabel Cisneros,119,17,Lobby,,8/12/25 9:48 AM,8/12/25 9:49 AM,1 minute and 16 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,113,,Lobby,,8/12/25 9:48 AM,8/12/25 9:49 AM,1 minute and 20 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Isabel Cisneros,119,17,,2,8/12/25 9:49 AM,8/12/25 9:50 AM,56 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Maria Majana,118,33,,2,8/12/25 9:48 AM,8/12/25 9:50 AM,1 minute and 40 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Maria Majana,87,33,Lobby,,8/12/25 9:49 AM,8/12/25 9:50 AM,35 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,120,,Lobby,,8/12/25 9:50 AM,8/12/25 9:52 AM,2 minutes and 23 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,120,,Prep,,8/12/25 9:50 AM,8/12/25 9:52 AM,2 minutes and 23 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,121,,Lobby,,8/12/25 9:50 AM,8/12/25 9:52 AM,2 minutes and 14 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,122,,Lobby,,8/12/25 9:53 AM,8/12/25 9:54 AM,1 minute and 11 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,67,31,Lobby,,8/12/25 9:53 AM,8/12/25 9:55 AM,1 minute and 28 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,123,,Lobby,,8/12/25 9:53 AM,8/12/25 9:57 AM,3 minutes and 33 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,68,31,Lobby,,8/12/25 9:54 AM,8/12/25 9:57 AM,3 minutes and 29 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Maria Majana,124,37,Lobby,,8/12/25 9:56 AM,8/12/25 9:58 AM,2 minutes and 17 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,125,32,Lobby,,8/12/25 9:58 AM,8/12/25 9:59 AM,1 minute and 19 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,125,32,,2,8/12/25 9:59 AM,8/12/25 9:59 AM,2 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Isabel Cisneros,126,19,Lobby,,8/12/25 9:59 AM,8/12/25 10:01 AM,1 minute and 40 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,127,,Prep,,8/12/25 10:01 AM,8/12/25 10:03 AM,2 minutes and 16 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,127,,Lobby,,8/12/25 10:01 AM,8/12/25 10:03 AM,2 minutes and 16 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Giselle Cisneross,129,,Lobby,,8/12/25 10:01 AM,8/12/25 10:04 AM,2 minutes and 27 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,128,,Lobby,,8/12/25 10:02 AM,8/12/25 10:05 AM,3 minutes and 25 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,130,,Lobby,,8/12/25 10:02 AM,8/12/25 10:06 AM,3 minutes and 52 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,131,,Lobby,,8/12/25 10:03 AM,8/12/25 10:07 AM,4 minutes,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,117,,Prep,,8/12/25 10:04 AM,8/12/25 10:07 AM,3 minutes and 22 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,117,,Lobby,,8/12/25 10:04 AM,8/12/25 10:07 AM,3 minutes and 22 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,134,3,Lobby,,8/12/25 10:05 AM,8/12/25 10:08 AM,3 minutes and 11 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,137,,Lobby,,8/12/25 10:11 AM,8/12/25 10:12 AM,53 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,135,31,Lobby,,8/12/25 10:10 AM,8/12/25 10:12 AM,2 minutes and 19 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,138,,Lobby,,8/12/25 10:11 AM,8/12/25 10:12 AM,1 minute and 14 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,139,31,Lobby,,8/12/25 10:12 AM,8/12/25 10:13 AM,1 minute and 25 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Maria Majana,87,33,,2,8/12/25 9:50 AM,8/12/25 10:13 AM,23 minutes and 30 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,67,31,,2,8/12/25 9:55 AM,8/12/25 10:13 AM,18 minutes and 30 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Maria Majana,124,37,,2,8/12/25 9:58 AM,8/12/25 10:14 AM,15 minutes and 38 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,68,31,,2,8/12/25 9:57 AM,8/12/25 10:14 AM,16 minutes and 32 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Isabel Cisneros,126,19,,2,8/12/25 10:01 AM,8/12/25 10:14 AM,12 minutes and 27 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,140,,Lobby,,8/12/25 10:13 AM,8/12/25 10:17 AM,3 minutes and 12 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Giselle Cisneross,141,,Lobby,,8/12/25 10:15 AM,8/12/25 10:18 AM,3 minutes and 10 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Giselle Cisneross,141,,Prep,,8/12/25 10:15 AM,8/12/25 10:18 AM,3 minutes and 10 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,133,,Lobby,,8/12/25 10:17 AM,8/12/25 10:18 AM,1 minute and 1 second,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,143,,Lobby,,8/12/25 10:21 AM,8/12/25 10:22 AM,53 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,143,,Lobby,,8/12/25 10:22 AM,8/12/25 10:22 AM,35 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Giselle Cisneross,141,,,2,8/12/25 10:18 AM,8/12/25 10:24 AM,6 minutes and 5 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Giselle Cisneross,129,,,2,8/12/25 10:04 AM,8/12/25 10:24 AM,20 minutes and 8 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,135,31,,2,8/12/25 10:12 AM,8/12/25 10:24 AM,12 minutes and 5 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,139,31,,2,8/12/25 10:13 AM,8/12/25 10:24 AM,11 minutes and 1 second,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,134,3,,2,8/12/25 10:08 AM,8/12/25 10:24 AM,16 minutes and 9 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Giselle Cisneross,144,,Lobby,,8/12/25 10:22 AM,8/12/25 10:24 AM,2 minutes and 6 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,142,,Lobby,,8/12/25 10:32 AM,8/12/25 10:33 AM,1 minute and 10 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,148,,Lobby,,8/12/25 10:35 AM,8/12/25 10:35 AM,29 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,145,18,Lobby,,8/12/25 10:32 AM,8/12/25 10:36 AM,4 minutes and 41 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Isabel Cisneros,146,10,Lobby,,8/12/25 10:30 AM,8/12/25 10:36 AM,5 minutes and 47 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Isabel Cisneros,146,10,Tortillero,,8/12/25 10:30 AM,8/12/25 10:36 AM,5 minutes and 47 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Isabel Cisneros,146,10,Prep,,8/12/25 10:30 AM,8/12/25 10:36 AM,5 minutes and 47 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,149,,Lobby,,8/12/25 10:35 AM,8/12/25 10:37 AM,1 minute and 19 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,149,,Prep,,8/12/25 10:35 AM,8/12/25 10:37 AM,1 minute and 19 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,134,3,Lobby,,8/12/25 10:38 AM,8/12/25 10:38 AM,8 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,134,3,Prep,,8/12/25 10:38 AM,8/12/25 10:38 AM,8 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Maria Majana,136,33,Lobby,,8/12/25 10:38 AM,8/12/25 10:42 AM,4 minutes and 25 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,147,,Lobby,,8/12/25 10:42 AM,8/12/25 10:42 AM,47 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,151,,Lobby,,8/12/25 10:38 AM,8/12/25 10:43 AM,4 minutes and 42 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,151,,Prep,,8/12/25 10:38 AM,8/12/25 10:43 AM,4 minutes and 42 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Giselle Cisneross,150,,Lobby,,8/12/25 10:39 AM,8/12/25 10:45 AM,5 minutes and 42 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,155,,Lobby,,8/12/25 10:54 AM,8/12/25 10:55 AM,40 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,154,32,Lobby,,8/12/25 10:52 AM,8/12/25 10:55 AM,3 minutes,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,154,32,Tortillero,,8/12/25 10:52 AM,8/12/25 10:55 AM,3 minutes,Zoila Salinas
+Tink-a-Tako - Potranco,Giselle Cisneross,43,,Lobby,,8/12/25 10:56 AM,8/12/25 10:58 AM,1 minute and 37 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,156,,Lobby,,8/12/25 10:57 AM,8/12/25 10:59 AM,1 minute and 58 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Isabel Cisneros,157,25,Lobby,,8/12/25 10:59 AM,8/12/25 11:02 AM,3 minutes and 14 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Isabel Cisneros,158,7,Lobby,,8/12/25 11:00 AM,8/12/25 11:02 AM,2 minutes and 12 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Isabel Cisneros,158,7,Lobby,,8/12/25 11:01 AM,8/12/25 11:02 AM,38 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,159,,Lobby,,8/12/25 11:00 AM,8/12/25 11:02 AM,1 minute and 58 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,160,,Lobby,,8/12/25 11:01 AM,8/12/25 11:02 AM,1 minute and 42 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,161,,Lobby,,8/12/25 11:02 AM,8/12/25 11:03 AM,1 minute and 56 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,162,,Lobby,,8/12/25 11:03 AM,8/12/25 11:04 AM,32 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,145,18,,2,8/12/25 10:36 AM,8/12/25 11:05 AM,28 minutes and 22 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Isabel Cisneros,146,10,,2,8/12/25 10:36 AM,8/12/25 11:05 AM,28 minutes and 21 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Giselle Cisneross,144,,,2,8/12/25 10:24 AM,8/12/25 11:05 AM,40 minutes and 13 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,134,3,,2,8/12/25 10:38 AM,8/12/25 11:05 AM,26 minutes and 51 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Giselle Cisneross,150,,,2,8/12/25 10:45 AM,8/12/25 11:05 AM,19 minutes and 35 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Giselle Cisneross,43,,,2,8/12/25 10:58 AM,8/12/25 11:05 AM,7 minutes and 2 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Maria Majana,136,33,,2,8/12/25 10:42 AM,8/12/25 11:05 AM,22 minutes and 30 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,154,32,,2,8/12/25 10:55 AM,8/12/25 11:05 AM,9 minutes and 23 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Isabel Cisneros,157,25,,2,8/12/25 11:02 AM,8/12/25 11:05 AM,2 minutes and 45 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Isabel Cisneros,158,7,,2,8/12/25 11:02 AM,8/12/25 11:05 AM,2 minutes and 47 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Isabel Cisneros,158,7,,2,8/12/25 11:02 AM,8/12/25 11:05 AM,2 minutes and 46 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,163,,Lobby,,8/12/25 11:05 AM,8/12/25 11:06 AM,1 minute and 46 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,164,37,Lobby,,8/12/25 11:04 AM,8/12/25 11:07 AM,3 minutes and 12 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,164,37,Lobby,,8/12/25 11:07 AM,8/12/25 11:07 AM,54 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,165,,Lobby,,8/12/25 11:06 AM,8/12/25 11:08 AM,1 minute and 47 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,166,,Lobby,,8/12/25 11:08 AM,8/12/25 11:09 AM,1 minute and 26 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,167,,Lobby,,8/12/25 11:08 AM,8/12/25 11:10 AM,1 minute and 31 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,169,,Lobby,,8/12/25 11:12 AM,8/12/25 11:13 AM,1 minute and 14 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Isabel Cisneros,168,34,Lobby,,8/12/25 11:12 AM,8/12/25 11:13 AM,1 minute and 49 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,170,,Lobby,,8/12/25 11:13 AM,8/12/25 11:14 AM,47 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,173,,Lobby,,8/12/25 11:14 AM,8/12/25 11:15 AM,40 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,171,,Lobby,,8/12/25 11:14 AM,8/12/25 11:17 AM,3 minutes and 23 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Giselle Cisneross,175,,Lobby,,8/12/25 11:19 AM,8/12/25 11:21 AM,2 minutes and 7 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,174,,Lobby,,8/12/25 11:19 AM,8/12/25 11:22 AM,3 minutes and 23 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,174,,Tortillero,,8/12/25 11:19 AM,8/12/25 11:22 AM,3 minutes and 23 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,176,11,Lobby,,8/12/25 11:20 AM,8/12/25 11:23 AM,3 minutes and 34 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,177,,Lobby,,8/12/25 11:22 AM,8/12/25 11:24 AM,2 minutes and 27 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,178,,Lobby,,8/12/25 11:23 AM,8/12/25 11:24 AM,55 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Isabel Cisneros,168,34,,2,8/12/25 11:13 AM,8/12/25 11:28 AM,14 minutes and 39 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Giselle Cisneross,175,,,2,8/12/25 11:21 AM,8/12/25 11:28 AM,6 minutes and 37 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,164,37,,2,8/12/25 11:07 AM,8/12/25 11:28 AM,20 minutes and 27 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,164,37,,2,8/12/25 11:07 AM,8/12/25 11:28 AM,20 minutes and 27 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,176,11,,2,8/12/25 11:23 AM,8/12/25 11:28 AM,4 minutes and 40 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,183,,Lobby,,8/12/25 11:27 AM,8/12/25 11:29 AM,1 minute and 31 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,179,38,Lobby,,8/12/25 11:23 AM,8/12/25 11:29 AM,5 minutes and 45 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Isabel Cisneros,181,26,Lobby,,8/12/25 11:24 AM,8/12/25 11:29 AM,4 minutes and 48 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,182,32,Lobby,,8/12/25 11:27 AM,8/12/25 11:30 AM,2 minutes and 51 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,176,11,Lobby,,8/12/25 11:29 AM,8/12/25 11:31 AM,1 minute and 9 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,187,,Prep,,8/12/25 11:30 AM,8/12/25 11:32 AM,1 minute and 21 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,187,,Lobby,,8/12/25 11:30 AM,8/12/25 11:32 AM,1 minute and 21 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,187,,Prep,,8/12/25 11:31 AM,8/12/25 11:32 AM,1 minute and 35 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,187,,Lobby,,8/12/25 11:31 AM,8/12/25 11:32 AM,1 minute and 35 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,184,19,Lobby,,8/12/25 11:28 AM,8/12/25 11:33 AM,4 minutes and 10 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Isabel Cisneros,185,24,Lobby,,8/12/25 11:29 AM,8/12/25 11:34 AM,4 minutes and 25 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Isabel Cisneros,181,26,,2,8/12/25 11:29 AM,8/12/25 11:34 AM,4 minutes and 58 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,182,32,,2,8/12/25 11:30 AM,8/12/25 11:34 AM,4 minutes and 25 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Isabel Cisneros,185,24,,2,8/12/25 11:34 AM,8/12/25 11:34 AM,41 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,179,38,,2,8/12/25 11:29 AM,8/12/25 11:34 AM,5 minutes and 21 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,184,19,,2,8/12/25 11:33 AM,8/12/25 11:34 AM,1 minute and 40 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,152,,Lobby,,8/12/25 11:29 AM,8/12/25 11:34 AM,5 minutes and 17 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,176,11,,2,8/12/25 11:31 AM,8/12/25 11:34 AM,3 minutes and 44 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,188,,Lobby,,8/12/25 11:31 AM,8/12/25 11:34 AM,3 minutes and 13 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,190,,Lobby,,8/12/25 11:33 AM,8/12/25 11:35 AM,1 minute and 35 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,189,,Lobby,,8/12/25 11:33 AM,8/12/25 11:35 AM,2 minutes and 11 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,189,,Lobby,,8/12/25 11:33 AM,8/12/25 11:35 AM,2 minutes and 5 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Isabel Cisneros,185,24,Lobby,,8/12/25 11:34 AM,8/12/25 11:36 AM,1 minute and 52 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,182,32,Lobby,,8/12/25 11:33 AM,8/12/25 11:37 AM,3 minutes and 32 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,191,7,Lobby,,8/12/25 11:37 AM,8/12/25 11:38 AM,1 minute and 14 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,192,,Lobby,,8/12/25 11:40 AM,8/12/25 11:41 AM,40 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,195,42,Lobby,,8/12/25 11:42 AM,8/12/25 11:45 AM,3 minutes and 20 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,195,42,Prep,,8/12/25 11:42 AM,8/12/25 11:45 AM,3 minutes and 20 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,196,25,Lobby,,8/12/25 11:43 AM,8/12/25 11:47 AM,3 minutes and 17 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,193,,Lobby,,8/12/25 11:46 AM,8/12/25 11:48 AM,1 minute and 14 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,197,,Lobby,,8/12/25 11:50 AM,8/12/25 11:50 AM,20 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Giselle Cisneross,198,,Lobby,,8/12/25 11:51 AM,8/12/25 11:52 AM,1 minute and 19 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,199,,Lobby,,8/12/25 11:56 AM,8/12/25 11:58 AM,1 minute and 16 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,191,7,Lobby,,8/12/25 11:56 AM,8/12/25 11:58 AM,1 minute and 54 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,191,7,Tortillero,,8/12/25 11:56 AM,8/12/25 11:58 AM,1 minute and 54 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,191,7,Prep,,8/12/25 11:56 AM,8/12/25 11:58 AM,1 minute and 54 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Isabel Cisneros,201,,Lobby,,8/12/25 11:58 AM,8/12/25 12:00 PM,1 minute and 34 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,200,,Lobby,,8/12/25 11:59 AM,8/12/25 12:02 PM,2 minutes and 42 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,194,,Lobby,,8/12/25 11:44 AM,8/12/25 12:02 PM,18 minutes and 21 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,205,,Lobby,,8/12/25 12:01 PM,8/12/25 12:03 PM,1 minute and 34 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,205,,Prep,,8/12/25 12:01 PM,8/12/25 12:03 PM,1 minute and 34 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,204,,Lobby,,8/12/25 12:01 PM,8/12/25 12:04 PM,3 minutes and 1 second,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,202,,Lobby,,8/12/25 12:00 PM,8/12/25 12:05 PM,5 minutes and 17 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,202,,Prep,,8/12/25 12:00 PM,8/12/25 12:05 PM,5 minutes and 17 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,203,,Lobby,,8/12/25 12:00 PM,8/12/25 12:06 PM,5 minutes and 6 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,191,7,,2,8/12/25 11:58 AM,8/12/25 12:07 PM,9 minutes and 25 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Isabel Cisneros,201,,,2,8/12/25 12:00 PM,8/12/25 12:07 PM,7 minutes and 10 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Giselle Cisneross,198,,,2,8/12/25 11:52 AM,8/12/25 12:07 PM,14 minutes and 51 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,196,25,,2,8/12/25 11:47 AM,8/12/25 12:07 PM,20 minutes and 27 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,194,,,2,8/12/25 12:02 PM,8/12/25 12:07 PM,4 minutes and 45 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,191,7,,2,8/12/25 11:38 AM,8/12/25 12:07 PM,28 minutes and 59 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,195,42,,2,8/12/25 11:45 AM,8/12/25 12:07 PM,22 minutes and 2 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,182,32,,2,8/12/25 11:37 AM,8/12/25 12:07 PM,30 minutes and 21 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,208,,Lobby,,8/12/25 12:04 PM,8/12/25 12:07 PM,3 minutes and 13 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Isabel Cisneros,185,24,,2,8/12/25 11:36 AM,8/12/25 12:07 PM,31 minutes and 18 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Isabel Cisneros,206,35,Lobby,,8/12/25 12:04 PM,8/12/25 12:09 PM,5 minutes and 22 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,210,24,Lobby,,8/12/25 12:08 PM,8/12/25 12:13 PM,4 minutes and 44 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,211,17,Lobby,,8/12/25 12:09 PM,8/12/25 12:14 PM,4 minutes and 12 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,213,,Prep,,8/12/25 12:10 PM,8/12/25 12:14 PM,3 minutes and 39 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,213,,Lobby,,8/12/25 12:10 PM,8/12/25 12:14 PM,3 minutes and 39 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Giselle Cisneross,43,,Lobby,,8/12/25 12:18 PM,8/12/25 12:23 PM,5 minutes and 12 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,211,17,,2,8/12/25 12:14 PM,8/12/25 12:23 PM,9 minutes and 48 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Isabel Cisneros,206,35,,2,8/12/25 12:09 PM,8/12/25 12:23 PM,13 minutes and 59 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,210,24,,2,8/12/25 12:13 PM,8/12/25 12:23 PM,10 minutes and 36 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Isabel Cisneros,215,32,Lobby,,8/12/25 12:23 PM,8/12/25 12:25 PM,1 minute and 58 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,216,,Lobby,,8/12/25 12:24 PM,8/12/25 12:27 PM,2 minutes and 51 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Isabel Cisneros,214,33,Lobby,,8/12/25 12:23 PM,8/12/25 12:27 PM,4 minutes and 1 second,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,218,,Tortillero,,8/12/25 12:32 PM,8/12/25 12:33 PM,1 minute and 46 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,218,,Lobby,,8/12/25 12:32 PM,8/12/25 12:33 PM,1 minute and 46 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,186,,Prep,,8/12/25 12:36 PM,8/12/25 12:38 PM,1 minute and 45 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,186,,Lobby,,8/12/25 12:36 PM,8/12/25 12:38 PM,1 minute and 45 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Isabel Cisneros,214,33,,2,8/12/25 12:27 PM,8/12/25 12:38 PM,10 minutes and 57 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Giselle Cisneross,43,,,2,8/12/25 12:23 PM,8/12/25 12:38 PM,14 minutes and 46 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,216,,,2,8/12/25 12:27 PM,8/12/25 12:38 PM,11 minutes and 9 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Isabel Cisneros,215,32,,2,8/12/25 12:25 PM,8/12/25 12:38 PM,12 minutes and 41 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,219,,Lobby,,8/12/25 12:36 PM,8/12/25 12:40 PM,3 minutes and 42 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,217,9,Lobby,,8/12/25 12:33 PM,8/12/25 12:44 PM,10 minutes and 51 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,217,9,Tortillero,,8/12/25 12:33 PM,8/12/25 12:44 PM,10 minutes and 51 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,217,9,Prep,,8/12/25 12:33 PM,8/12/25 12:44 PM,10 minutes and 51 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,217,9,,2,8/12/25 12:44 PM,8/12/25 12:44 PM,10 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,221,,Lobby,,8/12/25 12:48 PM,8/12/25 12:48 PM,41 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,222,,Lobby,,8/12/25 12:50 PM,8/12/25 12:51 PM,56 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,223,,Lobby,,8/12/25 12:57 PM,8/12/25 12:59 PM,2 minutes and 3 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,224,,Lobby,,8/12/25 12:59 PM,8/12/25 1:00 PM,29 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,226,25,Lobby,,8/12/25 1:01 PM,8/12/25 1:04 PM,3 minutes and 26 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Giselle Cisneross,43,,Lobby,,8/12/25 12:56 PM,8/12/25 1:04 PM,8 minutes and 30 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,220,,Prep,,8/12/25 1:08 PM,8/12/25 1:08 PM,30 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,220,,Lobby,,8/12/25 1:08 PM,8/12/25 1:08 PM,30 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,225,,Lobby,,8/12/25 1:05 PM,8/12/25 1:09 PM,3 minutes and 54 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,230,7,Lobby,,8/12/25 1:09 PM,8/12/25 1:13 PM,4 minutes and 26 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,230,7,Prep,,8/12/25 1:09 PM,8/12/25 1:13 PM,4 minutes and 26 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,231,,Prep,,8/12/25 1:15 PM,8/12/25 1:16 PM,1 minute,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,231,,Lobby,,8/12/25 1:15 PM,8/12/25 1:16 PM,1 minute,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,231,,Prep,,8/12/25 1:14 PM,8/12/25 1:16 PM,1 minute and 31 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,231,,Lobby,,8/12/25 1:14 PM,8/12/25 1:16 PM,1 minute and 31 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,233,33,Lobby,,8/12/25 1:20 PM,8/12/25 1:26 PM,5 minutes and 56 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,232,,Lobby,,8/12/25 1:25 PM,8/12/25 1:30 PM,5 minutes and 8 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,232,,Prep,,8/12/25 1:25 PM,8/12/25 1:30 PM,5 minutes and 8 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,235,32,Lobby,,8/12/25 1:26 PM,8/12/25 1:30 PM,3 minutes and 54 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,234,9,Lobby,,8/12/25 1:25 PM,8/12/25 1:30 PM,5 minutes and 17 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,236,10,Lobby,,8/12/25 1:29 PM,8/12/25 1:35 PM,5 minutes and 52 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,236,10,Tortillero,,8/12/25 1:29 PM,8/12/25 1:35 PM,5 minutes and 52 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,236,10,Prep,,8/12/25 1:29 PM,8/12/25 1:35 PM,5 minutes and 52 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,239,37,Lobby,,8/12/25 1:34 PM,8/12/25 1:41 PM,6 minutes and 58 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,237,25,Lobby,,8/12/25 1:35 PM,8/12/25 1:43 PM,8 minutes and 26 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,238,,Lobby,,8/12/25 1:35 PM,8/12/25 1:45 PM,10 minutes and 4 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,241,23,Lobby,,8/12/25 1:42 PM,8/12/25 1:45 PM,3 minutes and 13 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,226,25,,2,8/12/25 1:04 PM,8/12/25 1:45 PM,41 minutes and 3 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,230,7,,2,8/12/25 1:13 PM,8/12/25 1:45 PM,32 minutes and 5 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Giselle Cisneross,43,,,2,8/12/25 1:04 PM,8/12/25 1:45 PM,41 minutes,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,239,37,,2,8/12/25 1:41 PM,8/12/25 1:45 PM,4 minutes and 51 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,234,9,,2,8/12/25 1:30 PM,8/12/25 1:45 PM,15 minutes and 18 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,233,33,,2,8/12/25 1:26 PM,8/12/25 1:45 PM,19 minutes and 15 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,241,23,,2,8/12/25 1:45 PM,8/12/25 1:45 PM,42 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,236,10,,2,8/12/25 1:35 PM,8/12/25 1:45 PM,10 minutes and 10 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,237,25,,2,8/12/25 1:43 PM,8/12/25 1:45 PM,2 minutes and 9 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,235,32,,2,8/12/25 1:30 PM,8/12/25 1:45 PM,15 minutes and 20 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,230,7,Lobby,,8/12/25 1:42 PM,8/12/25 1:51 PM,8 minutes and 32 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,242,24,Lobby,,8/12/25 1:45 PM,8/12/25 1:51 PM,5 minutes and 52 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,240,,Tortillero,,8/12/25 1:44 PM,8/12/25 1:51 PM,7 minutes and 11 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,240,,Prep,,8/12/25 1:44 PM,8/12/25 1:51 PM,7 minutes and 11 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,240,,Lobby,,8/12/25 1:44 PM,8/12/25 1:51 PM,7 minutes and 11 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,243,,Lobby,,8/12/25 1:50 PM,8/12/25 1:53 PM,2 minutes and 16 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Arturo Rangel,247,,Lobby,,8/12/25 2:05 PM,8/12/25 2:06 PM,1 minute and 25 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Arturo Rangel,246,,Lobby,,8/12/25 2:04 PM,8/12/25 2:06 PM,1 minute and 55 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,249,32,Lobby,,8/12/25 2:07 PM,8/12/25 2:13 PM,6 minutes and 1 second,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,248,32,Lobby,,8/12/25 2:07 PM,8/12/25 2:13 PM,6 minutes and 24 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,242,24,Lobby,,8/12/25 2:08 PM,8/12/25 2:13 PM,4 minutes and 43 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Arturo Rangel,252,,Lobby,,8/12/25 2:13 PM,8/12/25 2:14 PM,52 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Arturo Rangel,252,,Prep,,8/12/25 2:13 PM,8/12/25 2:14 PM,52 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Arturo Rangel,250,,Lobby,,8/12/25 2:10 PM,8/12/25 2:17 PM,6 minutes and 43 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Arturo Rangel,253,,Prep,,8/12/25 2:14 PM,8/12/25 2:17 PM,3 minutes and 12 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Arturo Rangel,253,,Lobby,,8/12/25 2:14 PM,8/12/25 2:17 PM,3 minutes and 12 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Arturo Rangel,254,,Lobby,,8/12/25 2:15 PM,8/12/25 2:17 PM,2 minutes and 34 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Arturo Rangel,256,,Prep,,8/12/25 2:27 PM,8/12/25 2:30 PM,2 minutes and 3 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Arturo Rangel,256,,Lobby,,8/12/25 2:27 PM,8/12/25 2:30 PM,2 minutes and 3 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Arturo Rangel,257,,Lobby,,8/12/25 2:28 PM,8/12/25 2:31 PM,2 minutes and 18 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Arturo Rangel,258,,Lobby,,8/12/25 2:30 PM,8/12/25 2:32 PM,1 minute and 44 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,255,33,Lobby,,8/12/25 2:26 PM,8/12/25 2:34 PM,7 minutes and 28 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Arturo Rangel,259,,Lobby,,8/12/25 2:34 PM,8/12/25 2:36 PM,1 minute and 55 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,255,33,Lobby,,8/12/25 2:35 PM,8/12/25 2:36 PM,43 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Arturo Rangel,260,,Lobby,,8/12/25 2:37 PM,8/12/25 2:40 PM,3 minutes and 11 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Arturo Rangel,263,,Lobby,,8/12/25 2:40 PM,8/12/25 2:42 PM,1 minute and 50 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Sergio Abundiz,262,35,Lobby,,8/12/25 2:38 PM,8/12/25 2:43 PM,5 minutes and 50 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,264,37,Lobby,,8/12/25 2:41 PM,8/12/25 2:43 PM,2 minutes,Zoila Salinas
+Tink-a-Tako - Potranco,Arturo Rangel,246,,,2,8/12/25 2:06 PM,8/12/25 2:48 PM,41 minutes and 43 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,242,24,,2,8/12/25 1:51 PM,8/12/25 2:48 PM,57 minutes and 5 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,230,7,,2,8/12/25 1:51 PM,8/12/25 2:48 PM,57 minutes and 9 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Arturo Rangel,247,,,2,8/12/25 2:06 PM,8/12/25 2:48 PM,41 minutes and 42 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,249,32,,2,8/12/25 2:13 PM,8/12/25 2:48 PM,34 minutes and 57 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,248,32,,2,8/12/25 2:13 PM,8/12/25 2:48 PM,34 minutes and 57 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,242,24,,2,8/12/25 2:13 PM,8/12/25 2:48 PM,34 minutes and 59 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,255,33,,2,8/12/25 2:34 PM,8/12/25 2:48 PM,14 minutes and 20 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,255,33,,2,8/12/25 2:36 PM,8/12/25 2:48 PM,12 minutes and 5 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Arturo Rangel,265,,Lobby,,8/12/25 2:46 PM,8/12/25 2:50 PM,3 minutes and 43 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Arturo Rangel,265,,Prep,,8/12/25 2:46 PM,8/12/25 2:50 PM,3 minutes and 43 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Sergio Abundiz,267,25,Lobby,,8/12/25 2:47 PM,8/12/25 2:51 PM,3 minutes and 51 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,268,,Lobby,,8/12/25 2:51 PM,8/12/25 2:54 PM,2 minutes and 22 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Arturo Rangel,266,,Lobby,,8/12/25 2:52 PM,8/12/25 2:56 PM,4 minutes and 47 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Arturo Rangel,266,,Prep,,8/12/25 2:52 PM,8/12/25 2:56 PM,4 minutes and 47 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Arturo Rangel,270,,Lobby,,8/12/25 3:00 PM,8/12/25 3:03 PM,3 minutes,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,271,22,Lobby,,8/12/25 3:04 PM,8/12/25 3:16 PM,11 minutes and 17 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,271,22,Tortillero,,8/12/25 3:04 PM,8/12/25 3:16 PM,11 minutes and 17 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,271,22,Prep,,8/12/25 3:04 PM,8/12/25 3:16 PM,11 minutes and 17 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Arturo Rangel,269,,Lobby,,8/12/25 3:20 PM,8/12/25 3:22 PM,1 minute and 44 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Arturo Rangel,272,,Lobby,,8/12/25 3:27 PM,8/12/25 3:28 PM,1 minute and 48 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Arturo Rangel,272,,Prep,,8/12/25 3:27 PM,8/12/25 3:28 PM,1 minute and 48 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Arturo Rangel,273,,Prep,,8/12/25 3:29 PM,8/12/25 3:32 PM,3 minutes and 11 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Arturo Rangel,273,,Lobby,,8/12/25 3:29 PM,8/12/25 3:32 PM,3 minutes and 11 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,264,37,,2,8/12/25 2:43 PM,8/12/25 3:34 PM,50 minutes and 18 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Sergio Abundiz,262,35,,2,8/12/25 2:43 PM,8/12/25 3:34 PM,50 minutes and 20 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Sergio Abundiz,267,25,,2,8/12/25 2:51 PM,8/12/25 3:34 PM,43 minutes and 2 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,268,,,2,8/12/25 2:54 PM,8/12/25 3:34 PM,40 minutes and 16 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,271,22,,2,8/12/25 3:16 PM,8/12/25 3:34 PM,18 minutes and 18 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Sergio Abundiz,275,25,Lobby,,8/12/25 3:31 PM,8/12/25 3:35 PM,3 minutes and 38 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Sergio Abundiz,275,25,Tortillero,,8/12/25 3:31 PM,8/12/25 3:35 PM,3 minutes and 38 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Sergio Abundiz,275,25,Prep,,8/12/25 3:31 PM,8/12/25 3:35 PM,3 minutes and 38 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Arturo Rangel,276,,Lobby,,8/12/25 3:39 PM,8/12/25 3:43 PM,3 minutes and 29 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Arturo Rangel,279,,Lobby,,8/12/25 3:42 PM,8/12/25 3:44 PM,1 minute and 57 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Sergio Abundiz,281,40,Lobby,,8/12/25 3:45 PM,8/12/25 3:46 PM,1 minute and 43 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Sergio Abundiz,281,40,Prep,,8/12/25 3:45 PM,8/12/25 3:46 PM,1 minute and 43 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Arturo Rangel,277,,Lobby,,8/12/25 4:01 PM,8/12/25 4:06 PM,4 minutes and 54 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,282,32,Lobby,,8/12/25 4:01 PM,8/12/25 4:10 PM,9 minutes and 4 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,282,32,Lobby,,8/12/25 4:02 PM,8/12/25 4:10 PM,8 minutes and 46 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,282,32,Lobby,,8/12/25 4:08 PM,8/12/25 4:10 PM,1 minute and 53 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Sergio Abundiz,284,35,Lobby,,8/12/25 4:04 PM,8/12/25 4:10 PM,6 minutes and 9 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,285,24,Lobby,,8/12/25 4:04 PM,8/12/25 4:10 PM,5 minutes and 52 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Arturo Rangel,286,,Lobby,,8/12/25 4:08 PM,8/12/25 4:12 PM,3 minutes and 6 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Arturo Rangel,286,,Lobby,,8/12/25 4:10 PM,8/12/25 4:12 PM,1 minute and 40 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Arturo Rangel,290,,Lobby,,8/12/25 4:19 PM,8/12/25 4:22 PM,3 minutes and 14 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Sergio Abundiz,292,9,Lobby,,8/12/25 4:24 PM,8/12/25 4:29 PM,5 minutes and 28 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Sergio Abundiz,292,9,Tortillero,,8/12/25 4:24 PM,8/12/25 4:29 PM,5 minutes and 28 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,293,25,Lobby,,8/12/25 4:26 PM,8/12/25 4:29 PM,3 minutes and 29 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,293,25,Tortillero,,8/12/25 4:26 PM,8/12/25 4:29 PM,3 minutes and 29 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Sergio Abundiz,292,9,Lobby,,8/12/25 4:30 PM,8/12/25 4:31 PM,54 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Melissa Urena,295,,Prep,,8/12/25 4:32 PM,8/12/25 4:33 PM,1 minute and 20 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Melissa Urena,295,,Lobby,,8/12/25 4:32 PM,8/12/25 4:33 PM,1 minute and 20 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Melissa Urena,294,,Lobby,,8/12/25 4:31 PM,8/12/25 4:36 PM,5 minutes and 32 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Melissa Urena,296,,Prep,,8/12/25 4:36 PM,8/12/25 4:37 PM,1 minute and 4 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Melissa Urena,296,,Lobby,,8/12/25 4:36 PM,8/12/25 4:37 PM,1 minute and 4 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Melissa Urena,296,,Prep,,8/12/25 4:37 PM,8/12/25 4:37 PM,21 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Melissa Urena,296,,Lobby,,8/12/25 4:37 PM,8/12/25 4:37 PM,21 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Melissa Urena,298,,Lobby,,8/12/25 4:40 PM,8/12/25 4:41 PM,1 minute and 35 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Melissa Urena,298,,Prep,,8/12/25 4:40 PM,8/12/25 4:41 PM,1 minute and 35 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Sergio Abundiz,275,25,,2,8/12/25 3:35 PM,8/12/25 4:58 PM,"1 hour, 22 minutes and 25 seconds",Zoila Salinas
+Tink-a-Tako - Potranco,Sergio Abundiz,281,40,,2,8/12/25 3:46 PM,8/12/25 4:58 PM,"1 hour, 11 minutes and 14 seconds",Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,282,32,,2,8/12/25 4:10 PM,8/12/25 4:58 PM,47 minutes and 15 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,282,32,,2,8/12/25 4:10 PM,8/12/25 4:58 PM,47 minutes and 15 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Sergio Abundiz,284,35,,2,8/12/25 4:10 PM,8/12/25 4:58 PM,47 minutes and 15 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,285,24,,2,8/12/25 4:10 PM,8/12/25 4:58 PM,47 minutes and 16 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,282,32,,2,8/12/25 4:10 PM,8/12/25 4:58 PM,47 minutes and 15 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Sergio Abundiz,292,9,,2,8/12/25 4:29 PM,8/12/25 4:58 PM,28 minutes and 14 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,293,25,,2,8/12/25 4:29 PM,8/12/25 4:58 PM,28 minutes and 14 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Sergio Abundiz,292,9,,2,8/12/25 4:31 PM,8/12/25 4:58 PM,26 minutes and 24 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Melissa Urena,301,,Prep,,8/12/25 5:11 PM,8/12/25 5:12 PM,1 minute and 13 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Melissa Urena,301,,Lobby,,8/12/25 5:11 PM,8/12/25 5:12 PM,1 minute and 13 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Sergio Abundiz,300,32,Lobby,,8/12/25 5:02 PM,8/12/25 5:13 PM,11 minutes,Zoila Salinas
+Tink-a-Tako - Potranco,Melissa Urena,303,,Lobby,,8/12/25 5:18 PM,8/12/25 5:27 PM,9 minutes and 37 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Melissa Urena,303,,Prep,,8/12/25 5:18 PM,8/12/25 5:27 PM,9 minutes and 37 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,305,37,Lobby,,8/12/25 5:22 PM,8/12/25 5:30 PM,7 minutes and 57 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,305,37,Tortillero,,8/12/25 5:22 PM,8/12/25 5:30 PM,7 minutes and 57 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Sergio Abundiz,306,7,Lobby,,8/12/25 5:26 PM,8/12/25 5:30 PM,4 minutes and 2 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,307,25,Lobby,,8/12/25 5:31 PM,8/12/25 5:36 PM,5 minutes and 40 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Sergio Abundiz,300,32,,2,8/12/25 5:13 PM,8/12/25 5:38 PM,25 minutes and 21 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,305,37,,2,8/12/25 5:30 PM,8/12/25 5:38 PM,8 minutes and 41 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Sergio Abundiz,306,7,,2,8/12/25 5:30 PM,8/12/25 5:38 PM,8 minutes and 43 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,307,25,,2,8/12/25 5:36 PM,8/12/25 5:39 PM,2 minutes and 14 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Sergio Abundiz,300,32,Lobby,,8/12/25 5:38 PM,8/12/25 5:40 PM,1 minute and 42 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Sergio Abundiz,308,35,Lobby,,8/12/25 5:37 PM,8/12/25 5:43 PM,5 minutes and 13 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Sergio Abundiz,308,35,Lobby,,8/12/25 5:52 PM,8/12/25 5:53 PM,35 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Melissa Urena,304,,Prep,,8/12/25 5:58 PM,8/12/25 5:59 PM,1 minute and 18 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Melissa Urena,304,,Lobby,,8/12/25 5:58 PM,8/12/25 5:59 PM,1 minute and 18 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,309,37,Lobby,,8/12/25 5:55 PM,8/12/25 6:00 PM,4 minutes and 30 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Melissa Urena,310,,Lobby,,8/12/25 6:07 PM,8/12/25 6:09 PM,1 minute and 50 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,312,17,Lobby,,8/12/25 6:09 PM,8/12/25 6:11 PM,2 minutes and 6 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Sergio Abundiz,313,34,Lobby,,8/12/25 6:16 PM,8/12/25 6:18 PM,2 minutes and 58 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Sergio Abundiz,313,34,Tortillero,,8/12/25 6:16 PM,8/12/25 6:18 PM,2 minutes and 58 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Melissa Urena,311,,Tortillero,,8/12/25 6:19 PM,8/12/25 6:22 PM,2 minutes and 35 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Melissa Urena,311,,Prep,,8/12/25 6:19 PM,8/12/25 6:22 PM,2 minutes and 35 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Melissa Urena,311,,Lobby,,8/12/25 6:19 PM,8/12/25 6:22 PM,2 minutes and 35 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Melissa Urena,314,,Lobby,,8/12/25 6:24 PM,8/12/25 6:29 PM,5 minutes and 31 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Sergio Abundiz,316,,Prep,,8/12/25 6:29 PM,8/12/25 6:33 PM,4 minutes and 2 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Sergio Abundiz,316,,Lobby,,8/12/25 6:29 PM,8/12/25 6:33 PM,4 minutes and 2 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Melissa Urena,315,,Lobby,,8/12/25 6:41 PM,8/12/25 6:44 PM,2 minutes and 36 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,318,24,Lobby,,8/12/25 6:43 PM,8/12/25 6:46 PM,2 minutes and 50 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Melissa Urena,317,,Prep,,8/12/25 7:05 PM,8/12/25 7:06 PM,1 minute and 13 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Melissa Urena,317,,Lobby,,8/12/25 7:05 PM,8/12/25 7:06 PM,1 minute and 13 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Melissa Urena,320,,Lobby,,8/12/25 7:20 PM,8/12/25 7:22 PM,1 minute and 58 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Melissa Urena,320,,Prep,,8/12/25 7:20 PM,8/12/25 7:22 PM,1 minute and 58 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Sergio Abundiz,319,37,Lobby,,8/12/25 7:17 PM,8/12/25 7:23 PM,5 minutes and 33 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Sergio Abundiz,300,32,,2,8/12/25 5:40 PM,8/12/25 7:37 PM,"1 hour, 56 minutes and 31 seconds",Zoila Salinas
+Tink-a-Tako - Potranco,Sergio Abundiz,308,35,,2,8/12/25 5:43 PM,8/12/25 7:37 PM,"1 hour, 53 minutes and 55 seconds",Zoila Salinas
+Tink-a-Tako - Potranco,Sergio Abundiz,308,35,,2,8/12/25 5:53 PM,8/12/25 7:37 PM,"1 hour, 43 minutes and 38 seconds",Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,312,17,,2,8/12/25 6:11 PM,8/12/25 7:37 PM,"1 hour, 25 minutes and 27 seconds",Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,309,37,,2,8/12/25 6:00 PM,8/12/25 7:37 PM,"1 hour, 36 minutes and 52 seconds",Zoila Salinas
+Tink-a-Tako - Potranco,Sergio Abundiz,313,34,,2,8/12/25 6:18 PM,8/12/25 7:37 PM,"1 hour, 18 minutes and 7 seconds",Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,318,24,,2,8/12/25 6:46 PM,8/12/25 7:37 PM,50 minutes and 52 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Sergio Abundiz,316,,,2,8/12/25 6:33 PM,8/12/25 7:37 PM,"1 hour, 3 minutes and 33 seconds",Zoila Salinas
+Tink-a-Tako - Potranco,Sergio Abundiz,319,37,,2,8/12/25 7:23 PM,8/12/25 7:37 PM,13 minutes and 59 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,322,7,Lobby,,8/12/25 7:34 PM,8/12/25 7:39 PM,5 minutes and 46 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Melissa Urena,321,,Lobby,,8/12/25 7:34 PM,8/12/25 7:43 PM,8 minutes and 49 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Sergio Abundiz,323,31,Lobby,,8/12/25 7:35 PM,8/12/25 7:45 PM,10 minutes and 46 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Melissa Urena,324,,Lobby,,8/12/25 7:37 PM,8/12/25 7:46 PM,9 minutes and 4 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Sergio Abundiz,323,31,Lobby,,8/12/25 7:36 PM,8/12/25 7:46 PM,10 minutes and 20 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Melissa Urena,325,,Prep,,8/12/25 7:40 PM,8/12/25 7:50 PM,9 minutes and 48 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Melissa Urena,325,,Lobby,,8/12/25 7:40 PM,8/12/25 7:50 PM,9 minutes and 48 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Melissa Urena,326,,Lobby,,8/12/25 7:41 PM,8/12/25 7:50 PM,9 minutes,Zoila Salinas
+Tink-a-Tako - Potranco,Melissa Urena,328,,Lobby,,8/12/25 7:45 PM,8/12/25 7:50 PM,5 minutes and 37 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Sergio Abundiz,327,,Lobby,,8/12/25 7:43 PM,8/12/25 7:50 PM,7 minutes and 20 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Sergio Abundiz,327,,Prep,,8/12/25 7:43 PM,8/12/25 7:50 PM,7 minutes and 20 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Sergio Abundiz,323,31,,2,8/12/25 7:45 PM,8/12/25 7:52 PM,6 minutes and 16 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,322,7,,2,8/12/25 7:39 PM,8/12/25 7:52 PM,12 minutes and 21 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Sergio Abundiz,323,31,,2,8/12/25 7:46 PM,8/12/25 7:52 PM,5 minutes and 22 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Melissa Urena,329,,Lobby,,8/12/25 7:59 PM,8/12/25 8:05 PM,5 minutes and 38 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Melissa Urena,330,,Lobby,,8/12/25 8:03 PM,8/12/25 8:05 PM,2 minutes and 20 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Melissa Urena,331,,Lobby,,8/12/25 8:15 PM,8/12/25 8:19 PM,3 minutes and 36 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Melissa Urena,332,,Lobby,,8/12/25 8:16 PM,8/12/25 8:19 PM,3 minutes and 14 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Melissa Urena,333,,Lobby,,8/12/25 8:18 PM,8/12/25 8:21 PM,3 minutes and 7 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Melissa Urena,333,,Prep,,8/12/25 8:18 PM,8/12/25 8:21 PM,3 minutes and 7 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Melissa Urena,334,,Tortillero,,8/12/25 8:29 PM,8/12/25 8:43 PM,13 minutes and 47 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Melissa Urena,334,,Prep,,8/12/25 8:29 PM,8/12/25 8:43 PM,13 minutes and 47 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Melissa Urena,334,,Lobby,,8/12/25 8:29 PM,8/12/25 8:43 PM,13 minutes and 47 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Melissa Urena,335,,Lobby,,8/12/25 8:43 PM,8/12/25 8:50 PM,6 minutes and 59 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Melissa Urena,336,,Lobby,,8/12/25 8:43 PM,8/12/25 8:50 PM,6 minutes and 47 seconds,Zoila Salinas

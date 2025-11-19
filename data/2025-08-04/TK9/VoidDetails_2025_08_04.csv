@@ -1,0 +1,5 @@
+Order #,Opened Date,Void Date,Server,Approver,Item Name,Reason,Item Quantity,Total Price
+12001,8/4/25 10:33 AM,8/4/25 1:58 PM,Sami Martinez ,Maria  Salazar,Sweet Tea,Customer Changed Mind,1.0,3.45
+161,8/4/25 11:52 AM,8/4/25 1:38 PM,Eduardo  Franco ,Cinthia Patlan,Unsweet Tea,Server Error,1.0,3.45
+161,8/4/25 11:52 AM,8/4/25 1:38 PM,Eduardo  Franco ,Cinthia Patlan,Sweet Tea,Server Error,1.0,3.45
+162,8/4/25 11:53 AM,8/4/25 11:56 AM,Maria  Salazar,Maria  Salazar,Papa & Egg Taco,Customer Changed Mind,1.0,1.99

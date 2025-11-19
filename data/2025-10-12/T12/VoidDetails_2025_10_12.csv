@@ -1,0 +1,9 @@
+Order #,Opened Date,Void Date,Server,Approver,Item Name,Reason,Item Quantity,Total Price
+13,10/12/25 8:15 AM,10/12/25 9:06 AM,Esperansa Caviedes,Rosie  ORDONEZ,Big Red,Server Error,1.0,3.69
+79,10/12/25 9:38 AM,10/12/25 10:51 AM,Rosie  ORDONEZ,Rosie  ORDONEZ,Coffee,Server Error,1.0,2.99
+79,10/12/25 9:38 AM,10/12/25 10:51 AM,Rosie  ORDONEZ,Rosie  ORDONEZ,Ham & Egg Plt,Server Error,1.0,8.99
+167,10/12/25 10:49 AM,10/12/25 3:02 PM,Ivana Abundiz,Rosie  ORDONEZ,Papa & Bean Taco,Customer Changed Mind,1.0,1.99
+167,10/12/25 10:49 AM,10/12/25 3:02 PM,Ivana Abundiz,Rosie  ORDONEZ,Bacon & Egg Taco,Customer Changed Mind,1.0,1.99
+236,10/12/25 11:54 AM,10/12/25 12:49 PM,Maria Majana,Rosie  ORDONEZ,Migas Plate,Server Error,1.0,8.99
+266,10/12/25 12:19 PM,10/12/25 2:59 PM,Sergio Abundiz,Rosie  ORDONEZ,Barbacoa Taco,Server Error,1.0,4.79
+167,10/12/25 10:49 AM,10/12/25 3:02 PM,Ivana Abundiz,Rosie  ORDONEZ,Carne Guisada Taco,Customer Changed Mind,1.0,4.89

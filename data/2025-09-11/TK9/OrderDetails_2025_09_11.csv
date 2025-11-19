@@ -1,0 +1,293 @@
+Location,Order #,Opened,Server,Table,Revenue Center,Discount Amount,Amount,Tax,Tip,Gratuity,Duration (Opened to Paid)
+2919 Blanco Rd,2,9/11/25 6:00 AM,PM Cashier C,,Dining Room,0.00,3.98,0.33,0.00,0.00,00:00:56
+2919 Blanco Rd,3,9/11/25 6:00 AM,PM Cashier C,,Dining Room,0.00,3.98,0.33,0.00,0.00,00:06:11
+2919 Blanco Rd,4,9/11/25 6:00 AM,PM Cashier C,,Dining Room,0.00,26.77,2.23,0.00,0.00,00:06:41
+2919 Blanco Rd,6,9/11/25 6:06 AM,PM Cashier C,,Drive Thru,0.00,13.95,1.15,0.00,0.00,00:06:52
+2919 Blanco Rd,5,9/11/25 6:05 AM,PM Cashier C,,Dining Room,0.00,1.99,0.16,0.00,0.00,00:09:12
+2919 Blanco Rd,7,9/11/25 6:11 AM,Maria  Salazar,,Dining Room,0.00,28.93,2.38,2.00,0.00,00:00:22
+2919 Blanco Rd,8,9/11/25 6:12 AM,Maria  Salazar,,Dining Room,0.00,12.31,1.01,4.00,0.00,00:00:49
+2919 Blanco Rd,9,9/11/25 6:12 AM,Sami Martinez ,17,Dining Room,0.00,15.48,1.28,0.00,0.00,00:49:58
+2919 Blanco Rd,10,9/11/25 6:12 AM,Maria  Salazar,,Dining Room,0.00,7.73,0.63,0.00,0.00,00:02:23
+2919 Blanco Rd,11,9/11/25 6:15 AM,PM Cashier C,,Dining Room,0.00,4.28,0.35,0.00,0.00,00:01:56
+2919 Blanco Rd,14,9/11/25 6:16 AM,PM Cashier C,,Drive Thru,0.00,1.99,0.16,0.00,0.00,00:02:09
+2919 Blanco Rd,13,9/11/25 6:15 AM,PM Cashier C,,Dining Room,0.00,3.98,0.33,0.00,0.00,00:04:16
+2919 Blanco Rd,15,9/11/25 6:18 AM,PM Cashier C,,Dining Room,0.00,15.24,1.26,0.00,0.00,00:04:58
+2919 Blanco Rd,16,9/11/25 6:23 AM,PM Cashier C,,Drive Thru,0.00,5.97,0.49,0.00,0.00,00:05:15
+2919 Blanco Rd,18,9/11/25 6:24 AM,PM Cashier C,,Dining Room,0.00,3.49,0.29,0.00,0.00,00:04:48
+2919 Blanco Rd,19,9/11/25 6:26 AM,PM Cashier C,,Dining Room,0.00,9.29,0.77,0.00,0.00,00:04:57
+2919 Blanco Rd,21,9/11/25 6:29 AM,PM Cashier C,,Drive Thru,0.00,9.95,0.82,0.00,0.00,00:05:46
+2919 Blanco Rd,20,9/11/25 6:26 AM,PM Cashier C,,Dining Room,0.00,35.80,2.95,0.00,0.00,00:10:36
+2919 Blanco Rd,22,9/11/25 6:33 AM,PM Cashier C,,Dining Room,0.00,9.42,0.76,0.00,0.00,00:05:28
+2919 Blanco Rd,23,9/11/25 6:34 AM,Maria  Salazar,,Dining Room,0.00,4.28,0.35,1.00,0.00,00:07:27
+2919 Blanco Rd,25,9/11/25 6:36 AM,PM Cashier C,,Drive Thru,0.00,2.99,0.25,0.00,0.00,00:03:53
+2919 Blanco Rd,26,9/11/25 6:39 AM,PM Cashier C,,Drive Thru,0.00,16.24,1.35,0.00,0.00,00:03:30
+2919 Blanco Rd,27,9/11/25 6:39 AM,Maria  Salazar,,Dining Room,0.00,11.78,0.98,0.00,0.00,00:01:41
+2919 Blanco Rd,28,9/11/25 6:41 AM,Maria  Salazar,,Dining Room,0.00,0.00,0.00,0.00,0.00,00:00:06
+2919 Blanco Rd,29,9/11/25 6:45 AM,Maria  Salazar,,Dining Room,0.00,26.33,2.18,0.00,0.00,00:00:45
+2919 Blanco Rd,31,9/11/25 6:47 AM,PM Cashier C,,Dining Room,0.00,30.95,2.54,0.00,0.00,00:02:35
+2919 Blanco Rd,32,9/11/25 6:50 AM,PM Cashier C,,Drive Thru,0.00,7.96,0.66,0.00,0.00,00:05:33
+2919 Blanco Rd,34,9/11/25 6:50 AM,Sami Martinez ,19,Dining Room,0.00,12.03,1.00,0.00,0.00,00:27:11
+2919 Blanco Rd,35,9/11/25 6:53 AM,PM Cashier C,,Dining Room,0.00,5.97,0.49,0.00,0.00,00:03:04
+2919 Blanco Rd,37,9/11/25 6:54 AM,Sami Martinez ,12,Dining Room,0.00,12.44,1.02,4.00,0.00,00:19:42
+2919 Blanco Rd,38,9/11/25 6:55 AM,PM Cashier C,,Drive Thru,0.00,2.29,0.19,0.00,0.00,00:01:45
+2919 Blanco Rd,39,9/11/25 6:56 AM,PM Cashier C,,Drive Thru,0.00,6.38,0.52,0.00,0.00,00:01:29
+2919 Blanco Rd,41,9/11/25 6:59 AM,PM Cashier C,,Dining Room,7.27,2.99,0.25,0.00,0.00,00:05:27
+2919 Blanco Rd,42,9/11/25 7:01 AM,PM Cashier C,,Dining Room,0.00,22.90,1.89,0.00,0.00,00:06:58
+2919 Blanco Rd,43,9/11/25 7:02 AM,PM Cashier C,,Dining Room,0.00,5.14,0.42,0.00,0.00,00:06:59
+2919 Blanco Rd,45,9/11/25 7:06 AM,Sami Martinez ,14,Dining Room,18.21,33.82,2.79,0.00,0.00,00:48:27
+2919 Blanco Rd,46,9/11/25 7:07 AM,Maria  Salazar,,Dining Room,0.00,38.82,3.21,5.00,0.00,00:00:47
+2919 Blanco Rd,48,9/11/25 7:08 AM,PM Cashier C,,Drive Thru,0.00,3.98,0.33,0.00,0.00,00:01:45
+2919 Blanco Rd,49,9/11/25 7:09 AM,PM Cashier C,,Drive Thru,0.00,11.41,0.93,0.00,0.00,00:01:44
+2919 Blanco Rd,50,9/11/25 7:10 AM,PM Cashier C,,Drive Thru,0.00,5.97,0.49,2.00,0.00,00:03:15
+2919 Blanco Rd,51,9/11/25 7:11 AM,PM Cashier C,,Drive Thru,0.00,2.99,0.25,0.00,0.00,00:04:14
+2919 Blanco Rd,52,9/11/25 7:12 AM,PM Cashier C,,Drive Thru,0.00,7.47,0.61,0.00,0.00,00:05:10
+2919 Blanco Rd,53,9/11/25 7:16 AM,PM Cashier C,,Drive Thru,0.00,4.98,0.41,0.00,0.00,00:03:42
+2919 Blanco Rd,54,9/11/25 7:20 AM,Sami Martinez ,4,Dining Room,0.00,17.98,1.48,0.00,0.00,00:35:12
+2919 Blanco Rd,56,9/11/25 7:24 AM,PM Cashier C,,Dining Room,0.00,4.98,0.41,0.00,0.00,00:02:23
+2919 Blanco Rd,55,9/11/25 7:24 AM,Sami Martinez ,10,Dining Room,0.00,16.12,1.33,0.00,0.00,00:24:15
+2919 Blanco Rd,58,9/11/25 7:28 AM,Maria  Salazar,,Dining Room,0.00,7.96,0.66,0.00,0.00,00:13:04
+2919 Blanco Rd,59,9/11/25 7:29 AM,PM Cashier C,,Drive Thru,0.00,6.97,0.57,0.00,0.00,00:00:38
+2919 Blanco Rd,60,9/11/25 7:30 AM,Sami Martinez ,11,Dining Room,0.00,15.43,1.28,3.00,0.00,00:32:21
+2919 Blanco Rd,57,9/11/25 7:24 AM,PM Cashier C,,Dining Room,0.00,11.42,0.94,2.64,0.00,00:11:57
+2919 Blanco Rd,61,9/11/25 7:31 AM,Maria  Salazar,,Dining Room,0.00,3.98,0.32,0.00,0.00,00:02:15
+2919 Blanco Rd,62,9/11/25 7:33 AM,PM Cashier C,,Dining Room,0.00,7.13,0.59,0.00,0.00,00:03:42
+2919 Blanco Rd,64,9/11/25 7:35 AM,PM Cashier C,,Dining Room,0.00,34.08,2.81,0.00,0.00,00:02:28
+2919 Blanco Rd,66,9/11/25 7:37 AM,PM Cashier C,,Drive Thru,0.00,5.97,0.49,0.00,0.00,00:02:52
+2919 Blanco Rd,67,9/11/25 7:38 AM,PM Cashier C,,Drive Thru,0.00,12.45,1.03,0.00,0.00,00:02:03
+2919 Blanco Rd,68,9/11/25 7:39 AM,PM Cashier C,,Drive Thru,0.00,17.33,1.42,0.00,0.00,00:05:44
+2919 Blanco Rd,63,9/11/25 7:34 AM,PM Cashier C,,Dining Room,0.00,4.79,0.40,0.00,0.00,00:12:18
+2919 Blanco Rd,69,9/11/25 7:42 AM,Maria  Salazar,,Dining Room,0.00,8.07,0.66,1.00,0.00,00:00:18
+2919 Blanco Rd,72,9/11/25 7:45 AM,PM Cashier C,,Drive Thru,0.00,6.97,0.57,0.00,0.00,00:02:37
+2919 Blanco Rd,73,9/11/25 7:46 AM,PM Cashier C,,Drive Thru,0.00,1.99,0.16,0.00,0.00,00:01:39
+2919 Blanco Rd,74,9/11/25 7:48 AM,PM Cashier C,,Drive Thru,0.00,9.56,0.79,0.00,0.00,00:00:42
+2919 Blanco Rd,75,9/11/25 7:49 AM,PM Cashier C,,Dining Room,0.00,17.18,1.41,2.00,0.00,00:03:18
+2919 Blanco Rd,76,9/11/25 7:50 AM,PM Cashier C,,Dining Room,0.00,3.98,0.33,0.00,0.00,00:03:47
+2919 Blanco Rd,77,9/11/25 7:50 AM,PM Cashier C,,Dining Room,0.00,5.97,0.49,0.00,0.00,00:08:34
+2919 Blanco Rd,80,9/11/25 7:55 AM,PM Cashier C,,Dining Room,0.00,12.36,1.02,0.00,0.00,00:04:32
+2919 Blanco Rd,81,9/11/25 7:56 AM,Maria  Salazar,,Dining Room,0.00,4.98,0.41,0.00,0.00,00:00:40
+2919 Blanco Rd,82,9/11/25 7:57 AM,PM Cashier C,,Dining Room,0.00,6.44,0.53,0.00,0.00,00:06:49
+2919 Blanco Rd,83,9/11/25 7:57 AM,Maria  Salazar,,Dining Room,0.00,3.98,0.32,0.00,0.00,00:00:06
+2919 Blanco Rd,84,9/11/25 7:58 AM,Maria  Salazar,,Dining Room,0.00,7.43,0.61,0.00,0.00,00:00:22
+2919 Blanco Rd,85,9/11/25 7:59 AM,PM Cashier C,,Drive Thru,0.00,7.93,0.65,0.00,0.00,00:05:59
+2919 Blanco Rd,86,9/11/25 8:00 AM,Maria  Salazar,,Dining Room,0.00,14.00,1.15,0.00,0.00,00:00:30
+2919 Blanco Rd,87,9/11/25 8:00 AM,Maria  Salazar,,Dining Room,0.00,3.45,0.28,0.00,0.00,00:00:13
+2919 Blanco Rd,88,9/11/25 8:04 AM,PM Cashier C,,Drive Thru,0.00,6.68,0.55,0.00,0.00,00:03:07
+2919 Blanco Rd,89,9/11/25 8:05 AM,PM Cashier C,,Drive Thru,0.00,3.98,0.33,0.00,0.00,00:03:03
+2919 Blanco Rd,90,9/11/25 8:05 AM,Maria  Salazar,,Dining Room,0.00,2.49,0.21,0.00,0.00,00:00:25
+2919 Blanco Rd,79,9/11/25 7:54 AM,PM Cashier C,,Dining Room,0.00,1.99,0.16,0.00,0.00,00:14:19
+2919 Blanco Rd,92,9/11/25 8:08 AM,PM Cashier C,,Drive Thru,0.00,8.86,0.73,3.00,0.00,00:01:35
+2919 Blanco Rd,93,9/11/25 8:09 AM,PM Cashier C,,Drive Thru,0.00,7.27,0.60,0.00,0.00,00:02:38
+2919 Blanco Rd,94,9/11/25 8:12 AM,Martina Ovalle ,,Dining Room,0.00,6.77,0.56,0.00,0.00,00:01:24
+2919 Blanco Rd,95,9/11/25 8:12 AM,Martina Ovalle ,,Dining Room,0.00,3.98,0.33,0.00,0.00,00:04:03
+2919 Blanco Rd,97,9/11/25 8:13 AM,Martina Ovalle ,,Drive Thru,0.00,17.75,1.47,0.00,0.00,00:03:05
+2919 Blanco Rd,99,9/11/25 8:14 AM,Martina Ovalle ,,Drive Thru,0.00,7.43,0.61,0.00,0.00,00:03:45
+2919 Blanco Rd,100,9/11/25 8:14 AM,Martina Ovalle ,,Drive Thru,0.00,2.49,0.21,0.00,0.00,00:07:03
+2919 Blanco Rd,102,9/11/25 8:15 AM,Maria  Salazar,,Dining Room,0.00,15.47,1.27,0.00,0.00,00:07:26
+2919 Blanco Rd,104,9/11/25 8:16 AM,Maria  Salazar,,Dining Room,0.00,3.04,0.25,0.00,0.00,00:00:13
+2919 Blanco Rd,106,9/11/25 8:20 AM,Martina Ovalle ,,Drive Thru,0.00,12.28,1.01,0.00,0.00,00:03:18
+2919 Blanco Rd,105,9/11/25 8:19 AM,Sami Martinez ,17,Dining Room,0.00,20.46,1.68,3.00,0.00,00:24:44
+2919 Blanco Rd,107,9/11/25 8:21 AM,Martina Ovalle ,,Drive Thru,0.00,5.74,0.47,0.00,0.00,00:04:06
+2919 Blanco Rd,108,9/11/25 8:24 AM,Martina Ovalle ,,Drive Thru,0.00,19.45,1.60,2.00,0.00,00:02:41
+2919 Blanco Rd,110,9/11/25 8:27 AM,Maria  Salazar,,Dining Room,0.00,22.52,1.86,0.00,0.00,00:00:24
+2919 Blanco Rd,112,9/11/25 8:28 AM,Martina Ovalle ,,Dining Room,0.00,12.06,1.00,0.00,0.00,00:01:23
+2919 Blanco Rd,113,9/11/25 8:29 AM,Martina Ovalle ,,Dining Room,0.00,4.28,0.35,0.00,0.00,00:05:28
+2919 Blanco Rd,115,9/11/25 8:30 AM,Sami Martinez ,9,Dining Room,0.00,23.84,1.97,4.00,0.00,00:40:32
+2919 Blanco Rd,111,9/11/25 8:28 AM,Martina Ovalle ,,Dining Room,0.00,6.98,0.58,0.00,0.00,00:10:50
+2919 Blanco Rd,118,9/11/25 8:38 AM,Martina Ovalle ,,Dining Room,0.00,3.98,0.33,0.00,0.00,00:01:16
+2919 Blanco Rd,117,9/11/25 8:37 AM,Sami Martinez ,16,Dining Room,6.96,38.03,3.14,11.21,0.00,00:40:47
+2919 Blanco Rd,119,9/11/25 8:38 AM,Martina Ovalle ,,Dining Room,0.00,17.82,1.47,0.00,0.00,00:05:20
+2919 Blanco Rd,120,9/11/25 8:41 AM,Martina Ovalle ,,Dining Room,0.00,16.74,1.37,0.00,0.00,00:03:34
+2919 Blanco Rd,122,9/11/25 8:43 AM,Martina Ovalle ,,Drive Thru,0.00,6.97,0.58,0.00,0.00,00:02:50
+2919 Blanco Rd,123,9/11/25 8:45 AM,Sami Martinez ,5,Dining Room,0.00,7.78,0.63,3.00,0.00,00:10:35
+2919 Blanco Rd,124,9/11/25 8:45 AM,Martina Ovalle ,,Drive Thru,0.00,8.73,0.72,0.00,0.00,00:02:16
+2919 Blanco Rd,125,9/11/25 8:46 AM,Martina Ovalle ,,Drive Thru,0.00,16.23,1.34,2.43,0.00,00:05:35
+2919 Blanco Rd,126,9/11/25 8:50 AM,Maria  Salazar,,Dining Room,0.00,9.98,0.82,0.00,0.00,00:11:12
+2919 Blanco Rd,129,9/11/25 8:52 AM,Martina Ovalle ,,Drive Thru,0.00,7.43,0.61,1.00,0.00,00:03:05
+2919 Blanco Rd,128,9/11/25 8:52 AM,Martina Ovalle ,,Drive Thru,0.00,3.98,0.33,0.00,0.00,00:04:03
+2919 Blanco Rd,130,9/11/25 8:55 AM,Martina Ovalle ,,Drive Thru,0.00,2.29,0.19,0.00,0.00,00:01:46
+2919 Blanco Rd,131,9/11/25 8:56 AM,Martina Ovalle ,,Drive Thru,0.00,6.73,0.56,0.00,0.00,00:02:53
+2919 Blanco Rd,132,9/11/25 9:03 AM,Martina Ovalle ,,Drive Thru,0.00,26.07,2.15,0.00,0.00,00:04:22
+2919 Blanco Rd,133,9/11/25 9:03 AM,Martina Ovalle ,,Dining Room,0.00,6.98,0.58,0.00,0.00,00:07:25
+2919 Blanco Rd,137,9/11/25 9:06 AM,Maria  Salazar,8,Dining Room,0.00,4.58,0.38,0.00,0.00,00:37:58
+2919 Blanco Rd,136,9/11/25 9:05 AM,Sami Martinez ,2,Dining Room,0.00,21.94,1.82,0.00,0.00,00:38:19
+2919 Blanco Rd,139,9/11/25 9:11 AM,Maria  Salazar,,Dining Room,0.00,4.98,0.41,0.00,0.00,00:00:19
+2919 Blanco Rd,143,9/11/25 9:16 AM,Martina Ovalle ,,Dining Room,0.00,8.56,0.71,0.00,0.00,00:03:08
+2919 Blanco Rd,145,9/11/25 9:19 AM,Martina Ovalle ,,Drive Thru,0.00,9.43,0.78,2.00,0.00,00:01:48
+2919 Blanco Rd,144,9/11/25 9:16 AM,Martina Ovalle ,,Dining Room,0.00,8.46,0.70,0.00,0.00,00:13:19
+2919 Blanco Rd,146,9/11/25 9:28 AM,Martina Ovalle ,,Dining Room,0.00,1.99,0.16,0.00,0.00,00:02:59
+2919 Blanco Rd,147,9/11/25 9:29 AM,Maria  Salazar,,Dining Room,0.00,6.47,0.53,0.00,0.00,00:00:26
+2919 Blanco Rd,149,9/11/25 9:29 AM,Maria  Salazar,,Dining Room,0.00,1.99,0.16,0.00,0.00,00:03:02
+2919 Blanco Rd,148,9/11/25 9:29 AM,Martina Ovalle ,,Dining Room,0.00,2.49,0.21,0.00,0.00,00:07:32
+2919 Blanco Rd,153,9/11/25 9:37 AM,Martina Ovalle ,,Drive Thru,0.00,1.99,0.16,0.00,0.00,00:01:30
+2919 Blanco Rd,151,9/11/25 9:37 AM,Sami Martinez ,19,Dining Room,0.00,9.74,0.81,2.00,0.00,00:37:49
+2919 Blanco Rd,154,9/11/25 9:39 AM,samantha lopez,6,Dining Room,0.00,26.72,2.20,0.00,0.00,00:23:48
+2919 Blanco Rd,150,9/11/25 9:35 AM,Martina Ovalle ,,Dining Room,0.00,8.97,0.73,0.00,0.00,00:08:19
+2919 Blanco Rd,155,9/11/25 9:41 AM,Maria  Salazar,,Dining Room,0.00,1.99,0.16,0.00,0.00,00:00:35
+2919 Blanco Rd,156,9/11/25 9:41 AM,Martina Ovalle ,,Dining Room,0.00,3.29,0.27,0.00,0.00,00:04:33
+2919 Blanco Rd,160,9/11/25 9:47 AM,samantha lopez,20,Dining Room,0.00,11.74,0.97,0.00,0.00,00:44:50
+2919 Blanco Rd,158,9/11/25 9:43 AM,Martina Ovalle ,,Dining Room,0.00,7.17,0.59,2.00,0.00,00:09:37
+2919 Blanco Rd,161,9/11/25 9:50 AM,Martina Ovalle ,,Dining Room,0.00,16.45,1.35,0.00,0.00,00:07:24
+2919 Blanco Rd,162,9/11/25 9:55 AM,Martina Ovalle ,,Dining Room,0.00,3.49,0.29,0.00,0.00,00:05:09
+2919 Blanco Rd,164,9/11/25 9:57 AM,Sami Martinez ,4,Dining Room,0.00,17.73,1.47,0.00,0.00,00:32:23
+2919 Blanco Rd,163,9/11/25 9:56 AM,Martina Ovalle ,,Dining Room,0.00,9.83,0.80,0.00,0.00,00:05:20
+2919 Blanco Rd,167,9/11/25 10:00 AM,Martina Ovalle ,,Drive Thru,0.00,8.46,0.69,2.00,0.00,00:01:32
+2919 Blanco Rd,168,9/11/25 10:02 AM,Martina Ovalle ,,Drive Thru,0.00,4.58,0.38,0.00,0.00,00:02:15
+2919 Blanco Rd,170,9/11/25 10:04 AM,samantha lopez,3,Dining Room,0.00,13.96,1.15,0.00,0.00,00:26:15
+2919 Blanco Rd,172,9/11/25 10:04 AM,Sami Martinez ,13,Dining Room,0.00,10.98,0.91,0.00,0.00,00:36:53
+2919 Blanco Rd,173,9/11/25 10:07 AM,Sami Martinez ,5,Dining Room,0.00,16.33,1.35,3.00,0.00,00:24:13
+2919 Blanco Rd,174,9/11/25 10:07 AM,Martina Ovalle ,,Dining Room,0.00,1.99,0.16,0.00,0.00,00:01:41
+2919 Blanco Rd,176,9/11/25 10:08 AM,Martina Ovalle ,,Dining Room,0.00,6.94,0.57,0.00,0.00,00:03:04
+2919 Blanco Rd,175,9/11/25 10:07 AM,samantha lopez,7,Dining Room,0.00,29.61,2.43,4.96,0.00,00:36:59
+2919 Blanco Rd,166,9/11/25 9:59 AM,Martina Ovalle ,,Dining Room,0.00,3.04,0.25,0.00,0.00,00:20:15
+2919 Blanco Rd,179,9/11/25 10:20 AM,samantha lopez,15,Dining Room,0.00,10.74,0.89,3.00,0.00,00:17:53
+2919 Blanco Rd,178,9/11/25 10:19 AM,Martina Ovalle ,,Dining Room,0.00,11.94,0.98,1.00,0.00,00:02:31
+2919 Blanco Rd,180,9/11/25 10:20 AM,Martina Ovalle ,,Dining Room,0.00,9.96,0.82,2.00,0.00,00:04:13
+2919 Blanco Rd,181,9/11/25 10:21 AM,Maria  Salazar,,Dining Room,0.00,16.27,1.34,0.00,0.00,00:13:52
+2919 Blanco Rd,177,9/11/25 10:19 AM,Martina Ovalle ,,Drive Thru,0.00,14.43,1.19,0.00,0.00,00:06:44
+2919 Blanco Rd,182,9/11/25 10:21 AM,Maria  Salazar,,Dining Room,0.00,2.75,0.23,0.00,0.00,00:00:25
+2919 Blanco Rd,183,9/11/25 10:24 AM,Maria  Salazar,,Dining Room,0.00,6.97,0.57,0.00,0.00,00:13:08
+2919 Blanco Rd,185,9/11/25 10:26 AM,Martina Ovalle ,,Drive Thru,0.00,7.96,0.65,0.00,0.00,00:02:34
+2919 Blanco Rd,187,9/11/25 10:28 AM,Sami Martinez ,2,Dining Room,0.00,12.73,1.06,0.00,0.00,00:20:40
+2919 Blanco Rd,188,9/11/25 10:30 AM,Martina Ovalle ,,Drive Thru,0.00,10.34,0.85,0.00,0.00,00:00:10
+2919 Blanco Rd,191,9/11/25 10:34 AM,Martina Ovalle ,,Drive Thru,0.00,4.98,0.41,0.00,0.00,00:04:05
+2919 Blanco Rd,189,9/11/25 10:31 AM,Martina Ovalle ,,Drive Thru,0.00,4.28,0.35,1.00,0.00,00:05:46
+2919 Blanco Rd,190,9/11/25 10:33 AM,Martina Ovalle ,,Drive Thru,0.00,5.97,0.49,0.00,0.00,00:03:47
+2919 Blanco Rd,193,9/11/25 10:35 AM,samantha lopez,5,Dining Room,0.00,13.63,1.12,2.00,0.00,00:47:28
+2919 Blanco Rd,194,9/11/25 10:37 AM,Martina Ovalle ,,Drive Thru,0.00,3.98,0.33,0.00,0.00,00:02:54
+2919 Blanco Rd,196,9/11/25 10:40 AM,Martina Ovalle ,,Drive Thru,0.00,9.98,0.82,0.00,0.00,00:01:26
+2919 Blanco Rd,197,9/11/25 10:40 AM,Martina Ovalle ,,Drive Thru,0.00,3.15,0.26,0.00,0.00,00:00:59
+2919 Blanco Rd,198,9/11/25 10:42 AM,Martina Ovalle ,,Drive Thru,0.00,6.68,0.55,1.00,0.00,00:02:46
+2919 Blanco Rd,199,9/11/25 10:51 AM,Martina Ovalle ,,Dining Room,0.00,12.70,1.05,0.00,0.00,00:02:50
+2919 Blanco Rd,201,9/11/25 10:52 AM,Martina Ovalle ,,Drive Thru,0.00,30.85,2.53,0.00,0.00,00:04:30
+2919 Blanco Rd,202,9/11/25 10:59 AM,Martina Ovalle ,,Drive Thru,0.00,9.27,0.77,0.00,0.00,00:04:21
+2919 Blanco Rd,200,9/11/25 10:51 AM,Martina Ovalle ,,Dining Room,0.00,9.16,0.76,0.00,0.00,00:12:53
+2919 Blanco Rd,205,9/11/25 11:03 AM,Martina Ovalle ,,Drive Thru,0.00,0.00,0.00,0.00,0.00,00:00:04
+2919 Blanco Rd,204,9/11/25 11:02 AM,Martina Ovalle ,,Dining Room,0.00,17.97,1.49,0.00,0.00,00:06:30
+2919 Blanco Rd,207,9/11/25 11:07 AM,Martina Ovalle ,,Dining Room,0.00,3.98,0.32,2.00,0.00,00:05:48
+2919 Blanco Rd,208,9/11/25 11:11 AM,Martina Ovalle ,,Dining Room,0.00,2.99,0.25,0.00,0.00,00:03:50
+2919 Blanco Rd,210,9/11/25 11:13 AM,Martina Ovalle ,,Drive Thru,0.00,37.72,3.10,0.00,0.00,00:04:41
+2919 Blanco Rd,213,9/11/25 11:17 AM,Martina Ovalle ,,Drive Thru,0.00,19.32,1.60,2.00,0.00,00:03:44
+2919 Blanco Rd,214,9/11/25 11:17 AM,Martina Ovalle ,,Drive Thru,0.00,7.97,0.65,2.00,0.00,00:04:05
+2919 Blanco Rd,215,9/11/25 11:19 AM,Maria  Salazar,,Dining Room,0.00,24.18,1.98,5.00,0.00,00:01:25
+2919 Blanco Rd,216,9/11/25 11:23 AM,Martina Ovalle ,,Dining Room,0.00,8.37,0.68,0.00,0.00,00:10:16
+2919 Blanco Rd,209,9/11/25 11:11 AM,Martina Ovalle ,,Dining Room,0.00,12.24,1.00,0.00,0.00,00:23:32
+2919 Blanco Rd,219,9/11/25 11:32 AM,Martina Ovalle ,,Drive Thru,0.00,0.00,0.00,0.00,0.00,00:00:19
+2919 Blanco Rd,220,9/11/25 11:32 AM,samantha lopez,6,Dining Room,0.00,25.94,2.13,0.00,0.00,00:25:28
+2919 Blanco Rd,221,9/11/25 11:33 AM,Martina Ovalle ,,Drive Thru,0.00,18.92,1.57,0.00,0.00,00:03:44
+2919 Blanco Rd,218,9/11/25 11:32 AM,Martina Ovalle ,,Dining Room,0.00,8.18,0.67,0.00,0.00,00:08:05
+2919 Blanco Rd,223,9/11/25 11:36 AM,Sami Martinez ,4,Dining Room,0.00,24.48,2.02,3.00,0.00,00:30:15
+2919 Blanco Rd,224,9/11/25 11:37 AM,Martina Ovalle ,,Drive Thru,0.00,5.97,0.49,0.00,0.00,00:05:07
+2919 Blanco Rd,226,9/11/25 11:40 AM,samantha lopez,17,Dining Room,0.00,11.99,0.99,3.00,0.00,00:25:20
+2919 Blanco Rd,225,9/11/25 11:40 AM,Martina Ovalle ,,Drive Thru,0.00,22.84,1.87,0.00,0.00,00:03:42
+2919 Blanco Rd,227,9/11/25 11:42 AM,Martina Ovalle ,,Drive Thru,0.00,29.36,2.42,0.00,0.00,00:06:12
+2919 Blanco Rd,228,9/11/25 11:43 AM,Martina Ovalle ,,Drive Thru,0.00,14.32,1.18,0.00,0.00,00:32:58
+2919 Blanco Rd,217,9/11/25 11:31 AM,Maria  Salazar,,Dining Room,0.00,23.93,1.97,0.00,0.00,00:18:27
+2919 Blanco Rd,229,9/11/25 11:49 AM,Martina Ovalle ,,Drive Thru,0.00,10.34,0.85,0.00,0.00,00:03:36
+2919 Blanco Rd,230,9/11/25 11:49 AM,Maria  Salazar,,Dining Room,0.00,32.67,2.69,0.00,0.00,00:01:20
+2919 Blanco Rd,235,9/11/25 11:51 AM,Maria  Salazar,,Dining Room,0.00,20.68,1.70,0.00,0.00,00:00:21
+2919 Blanco Rd,237,9/11/25 11:54 AM,Sami Martinez ,15,Dining Room,0.00,16.49,1.36,3.00,0.00,00:25:41
+2919 Blanco Rd,222,9/11/25 11:36 AM,Martina Ovalle ,,Dining Room,0.00,13.26,1.09,2.00,0.00,00:26:40
+2919 Blanco Rd,239,9/11/25 12:01 PM,samantha lopez,11,Dining Room,0.00,12.53,1.03,5.00,0.00,00:35:26
+2919 Blanco Rd,240,9/11/25 12:08 PM,Martina Ovalle ,,Dining Room,0.00,15.81,1.30,0.00,0.00,00:01:33
+2919 Blanco Rd,241,9/11/25 12:11 PM,Martina Ovalle ,,Dining Room,0.00,10.34,0.85,0.00,0.00,00:05:21
+2919 Blanco Rd,243,9/11/25 12:14 PM,Sami Martinez ,7,Dining Room,0.00,8.78,0.72,0.00,0.00,00:22:14
+2919 Blanco Rd,244,9/11/25 12:14 PM,Martina Ovalle ,,Drive Thru,0.00,17.43,1.43,0.00,0.00,00:04:13
+2919 Blanco Rd,245,9/11/25 12:15 PM,Martina Ovalle ,,Drive Thru,0.00,23.76,1.96,0.00,0.00,00:04:42
+2919 Blanco Rd,247,9/11/25 12:19 PM,Martina Ovalle ,,Drive Thru,0.00,11.12,0.91,0.00,0.00,00:02:18
+2919 Blanco Rd,246,9/11/25 12:18 PM,samantha lopez,4,Dining Room,0.00,27.13,2.23,5.00,0.00,00:59:28
+2919 Blanco Rd,248,9/11/25 12:20 PM,Martina Ovalle ,,Drive Thru,0.00,23.98,1.98,0.00,0.00,00:01:53
+2919 Blanco Rd,250,9/11/25 12:23 PM,Sami Martinez ,19,Dining Room,0.00,9.99,0.82,0.00,0.00,00:32:03
+2919 Blanco Rd,242,9/11/25 12:11 PM,Martina Ovalle ,,Dining Room,0.00,4.39,0.36,0.00,0.00,00:16:09
+2919 Blanco Rd,251,9/11/25 12:24 PM,samantha lopez,6,Dining Room,0.00,9.99,0.82,3.00,0.00,00:22:00
+2919 Blanco Rd,252,9/11/25 12:25 PM,Martina Ovalle ,,Dining Room,0.00,16.51,1.36,0.00,0.00,00:03:46
+2919 Blanco Rd,253,9/11/25 12:28 PM,Martina Ovalle ,,Drive Thru,0.00,11.49,0.95,0.00,0.00,00:02:44
+2919 Blanco Rd,255,9/11/25 12:31 PM,samantha lopez,5,Dining Room,0.00,18.33,1.51,0.00,0.00,00:17:51
+2919 Blanco Rd,254,9/11/25 12:29 PM,Sami Martinez ,25,Dining Room,0.00,41.62,3.42,0.00,0.00,00:24:38
+2919 Blanco Rd,256,9/11/25 12:31 PM,Martina Ovalle ,,Dining Room,0.00,8.97,0.73,0.00,0.00,00:06:06
+2919 Blanco Rd,257,9/11/25 12:33 PM,Martina Ovalle ,,Dining Room,0.00,7.97,0.65,1.00,0.00,00:04:44
+2919 Blanco Rd,258,9/11/25 12:34 PM,Maria  Salazar,,Dining Room,0.00,1.99,0.16,0.00,0.00,00:00:28
+2919 Blanco Rd,259,9/11/25 12:34 PM,Maria  Salazar,,Dining Room,0.00,65.43,5.39,0.00,0.00,00:01:46
+2919 Blanco Rd,261,9/11/25 12:42 PM,samantha lopez,8,Dining Room,0.00,33.01,2.71,4.00,0.00,00:39:38
+2919 Blanco Rd,262,9/11/25 12:42 PM,Sami Martinez ,2,Dining Room,0.00,27.08,2.23,10.00,0.00,00:34:16
+2919 Blanco Rd,263,9/11/25 12:44 PM,Maria  Salazar,,Dining Room,0.00,3.98,0.33,0.00,0.00,00:00:09
+2919 Blanco Rd,264,9/11/25 12:44 PM,Maria  Salazar,,Dining Room,0.00,6.99,0.58,0.00,0.00,00:01:14
+2919 Blanco Rd,265,9/11/25 12:45 PM,Martina Ovalle ,,Dining Room,0.00,20.68,1.70,0.00,0.00,00:03:29
+2919 Blanco Rd,266,9/11/25 12:46 PM,Martina Ovalle ,,Dining Room,0.00,11.94,0.99,0.00,0.00,00:05:13
+2919 Blanco Rd,269,9/11/25 12:47 PM,Martina Ovalle ,,Dining Room,0.00,6.97,0.58,1.00,0.00,00:03:09
+2919 Blanco Rd,268,9/11/25 12:46 PM,Sami Martinez ,3,Dining Room,0.00,23.12,1.90,5.00,0.00,00:27:56
+2919 Blanco Rd,270,9/11/25 12:47 PM,Martina Ovalle ,,Dining Room,0.00,47.66,3.93,0.00,0.00,00:13:08
+2919 Blanco Rd,272,9/11/25 12:58 PM,Martina Ovalle ,,Dining Room,0.00,6.23,0.51,0.00,0.00,00:03:04
+2919 Blanco Rd,274,9/11/25 1:02 PM,Martina Ovalle ,,Drive Thru,0.00,7.73,0.64,0.00,0.00,00:01:47
+2919 Blanco Rd,276,9/11/25 1:03 PM,Sami Martinez ,6,Dining Room,0.00,7.78,0.63,3.00,0.00,00:28:02
+2919 Blanco Rd,277,9/11/25 1:06 PM,samantha lopez,16,Dining Room,0.00,30.67,2.52,2.00,0.00,00:27:56
+2919 Blanco Rd,275,9/11/25 1:03 PM,Martina Ovalle ,,Dining Room,0.00,15.98,1.32,0.00,0.00,00:11:38
+2919 Blanco Rd,278,9/11/25 1:11 PM,Martina Ovalle ,,Dining Room,0.00,8.43,0.69,1.00,0.00,00:02:12
+2919 Blanco Rd,273,9/11/25 12:58 PM,Martina Ovalle ,,Dining Room,0.00,13.26,1.09,0.00,0.00,00:24:37
+2919 Blanco Rd,282,9/11/25 1:22 PM,samantha lopez,5,Dining Room,0.00,32.08,2.64,20.00,0.00,00:44:28
+2919 Blanco Rd,285,9/11/25 1:45 PM,samantha lopez,,Dining Room,0.00,17.62,1.45,0.00,0.00,00:08:02
+2919 Blanco Rd,286,9/11/25 1:46 PM,samantha lopez,,Dining Room,0.00,13.94,1.15,0.00,0.00,00:08:03
+2919 Blanco Rd,287,9/11/25 1:46 PM,samantha lopez,,Dining Room,0.00,18.62,1.54,0.00,0.00,00:07:47
+2919 Blanco Rd,289,9/11/25 1:48 PM,Martina Ovalle ,,Drive Thru,0.00,30.68,2.53,0.00,0.00,00:01:16
+2919 Blanco Rd,292,9/11/25 2:01 PM,Martina Ovalle ,,Dining Room,0.00,2.99,0.25,0.00,0.00,00:05:27
+2919 Blanco Rd,294,9/11/25 2:04 PM,Martina Ovalle ,,Dining Room,0.00,19.42,1.60,1.00,0.00,00:04:24
+2919 Blanco Rd,293,9/11/25 2:02 PM,Martina Ovalle ,,Dining Room,0.00,6.97,0.58,0.00,0.00,00:08:53
+2919 Blanco Rd,295,9/11/25 2:13 PM,samantha lopez,,Dining Room,0.00,24.13,1.99,3.00,0.00,00:03:54
+2919 Blanco Rd,296,9/11/25 2:18 PM,Martina Ovalle ,,Dining Room,0.00,1.99,0.16,0.00,0.00,00:02:08
+2919 Blanco Rd,297,9/11/25 2:18 PM,Martina Ovalle ,,Dining Room,0.00,23.97,1.98,0.00,0.00,00:12:39
+2919 Blanco Rd,298,9/11/25 2:30 PM,Martina Ovalle ,,Dining Room,0.00,15.95,1.31,0.00,0.00,00:09:30
+2919 Blanco Rd,300,9/11/25 2:54 PM,samantha lopez,,Dining Room,0.00,10.34,0.85,0.00,0.00,00:00:25
+2919 Blanco Rd,301,9/11/25 3:08 PM,Martina Ovalle ,,Dining Room,0.00,24.09,1.98,0.00,0.00,00:02:11
+2919 Blanco Rd,302,9/11/25 3:08 PM,samantha lopez,,Dining Room,0.00,11.99,0.99,0.00,0.00,00:06:04
+2919 Blanco Rd,299,9/11/25 2:37 PM,Martina Ovalle ,,Dining Room,0.00,4.99,0.41,0.00,0.00,02:15:29
+2919 Blanco Rd,305,9/11/25 3:20 PM,Martina Ovalle ,,Drive Thru,0.00,18.43,1.51,0.00,0.00,00:02:04
+2919 Blanco Rd,307,9/11/25 3:32 PM,samantha lopez,17,Dining Room,0.00,9.99,0.82,3.00,0.00,01:17:12
+2919 Blanco Rd,308,9/11/25 3:33 PM,samantha lopez,,Dining Room,0.00,2.75,0.23,0.00,0.00,00:00:04
+2919 Blanco Rd,309,9/11/25 3:38 PM,samantha lopez,,Dining Room,0.00,3.98,0.33,0.00,0.00,00:10:26
+2919 Blanco Rd,304,9/11/25 3:17 PM,Martina Ovalle ,,Dining Room,0.00,22.47,1.85,1.00,0.00,00:30:00
+2919 Blanco Rd,312,9/11/25 4:09 PM,Martina Ovalle ,,Dining Room,0.00,36.06,2.97,0.00,0.00,00:01:22
+2919 Blanco Rd,310,9/11/25 3:46 PM,Martina Ovalle ,,Dining Room,0.00,11.24,0.93,0.00,0.00,00:32:26
+2919 Blanco Rd,317,9/11/25 4:16 PM,samantha lopez,5,Dining Room,0.00,21.68,1.78,0.00,0.00,00:26:02
+2919 Blanco Rd,318,9/11/25 4:20 PM,samantha lopez,7,Dining Room,0.00,17.04,1.41,4.00,0.00,00:30:41
+2919 Blanco Rd,315,9/11/25 4:13 PM,Martina Ovalle ,,Dining Room,9.14,9.13,0.76,0.00,0.00,00:40:00
+2919 Blanco Rd,319,9/11/25 4:22 PM,Martina Ovalle ,,Dining Room,0.00,12.99,1.07,0.00,0.00,00:13:45
+2919 Blanco Rd,321,9/11/25 4:29 PM,samantha lopez,,Dining Room,0.00,11.51,0.94,0.00,0.00,00:00:17
+2919 Blanco Rd,322,9/11/25 4:30 PM,samantha lopez,,Dining Room,0.00,8.78,0.72,0.00,0.00,00:04:18
+2919 Blanco Rd,323,9/11/25 4:43 PM,samantha lopez,,Dining Room,0.00,12.55,1.03,0.00,0.00,04:03:55
+2919 Blanco Rd,324,9/11/25 4:44 PM,samantha lopez,,Dining Room,0.00,19.21,1.58,0.00,0.00,00:01:50
+2919 Blanco Rd,326,9/11/25 4:47 PM,Martina Ovalle ,,Dining Room,0.00,7.97,0.65,0.00,0.00,00:04:27
+2919 Blanco Rd,328,9/11/25 4:51 PM,Martina Ovalle ,,Drive Thru,0.00,0.50,0.04,0.00,0.00,02:49:30
+2919 Blanco Rd,327,9/11/25 4:47 PM,Martina Ovalle ,,Dining Room,0.00,21.53,1.77,1.00,0.00,00:08:11
+2919 Blanco Rd,329,9/11/25 4:54 PM,Martina Ovalle ,,Dining Room,0.00,4.98,0.41,0.00,0.00,00:11:38
+2919 Blanco Rd,331,9/11/25 5:02 PM,Martina Ovalle ,,Dining Room,0.00,15.26,1.26,0.00,0.00,00:08:55
+2919 Blanco Rd,333,9/11/25 5:12 PM,Martina Ovalle ,,Drive Thru,0.00,28.47,2.35,5.00,0.00,00:03:39
+2919 Blanco Rd,334,9/11/25 5:12 PM,Martina Ovalle ,,Drive Thru,0.00,6.68,0.55,0.00,0.00,00:05:53
+2919 Blanco Rd,335,9/11/25 5:13 PM,samantha lopez,,Dining Room,0.00,22.98,1.90,0.00,0.00,00:03:16
+2919 Blanco Rd,332,9/11/25 5:09 PM,Martina Ovalle ,,Dining Room,0.00,10.96,0.90,1.00,0.00,00:13:42
+2919 Blanco Rd,338,9/11/25 5:20 PM,Martina Ovalle ,,Dining Room,0.00,6.18,0.51,0.00,0.00,00:04:24
+2919 Blanco Rd,339,9/11/25 5:21 PM,Martina Ovalle ,,Dining Room,0.00,26.98,2.22,0.00,0.00,00:05:10
+2919 Blanco Rd,342,9/11/25 5:25 PM,samantha lopez,,Dining Room,0.00,2.50,0.21,0.00,0.00,00:01:00
+2919 Blanco Rd,341,9/11/25 5:25 PM,Martina Ovalle ,,Drive Thru,0.00,33.47,2.76,0.00,0.00,00:22:10
+2919 Blanco Rd,343,9/11/25 5:30 PM,samantha lopez,3,Dining Room,0.00,14.29,1.18,0.00,0.00,00:33:10
+2919 Blanco Rd,344,9/11/25 5:32 PM,samantha lopez,6,Dining Room,0.00,20.66,1.69,0.00,0.00,00:21:23
+2919 Blanco Rd,345,9/11/25 5:41 PM,Martina Ovalle ,,Drive Thru,0.00,11.47,0.95,0.00,0.00,00:00:28
+2919 Blanco Rd,346,9/11/25 5:41 PM,Martina Ovalle ,,Drive Thru,0.00,12.64,1.04,0.00,0.00,00:03:44
+2919 Blanco Rd,347,9/11/25 5:42 PM,Martina Ovalle ,,Drive Thru,0.00,8.97,0.74,2.00,0.00,00:00:52
+2919 Blanco Rd,348,9/11/25 5:51 PM,Martina Ovalle ,,Drive Thru,0.00,3.75,0.31,0.00,0.00,00:00:08
+2919 Blanco Rd,340,9/11/25 5:22 PM,Martina Ovalle ,,Dining Room,0.00,20.47,1.69,0.00,0.00,00:35:28
+2919 Blanco Rd,350,9/11/25 5:57 PM,Martina Ovalle ,,Dining Room,0.00,11.92,0.99,0.00,0.00,00:05:25
+2919 Blanco Rd,352,9/11/25 6:08 PM,Martina Ovalle ,,Dining Room,0.00,16.51,1.37,0.00,0.00,00:05:01
+2919 Blanco Rd,353,9/11/25 6:11 PM,Martina Ovalle ,,Dining Room,0.00,3.45,0.28,0.00,0.00,00:04:18
+2919 Blanco Rd,355,9/11/25 6:17 PM,Martina Ovalle ,,Dining Room,0.00,23.31,1.91,2.00,0.00,00:03:23
+2919 Blanco Rd,356,9/11/25 6:24 PM,Martina Ovalle ,,Drive Thru,0.00,10.34,0.85,0.00,0.00,00:00:55
+2919 Blanco Rd,357,9/11/25 6:24 PM,Martina Ovalle ,,Drive Thru,0.00,19.55,1.61,0.00,0.00,00:08:46
+2919 Blanco Rd,358,9/11/25 6:25 PM,Martina Ovalle ,,Drive Thru,0.00,10.38,0.86,0.00,0.00,00:08:45
+2919 Blanco Rd,359,9/11/25 6:33 PM,Martina Ovalle ,,Drive Thru,0.00,3.98,0.33,0.00,0.00,00:02:08
+2919 Blanco Rd,360,9/11/25 6:44 PM,Martina Ovalle ,,Dining Room,0.00,11.48,0.95,0.00,0.00,00:04:23
+2919 Blanco Rd,361,9/11/25 6:44 PM,Martina Ovalle ,,Dining Room,0.00,16.36,1.35,0.00,0.00,00:08:59
+2919 Blanco Rd,363,9/11/25 6:55 PM,Martina Ovalle ,,Dining Room,0.00,18.78,1.55,0.00,0.00,00:03:29
+2919 Blanco Rd,365,9/11/25 7:02 PM,samantha lopez,,Dining Room,0.00,18.78,1.54,0.00,0.00,00:13:16
+2919 Blanco Rd,366,9/11/25 7:16 PM,samantha lopez,17,Dining Room,0.00,9.33,0.77,0.00,0.00,00:12:29
+2919 Blanco Rd,367,9/11/25 7:18 PM,Martina Ovalle ,,Dining Room,0.00,12.99,1.07,3.00,0.00,00:15:07
+2919 Blanco Rd,369,9/11/25 7:31 PM,Martina Ovalle ,,Dining Room,0.00,13.99,1.15,0.00,0.00,00:08:32
+2919 Blanco Rd,368,9/11/25 7:29 PM,samantha lopez,,Dining Room,0.00,0.75,0.06,0.00,0.00,00:15:26
+2919 Blanco Rd,371,9/11/25 7:52 PM,Martina Ovalle ,,Drive Thru,0.00,10.34,0.85,0.00,0.00,00:00:40

@@ -1,0 +1,180 @@
+Check #,Table,Payment Type,Server,Cashier,Tip,Amount,Cash Drawer,Date,Opened Date
+2,,CREDIT,samantha,samantha,3.00,27.05,,8/17/25 8:09 AM,8/17/25 8:06 AM
+4,,CREDIT,samantha,samantha,2.00,11.65,,8/17/25 8:12 AM,8/17/25 8:12 AM
+6,,CASH,Maria ,Maria ,0.00,7.07,Front Box Cash Drawer,8/17/25 8:13 AM,8/17/25 8:13 AM
+3,,CASH,samantha,samantha,0.00,14.53,Drive Thru Cash Drawer,8/17/25 8:24 AM,8/17/25 8:18 AM
+8,,CASH,samantha,samantha,0.00,2.15,Drive Thru Cash Drawer,8/17/25 8:26 AM,8/17/25 8:25 AM
+11,,CASH,samantha,samantha,0.00,4.96,Drive Thru Cash Drawer,8/17/25 8:28 AM,8/17/25 8:28 AM
+1,7,CASH,Maria ,Maria ,0.00,7.83,Front Box Cash Drawer,8/17/25 8:33 AM,8/17/25 8:03 AM
+13,,CASH,samantha,samantha,0.00,10.36,Drive Thru Cash Drawer,8/17/25 8:35 AM,8/17/25 8:33 AM
+15,,CASH,samantha,samantha,0.00,3.24,Drive Thru Cash Drawer,8/17/25 8:49 AM,8/17/25 8:47 AM
+17,,CREDIT,samantha,samantha,0.00,6.46,,8/17/25 8:50 AM,8/17/25 8:50 AM
+20,,CREDIT,samantha,samantha,0.00,2.15,,8/17/25 8:51 AM,8/17/25 8:51 AM
+22,,CASH,samantha,samantha,0.00,34.41,Drive Thru Cash Drawer,8/17/25 8:56 AM,8/17/25 8:53 AM
+21,,CASH,samantha,samantha,0.00,21.10,Drive Thru Cash Drawer,8/17/25 8:57 AM,8/17/25 8:56 AM
+10,18,CREDIT,Maria ,Maria ,0.00,30.80,,8/17/25 8:57 AM,8/17/25 8:27 AM
+23,,CREDIT,samantha,samantha,0.00,14.25,,8/17/25 8:58 AM,8/17/25 8:56 AM
+25,,CASH,samantha,samantha,0.00,9.26,Drive Thru Cash Drawer,8/17/25 9:01 AM,8/17/25 8:57 AM
+28,,CREDIT,samantha,samantha,0.00,4.30,,8/17/25 9:05 AM,8/17/25 9:04 AM
+30,,CREDIT,samantha,samantha,2.00,12.98,,8/17/25 9:08 AM,8/17/25 9:08 AM
+31,,CASH,Maria ,Maria ,0.00,15.13,Front Box Cash Drawer,8/17/25 9:13 AM,8/17/25 9:13 AM
+34,,CASH,samantha,samantha,0.00,11.09,Drive Thru Cash Drawer,8/17/25 9:18 AM,8/17/25 9:16 AM
+35,,CASH,samantha,samantha,0.00,8.62,Drive Thru Cash Drawer,8/17/25 9:21 AM,8/17/25 9:19 AM
+19,9,CASH,Maria ,Maria ,0.00,17.02,Front Box Cash Drawer,8/17/25 9:22 AM,8/17/25 8:51 AM
+12,14,CREDIT,Maria ,Maria ,0.00,10.65,,8/17/25 9:23 AM,8/17/25 8:28 AM
+27,5,CREDIT,Martina,Maria ,8.00,31.97,,8/17/25 9:25 AM,8/17/25 9:02 AM
+36,,CREDIT,samantha,samantha,0.00,19.41,,8/17/25 9:26 AM,8/17/25 9:21 AM
+16,,CASH,samantha,samantha,0.00,6.79,Drive Thru Cash Drawer,8/17/25 9:27 AM,8/17/25 8:49 AM
+41,,CASH,samantha,samantha,0.00,33.06,Drive Thru Cash Drawer,8/17/25 9:31 AM,8/17/25 9:30 AM
+42,,CREDIT,samantha,samantha,0.00,10.63,,8/17/25 9:32 AM,8/17/25 9:30 AM
+43,,CREDIT,samantha,samantha,0.00,15.76,,8/17/25 9:34 AM,8/17/25 9:31 AM
+44,,CREDIT,samantha,samantha,0.00,5.39,,8/17/25 9:37 AM,8/17/25 9:32 AM
+40,,CASH,samantha,samantha,0.00,10.02,Drive Thru Cash Drawer,8/17/25 9:38 AM,8/17/25 9:26 AM
+49,,CREDIT,samantha,samantha,4.19,10.81,,8/17/25 9:39 AM,8/17/25 9:37 AM
+51,,CASH,samantha,samantha,0.00,3.56,Drive Thru Cash Drawer,8/17/25 9:44 AM,8/17/25 9:42 AM
+46,,CREDIT,samantha,samantha,1.00,15.09,,8/17/25 9:45 AM,8/17/25 9:35 AM
+55,,CREDIT,samantha,samantha,0.00,15.08,,8/17/25 9:46 AM,8/17/25 9:46 AM
+38,6,CASH,Martina,Maria ,0.00,26.45,Front Box Cash Drawer,8/17/25 9:55 AM,8/17/25 9:23 AM
+52,,CASH,Maria ,Maria ,0.00,20.51,Front Box Cash Drawer,8/17/25 9:59 AM,8/17/25 9:44 AM
+56,,CREDIT,samantha,samantha,0.00,6.45,,8/17/25 10:01 AM,8/17/25 9:57 AM
+54,12,CASH,Martina,Maria ,0.00,11.36,Front Box Cash Drawer,8/17/25 10:04 AM,8/17/25 9:45 AM
+60,,CREDIT,samantha,samantha,0.00,19.74,,8/17/25 10:06 AM,8/17/25 10:04 AM
+62,,CREDIT,samantha,samantha,0.00,13.58,,8/17/25 10:10 AM,8/17/25 10:05 AM
+67,,CASH,Maria ,Maria ,0.00,20.00,Front Box Cash Drawer,8/17/25 10:10 AM,8/17/25 10:10 AM
+64,,CASH,samantha,samantha,0.00,6.79,Drive Thru Cash Drawer,8/17/25 10:11 AM,8/17/25 10:08 AM
+68,,CREDIT,samantha,samantha,0.00,4.31,,8/17/25 10:12 AM,8/17/25 10:10 AM
+70,,CASH,Maria ,Maria ,0.00,14.86,Front Box Cash Drawer,8/17/25 10:13 AM,8/17/25 10:13 AM
+33,16,CREDIT,Martina,Maria ,25.00,114.41,,8/17/25 10:16 AM,8/17/25 9:15 AM
+72,,CREDIT,samantha,samantha,0.00,17.55,,8/17/25 10:16 AM,8/17/25 10:13 AM
+48,3,CREDIT,Martina,Maria ,2.00,7.29,,8/17/25 10:17 AM,8/17/25 9:37 AM
+73,,CREDIT,samantha,samantha,0.00,15.31,,8/17/25 10:18 AM,8/17/25 10:14 AM
+77,,CASH,samantha,samantha,0.00,27.05,Drive Thru Cash Drawer,8/17/25 10:20 AM,8/17/25 10:16 AM
+78,19,CREDIT,Martina,Maria ,2.00,5.89,,8/17/25 10:21 AM,8/17/25 10:20 AM
+57,19,CASH,Martina,Maria ,0.00,5.56,Front Box Cash Drawer,8/17/25 10:21 AM,8/17/25 9:58 AM
+63,,CREDIT,Maria ,Maria ,0.00,20.73,,8/17/25 10:22 AM,8/17/25 10:09 AM
+47,,CASH,Maria ,Maria ,0.00,11.84,Front Box Cash Drawer,8/17/25 10:22 AM,8/17/25 9:56 AM
+71,,CREDIT,samantha,samantha,0.00,33.53,,8/17/25 10:23 AM,8/17/25 10:15 AM
+79,,CASH,samantha,samantha,0.00,15.38,Drive Thru Cash Drawer,8/17/25 10:26 AM,8/17/25 10:22 AM
+58,20,CASH,Martina,Maria ,0.00,41.24,Front Box Cash Drawer,8/17/25 10:26 AM,8/17/25 10:00 AM
+80,,CASH,samantha,samantha,0.00,10.77,Drive Thru Cash Drawer,8/17/25 10:27 AM,8/17/25 10:25 AM
+83,,CREDIT,samantha,samantha,2.00,14.68,,8/17/25 10:30 AM,8/17/25 10:29 AM
+84,,CASH,samantha,samantha,0.00,5.46,Drive Thru Cash Drawer,8/17/25 10:34 AM,8/17/25 10:30 AM
+85,,CREDIT,samantha,samantha,0.00,10.77,,8/17/25 10:35 AM,8/17/25 10:33 AM
+86,,CREDIT,samantha,samantha,3.00,23.72,,8/17/25 10:36 AM,8/17/25 10:35 AM
+87,,CREDIT,samantha,samantha,0.00,25.50,,8/17/25 10:43 AM,8/17/25 10:40 AM
+89,,CASH,samantha,samantha,0.00,2.71,Drive Thru Cash Drawer,8/17/25 10:44 AM,8/17/25 10:41 AM
+91,,CREDIT,samantha,samantha,0.00,13.26,,8/17/25 10:46 AM,8/17/25 10:45 AM
+92,,CREDIT,samantha,samantha,0.00,12.13,,8/17/25 10:50 AM,8/17/25 10:46 AM
+82,5,CASH,Martina,Maria ,0.00,27.46,Front Box Cash Drawer,8/17/25 10:56 AM,8/17/25 10:28 AM
+96,,CASH,Maria ,Maria ,0.00,6.47,Front Box Cash Drawer,8/17/25 10:57 AM,8/17/25 10:57 AM
+99,,CASH,samantha,samantha,0.00,11.17,Drive Thru Cash Drawer,8/17/25 11:02 AM,8/17/25 11:00 AM
+101,,CASH,samantha,samantha,0.00,6.46,Drive Thru Cash Drawer,8/17/25 11:03 AM,8/17/25 11:01 AM
+103,,CREDIT,samantha,samantha,0.00,10.34,,8/17/25 11:08 AM,8/17/25 11:06 AM
+104,,CREDIT,samantha,samantha,0.00,29.90,,8/17/25 11:10 AM,8/17/25 11:08 AM
+10001,13,CASH,Martina,Maria ,0.00,23.97,Front Box Cash Drawer,8/17/25 11:11 AM,8/17/25 10:43 AM
+105,,CASH,samantha,samantha,0.00,31.36,Drive Thru Cash Drawer,8/17/25 11:11 AM,8/17/25 11:09 AM
+107,,CASH,samantha,samantha,0.00,11.21,Drive Thru Cash Drawer,8/17/25 11:12 AM,8/17/25 11:09 AM
+110,,CREDIT,samantha,samantha,0.00,12.98,,8/17/25 11:14 AM,8/17/25 11:14 AM
+88,7,CASH,Martina,Maria ,0.00,27.12,Front Box Cash Drawer,8/17/25 11:14 AM,8/17/25 10:40 AM
+108,,CASH,Maria ,Maria ,0.00,5.39,Front Box Cash Drawer,8/17/25 11:15 AM,8/17/25 11:11 AM
+116,,CASH,samantha,samantha,0.00,6.47,Drive Thru Cash Drawer,8/17/25 11:19 AM,8/17/25 11:17 AM
+81,,CREDIT,samantha,samantha,3.00,34.92,,8/17/25 11:21 AM,8/17/25 10:26 AM
+118,,CREDIT,samantha,samantha,3.00,10.81,,8/17/25 11:23 AM,8/17/25 11:21 AM
+93,17,CREDIT,Martina,Maria ,5.00,43.79,,8/17/25 11:25 AM,8/17/25 10:47 AM
+120,,CREDIT,samantha,samantha,0.00,16.17,,8/17/25 11:25 AM,8/17/25 11:22 AM
+98,19,CASH,Martina,Maria ,0.00,21.68,Front Box Cash Drawer,8/17/25 11:26 AM,8/17/25 11:00 AM
+121,,CREDIT,samantha,samantha,2.00,6.46,,8/17/25 11:26 AM,8/17/25 11:24 AM
+102,6,CREDIT,Martina,Maria ,0.00,37.45,,8/17/25 11:27 AM,8/17/25 11:06 AM
+122,,CREDIT,samantha,samantha,1.92,8.08,,8/17/25 11:30 AM,8/17/25 11:27 AM
+117,,CREDIT,Maria ,Maria ,0.00,19.07,,8/17/25 11:32 AM,8/17/25 11:20 AM
+95,22,CREDIT,Martina,Maria ,5.00,49.79,,8/17/25 11:33 AM,8/17/25 10:57 AM
+123,,CREDIT,samantha,samantha,0.00,19.34,,8/17/25 11:34 AM,8/17/25 11:31 AM
+125,,CREDIT,samantha,samantha,5.00,21.65,,8/17/25 11:35 AM,8/17/25 11:33 AM
+90,8,CREDIT,Martina,Maria ,0.00,12.32,,8/17/25 11:39 AM,8/17/25 10:44 AM
+126,,CREDIT,samantha,samantha,0.00,4.63,,8/17/25 11:39 AM,8/17/25 11:38 AM
+113,4,CREDIT,Martina,Maria ,5.00,12.44,,8/17/25 11:40 AM,8/17/25 11:15 AM
+114,,CASH,Maria ,Maria ,0.00,17.46,Front Box Cash Drawer,8/17/25 11:41 AM,8/17/25 11:16 AM
+127,,CREDIT,samantha,samantha,0.00,12.03,,8/17/25 11:41 AM,8/17/25 11:39 AM
+130,,CREDIT,samantha,samantha,1.00,11.83,,8/17/25 11:42 AM,8/17/25 11:40 AM
+132,,CASH,samantha,samantha,0.00,9.72,Drive Thru Cash Drawer,8/17/25 11:44 AM,8/17/25 11:44 AM
+133,,CREDIT,samantha,samantha,1.00,8.42,,8/17/25 11:48 AM,8/17/25 11:48 AM
+134,,CASH,samantha,samantha,0.00,10.48,Drive Thru Cash Drawer,8/17/25 11:50 AM,8/17/25 11:48 AM
+135,,CREDIT,samantha,samantha,0.00,17.02,,8/17/25 11:52 AM,8/17/25 11:50 AM
+112,5,CREDIT,Martina,Maria ,5.00,32.02,,8/17/25 11:53 AM,8/17/25 11:14 AM
+136,,CREDIT,samantha,samantha,0.00,10.57,,8/17/25 11:54 AM,8/17/25 11:51 AM
+137,,CASH,samantha,samantha,0.00,8.03,Drive Thru Cash Drawer,8/17/25 11:55 AM,8/17/25 11:52 AM
+100,1,CREDIT,Martina,Maria ,5.00,37.72,,8/17/25 11:56 AM,8/17/25 11:01 AM
+124,3,CREDIT,Martina,Maria ,7.00,36.75,,8/17/25 11:58 AM,8/17/25 11:32 AM
+141,,CREDIT,samantha,samantha,0.00,50.77,,8/17/25 12:03 PM,8/17/25 11:59 AM
+143,,CREDIT,samantha,samantha,0.00,12.96,,8/17/25 12:07 PM,8/17/25 12:06 PM
+146,,CASH,samantha,samantha,0.00,15.75,Drive Thru Cash Drawer,8/17/25 12:12 PM,8/17/25 12:11 PM
+148,,CASH,samantha,samantha,0.00,5.13,Drive Thru Cash Drawer,8/17/25 12:15 PM,8/17/25 12:12 PM
+149,,CREDIT,samantha,samantha,0.00,4.30,,8/17/25 12:16 PM,8/17/25 12:13 PM
+151,,CREDIT,samantha,samantha,1.00,11.28,,8/17/25 12:16 PM,8/17/25 12:15 PM
+152,,CREDIT,samantha,samantha,0.00,73.25,,8/17/25 12:19 PM,8/17/25 12:19 PM
+140,6,CASH,Martina,Maria ,0.00,12.76,Front Box Cash Drawer,8/17/25 12:24 PM,8/17/25 11:57 AM
+157,,CREDIT,samantha,samantha,3.00,12.42,,8/17/25 12:27 PM,8/17/25 12:23 PM
+145,7,CREDIT,Martina,Maria ,0.00,48.52,,8/17/25 12:28 PM,8/17/25 12:08 PM
+160,,CREDIT,samantha,samantha,0.00,17.80,,8/17/25 12:28 PM,8/17/25 12:26 PM
+150,9,CREDIT,Martina,Maria ,3.00,43.97,,8/17/25 12:33 PM,8/17/25 12:14 PM
+153,,CASH,Maria ,Maria ,0.00,32.65,Front Box Cash Drawer,8/17/25 12:35 PM,8/17/25 12:17 PM
+162,,CREDIT,samantha,samantha,1.00,14.20,,8/17/25 12:37 PM,8/17/25 12:29 PM
+164,,CASH,samantha,samantha,0.00,20.35,Drive Thru Cash Drawer,8/17/25 12:42 PM,8/17/25 12:38 PM
+166,,CREDIT,samantha,samantha,0.00,10.78,,8/17/25 12:46 PM,8/17/25 12:42 PM
+163,,CREDIT,Maria ,Maria ,0.00,8.26,,8/17/25 12:47 PM,8/17/25 12:41 PM
+167,,CREDIT,samantha,samantha,0.00,20.30,,8/17/25 12:47 PM,8/17/25 12:43 PM
+173,,CASH,Maria ,Maria ,0.00,8.81,Front Box Cash Drawer,8/17/25 12:48 PM,8/17/25 12:48 PM
+174,,CASH,Maria ,Maria ,0.00,21.95,Front Box Cash Drawer,8/17/25 12:49 PM,8/17/25 12:49 PM
+168,,CREDIT,samantha,samantha,0.00,13.49,,8/17/25 12:50 PM,8/17/25 12:44 PM
+171,,CREDIT,samantha,samantha,0.00,5.39,,8/17/25 12:51 PM,8/17/25 12:47 PM
+176,,CREDIT,samantha,samantha,0.00,12.98,,8/17/25 12:54 PM,8/17/25 12:51 PM
+175,,CREDIT,Maria ,Maria ,0.00,13.43,,8/17/25 12:55 PM,8/17/25 12:55 PM
+177,,CASH,samantha,samantha,0.00,33.26,Drive Thru Cash Drawer,8/17/25 12:58 PM,8/17/25 12:53 PM
+181,,CASH,Maria ,Maria ,0.00,3.73,Front Box Cash Drawer,8/17/25 1:00 PM,8/17/25 1:00 PM
+180,,CREDIT,samantha,samantha,2.00,33.51,,8/17/25 1:00 PM,8/17/25 12:57 PM
+155,4,CREDIT,Martina,Maria ,0.00,37.42,,8/17/25 1:02 PM,8/17/25 12:18 PM
+185,,CASH,samantha,samantha,0.00,6.46,Drive Thru Cash Drawer,8/17/25 1:09 PM,8/17/25 1:06 PM
+187,,CREDIT,Maria ,Maria ,0.00,21.61,,8/17/25 1:12 PM,8/17/25 1:12 PM
+147,25,CREDIT,Martina,Maria ,0.00,33.86,,8/17/25 1:14 PM,8/17/25 12:12 PM
+186,,CASH,samantha,samantha,0.00,9.50,Drive Thru Cash Drawer,8/17/25 1:14 PM,8/17/25 1:12 PM
+188,,CREDIT,samantha,samantha,2.00,18.38,,8/17/25 1:15 PM,8/17/25 1:14 PM
+178,3,CREDIT,Martina,Maria ,10.00,38.73,,8/17/25 1:17 PM,8/17/25 12:54 PM
+170,5,CASH,Martina,Maria ,0.00,25.74,Front Box Cash Drawer,8/17/25 1:19 PM,8/17/25 12:45 PM
+193,,CASH,samantha,samantha,0.00,8.62,Drive Thru Cash Drawer,8/17/25 1:22 PM,8/17/25 1:22 PM
+194,,CREDIT,samantha,samantha,2.00,10.67,,8/17/25 1:29 PM,8/17/25 1:28 PM
+191,,CREDIT,Maria ,Maria ,0.00,12.98,,8/17/25 1:29 PM,8/17/25 1:29 PM
+195,,CREDIT,Maria ,Maria ,0.00,28.12,,8/17/25 1:30 PM,8/17/25 1:30 PM
+197,,CASH,samantha,samantha,0.00,17.77,Drive Thru Cash Drawer,8/17/25 1:39 PM,8/17/25 1:36 PM
+203,,CREDIT,samantha,samantha,0.00,20.80,,8/17/25 1:40 PM,8/17/25 1:39 PM
+182,9,CREDIT,Martina,Maria ,5.00,37.37,,8/17/25 1:44 PM,8/17/25 1:00 PM
+192,18,CREDIT,Martina,Maria ,4.08,27.22,,8/17/25 1:46 PM,8/17/25 1:21 PM
+204,,CREDIT,samantha,samantha,0.00,4.31,,8/17/25 1:46 PM,8/17/25 1:44 PM
+199,,CREDIT,samantha,samantha,0.00,26.53,,8/17/25 1:46 PM,8/17/25 1:34 PM
+205,,CREDIT,samantha,samantha,0.00,12.29,,8/17/25 1:48 PM,8/17/25 1:47 PM
+206,,CREDIT,samantha,samantha,0.00,17.76,,8/17/25 1:52 PM,8/17/25 1:50 PM
+209,,CASH,samantha,samantha,0.00,9.88,Drive Thru Cash Drawer,8/17/25 1:53 PM,8/17/25 1:52 PM
+201,12,CASH,Martina,Maria ,0.00,6.90,Front Box Cash Drawer,8/17/25 1:56 PM,8/17/25 1:35 PM
+210,,CREDIT,samantha,samantha,3.00,12.93,,8/17/25 2:09 PM,8/17/25 2:03 PM
+211,,CASH,samantha,samantha,0.00,12.79,Drive Thru Cash Drawer,8/17/25 2:10 PM,8/17/25 2:06 PM
+213,6,CREDIT,Martina,Maria ,7.00,31.66,,8/17/25 2:11 PM,8/17/25 2:11 PM
+198,6,CREDIT,Martina,Maria ,3.00,12.95,,8/17/25 2:11 PM,8/17/25 1:34 PM
+208,5,CREDIT,Martina,Maria ,5.00,40.55,,8/17/25 2:17 PM,8/17/25 1:52 PM
+215,,CASH,samantha,samantha,0.00,9.71,Drive Thru Cash Drawer,8/17/25 2:18 PM,8/17/25 2:15 PM
+207,4,CREDIT,Martina,Maria ,4.00,16.48,,8/17/25 2:19 PM,8/17/25 1:51 PM
+216,,CREDIT,samantha,samantha,0.00,53.14,,8/17/25 2:20 PM,8/17/25 2:17 PM
+221,,CREDIT,Maria ,Maria ,0.00,32.44,,8/17/25 2:23 PM,8/17/25 2:23 PM
+218,,CREDIT,samantha,samantha,0.00,21.54,,8/17/25 2:24 PM,8/17/25 2:19 PM
+219,,CASH,samantha,samantha,0.00,10.45,Drive Thru Cash Drawer,8/17/25 2:26 PM,8/17/25 2:21 PM
+220,,CREDIT,samantha,samantha,0.00,18.90,,8/17/25 2:27 PM,8/17/25 2:21 PM
+222,,CREDIT,samantha,samantha,1.00,10.37,,8/17/25 2:28 PM,8/17/25 2:22 PM
+223,,CASH,samantha,samantha,0.00,9.50,Drive Thru Cash Drawer,8/17/25 2:29 PM,8/17/25 2:22 PM
+225,,CREDIT,Maria ,Maria ,0.00,4.31,,8/17/25 2:30 PM,8/17/25 2:30 PM
+228,,CREDIT,samantha,samantha,0.00,84.15,,8/17/25 2:40 PM,8/17/25 2:35 PM
+217,7,CREDIT,Martina,Maria ,0.00,21.49,,8/17/25 2:42 PM,8/17/25 2:17 PM
+229,,CREDIT,samantha,samantha,0.00,6.46,,8/17/25 2:44 PM,8/17/25 2:40 PM
+230,,CASH,samantha,samantha,0.00,16.71,Drive Thru Cash Drawer,8/17/25 2:46 PM,8/17/25 2:43 PM
+,,TIP_OUT,samantha,samantha,-49.11,0.00,Drive Thru Cash Drawer,8/17/25 2:58 PM,8/17/25 2:58 PM
+,,CLOSE_OUT_EXACT,samantha,,0.00,0.00,Drive Thru Cash Drawer,8/17/25 2:59 PM,8/17/25 2:59 PM
+,,TIP_OUT,Cinthia,Martina,-127.92,0.00,Front Box Cash Drawer,8/17/25 3:01 PM,8/17/25 3:01 PM
+,,CLOSE_OUT_EXACT,Maria ,,0.00,0.00,Front Box Cash Drawer,8/17/25 3:02 PM,8/17/25 3:02 PM
+,,TOTAL,,,-17.84,3205.86,,,

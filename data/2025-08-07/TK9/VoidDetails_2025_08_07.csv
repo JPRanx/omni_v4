@@ -1,0 +1,43 @@
+Order #,Opened Date,Void Date,Server,Approver,Item Name,Reason,Item Quantity,Total Price
+95,8/7/25 8:32 AM,8/7/25 9:35 AM,Sami Martinez ,Maria  Salazar,Sweet Tea,Server Error,1.0,3.45
+95,8/7/25 8:32 AM,8/7/25 9:35 AM,Sami Martinez ,Maria  Salazar,Papa & Egg Taco,Server Error,1.0,1.99
+95,8/7/25 8:32 AM,8/7/25 9:35 AM,Sami Martinez ,Maria  Salazar,Bean & Cheese Taco,Server Error,1.0,1.99
+95,8/7/25 8:32 AM,8/7/25 9:35 AM,Sami Martinez ,Maria  Salazar,Bean & Cheese Taco,Server Error,1.0,1.99
+95,8/7/25 8:32 AM,8/7/25 9:35 AM,Sami Martinez ,Maria  Salazar,Papa & Egg Taco,Server Error,1.0,1.99
+95,8/7/25 8:32 AM,8/7/25 9:35 AM,Sami Martinez ,Maria  Salazar,Chorizo & Egg Taco,Server Error,1.0,2.29
+208,8/7/25 11:37 AM,8/7/25 12:33 PM,Sami Martinez ,Maria  Salazar,Unsweet Tea,Customer Changed Mind,1.0,3.45
+208,8/7/25 11:37 AM,8/7/25 12:33 PM,Sami Martinez ,Maria  Salazar,To-Go Cup/ Plate,Customer Changed Mind,1.0,0.35
+208,8/7/25 11:37 AM,8/7/25 12:33 PM,Sami Martinez ,Maria  Salazar,Quesadilla Plt,Customer Changed Mind,1.0,11.99
+208,8/7/25 11:37 AM,8/7/25 12:33 PM,Sami Martinez ,Maria  Salazar,Side Guacamole,Customer Changed Mind,1.0,3.50
+225,8/7/25 12:00 PM,8/7/25 12:33 PM,Sami Martinez ,Maria  Salazar,Sweet Tea,Customer Changed Mind,1.0,3.45
+232,8/7/25 12:12 PM,8/7/25 12:33 PM,ADRIAN MORALES,Maria  Salazar,Mexican Plate,Customer Changed Mind,1.0,12.99
+232,8/7/25 12:12 PM,8/7/25 12:33 PM,ADRIAN MORALES,Maria  Salazar,Sweet Tea,Customer Changed Mind,1.0,3.45
+234,8/7/25 12:14 PM,8/7/25 12:33 PM,ADRIAN MORALES,Maria  Salazar,Bacon & Egg Mixed Plate,Customer Changed Mind,1.0,8.99
+234,8/7/25 12:14 PM,8/7/25 12:33 PM,ADRIAN MORALES,Maria  Salazar,-------------,Customer Changed Mind,1.0,0.00
+234,8/7/25 12:14 PM,8/7/25 12:33 PM,ADRIAN MORALES,Maria  Salazar,Lengua Taco,Customer Changed Mind,1.0,4.39
+234,8/7/25 12:14 PM,8/7/25 12:33 PM,ADRIAN MORALES,Maria  Salazar,bean and cheese,Customer Changed Mind,1.0,1.79
+231,8/7/25 12:12 PM,8/7/25 12:33 PM,Sami Martinez ,Maria  Salazar,Coffee?. ,Customer Changed Mind,1.0,2.75
+231,8/7/25 12:12 PM,8/7/25 12:33 PM,Sami Martinez ,Maria  Salazar,Water,Customer Changed Mind,1.0,0.00
+231,8/7/25 12:12 PM,8/7/25 12:33 PM,Sami Martinez ,Maria  Salazar,Water,Customer Changed Mind,1.0,0.00
+231,8/7/25 12:12 PM,8/7/25 12:33 PM,Sami Martinez ,Maria  Salazar,Large Menudo,Customer Changed Mind,1.0,11.99
+231,8/7/25 12:12 PM,8/7/25 12:33 PM,Sami Martinez ,Maria  Salazar,Huevos Ranchero Plate,Customer Changed Mind,1.0,7.99
+231,8/7/25 12:12 PM,8/7/25 12:33 PM,Sami Martinez ,Maria  Salazar,Asada Taco,Customer Changed Mind,1.0,4.89
+231,8/7/25 12:12 PM,8/7/25 12:33 PM,Sami Martinez ,Maria  Salazar,Country & Egg Taco,Customer Changed Mind,1.0,2.29
+231,8/7/25 12:12 PM,8/7/25 12:33 PM,Sami Martinez ,Maria  Salazar,-------------,Customer Changed Mind,1.0,0.00
+231,8/7/25 12:12 PM,8/7/25 12:33 PM,Sami Martinez ,Maria  Salazar,Side Bacon,Customer Changed Mind,1.0,3.99
+234,8/7/25 12:14 PM,8/7/25 12:33 PM,ADRIAN MORALES,Maria  Salazar,Mexican Coke,Customer Changed Mind,1.0,3.95
+234,8/7/25 12:14 PM,8/7/25 12:33 PM,ADRIAN MORALES,Maria  Salazar,Sweet Tea,Customer Changed Mind,1.0,3.45
+234,8/7/25 12:14 PM,8/7/25 12:33 PM,ADRIAN MORALES,Maria  Salazar,To-Go Cup/ Plate,Customer Changed Mind,1.0,0.35
+234,8/7/25 12:14 PM,8/7/25 12:33 PM,ADRIAN MORALES,Maria  Salazar,To-Go Cup/ Plate,Customer Changed Mind,1.0,0.35
+234,8/7/25 12:14 PM,8/7/25 12:33 PM,ADRIAN MORALES,Maria  Salazar,Large Menudo,Customer Changed Mind,1.0,11.99
+234,8/7/25 12:14 PM,8/7/25 12:33 PM,ADRIAN MORALES,Maria  Salazar,To Go**,Customer Changed Mind,1.0,0.00
+239,8/7/25 12:19 PM,8/7/25 12:33 PM,ADRIAN MORALES,Maria  Salazar,(1) Chalupa Compuesta,Customer Changed Mind,2.0,11.98
+244,8/7/25 12:29 PM,8/7/25 12:33 PM,samantha lopez,Maria  Salazar,Bean & Cheese Taco,Customer Changed Mind,2.0,3.98
+244,8/7/25 12:29 PM,8/7/25 12:33 PM,samantha lopez,Maria  Salazar,Coca-Cola,Customer Changed Mind,1.0,3.15
+244,8/7/25 12:29 PM,8/7/25 12:33 PM,samantha lopez,Maria  Salazar,Tripa Taco,Customer Changed Mind,1.0,4.99
+248,8/7/25 12:31 PM,8/7/25 12:33 PM,samantha lopez,Maria  Salazar,C. Guisada w/ Chz,Customer Changed Mind,1.0,5.00
+248,8/7/25 12:31 PM,8/7/25 12:33 PM,samantha lopez,Maria  Salazar,bean and cheese,Customer Changed Mind,1.0,1.79
+248,8/7/25 12:31 PM,8/7/25 12:33 PM,samantha lopez,Maria  Salazar,Sweet Tea,Customer Changed Mind,1.0,3.45
+246,8/7/25 12:30 PM,8/7/25 12:33 PM,ADRIAN MORALES,Maria  Salazar,Papa ala Mex Taco,Customer Changed Mind,1.0,3.49
+246,8/7/25 12:30 PM,8/7/25 12:33 PM,ADRIAN MORALES,Maria  Salazar,Chorizo & Egg Taco,Customer Changed Mind,1.0,2.79
+296,8/7/25 2:15 PM,8/7/25 2:16 PM,samantha lopez,Cinthia Patlan,Crispy Taco,Server Error,1.0,3.49

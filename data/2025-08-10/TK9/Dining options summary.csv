@@ -1,0 +1,5 @@
+Dining option,Orders,Net sales,Discount amount,Gross sales,Tax amount
+Dine In,52,1444.44,0.0,1444.44,119.04
+Drive Thru,102,1494.73,0.0,1494.73,123.12
+Take Out,28,426.84,0.0,426.84,35.14
+Total,182,3366.01,0.0,3366.01,277.30

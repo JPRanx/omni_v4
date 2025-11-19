@@ -1,0 +1,23 @@
+Location,Entry Id,Created Date,Action,Amount,Cash Drawer,Payout Reason,No Sale Reason,Comment,Employee,Employee 2
+Tink-a-Tako - Potranco,800000030807123063,10/16/25 6:44 AM,CASH_PAYMENT,12.98,Front Left,,,Cash payment,Rosie  ORDONEZ,
+Tink-a-Tako - Potranco,800000030809904670,10/16/25 9:40 AM,CASH_PAYMENT,36.66,Front Left,,,Cash payment,Ivana Abundiz,
+Tink-a-Tako - Potranco,800000030813172406,10/16/25 11:29 AM,CASH_PAYMENT,21.62,Front Left,,,Cash payment,Ivana Abundiz,
+Tink-a-Tako - Potranco,800000030813205908,10/16/25 11:29 AM,CASH_PAYMENT,10.25,Front Left,,,Cash payment,Ivana Abundiz,
+Tink-a-Tako - Potranco,800000030815287698,10/16/25 12:17 PM,TIP_OUT,-43.11,House,,,Tips paid out from shift review.,Norma Vasquez,Norma Vasquez
+Tink-a-Tako - Potranco,800000030815288905,10/16/25 12:17 PM,CASH_COLLECTED,87.31,House,,,Cash revenue collected from shift review.,Norma Vasquez,Norma Vasquez
+Tink-a-Tako - Potranco,800000030818266683,10/16/25 1:32 PM,CLOSE_OUT_EXACT,0.00,Front Left,,,Close out balance matches expected balance,Ivana Abundiz,
+Tink-a-Tako - Potranco,800000030819378117,10/16/25 2:02 PM,TIP_OUT,-30.52,House,,,Tips paid out from shift review.,Maria Majana,Maria Majana
+Tink-a-Tako - Potranco,800000030819379355,10/16/25 2:02 PM,CASH_COLLECTED,23.79,House,,,Cash revenue collected from shift review.,Maria Majana,Maria Majana
+Tink-a-Tako - Potranco,800000030819485049,10/16/25 2:05 PM,TIP_OUT,-49.34,House,,,Tips paid out from shift review.,Daniela Torres,Daniela Torres
+Tink-a-Tako - Potranco,800000030819486217,10/16/25 2:05 PM,CASH_COLLECTED,445.08,House,,,Cash revenue collected from shift review.,Daniela Torres,Daniela Torres
+Tink-a-Tako - Potranco,800000030819523806,10/16/25 2:06 PM,TIP_OUT,-51.46,House,,,Tips paid out from shift review.,Ivana Abundiz,Ivana Abundiz
+Tink-a-Tako - Potranco,800000030819815982,10/16/25 2:15 PM,CASH_COLLECTED,4.31,House,,,Cash revenue collected from shift review.,Rosie  ORDONEZ,Rosie  ORDONEZ
+Tink-a-Tako - Potranco,800000030820200126,10/16/25 2:26 PM,CASH_COLLECTED,166.13,House,,,Cash revenue collected from shift review.,Esperansa Caviedes,Esperansa Caviedes
+Tink-a-Tako - Potranco,800000030820201376,10/16/25 2:26 PM,TIP_OUT,-82.54,House,,,Tips paid out from shift review.,Esperansa Caviedes,Esperansa Caviedes
+Tink-a-Tako - Potranco,800000030839641085,10/16/25 9:00 PM,CASH_COLLECTED,160.42,House,,,Cash revenue collected from shift review.,Nadia  Reyes,Nadia  Reyes
+Tink-a-Tako - Potranco,800000030839642314,10/16/25 9:00 PM,TIP_OUT,-49.72,House,,,Tips paid out from shift review.,Nadia  Reyes,Nadia  Reyes
+Tink-a-Tako - Potranco,800000030841162606,10/16/25 9:58 PM,PAY_OUT,-101.90,House,Supplies,,Adelsos #64563,Mayra Luna,
+Tink-a-Tako - Potranco,800000030841206037,10/16/25 10:00 PM,CASH_COLLECTED,78.65,House,,,Cash revenue collected from shift review.,Isabel Cisneros,Isabel Cisneros
+Tink-a-Tako - Potranco,800000030841206792,10/16/25 10:00 PM,CASH_COLLECTED,215.81,House,,,Cash revenue collected from shift review.,Juan  Camacho,Juan  Camacho
+Tink-a-Tako - Potranco,800000030841206807,10/16/25 10:00 PM,TIP_OUT,-176.00,House,,,Tips paid out from shift review.,Isabel Cisneros,Isabel Cisneros
+Tink-a-Tako - Potranco,800000030841207701,10/16/25 10:00 PM,TIP_OUT,-88.68,House,,,Tips paid out from shift review.,Juan  Camacho,Juan  Camacho

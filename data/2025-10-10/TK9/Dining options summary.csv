@@ -1,0 +1,6 @@
+Dining option,Orders,Net sales,Discount amount,Gross sales,Tax amount
+Dine In,59,1470.59,0.0,1470.59,121.24
+Uber Eats - Takeout,1,1.99,0.0,1.99,0.16
+Drive Thru,204,2192.08,0.0,2192.08,180.52
+Take Out,38,692.97,4.38,697.35,57.07
+Total,302,4357.63,4.38,4362.01,358.99

@@ -1,0 +1,671 @@
+Location,Server,Check #,Table,Station,Expediter Level,Fired Date,Fulfilled Date,Fulfillment Time,Fulfilled By
+Tink-a-Tako - Potranco,Daniela Torres,1,,Lobby,,9/28/25 8:00 AM,9/28/25 8:03 AM,3 minutes and 11 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,1,,Tortillero,,9/28/25 8:00 AM,9/28/25 8:03 AM,3 minutes and 11 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,3,,Lobby,,9/28/25 8:04 AM,9/28/25 8:05 AM,1 minute and 3 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,2,,Lobby,,9/28/25 8:00 AM,9/28/25 8:05 AM,4 minutes and 35 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,2,,Tortillero,,9/28/25 8:00 AM,9/28/25 8:05 AM,4 minutes and 35 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,2,,Prep,,9/28/25 8:00 AM,9/28/25 8:05 AM,4 minutes and 35 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,5,,Lobby,,9/28/25 8:09 AM,9/28/25 8:10 AM,1 minute and 30 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,4,,Lobby,,9/28/25 8:08 AM,9/28/25 8:11 AM,2 minutes and 42 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,7,,Lobby,,9/28/25 8:15 AM,9/28/25 8:16 AM,1 minute and 14 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,7,,Lobby,,9/28/25 8:16 AM,9/28/25 8:17 AM,1 minute and 10 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Esperansa Caviedes,6,31,Lobby,,9/28/25 8:16 AM,9/28/25 8:18 AM,1 minute and 52 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,10,,Lobby,,9/28/25 8:21 AM,9/28/25 8:24 AM,2 minutes and 21 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Maria Majana,9,35,Lobby,,9/28/25 8:19 AM,9/28/25 8:24 AM,5 minutes and 40 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,11,,Lobby,,9/28/25 8:24 AM,9/28/25 8:25 AM,20 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Lizeth Alonso,13,,Lobby,,9/28/25 8:25 AM,9/28/25 8:26 AM,38 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,12,,Lobby,,9/28/25 8:26 AM,9/28/25 8:28 AM,1 minute and 46 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Sergio Abundiz,15,22,Lobby,,9/28/25 8:29 AM,9/28/25 8:30 AM,59 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,14,,Prep,,9/28/25 8:29 AM,9/28/25 8:33 AM,4 minutes and 32 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,14,,Lobby,,9/28/25 8:29 AM,9/28/25 8:33 AM,4 minutes and 32 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,14,,Tortillero,,9/28/25 8:29 AM,9/28/25 8:33 AM,4 minutes and 32 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,16,,Lobby,,9/28/25 8:31 AM,9/28/25 8:34 AM,3 minutes and 16 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,17,,Lobby,,9/28/25 8:32 AM,9/28/25 8:35 AM,3 minutes and 39 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Esperansa Caviedes,6,31,Lobby,,9/28/25 8:37 AM,9/28/25 8:37 AM,7 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,18,,Lobby,,9/28/25 8:34 AM,9/28/25 8:38 AM,4 minutes and 5 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Esperansa Caviedes,6,31,,2,9/28/25 8:37 AM,9/28/25 8:38 AM,44 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Lizeth Alonso,13,,Lobby,,9/28/25 8:35 AM,9/28/25 8:40 AM,4 minutes and 13 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Lizeth Alonso,13,,Tortillero,,9/28/25 8:35 AM,9/28/25 8:40 AM,4 minutes and 13 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Lizeth Alonso,13,,Prep,,9/28/25 8:35 AM,9/28/25 8:40 AM,4 minutes and 13 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,21,,Lobby,,9/28/25 8:38 AM,9/28/25 8:41 AM,3 minutes and 6 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,22,,Lobby,,9/28/25 8:40 AM,9/28/25 8:42 AM,1 minute and 49 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Esperansa Caviedes,6,31,Lobby,,9/28/25 8:32 AM,9/28/25 8:43 AM,10 minutes and 51 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Esperansa Caviedes,6,31,Tortillero,,9/28/25 8:32 AM,9/28/25 8:43 AM,10 minutes and 51 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Esperansa Caviedes,6,31,Prep,,9/28/25 8:32 AM,9/28/25 8:43 AM,10 minutes and 51 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Maria Majana,9,35,,2,9/28/25 8:24 AM,9/28/25 8:44 AM,20 minutes,Zoila Salinas
+Tink-a-Tako - Potranco,Esperansa Caviedes,6,31,,2,9/28/25 8:43 AM,9/28/25 8:44 AM,1 minute and 35 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Esperansa Caviedes,6,31,,2,9/28/25 8:18 AM,9/28/25 8:44 AM,26 minutes and 26 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Lizeth Alonso,13,,,2,9/28/25 8:26 AM,9/28/25 8:44 AM,18 minutes and 41 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Sergio Abundiz,15,22,,2,9/28/25 8:30 AM,9/28/25 8:44 AM,14 minutes and 43 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,23,,Lobby,,9/28/25 8:43 AM,9/28/25 8:44 AM,1 minute and 29 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,24,,Lobby,,9/28/25 8:45 AM,9/28/25 8:46 AM,1 minute,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,25,,Lobby,,9/28/25 8:45 AM,9/28/25 8:46 AM,47 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Lizeth Alonso,20,,Lobby,,9/28/25 8:35 AM,9/28/25 8:52 AM,17 minutes and 29 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,33,,Lobby,,9/28/25 8:49 AM,9/28/25 8:52 AM,2 minutes and 59 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,34,,Lobby,,9/28/25 8:54 AM,9/28/25 8:55 AM,1 minute and 44 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,34,,Prep,,9/28/25 8:54 AM,9/28/25 8:55 AM,1 minute and 44 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Esperansa Caviedes,29,25,Lobby,,9/28/25 8:47 AM,9/28/25 8:56 AM,8 minutes and 58 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Esperansa Caviedes,29,25,Tortillero,,9/28/25 8:47 AM,9/28/25 8:56 AM,8 minutes and 58 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Esperansa Caviedes,29,25,Prep,,9/28/25 8:47 AM,9/28/25 8:56 AM,8 minutes and 58 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,35,,Lobby,,9/28/25 8:54 AM,9/28/25 8:57 AM,3 minutes and 2 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Isabel Cisneros,30,24,Lobby,,9/28/25 8:48 AM,9/28/25 8:57 AM,9 minutes and 19 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Isabel Cisneros,30,24,,2,9/28/25 8:57 AM,9/28/25 8:58 AM,59 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Lizeth Alonso,20,,,2,9/28/25 8:52 AM,9/28/25 8:58 AM,6 minutes and 12 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Esperansa Caviedes,29,25,,2,9/28/25 8:56 AM,9/28/25 8:58 AM,1 minute and 47 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Lizeth Alonso,13,,,2,9/28/25 8:40 AM,9/28/25 8:58 AM,18 minutes and 35 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Maria Majana,32,8,Lobby,,9/28/25 8:51 AM,9/28/25 8:59 AM,7 minutes and 17 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Silvia Hernandez,28,10,Lobby,,9/28/25 8:50 AM,9/28/25 8:59 AM,8 minutes and 36 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Silvia Hernandez,28,10,Prep,,9/28/25 8:50 AM,9/28/25 8:59 AM,8 minutes and 36 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Esperansa Caviedes,29,25,Lobby,,9/28/25 8:58 AM,9/28/25 8:59 AM,59 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,36,,Lobby,,9/28/25 8:55 AM,9/28/25 8:59 AM,4 minutes and 22 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,37,,Lobby,,9/28/25 8:57 AM,9/28/25 8:59 AM,2 minutes and 47 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,38,,Lobby,,9/28/25 8:57 AM,9/28/25 9:00 AM,2 minutes and 7 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Maria Majana,32,8,,2,9/28/25 8:59 AM,9/28/25 9:00 AM,1 minute and 37 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,28,10,,2,9/28/25 8:59 AM,9/28/25 9:00 AM,1 minute and 43 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,38,,Lobby,,9/28/25 8:57 AM,9/28/25 9:00 AM,3 minutes and 19 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Esperansa Caviedes,6,31,Lobby,,9/28/25 8:56 AM,9/28/25 9:02 AM,5 minutes and 56 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,39,,Lobby,,9/28/25 9:00 AM,9/28/25 9:05 AM,4 minutes and 27 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Lizeth Alonso,13,,Lobby,,9/28/25 9:02 AM,9/28/25 9:05 AM,3 minutes and 16 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,43,,Lobby,,9/28/25 9:04 AM,9/28/25 9:06 AM,1 minute and 28 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,43,,Prep,,9/28/25 9:04 AM,9/28/25 9:06 AM,1 minute and 28 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,43,,Tortillero,,9/28/25 9:04 AM,9/28/25 9:06 AM,1 minute and 28 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,40,,Lobby,,9/28/25 9:02 AM,9/28/25 9:06 AM,4 minutes and 26 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Lizeth Alonso,41,,Lobby,,9/28/25 9:04 AM,9/28/25 9:07 AM,3 minutes and 41 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,45,,Lobby,,9/28/25 9:08 AM,9/28/25 9:09 AM,44 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Sergio Abundiz,44,23,Lobby,,9/28/25 9:07 AM,9/28/25 9:09 AM,1 minute and 46 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Maria Majana,42,32,Lobby,,9/28/25 9:06 AM,9/28/25 9:09 AM,3 minutes and 19 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Maria Majana,42,32,Tortillero,,9/28/25 9:06 AM,9/28/25 9:09 AM,3 minutes and 19 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Maria Majana,42,32,Prep,,9/28/25 9:06 AM,9/28/25 9:09 AM,3 minutes and 19 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,46,,Lobby,,9/28/25 9:10 AM,9/28/25 9:13 AM,3 minutes and 34 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,47,,Lobby,,9/28/25 9:13 AM,9/28/25 9:14 AM,1 minute and 30 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,48,,Lobby,,9/28/25 9:13 AM,9/28/25 9:17 AM,4 minutes and 13 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Esperansa Caviedes,6,31,,2,9/28/25 9:02 AM,9/28/25 9:20 AM,17 minutes and 45 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Lizeth Alonso,13,,,2,9/28/25 9:05 AM,9/28/25 9:20 AM,14 minutes and 34 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Esperansa Caviedes,29,25,,2,9/28/25 8:59 AM,9/28/25 9:20 AM,20 minutes and 33 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Lizeth Alonso,41,,,2,9/28/25 9:07 AM,9/28/25 9:20 AM,12 minutes and 25 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Sergio Abundiz,44,23,,2,9/28/25 9:09 AM,9/28/25 9:20 AM,10 minutes and 39 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Maria Majana,42,32,,2,9/28/25 9:09 AM,9/28/25 9:20 AM,10 minutes and 37 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Isabel Cisneros,49,19,Lobby,,9/28/25 9:17 AM,9/28/25 9:20 AM,3 minutes and 24 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Isabel Cisneros,49,19,Tortillero,,9/28/25 9:17 AM,9/28/25 9:20 AM,3 minutes and 24 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Isabel Cisneros,49,19,Prep,,9/28/25 9:17 AM,9/28/25 9:20 AM,3 minutes and 24 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,52,,Lobby,,9/28/25 9:20 AM,9/28/25 9:21 AM,1 minute and 19 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Esperansa Caviedes,50,38,Lobby,,9/28/25 9:18 AM,9/28/25 9:22 AM,3 minutes and 57 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Esperansa Caviedes,50,38,Tortillero,,9/28/25 9:18 AM,9/28/25 9:22 AM,3 minutes and 57 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,51,,Lobby,,9/28/25 9:19 AM,9/28/25 9:22 AM,3 minutes and 35 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Silvia Hernandez,54,26,Lobby,,9/28/25 9:21 AM,9/28/25 9:23 AM,2 minutes and 16 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,53,,Lobby,,9/28/25 9:21 AM,9/28/25 9:23 AM,2 minutes and 47 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,55,,Lobby,,9/28/25 9:22 AM,9/28/25 9:26 AM,4 minutes and 40 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,57,,Prep,,9/28/25 9:26 AM,9/28/25 9:28 AM,1 minute and 34 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,57,,Lobby,,9/28/25 9:26 AM,9/28/25 9:28 AM,1 minute and 34 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,58,,Lobby,,9/28/25 9:27 AM,9/28/25 9:28 AM,1 minute and 21 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,56,,Lobby,,9/28/25 9:25 AM,9/28/25 9:30 AM,4 minutes and 25 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Lizeth Alonso,60,,Lobby,,9/28/25 9:30 AM,9/28/25 9:30 AM,32 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,61,,Lobby,,9/28/25 9:30 AM,9/28/25 9:33 AM,3 minutes and 10 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,61,,Lobby,,9/28/25 9:35 AM,9/28/25 9:35 AM,34 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Esperansa Caviedes,50,38,,2,9/28/25 9:22 AM,9/28/25 9:38 AM,16 minutes and 58 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,54,26,,2,9/28/25 9:23 AM,9/28/25 9:38 AM,15 minutes and 6 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Isabel Cisneros,49,19,,2,9/28/25 9:20 AM,9/28/25 9:39 AM,18 minutes and 15 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Lizeth Alonso,60,,,2,9/28/25 9:30 AM,9/28/25 9:39 AM,8 minutes and 16 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Sergio Abundiz,63,39,Lobby,,9/28/25 9:31 AM,9/28/25 9:39 AM,8 minutes and 43 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Silvia Hernandez,64,22,Lobby,,9/28/25 9:32 AM,9/28/25 9:39 AM,7 minutes and 46 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Silvia Hernandez,64,22,Tortillero,,9/28/25 9:32 AM,9/28/25 9:39 AM,7 minutes and 46 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Silvia Hernandez,64,22,Prep,,9/28/25 9:32 AM,9/28/25 9:39 AM,7 minutes and 46 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Silvia Hernandez,64,22,Lobby,,9/28/25 9:37 AM,9/28/25 9:40 AM,3 minutes and 36 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,65,,Prep,,9/28/25 9:40 AM,9/28/25 9:42 AM,1 minute and 15 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,65,,Lobby,,9/28/25 9:40 AM,9/28/25 9:42 AM,1 minute and 15 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,67,,Lobby,,9/28/25 9:42 AM,9/28/25 9:43 AM,36 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Isabel Cisneros,66,33,Lobby,,9/28/25 9:39 AM,9/28/25 9:45 AM,5 minutes and 59 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Isabel Cisneros,66,33,Lobby,,9/28/25 9:43 AM,9/28/25 9:45 AM,2 minutes and 38 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Esperansa Caviedes,68,24,Lobby,,9/28/25 9:44 AM,9/28/25 9:45 AM,1 minute and 4 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Maria Majana,71,32,Lobby,,9/28/25 9:48 AM,9/28/25 9:50 AM,2 minutes and 23 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,73,,Lobby,,9/28/25 9:49 AM,9/28/25 9:51 AM,1 minute and 54 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Esperansa Caviedes,74,15,Lobby,,9/28/25 9:51 AM,9/28/25 9:52 AM,1 minute and 17 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Esperansa Caviedes,74,15,Prep,,9/28/25 9:51 AM,9/28/25 9:52 AM,1 minute and 17 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Maria Majana,71,32,,2,9/28/25 9:50 AM,9/28/25 9:52 AM,2 minutes and 17 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,76,,Lobby,,9/28/25 9:52 AM,9/28/25 9:53 AM,1 minute and 11 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Silvia Hernandez,72,25,Lobby,,9/28/25 9:49 AM,9/28/25 9:53 AM,4 minutes and 17 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Silvia Hernandez,72,25,Prep,,9/28/25 9:49 AM,9/28/25 9:53 AM,4 minutes and 17 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Maria Majana,71,32,Lobby,,9/28/25 9:52 AM,9/28/25 9:53 AM,1 minute and 6 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,69,,Lobby,,9/28/25 9:45 AM,9/28/25 9:54 AM,9 minutes and 50 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Esperansa Caviedes,74,15,,2,9/28/25 9:52 AM,9/28/25 9:55 AM,2 minutes and 32 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Maria Majana,71,32,,2,9/28/25 9:53 AM,9/28/25 9:55 AM,1 minute and 16 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Esperansa Caviedes,68,24,,2,9/28/25 9:45 AM,9/28/25 9:55 AM,9 minutes and 7 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,72,25,,2,9/28/25 9:53 AM,9/28/25 9:55 AM,1 minute and 20 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,64,22,,2,9/28/25 9:40 AM,9/28/25 9:55 AM,14 minutes and 12 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Sergio Abundiz,63,39,,2,9/28/25 9:39 AM,9/28/25 9:55 AM,15 minutes and 8 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,64,22,,2,9/28/25 9:39 AM,9/28/25 9:55 AM,15 minutes and 9 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Isabel Cisneros,66,33,,2,9/28/25 9:45 AM,9/28/25 9:55 AM,9 minutes and 6 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Isabel Cisneros,66,33,,2,9/28/25 9:45 AM,9/28/25 9:55 AM,9 minutes and 7 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Isabel Cisneros,75,37,Lobby,,9/28/25 9:52 AM,9/28/25 9:55 AM,2 minutes and 46 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,77,,Lobby,,9/28/25 9:53 AM,9/28/25 9:55 AM,1 minute and 52 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,73,,Prep,,9/28/25 9:56 AM,9/28/25 9:57 AM,59 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,73,,Lobby,,9/28/25 9:56 AM,9/28/25 9:57 AM,59 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Silvia Hernandez,82,17,Lobby,,9/28/25 9:57 AM,9/28/25 9:59 AM,2 minutes and 4 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,78,,Lobby,,9/28/25 9:56 AM,9/28/25 10:01 AM,5 minutes and 37 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Maria Majana,79,9,Lobby,,9/28/25 9:56 AM,9/28/25 10:02 AM,6 minutes and 11 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Lizeth Alonso,86,,Prep,,9/28/25 10:01 AM,9/28/25 10:03 AM,2 minutes and 17 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Lizeth Alonso,86,,Lobby,,9/28/25 10:01 AM,9/28/25 10:03 AM,2 minutes and 17 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Lizeth Alonso,90,,Lobby,,9/28/25 10:01 AM,9/28/25 10:04 AM,2 minutes and 32 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,83,,Lobby,,9/28/25 9:58 AM,9/28/25 10:06 AM,8 minutes and 29 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Sergio Abundiz,80,7,Lobby,,9/28/25 9:57 AM,9/28/25 10:07 AM,9 minutes and 34 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Isabel Cisneros,85,36,Lobby,,9/28/25 10:00 AM,9/28/25 10:07 AM,7 minutes and 2 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Esperansa Caviedes,87,18,Lobby,,9/28/25 10:00 AM,9/28/25 10:07 AM,6 minutes and 37 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,84,,Lobby,,9/28/25 10:00 AM,9/28/25 10:08 AM,8 minutes and 34 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,91,,Lobby,,9/28/25 10:03 AM,9/28/25 10:10 AM,7 minutes,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,92,,Lobby,,9/28/25 10:08 AM,9/28/25 10:11 AM,2 minutes and 28 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,91,,Lobby,,9/28/25 10:03 AM,9/28/25 10:12 AM,9 minutes and 22 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,88,,Lobby,,9/28/25 10:01 AM,9/28/25 10:14 AM,12 minutes and 53 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,81,,Lobby,,9/28/25 10:13 AM,9/28/25 10:14 AM,1 minute and 6 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,94,,Lobby,,9/28/25 10:11 AM,9/28/25 10:15 AM,4 minutes and 10 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Maria Majana,79,9,,2,9/28/25 10:02 AM,9/28/25 10:15 AM,13 minutes and 18 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Esperansa Caviedes,95,32,Lobby,,9/28/25 10:12 AM,9/28/25 10:18 AM,5 minutes and 56 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Maria Majana,89,31,Lobby,,9/28/25 10:10 AM,9/28/25 10:18 AM,7 minutes and 43 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Maria Majana,89,31,Tortillero,,9/28/25 10:10 AM,9/28/25 10:18 AM,7 minutes and 43 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Isabel Cisneros,101,33,Lobby,,9/28/25 10:17 AM,9/28/25 10:18 AM,56 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,98,,Lobby,,9/28/25 10:17 AM,9/28/25 10:20 AM,3 minutes and 33 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Sergio Abundiz,93,18,Lobby,,9/28/25 10:09 AM,9/28/25 10:20 AM,10 minutes and 45 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,103,,Lobby,,9/28/25 10:19 AM,9/28/25 10:21 AM,2 minutes and 18 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Silvia Hernandez,96,38,Lobby,,9/28/25 10:16 AM,9/28/25 10:22 AM,6 minutes and 7 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,105,,Lobby,,9/28/25 10:20 AM,9/28/25 10:22 AM,1 minute and 58 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Isabel Cisneros,100,10,Lobby,,9/28/25 10:17 AM,9/28/25 10:23 AM,5 minutes and 31 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Isabel Cisneros,106,25,Lobby,,9/28/25 10:21 AM,9/28/25 10:24 AM,3 minutes and 20 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Esperansa Caviedes,104,20,Lobby,,9/28/25 10:20 AM,9/28/25 10:24 AM,4 minutes and 27 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Lizeth Alonso,90,,,2,9/28/25 10:04 AM,9/28/25 10:24 AM,20 minutes and 38 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Lizeth Alonso,86,,,2,9/28/25 10:03 AM,9/28/25 10:24 AM,21 minutes and 32 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Maria Majana,89,31,,2,9/28/25 10:18 AM,9/28/25 10:24 AM,6 minutes and 45 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Sergio Abundiz,93,18,,2,9/28/25 10:20 AM,9/28/25 10:24 AM,4 minutes and 20 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,108,,Lobby,,9/28/25 10:23 AM,9/28/25 10:25 AM,1 minute and 52 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Silvia Hernandez,96,38,,2,9/28/25 10:22 AM,9/28/25 10:25 AM,2 minutes and 21 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Esperansa Caviedes,95,32,,2,9/28/25 10:18 AM,9/28/25 10:25 AM,7 minutes and 1 second,Zoila Salinas
+Tink-a-Tako - Potranco,Esperansa Caviedes,97,34,Lobby,,9/28/25 10:22 AM,9/28/25 10:25 AM,3 minutes and 38 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Esperansa Caviedes,97,34,Tortillero,,9/28/25 10:22 AM,9/28/25 10:25 AM,3 minutes and 38 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Esperansa Caviedes,97,34,Prep,,9/28/25 10:22 AM,9/28/25 10:25 AM,3 minutes and 38 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Esperansa Caviedes,109,39,Lobby,,9/28/25 10:23 AM,9/28/25 10:27 AM,3 minutes and 48 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,112,,Lobby,,9/28/25 10:26 AM,9/28/25 10:28 AM,2 minutes and 41 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,112,,Prep,,9/28/25 10:26 AM,9/28/25 10:28 AM,2 minutes and 41 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Sergio Abundiz,110,3,Lobby,,9/28/25 10:24 AM,9/28/25 10:29 AM,4 minutes and 19 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Silvia Hernandez,102,24,Lobby,,9/28/25 10:24 AM,9/28/25 10:29 AM,4 minutes and 11 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Silvia Hernandez,102,24,Tortillero,,9/28/25 10:24 AM,9/28/25 10:29 AM,4 minutes and 11 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,118,,Lobby,,9/28/25 10:27 AM,9/28/25 10:29 AM,1 minute and 38 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,119,,Lobby,,9/28/25 10:29 AM,9/28/25 10:31 AM,1 minute and 40 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Juan  Camacho,117,19,Lobby,,9/28/25 10:27 AM,9/28/25 10:31 AM,3 minutes and 48 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Sergio Abundiz,115,37,Lobby,,9/28/25 10:28 AM,9/28/25 10:31 AM,3 minutes and 31 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Maria Majana,107,23,Lobby,,9/28/25 10:25 AM,9/28/25 10:31 AM,6 minutes and 15 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Silvia Hernandez,111,15,Lobby,,9/28/25 10:26 AM,9/28/25 10:32 AM,5 minutes and 59 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Maria Majana,113,8,Lobby,,9/28/25 10:28 AM,9/28/25 10:35 AM,6 minutes and 44 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Maria Majana,113,8,Tortillero,,9/28/25 10:28 AM,9/28/25 10:35 AM,6 minutes and 44 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Maria Majana,113,8,Prep,,9/28/25 10:28 AM,9/28/25 10:35 AM,6 minutes and 44 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Maria Majana,120,7,Lobby,,9/28/25 10:32 AM,9/28/25 10:35 AM,3 minutes and 23 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Maria Majana,120,7,Prep,,9/28/25 10:32 AM,9/28/25 10:35 AM,3 minutes and 23 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,122,,Lobby,,9/28/25 10:32 AM,9/28/25 10:36 AM,3 minutes and 40 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Silvia Hernandez,82,17,Lobby,,9/28/25 10:29 AM,9/28/25 10:36 AM,6 minutes and 43 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Silvia Hernandez,82,17,Tortillero,,9/28/25 10:29 AM,9/28/25 10:36 AM,6 minutes and 43 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Silvia Hernandez,82,17,Prep,,9/28/25 10:29 AM,9/28/25 10:36 AM,6 minutes and 43 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Isabel Cisneros,121,22,Lobby,,9/28/25 10:33 AM,9/28/25 10:37 AM,3 minutes and 20 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Isabel Cisneros,121,22,Prep,,9/28/25 10:33 AM,9/28/25 10:37 AM,3 minutes and 20 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Esperansa Caviedes,116,35,Lobby,,9/28/25 10:30 AM,9/28/25 10:37 AM,6 minutes and 58 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Esperansa Caviedes,116,35,Prep,,9/28/25 10:30 AM,9/28/25 10:37 AM,6 minutes and 58 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,124,,Prep,,9/28/25 10:33 AM,9/28/25 10:38 AM,4 minutes and 47 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,124,,Lobby,,9/28/25 10:33 AM,9/28/25 10:38 AM,4 minutes and 47 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,125,,Lobby,,9/28/25 10:33 AM,9/28/25 10:38 AM,4 minutes and 25 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Silvia Hernandez,123,2,Lobby,,9/28/25 10:34 AM,9/28/25 10:38 AM,4 minutes and 21 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Silvia Hernandez,123,2,Prep,,9/28/25 10:34 AM,9/28/25 10:38 AM,4 minutes and 21 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Juan  Camacho,126,36,Lobby,,9/28/25 10:34 AM,9/28/25 10:38 AM,4 minutes and 31 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Esperansa Caviedes,95,32,Lobby,,9/28/25 10:34 AM,9/28/25 10:39 AM,4 minutes and 32 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Sergio Abundiz,129,9,Lobby,,9/28/25 10:37 AM,9/28/25 10:39 AM,1 minute and 59 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,128,,Lobby,,9/28/25 10:35 AM,9/28/25 10:39 AM,3 minutes and 55 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Maria Majana,127,41,Lobby,,9/28/25 10:37 AM,9/28/25 10:40 AM,3 minutes and 19 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Maria Majana,127,41,Prep,,9/28/25 10:37 AM,9/28/25 10:40 AM,3 minutes and 19 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Maria Majana,89,31,Lobby,,9/28/25 10:40 AM,9/28/25 10:40 AM,4 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,131,,Lobby,,9/28/25 10:40 AM,9/28/25 10:41 AM,16 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Maria Majana,89,31,,2,9/28/25 10:40 AM,9/28/25 10:41 AM,51 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,130,,Lobby,,9/28/25 10:37 AM,9/28/25 10:42 AM,4 minutes and 22 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Isabel Cisneros,121,22,Lobby,,9/28/25 10:39 AM,9/28/25 10:45 AM,6 minutes and 7 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Esperansa Caviedes,87,18,Lobby,,9/28/25 10:40 AM,9/28/25 10:45 AM,5 minutes and 8 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Isabel Cisneros,121,22,Lobby,,9/28/25 10:41 AM,9/28/25 10:45 AM,3 minutes and 48 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,135,,Lobby,,9/28/25 10:45 AM,9/28/25 10:45 AM,26 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Esperansa Caviedes,95,32,,2,9/28/25 10:39 AM,9/28/25 10:46 AM,6 minutes and 51 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Maria Majana,127,41,,2,9/28/25 10:40 AM,9/28/25 10:46 AM,5 minutes and 41 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,123,2,,2,9/28/25 10:38 AM,9/28/25 10:46 AM,7 minutes and 22 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Isabel Cisneros,121,22,,2,9/28/25 10:37 AM,9/28/25 10:46 AM,9 minutes and 3 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,126,36,,2,9/28/25 10:38 AM,9/28/25 10:46 AM,7 minutes and 19 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Maria Majana,120,7,,2,9/28/25 10:35 AM,9/28/25 10:46 AM,10 minutes and 26 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Lizeth Alonso,134,,Lobby,,9/28/25 10:43 AM,9/28/25 10:46 AM,3 minutes and 20 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,132,,Lobby,,9/28/25 10:42 AM,9/28/25 10:46 AM,3 minutes and 57 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,136,,Lobby,,9/28/25 10:46 AM,9/28/25 10:48 AM,1 minute and 49 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,137,,Lobby,,9/28/25 10:47 AM,9/28/25 10:48 AM,55 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,138,,Lobby,,9/28/25 10:50 AM,9/28/25 10:51 AM,1 minute and 19 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,140,,Lobby,,9/28/25 10:52 AM,9/28/25 10:53 AM,1 minute and 30 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,139,,Lobby,,9/28/25 10:51 AM,9/28/25 10:53 AM,2 minutes and 32 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Esperansa Caviedes,141,17,Lobby,,9/28/25 10:56 AM,9/28/25 10:57 AM,31 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Isabel Cisneros,142,18,Lobby,,9/28/25 10:57 AM,9/28/25 10:59 AM,1 minute and 59 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Esperansa Caviedes,87,18,,2,9/28/25 10:45 AM,9/28/25 11:00 AM,14 minutes and 41 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Isabel Cisneros,121,22,,2,9/28/25 10:45 AM,9/28/25 11:00 AM,14 minutes and 44 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Sergio Abundiz,129,9,,2,9/28/25 10:39 AM,9/28/25 11:00 AM,20 minutes and 19 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Lizeth Alonso,134,,,2,9/28/25 10:46 AM,9/28/25 11:00 AM,13 minutes and 44 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Isabel Cisneros,121,22,,2,9/28/25 10:45 AM,9/28/25 11:00 AM,14 minutes and 42 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Esperansa Caviedes,141,17,,2,9/28/25 10:57 AM,9/28/25 11:00 AM,2 minutes and 53 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Esperansa Caviedes,116,35,,2,9/28/25 10:37 AM,9/28/25 11:00 AM,22 minutes and 26 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,82,17,,2,9/28/25 10:36 AM,9/28/25 11:00 AM,23 minutes and 58 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Isabel Cisneros,142,18,,2,9/28/25 10:59 AM,9/28/25 11:00 AM,38 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Sergio Abundiz,115,37,,2,9/28/25 10:31 AM,9/28/25 11:00 AM,28 minutes and 26 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,146,,Lobby,,9/28/25 10:58 AM,9/28/25 11:00 AM,1 minute and 29 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,143,,Lobby,,9/28/25 10:57 AM,9/28/25 11:00 AM,2 minutes and 56 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Silvia Hernandez,144,40,Lobby,,9/28/25 10:59 AM,9/28/25 11:01 AM,1 minute and 53 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Silvia Hernandez,144,40,Tortillero,,9/28/25 10:59 AM,9/28/25 11:01 AM,1 minute and 53 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Silvia Hernandez,144,40,Prep,,9/28/25 10:59 AM,9/28/25 11:01 AM,1 minute and 53 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,147,,Lobby,,9/28/25 11:00 AM,9/28/25 11:02 AM,2 minutes and 12 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,147,,Tortillero,,9/28/25 11:00 AM,9/28/25 11:02 AM,2 minutes and 12 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,148,,Lobby,,9/28/25 11:03 AM,9/28/25 11:03 AM,17 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Silvia Hernandez,144,40,Lobby,,9/28/25 11:03 AM,9/28/25 11:04 AM,31 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Silvia Hernandez,82,17,,2,9/28/25 9:59 AM,9/28/25 11:06 AM,"1 hour, 6 minutes and 43 seconds",Zoila Salinas
+Tink-a-Tako - Potranco,Sergio Abundiz,80,7,,2,9/28/25 10:07 AM,9/28/25 11:06 AM,59 minutes and 3 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Isabel Cisneros,85,36,,2,9/28/25 10:07 AM,9/28/25 11:06 AM,59 minutes and 4 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Isabel Cisneros,101,33,,2,9/28/25 10:18 AM,9/28/25 11:06 AM,47 minutes and 58 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Esperansa Caviedes,97,34,,2,9/28/25 10:25 AM,9/28/25 11:06 AM,40 minutes and 51 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Esperansa Caviedes,109,39,,2,9/28/25 10:27 AM,9/28/25 11:06 AM,39 minutes and 35 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Maria Majana,113,8,,2,9/28/25 10:35 AM,9/28/25 11:06 AM,31 minutes and 46 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Maria Majana,107,23,,2,9/28/25 10:31 AM,9/28/25 11:06 AM,35 minutes,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,117,19,,2,9/28/25 10:31 AM,9/28/25 11:06 AM,35 minutes and 1 second,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,144,40,,2,9/28/25 11:01 AM,9/28/25 11:06 AM,5 minutes and 31 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,144,40,,2,9/28/25 11:04 AM,9/28/25 11:06 AM,2 minutes and 29 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,111,15,,2,9/28/25 10:32 AM,9/28/25 11:06 AM,34 minutes and 43 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Sergio Abundiz,110,3,,2,9/28/25 10:29 AM,9/28/25 11:06 AM,37 minutes and 50 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Esperansa Caviedes,104,20,,2,9/28/25 10:24 AM,9/28/25 11:06 AM,42 minutes and 5 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,102,24,,2,9/28/25 10:29 AM,9/28/25 11:06 AM,37 minutes and 50 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Isabel Cisneros,106,25,,2,9/28/25 10:24 AM,9/28/25 11:06 AM,42 minutes and 5 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Isabel Cisneros,75,37,,2,9/28/25 9:55 AM,9/28/25 11:06 AM,"1 hour, 11 minutes and 40 seconds",Zoila Salinas
+Tink-a-Tako - Potranco,Isabel Cisneros,100,10,,2,9/28/25 10:23 AM,9/28/25 11:06 AM,43 minutes and 46 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Esperansa Caviedes,87,18,,2,9/28/25 10:07 AM,9/28/25 11:06 AM,59 minutes and 21 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,151,,Lobby,,9/28/25 11:06 AM,9/28/25 11:08 AM,1 minute and 17 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Silvia Hernandez,144,40,,2,9/28/25 11:07 AM,9/28/25 11:09 AM,1 minute and 3 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,150,25,Lobby,,9/28/25 11:05 AM,9/28/25 11:09 AM,3 minutes and 57 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,153,,Prep,,9/28/25 11:09 AM,9/28/25 11:10 AM,26 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,153,,Lobby,,9/28/25 11:09 AM,9/28/25 11:10 AM,26 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Isabel Cisneros,155,35,Lobby,,9/28/25 11:10 AM,9/28/25 11:11 AM,46 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,152,,Lobby,,9/28/25 11:09 AM,9/28/25 11:14 AM,5 minutes and 2 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,156,,Lobby,,9/28/25 11:13 AM,9/28/25 11:15 AM,1 minute and 50 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Esperansa Caviedes,158,24,Lobby,,9/28/25 11:14 AM,9/28/25 11:19 AM,4 minutes and 29 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Maria Majana,145,7,Lobby,,9/28/25 11:14 AM,9/28/25 11:19 AM,5 minutes and 35 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Maria Majana,145,7,Tortillero,,9/28/25 11:14 AM,9/28/25 11:19 AM,5 minutes and 35 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Maria Majana,145,7,Prep,,9/28/25 11:14 AM,9/28/25 11:19 AM,5 minutes and 35 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,157,,Lobby,,9/28/25 11:14 AM,9/28/25 11:21 AM,6 minutes and 32 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Esperansa Caviedes,158,24,,2,9/28/25 11:19 AM,9/28/25 11:21 AM,2 minutes and 37 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Maria Majana,145,7,,2,9/28/25 11:19 AM,9/28/25 11:21 AM,2 minutes and 8 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Isabel Cisneros,155,35,,2,9/28/25 11:11 AM,9/28/25 11:21 AM,10 minutes and 40 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,150,25,,2,9/28/25 11:09 AM,9/28/25 11:21 AM,12 minutes and 4 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,161,,Lobby,,9/28/25 11:17 AM,9/28/25 11:22 AM,4 minutes and 40 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Sergio Abundiz,160,33,Lobby,,9/28/25 11:16 AM,9/28/25 11:22 AM,6 minutes and 22 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,163,,Lobby,,9/28/25 11:21 AM,9/28/25 11:23 AM,2 minutes and 25 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Sergio Abundiz,160,33,,2,9/28/25 11:22 AM,9/28/25 11:24 AM,1 minute and 28 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,162,,Lobby,,9/28/25 11:19 AM,9/28/25 11:26 AM,7 minutes and 11 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,167,,Lobby,,9/28/25 11:26 AM,9/28/25 11:27 AM,1 minute and 4 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Silvia Hernandez,166,23,Lobby,,9/28/25 11:25 AM,9/28/25 11:27 AM,2 minutes and 45 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Silvia Hernandez,166,23,Prep,,9/28/25 11:25 AM,9/28/25 11:27 AM,2 minutes and 45 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Silvia Hernandez,164,4,Lobby,,9/28/25 11:25 AM,9/28/25 11:28 AM,2 minutes and 19 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Silvia Hernandez,164,4,Tortillero,,9/28/25 11:25 AM,9/28/25 11:28 AM,2 minutes and 19 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Silvia Hernandez,164,4,Prep,,9/28/25 11:25 AM,9/28/25 11:28 AM,2 minutes and 19 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,169,,Lobby,,9/28/25 11:28 AM,9/28/25 11:29 AM,26 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,169,,Lobby,,9/28/25 11:28 AM,9/28/25 11:30 AM,1 minute and 43 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,168,,Prep,,9/28/25 11:28 AM,9/28/25 11:30 AM,2 minutes and 31 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,168,,Lobby,,9/28/25 11:28 AM,9/28/25 11:30 AM,2 minutes and 31 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,173,,Lobby,,9/28/25 11:30 AM,9/28/25 11:31 AM,38 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,175,,Prep,,9/28/25 11:32 AM,9/28/25 11:33 AM,1 minute and 31 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,175,,Lobby,,9/28/25 11:32 AM,9/28/25 11:33 AM,1 minute and 31 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Silvia Hernandez,177,21,Lobby,,9/28/25 11:33 AM,9/28/25 11:34 AM,54 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Isabel Cisneros,172,1,Lobby,,9/28/25 11:30 AM,9/28/25 11:36 AM,5 minutes and 11 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Maria Majana,170,37,Lobby,,9/28/25 11:31 AM,9/28/25 11:36 AM,4 minutes and 35 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Maria Majana,170,37,Tortillero,,9/28/25 11:31 AM,9/28/25 11:36 AM,4 minutes and 35 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Maria Majana,170,37,Prep,,9/28/25 11:31 AM,9/28/25 11:36 AM,4 minutes and 35 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Isabel Cisneros,174,32,Lobby,,9/28/25 11:31 AM,9/28/25 11:36 AM,4 minutes and 30 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,176,,Lobby,,9/28/25 11:33 AM,9/28/25 11:36 AM,3 minutes and 3 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,178,,Lobby,,9/28/25 11:35 AM,9/28/25 11:36 AM,1 minute and 27 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Ivana Abundiz,171,,Lobby,,9/28/25 11:31 AM,9/28/25 11:36 AM,5 minutes and 35 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Maria Majana,145,7,Lobby,,9/28/25 11:38 AM,9/28/25 11:39 AM,26 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Esperansa Caviedes,180,35,Lobby,,9/28/25 11:38 AM,9/28/25 11:39 AM,46 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Silvia Hernandez,179,20,Lobby,,9/28/25 11:40 AM,9/28/25 11:41 AM,1 minute and 35 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Silvia Hernandez,179,20,Prep,,9/28/25 11:40 AM,9/28/25 11:41 AM,1 minute and 35 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,183,,Lobby,,9/28/25 11:41 AM,9/28/25 11:42 AM,1 minute and 11 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,181,,Lobby,,9/28/25 11:40 AM,9/28/25 11:43 AM,2 minutes and 18 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Silvia Hernandez,179,20,Lobby,,9/28/25 11:41 AM,9/28/25 11:43 AM,1 minute and 44 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Silvia Hernandez,166,23,Lobby,,9/28/25 11:46 AM,9/28/25 11:46 AM,42 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Silvia Hernandez,166,23,Prep,,9/28/25 11:46 AM,9/28/25 11:46 AM,42 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Lizeth Alonso,13,,Lobby,,9/28/25 11:40 AM,9/28/25 11:46 AM,6 minutes and 26 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Esperansa Caviedes,182,38,Lobby,,9/28/25 11:42 AM,9/28/25 11:47 AM,4 minutes and 57 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Esperansa Caviedes,182,38,Prep,,9/28/25 11:42 AM,9/28/25 11:47 AM,4 minutes and 57 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Maria Majana,186,17,Lobby,,9/28/25 11:44 AM,9/28/25 11:48 AM,4 minutes and 35 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,188,,Lobby,,9/28/25 11:47 AM,9/28/25 11:50 AM,3 minutes and 49 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Isabel Cisneros,191,18,Lobby,,9/28/25 11:48 AM,9/28/25 11:51 AM,2 minutes and 58 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Isabel Cisneros,191,18,Prep,,9/28/25 11:48 AM,9/28/25 11:51 AM,2 minutes and 58 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Silvia Hernandez,187,25,Lobby,,9/28/25 11:48 AM,9/28/25 11:51 AM,3 minutes and 2 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,192,,Lobby,,9/28/25 11:48 AM,9/28/25 11:52 AM,3 minutes and 20 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,185,,Lobby,,9/28/25 11:43 AM,9/28/25 11:52 AM,8 minutes and 47 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Silvia Hernandez,187,25,,2,9/28/25 11:51 AM,9/28/25 11:53 AM,1 minute and 42 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,166,23,,2,9/28/25 11:46 AM,9/28/25 11:53 AM,6 minutes and 39 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Maria Majana,186,17,,2,9/28/25 11:48 AM,9/28/25 11:53 AM,4 minutes and 29 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Esperansa Caviedes,182,38,,2,9/28/25 11:47 AM,9/28/25 11:53 AM,5 minutes and 45 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,194,31,Lobby,,9/28/25 11:50 AM,9/28/25 11:53 AM,3 minutes and 31 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Juan  Camacho,194,31,Prep,,9/28/25 11:50 AM,9/28/25 11:53 AM,3 minutes and 31 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,193,,Lobby,,9/28/25 11:52 AM,9/28/25 11:55 AM,2 minutes and 57 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Juan  Camacho,194,31,Lobby,,9/28/25 11:51 AM,9/28/25 11:55 AM,4 minutes and 24 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Juan  Camacho,194,31,Tortillero,,9/28/25 11:51 AM,9/28/25 11:55 AM,4 minutes and 24 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,195,,Prep,,9/28/25 11:53 AM,9/28/25 11:56 AM,3 minutes and 43 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,195,,Lobby,,9/28/25 11:53 AM,9/28/25 11:56 AM,3 minutes and 43 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,196,,Lobby,,9/28/25 11:55 AM,9/28/25 11:57 AM,2 minutes and 56 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Silvia Hernandez,177,21,Lobby,,9/28/25 11:52 AM,9/28/25 11:58 AM,5 minutes and 20 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Sergio Abundiz,190,19,Lobby,,9/28/25 11:51 AM,9/28/25 11:58 AM,6 minutes and 41 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,199,,Lobby,,9/28/25 11:56 AM,9/28/25 12:00 PM,3 minutes and 55 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Isabel Cisneros,172,1,Lobby,,9/28/25 12:00 PM,9/28/25 12:01 PM,47 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,200,,Lobby,,9/28/25 11:57 AM,9/28/25 12:01 PM,4 minutes and 1 second,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,200,,Prep,,9/28/25 11:57 AM,9/28/25 12:01 PM,4 minutes and 1 second,Mayra Luna
+Tink-a-Tako - Potranco,Silvia Hernandez,201,8,Lobby,,9/28/25 12:01 PM,9/28/25 12:04 PM,2 minutes and 21 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,203,,Lobby,,9/28/25 11:59 AM,9/28/25 12:04 PM,4 minutes and 54 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Maria Majana,202,23,Lobby,,9/28/25 12:05 PM,9/28/25 12:05 PM,36 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Maria Majana,202,23,Lobby,,9/28/25 12:04 PM,9/28/25 12:05 PM,1 minute and 7 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Maria Majana,202,23,Prep,,9/28/25 12:04 PM,9/28/25 12:05 PM,1 minute and 7 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Juan  Camacho,194,31,Lobby,,9/28/25 12:04 PM,9/28/25 12:05 PM,52 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Maria Majana,202,23,Lobby,,9/28/25 12:06 PM,9/28/25 12:06 PM,5 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,207,,Lobby,,9/28/25 12:02 PM,9/28/25 12:07 PM,4 minutes and 44 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Esperansa Caviedes,206,7,Lobby,,9/28/25 12:06 PM,9/28/25 12:08 PM,1 minute and 54 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Esperansa Caviedes,206,7,Prep,,9/28/25 12:06 PM,9/28/25 12:08 PM,1 minute and 54 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,208,,Lobby,,9/28/25 12:04 PM,9/28/25 12:08 PM,4 minutes and 26 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Esperansa Caviedes,182,38,Prep,,9/28/25 11:58 AM,9/28/25 12:08 PM,10 minutes and 10 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Esperansa Caviedes,182,38,Tortillero,,9/28/25 11:58 AM,9/28/25 12:08 PM,10 minutes and 10 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Esperansa Caviedes,182,38,Lobby,,9/28/25 11:58 AM,9/28/25 12:08 PM,10 minutes and 10 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,209,,Lobby,,9/28/25 12:05 PM,9/28/25 12:10 PM,4 minutes and 32 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,209,,Prep,,9/28/25 12:05 PM,9/28/25 12:10 PM,4 minutes and 32 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Isabel Cisneros,205,22,Prep,,9/28/25 12:00 PM,9/28/25 12:11 PM,10 minutes and 43 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Isabel Cisneros,205,22,Tortillero,,9/28/25 12:00 PM,9/28/25 12:11 PM,10 minutes and 43 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Isabel Cisneros,205,22,Lobby,,9/28/25 12:00 PM,9/28/25 12:11 PM,10 minutes and 43 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Isabel Cisneros,205,22,Lobby,,9/28/25 12:00 PM,9/28/25 12:11 PM,11 minutes and 3 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Silvia Hernandez,179,20,Lobby,,9/28/25 12:10 PM,9/28/25 12:13 PM,3 minutes and 1 second,Mayra Luna
+Tink-a-Tako - Potranco,Maria Majana,202,23,,2,9/28/25 12:05 PM,9/28/25 12:13 PM,8 minutes and 5 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,179,20,,2,9/28/25 12:13 PM,9/28/25 12:14 PM,53 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Esperansa Caviedes,206,7,,2,9/28/25 12:14 PM,9/28/25 12:14 PM,9 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,217,40,Lobby,,9/28/25 12:11 PM,9/28/25 12:14 PM,3 minutes and 28 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,218,,Lobby,,9/28/25 12:15 PM,9/28/25 12:16 PM,1 minute and 24 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,220,,Lobby,,9/28/25 12:17 PM,9/28/25 12:19 PM,1 minute and 39 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Juan  Camacho,212,3,Lobby,,9/28/25 12:09 PM,9/28/25 12:19 PM,9 minutes and 34 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Juan  Camacho,214,40,Lobby,,9/28/25 12:11 PM,9/28/25 12:19 PM,8 minutes and 37 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Juan  Camacho,214,40,Tortillero,,9/28/25 12:11 PM,9/28/25 12:19 PM,8 minutes and 37 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Juan  Camacho,214,40,Prep,,9/28/25 12:11 PM,9/28/25 12:19 PM,8 minutes and 37 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Isabel Cisneros,216,12,Lobby,,9/28/25 12:11 PM,9/28/25 12:19 PM,8 minutes and 3 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Isabel Cisneros,216,12,Prep,,9/28/25 12:11 PM,9/28/25 12:19 PM,8 minutes and 3 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Silvia Hernandez,201,8,Lobby,,9/28/25 12:14 PM,9/28/25 12:21 PM,7 minutes and 20 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,221,,Lobby,,9/28/25 12:20 PM,9/28/25 12:21 PM,1 minute and 48 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Esperansa Caviedes,210,24,Lobby,,9/28/25 12:17 PM,9/28/25 12:21 PM,4 minutes and 18 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Esperansa Caviedes,210,24,Prep,,9/28/25 12:17 PM,9/28/25 12:21 PM,4 minutes and 18 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Silvia Hernandez,211,36,Lobby,,9/28/25 12:12 PM,9/28/25 12:23 PM,10 minutes and 30 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,225,,Prep,,9/28/25 12:22 PM,9/28/25 12:23 PM,1 minute and 41 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,225,,Lobby,,9/28/25 12:22 PM,9/28/25 12:23 PM,1 minute and 41 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,226,,Lobby,,9/28/25 12:23 PM,9/28/25 12:25 PM,2 minutes and 5 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,224,,Lobby,,9/28/25 12:22 PM,9/28/25 12:27 PM,4 minutes and 56 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Maria Majana,223,32,Lobby,,9/28/25 12:24 PM,9/28/25 12:31 PM,7 minutes and 7 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Maria Majana,223,32,Prep,,9/28/25 12:24 PM,9/28/25 12:31 PM,7 minutes and 7 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Esperansa Caviedes,215,39,Lobby,,9/28/25 12:21 PM,9/28/25 12:31 PM,10 minutes and 5 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Isabel Cisneros,229,33,Lobby,,9/28/25 12:27 PM,9/28/25 12:31 PM,3 minutes and 31 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Maria Majana,228,37,Lobby,,9/28/25 12:29 PM,9/28/25 12:32 PM,3 minutes,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,227,,Lobby,,9/28/25 12:26 PM,9/28/25 12:34 PM,7 minutes and 42 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Esperansa Caviedes,210,24,Lobby,,9/28/25 12:18 PM,9/28/25 12:34 PM,16 minutes and 18 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Esperansa Caviedes,232,20,Lobby,,9/28/25 12:31 PM,9/28/25 12:35 PM,3 minutes and 58 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,230,,Lobby,,9/28/25 12:31 PM,9/28/25 12:35 PM,4 minutes and 56 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Silvia Hernandez,231,25,Lobby,,9/28/25 12:31 PM,9/28/25 12:37 PM,5 minutes and 15 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Silvia Hernandez,231,25,Tortillero,,9/28/25 12:31 PM,9/28/25 12:37 PM,5 minutes and 15 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Silvia Hernandez,231,25,Prep,,9/28/25 12:31 PM,9/28/25 12:37 PM,5 minutes and 15 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,235,,Lobby,,9/28/25 12:33 PM,9/28/25 12:37 PM,4 minutes and 6 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,235,,Prep,,9/28/25 12:33 PM,9/28/25 12:37 PM,4 minutes and 6 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Sergio Abundiz,234,42,Lobby,,9/28/25 12:33 PM,9/28/25 12:39 PM,5 minutes and 14 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Sergio Abundiz,234,42,Prep,,9/28/25 12:33 PM,9/28/25 12:39 PM,5 minutes and 14 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Sergio Abundiz,234,42,Tortillero,,9/28/25 12:33 PM,9/28/25 12:39 PM,5 minutes and 14 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,224,,,2,9/28/25 12:27 PM,9/28/25 12:39 PM,12 minutes and 17 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Maria Majana,223,32,,2,9/28/25 12:31 PM,9/28/25 12:39 PM,8 minutes and 48 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Isabel Cisneros,229,33,,2,9/28/25 12:31 PM,9/28/25 12:39 PM,8 minutes and 46 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Esperansa Caviedes,215,39,,2,9/28/25 12:31 PM,9/28/25 12:39 PM,8 minutes and 48 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Maria Majana,228,37,,2,9/28/25 12:32 PM,9/28/25 12:39 PM,7 minutes and 30 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Esperansa Caviedes,210,24,,2,9/28/25 12:34 PM,9/28/25 12:39 PM,5 minutes and 15 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,201,8,,2,9/28/25 12:21 PM,9/28/25 12:40 PM,18 minutes and 36 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,211,36,,2,9/28/25 12:23 PM,9/28/25 12:40 PM,17 minutes and 1 second,Zoila Salinas
+Tink-a-Tako - Potranco,Isabel Cisneros,216,12,,2,9/28/25 12:19 PM,9/28/25 12:40 PM,20 minutes and 8 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,214,40,,2,9/28/25 12:19 PM,9/28/25 12:40 PM,20 minutes and 12 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,217,40,,2,9/28/25 12:14 PM,9/28/25 12:40 PM,25 minutes and 21 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Esperansa Caviedes,206,7,,2,9/28/25 12:08 PM,9/28/25 12:40 PM,31 minutes and 34 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,212,3,,2,9/28/25 12:19 PM,9/28/25 12:40 PM,20 minutes and 55 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Esperansa Caviedes,210,24,,2,9/28/25 12:21 PM,9/28/25 12:40 PM,18 minutes and 20 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,201,8,,2,9/28/25 12:04 PM,9/28/25 12:40 PM,36 minutes and 14 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,194,31,,2,9/28/25 12:05 PM,9/28/25 12:40 PM,34 minutes and 24 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Maria Majana,202,23,,2,9/28/25 12:05 PM,9/28/25 12:40 PM,34 minutes and 28 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Isabel Cisneros,205,22,,2,9/28/25 12:11 PM,9/28/25 12:40 PM,28 minutes and 53 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,177,21,,2,9/28/25 11:58 AM,9/28/25 12:40 PM,42 minutes and 17 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Maria Majana,202,23,,2,9/28/25 12:06 PM,9/28/25 12:40 PM,33 minutes and 47 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Esperansa Caviedes,182,38,,2,9/28/25 12:08 PM,9/28/25 12:40 PM,31 minutes and 21 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Isabel Cisneros,172,1,,2,9/28/25 12:01 PM,9/28/25 12:40 PM,39 minutes and 7 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Sergio Abundiz,190,19,,2,9/28/25 11:58 AM,9/28/25 12:40 PM,42 minutes and 19 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Esperansa Caviedes,232,20,,2,9/28/25 12:35 PM,9/28/25 12:40 PM,4 minutes and 35 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,194,31,,2,9/28/25 11:55 AM,9/28/25 12:40 PM,44 minutes and 45 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,231,25,,2,9/28/25 12:37 PM,9/28/25 12:40 PM,3 minutes and 21 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Isabel Cisneros,191,18,,2,9/28/25 11:51 AM,9/28/25 12:40 PM,48 minutes and 50 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Lizeth Alonso,13,,,2,9/28/25 11:46 AM,9/28/25 12:40 PM,53 minutes and 49 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,179,20,,2,9/28/25 11:41 AM,9/28/25 12:40 PM,58 minutes and 45 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,179,20,,2,9/28/25 11:43 AM,9/28/25 12:40 PM,57 minutes and 3 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,194,31,,2,9/28/25 11:53 AM,9/28/25 12:40 PM,46 minutes and 50 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Isabel Cisneros,174,32,,2,9/28/25 11:36 AM,9/28/25 12:40 PM,"1 hour, 4 minutes and 24 seconds",Zoila Salinas
+Tink-a-Tako - Potranco,Esperansa Caviedes,180,35,,2,9/28/25 11:39 AM,9/28/25 12:40 PM,"1 hour, 1 minute and 15 seconds",Zoila Salinas
+Tink-a-Tako - Potranco,Maria Majana,170,37,,2,9/28/25 11:36 AM,9/28/25 12:40 PM,"1 hour, 4 minutes and 28 seconds",Zoila Salinas
+Tink-a-Tako - Potranco,Ivana Abundiz,171,,,2,9/28/25 11:36 AM,9/28/25 12:40 PM,"1 hour, 3 minutes and 51 seconds",Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,177,21,,2,9/28/25 11:34 AM,9/28/25 12:40 PM,"1 hour, 6 minutes and 20 seconds",Zoila Salinas
+Tink-a-Tako - Potranco,Isabel Cisneros,172,1,,2,9/28/25 11:36 AM,9/28/25 12:40 PM,"1 hour, 4 minutes and 32 seconds",Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,164,4,,2,9/28/25 11:28 AM,9/28/25 12:40 PM,"1 hour, 12 minutes and 26 seconds",Zoila Salinas
+Tink-a-Tako - Potranco,Maria Majana,145,7,,2,9/28/25 11:39 AM,9/28/25 12:40 PM,"1 hour, 1 minute and 22 seconds",Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,166,23,,2,9/28/25 11:27 AM,9/28/25 12:40 PM,"1 hour, 12 minutes and 52 seconds",Zoila Salinas
+Tink-a-Tako - Potranco,Sergio Abundiz,234,42,,2,9/28/25 12:39 PM,9/28/25 12:40 PM,1 minute and 39 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,239,1,Lobby,,9/28/25 12:39 PM,9/28/25 12:41 PM,2 minutes and 28 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Juan  Camacho,239,1,Prep,,9/28/25 12:39 PM,9/28/25 12:41 PM,2 minutes and 28 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Juan  Camacho,240,9,Lobby,,9/28/25 12:40 PM,9/28/25 12:41 PM,1 minute and 28 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Isabel Cisneros,242,17,Lobby,,9/28/25 12:43 PM,9/28/25 12:45 PM,2 minutes and 11 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Isabel Cisneros,242,17,Prep,,9/28/25 12:43 PM,9/28/25 12:45 PM,2 minutes and 11 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Esperansa Caviedes,241,18,Lobby,,9/28/25 12:41 PM,9/28/25 12:45 PM,3 minutes and 23 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Esperansa Caviedes,241,18,Prep,,9/28/25 12:41 PM,9/28/25 12:45 PM,3 minutes and 23 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,245,,Lobby,,9/28/25 12:44 PM,9/28/25 12:48 PM,3 minutes and 23 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,245,,Lobby,,9/28/25 12:45 PM,9/28/25 12:48 PM,3 minutes and 37 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Maria Majana,243,38,Lobby,,9/28/25 12:45 PM,9/28/25 12:50 PM,4 minutes and 32 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,246,,Prep,,9/28/25 12:49 PM,9/28/25 12:50 PM,1 minute and 31 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,246,,Lobby,,9/28/25 12:49 PM,9/28/25 12:50 PM,1 minute and 31 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Sergio Abundiz,234,42,Lobby,,9/28/25 12:50 PM,9/28/25 12:50 PM,19 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Sergio Abundiz,234,42,Tortillero,,9/28/25 12:50 PM,9/28/25 12:50 PM,19 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Juan  Camacho,212,3,Lobby,,9/28/25 12:46 PM,9/28/25 12:50 PM,4 minutes and 13 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,248,,Prep,,9/28/25 12:52 PM,9/28/25 12:52 PM,30 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,248,,Lobby,,9/28/25 12:52 PM,9/28/25 12:52 PM,30 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Sergio Abundiz,234,42,Lobby,,9/28/25 12:51 PM,9/28/25 12:53 PM,1 minute and 24 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Silvia Hernandez,244,38,Lobby,,9/28/25 12:48 PM,9/28/25 12:53 PM,5 minutes and 12 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Silvia Hernandez,244,38,Tortillero,,9/28/25 12:48 PM,9/28/25 12:53 PM,5 minutes and 12 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Silvia Hernandez,244,38,Prep,,9/28/25 12:48 PM,9/28/25 12:53 PM,5 minutes and 12 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Lizeth Alonso,252,,Lobby,,9/28/25 12:52 PM,9/28/25 12:53 PM,1 minute and 9 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,248,,Prep,,9/28/25 12:51 PM,9/28/25 12:55 PM,3 minutes and 52 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,248,,Lobby,,9/28/25 12:51 PM,9/28/25 12:55 PM,3 minutes and 52 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,248,,Tortillero,,9/28/25 12:51 PM,9/28/25 12:55 PM,3 minutes and 52 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Esperansa Caviedes,241,18,Lobby,,9/28/25 12:55 PM,9/28/25 12:56 PM,1 minute and 6 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Isabel Cisneros,254,15,Lobby,,9/28/25 12:54 PM,9/28/25 12:57 PM,3 minutes and 45 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Isabel Cisneros,254,15,Prep,,9/28/25 12:54 PM,9/28/25 12:57 PM,3 minutes and 45 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Isabel Cisneros,254,15,Lobby,,9/28/25 12:53 PM,9/28/25 12:57 PM,3 minutes and 56 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Isabel Cisneros,254,15,Prep,,9/28/25 12:53 PM,9/28/25 12:57 PM,3 minutes and 56 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,253,,Lobby,,9/28/25 12:53 PM,9/28/25 12:58 PM,4 minutes and 31 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,256,,Lobby,,9/28/25 12:54 PM,9/28/25 12:59 PM,5 minutes and 16 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Esperansa Caviedes,258,16,Lobby,,9/28/25 12:55 PM,9/28/25 12:59 PM,4 minutes and 24 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Esperansa Caviedes,250,8,Lobby,,9/28/25 12:52 PM,9/28/25 12:59 PM,7 minutes and 28 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Esperansa Caviedes,250,8,Tortillero,,9/28/25 12:52 PM,9/28/25 12:59 PM,7 minutes and 28 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Esperansa Caviedes,250,8,Prep,,9/28/25 12:52 PM,9/28/25 12:59 PM,7 minutes and 28 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,253,,Lobby,,9/28/25 12:59 PM,9/28/25 12:59 PM,45 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,261,,Lobby,,9/28/25 12:59 PM,9/28/25 1:00 PM,26 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Silvia Hernandez,247,35,,2,9/28/25 12:49 PM,9/28/25 1:01 PM,12 minutes and 11 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,249,23,Lobby,,9/28/25 12:54 PM,9/28/25 1:02 PM,7 minutes and 5 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Silvia Hernandez,249,23,Prep,,9/28/25 12:54 PM,9/28/25 1:02 PM,7 minutes and 5 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Sergio Abundiz,263,21,Lobby,,9/28/25 1:01 PM,9/28/25 1:02 PM,48 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,257,,Lobby,,9/28/25 12:55 PM,9/28/25 1:02 PM,7 minutes and 47 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,262,,Lobby,,9/28/25 1:02 PM,9/28/25 1:04 PM,2 minutes and 10 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Silvia Hernandez,244,38,,2,9/28/25 12:53 PM,9/28/25 1:04 PM,11 minutes and 9 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Sergio Abundiz,234,42,,2,9/28/25 12:50 PM,9/28/25 1:04 PM,13 minutes and 39 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Sergio Abundiz,234,42,,2,9/28/25 12:53 PM,9/28/25 1:04 PM,11 minutes and 23 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,212,3,,2,9/28/25 12:50 PM,9/28/25 1:04 PM,13 minutes and 41 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Lizeth Alonso,252,,,2,9/28/25 12:53 PM,9/28/25 1:04 PM,11 minutes and 4 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Esperansa Caviedes,250,8,,2,9/28/25 12:59 PM,9/28/25 1:04 PM,4 minutes and 42 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Isabel Cisneros,242,17,,2,9/28/25 12:45 PM,9/28/25 1:04 PM,19 minutes and 17 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Esperansa Caviedes,241,18,,2,9/28/25 12:45 PM,9/28/25 1:04 PM,19 minutes and 18 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,240,9,,2,9/28/25 12:41 PM,9/28/25 1:04 PM,22 minutes and 57 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Maria Majana,243,38,,2,9/28/25 12:50 PM,9/28/25 1:04 PM,14 minutes and 17 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,239,1,,2,9/28/25 12:41 PM,9/28/25 1:04 PM,23 minutes and 1 second,Zoila Salinas
+Tink-a-Tako - Potranco,Isabel Cisneros,254,15,,2,9/28/25 12:57 PM,9/28/25 1:04 PM,6 minutes and 54 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Isabel Cisneros,254,15,,2,9/28/25 12:57 PM,9/28/25 1:04 PM,6 minutes and 55 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,249,23,,2,9/28/25 1:02 PM,9/28/25 1:04 PM,2 minutes and 42 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Esperansa Caviedes,241,18,,2,9/28/25 12:56 PM,9/28/25 1:04 PM,7 minutes and 53 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Esperansa Caviedes,258,16,,2,9/28/25 12:59 PM,9/28/25 1:04 PM,5 minutes and 1 second,Zoila Salinas
+Tink-a-Tako - Potranco,Sergio Abundiz,263,21,,2,9/28/25 1:02 PM,9/28/25 1:04 PM,2 minutes and 31 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Daniela Torres,266,,Lobby,,9/28/25 1:04 PM,9/28/25 1:05 PM,49 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,266,,Prep,,9/28/25 1:04 PM,9/28/25 1:05 PM,49 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,266,,Tortillero,,9/28/25 1:04 PM,9/28/25 1:05 PM,49 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Sergio Abundiz,263,21,Lobby,,9/28/25 1:03 PM,9/28/25 1:06 PM,2 minutes and 34 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,267,,Lobby,,9/28/25 1:05 PM,9/28/25 1:06 PM,44 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Isabel Cisneros,265,36,Lobby,,9/28/25 1:04 PM,9/28/25 1:07 PM,3 minutes and 11 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Juan  Camacho,264,4,Lobby,,9/28/25 1:05 PM,9/28/25 1:09 PM,4 minutes and 3 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Juan  Camacho,264,4,Tortillero,,9/28/25 1:05 PM,9/28/25 1:09 PM,4 minutes and 3 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Juan  Camacho,264,4,Prep,,9/28/25 1:05 PM,9/28/25 1:09 PM,4 minutes and 3 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Maria Majana,259,31,Lobby,,9/28/25 1:08 PM,9/28/25 1:09 PM,1 minute and 39 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Maria Majana,259,31,,2,9/28/25 1:09 PM,9/28/25 1:10 PM,42 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Maria Majana,259,31,Lobby,,9/28/25 1:06 PM,9/28/25 1:15 PM,9 minutes and 27 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Maria Majana,259,31,Tortillero,,9/28/25 1:06 PM,9/28/25 1:15 PM,9 minutes and 27 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Maria Majana,259,31,Prep,,9/28/25 1:06 PM,9/28/25 1:15 PM,9 minutes and 27 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Sergio Abundiz,273,24,Lobby,,9/28/25 1:11 PM,9/28/25 1:16 PM,4 minutes and 7 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Sergio Abundiz,273,24,Prep,,9/28/25 1:11 PM,9/28/25 1:16 PM,4 minutes and 7 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,274,,Prep,,9/28/25 1:13 PM,9/28/25 1:17 PM,4 minutes and 24 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,274,,Lobby,,9/28/25 1:13 PM,9/28/25 1:17 PM,4 minutes and 24 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,272,,Lobby,,9/28/25 1:11 PM,9/28/25 1:17 PM,6 minutes and 35 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Maria Majana,269,12,Lobby,,9/28/25 1:07 PM,9/28/25 1:18 PM,11 minutes and 48 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Silvia Hernandez,271,19,Lobby,,9/28/25 1:09 PM,9/28/25 1:19 PM,9 minutes and 46 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,275,,Lobby,,9/28/25 1:18 PM,9/28/25 1:19 PM,58 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,276,,Lobby,,9/28/25 1:19 PM,9/28/25 1:22 PM,3 minutes and 15 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Esperansa Caviedes,270,22,Lobby,,9/28/25 1:18 PM,9/28/25 1:23 PM,4 minutes and 48 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Esperansa Caviedes,270,22,Prep,,9/28/25 1:18 PM,9/28/25 1:23 PM,4 minutes and 48 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Juan  Camacho,240,9,Lobby,,9/28/25 1:19 PM,9/28/25 1:24 PM,5 minutes and 14 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Juan  Camacho,240,9,Prep,,9/28/25 1:19 PM,9/28/25 1:24 PM,5 minutes and 14 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Juan  Camacho,240,9,Tortillero,,9/28/25 1:19 PM,9/28/25 1:24 PM,5 minutes and 14 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,276,,Lobby,,9/28/25 1:24 PM,9/28/25 1:24 PM,21 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Juan  Camacho,277,9,Lobby,,9/28/25 1:19 PM,9/28/25 1:26 PM,6 minutes and 48 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Juan  Camacho,277,9,Tortillero,,9/28/25 1:19 PM,9/28/25 1:26 PM,6 minutes and 48 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Juan  Camacho,277,9,,2,9/28/25 1:26 PM,9/28/25 1:28 PM,2 minutes and 24 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,240,9,,2,9/28/25 1:24 PM,9/28/25 1:28 PM,3 minutes and 59 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Esperansa Caviedes,270,22,,2,9/28/25 1:23 PM,9/28/25 1:28 PM,5 minutes and 34 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,271,19,,2,9/28/25 1:19 PM,9/28/25 1:28 PM,9 minutes and 45 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Sergio Abundiz,273,24,,2,9/28/25 1:16 PM,9/28/25 1:28 PM,12 minutes and 45 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Maria Majana,269,12,,2,9/28/25 1:18 PM,9/28/25 1:28 PM,9 minutes and 48 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Maria Majana,259,31,,2,9/28/25 1:15 PM,9/28/25 1:28 PM,12 minutes and 51 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,264,4,,2,9/28/25 1:09 PM,9/28/25 1:28 PM,19 minutes and 7 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,264,4,Lobby,,9/28/25 1:26 PM,9/28/25 1:28 PM,2 minutes and 41 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Juan  Camacho,264,4,Tortillero,,9/28/25 1:26 PM,9/28/25 1:28 PM,2 minutes and 41 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Sergio Abundiz,263,21,,2,9/28/25 1:06 PM,9/28/25 1:28 PM,22 minutes and 41 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Isabel Cisneros,265,36,,2,9/28/25 1:07 PM,9/28/25 1:28 PM,21 minutes and 28 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,264,4,,2,9/28/25 1:28 PM,9/28/25 1:28 PM,5 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Lizeth Alonso,279,,Prep,,9/28/25 1:20 PM,9/28/25 1:30 PM,9 minutes and 50 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Lizeth Alonso,279,,Lobby,,9/28/25 1:20 PM,9/28/25 1:30 PM,9 minutes and 50 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Lizeth Alonso,279,,Tortillero,,9/28/25 1:20 PM,9/28/25 1:30 PM,9 minutes and 50 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Maria Majana,282,17,Lobby,,9/28/25 1:29 PM,9/28/25 1:32 PM,3 minutes and 19 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,284,,Lobby,,9/28/25 1:28 PM,9/28/25 1:32 PM,4 minutes and 4 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,285,,Lobby,,9/28/25 1:33 PM,9/28/25 1:33 PM,23 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,285,,Prep,,9/28/25 1:33 PM,9/28/25 1:33 PM,23 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Silvia Hernandez,283,32,Lobby,,9/28/25 1:28 PM,9/28/25 1:34 PM,6 minutes and 7 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Isabel Cisneros,287,33,Lobby,,9/28/25 1:33 PM,9/28/25 1:34 PM,1 minute and 29 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Juan  Camacho,290,40,Lobby,,9/28/25 1:34 PM,9/28/25 1:38 PM,3 minutes and 46 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,291,,Lobby,,9/28/25 1:38 PM,9/28/25 1:40 PM,2 minutes and 10 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,291,,Prep,,9/28/25 1:38 PM,9/28/25 1:40 PM,2 minutes and 10 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,260,,Lobby,,9/28/25 1:39 PM,9/28/25 1:41 PM,1 minute and 24 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,289,,Lobby,,9/28/25 1:34 PM,9/28/25 1:41 PM,6 minutes and 53 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Isabel Cisneros,288,37,Lobby,,9/28/25 1:34 PM,9/28/25 1:42 PM,8 minutes and 2 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Silvia Hernandez,286,15,Lobby,,9/28/25 1:34 PM,9/28/25 1:42 PM,8 minutes and 12 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Esperansa Caviedes,87,18,Lobby,,9/28/25 1:37 PM,9/28/25 1:43 PM,6 minutes and 7 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Lizeth Alonso,297,,Prep,,9/28/25 1:42 PM,9/28/25 1:44 PM,2 minutes and 10 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Lizeth Alonso,297,,Lobby,,9/28/25 1:42 PM,9/28/25 1:44 PM,2 minutes and 10 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,298,,Lobby,,9/28/25 1:42 PM,9/28/25 1:47 PM,4 minutes and 27 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Maria Majana,295,12,Lobby,,9/28/25 1:41 PM,9/28/25 1:48 PM,7 minutes and 4 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Maria Majana,295,12,Prep,,9/28/25 1:41 PM,9/28/25 1:48 PM,7 minutes and 4 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Isabel Cisneros,288,37,,2,9/28/25 1:42 PM,9/28/25 1:48 PM,5 minutes and 56 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Maria Majana,295,12,,2,9/28/25 1:48 PM,9/28/25 1:48 PM,20 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Esperansa Caviedes,87,18,,2,9/28/25 1:43 PM,9/28/25 1:48 PM,4 minutes and 59 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,286,15,,2,9/28/25 1:42 PM,9/28/25 1:48 PM,5 minutes and 56 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Maria Majana,282,17,,2,9/28/25 1:32 PM,9/28/25 1:48 PM,16 minutes and 30 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Isabel Cisneros,287,33,,2,9/28/25 1:34 PM,9/28/25 1:48 PM,14 minutes and 7 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,283,32,,2,9/28/25 1:34 PM,9/28/25 1:48 PM,14 minutes and 7 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Lizeth Alonso,279,,,2,9/28/25 1:30 PM,9/28/25 1:48 PM,18 minutes and 14 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,290,40,,2,9/28/25 1:38 PM,9/28/25 1:48 PM,10 minutes and 42 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Lizeth Alonso,297,,,2,9/28/25 1:44 PM,9/28/25 1:48 PM,4 minutes and 10 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Lizeth Alonso,302,,Lobby,,9/28/25 1:47 PM,9/28/25 1:48 PM,1 minute and 47 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Lizeth Alonso,302,,Prep,,9/28/25 1:47 PM,9/28/25 1:48 PM,1 minute and 47 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Isabel Cisneros,301,25,Lobby,,9/28/25 1:46 PM,9/28/25 1:51 PM,5 minutes and 3 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Silvia Hernandez,293,7,Lobby,,9/28/25 1:39 PM,9/28/25 1:51 PM,11 minutes and 53 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Juan  Camacho,296,3,Lobby,,9/28/25 1:41 PM,9/28/25 1:51 PM,10 minutes,Mayra Luna
+Tink-a-Tako - Potranco,Esperansa Caviedes,292,36,Lobby,,9/28/25 1:42 PM,9/28/25 1:52 PM,9 minutes and 59 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Esperansa Caviedes,292,36,Prep,,9/28/25 1:42 PM,9/28/25 1:52 PM,9 minutes and 59 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Juan  Camacho,306,40,Lobby,,9/28/25 1:50 PM,9/28/25 1:58 PM,8 minutes and 16 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Juan  Camacho,305,40,Lobby,,9/28/25 1:50 PM,9/28/25 1:58 PM,8 minutes and 17 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Juan  Camacho,290,40,Lobby,,9/28/25 1:50 PM,9/28/25 1:58 PM,8 minutes and 18 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Isabel Cisneros,301,25,Lobby,,9/28/25 1:52 PM,9/28/25 1:58 PM,6 minutes and 54 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Silvia Hernandez,307,23,Lobby,,9/28/25 1:52 PM,9/28/25 1:58 PM,6 minutes and 49 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Silvia Hernandez,307,23,Lobby,,9/28/25 1:59 PM,9/28/25 2:00 PM,44 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Silvia Hernandez,293,7,,2,9/28/25 1:51 PM,9/28/25 2:01 PM,9 minutes and 44 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,296,3,,2,9/28/25 1:51 PM,9/28/25 2:01 PM,9 minutes and 43 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Esperansa Caviedes,292,36,,2,9/28/25 1:52 PM,9/28/25 2:01 PM,8 minutes and 42 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Isabel Cisneros,301,25,,2,9/28/25 1:51 PM,9/28/25 2:01 PM,10 minutes and 14 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Lizeth Alonso,302,,,2,9/28/25 1:48 PM,9/28/25 2:01 PM,12 minutes and 36 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,290,40,,2,9/28/25 1:58 PM,9/28/25 2:01 PM,2 minutes and 46 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,305,40,,2,9/28/25 1:58 PM,9/28/25 2:01 PM,2 minutes and 49 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,306,40,,2,9/28/25 1:58 PM,9/28/25 2:01 PM,2 minutes and 50 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,307,23,,2,9/28/25 1:58 PM,9/28/25 2:01 PM,2 minutes and 40 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Isabel Cisneros,301,25,,2,9/28/25 1:58 PM,9/28/25 2:01 PM,2 minutes and 44 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,307,23,,2,9/28/25 2:00 PM,9/28/25 2:01 PM,1 minute and 34 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Esperansa Caviedes,87,18,Lobby,,9/28/25 2:01 PM,9/28/25 2:02 PM,1 minute and 12 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Juan  Camacho,290,40,Lobby,,9/28/25 2:00 PM,9/28/25 2:04 PM,4 minutes and 29 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Isabel Cisneros,309,17,Lobby,,9/28/25 2:02 PM,9/28/25 2:08 PM,5 minutes and 19 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Isabel Cisneros,309,17,Tortillero,,9/28/25 2:02 PM,9/28/25 2:08 PM,5 minutes and 19 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Isabel Cisneros,309,17,Prep,,9/28/25 2:02 PM,9/28/25 2:08 PM,5 minutes and 19 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Esperansa Caviedes,308,18,Lobby,,9/28/25 2:07 PM,9/28/25 2:10 PM,2 minutes and 56 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Maria Majana,300,38,Lobby,,9/28/25 2:05 PM,9/28/25 2:10 PM,5 minutes and 39 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Silvia Hernandez,312,22,Lobby,,9/28/25 2:07 PM,9/28/25 2:11 PM,3 minutes and 9 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Silvia Hernandez,312,22,Prep,,9/28/25 2:07 PM,9/28/25 2:11 PM,3 minutes and 9 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,313,,Lobby,,9/28/25 2:08 PM,9/28/25 2:11 PM,2 minutes and 56 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Juan  Camacho,305,40,Lobby,,9/28/25 2:00 PM,9/28/25 2:11 PM,11 minutes and 34 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Maria Majana,300,38,Lobby,,9/28/25 2:05 PM,9/28/25 2:11 PM,6 minutes and 50 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Maria Majana,300,38,Tortillero,,9/28/25 2:05 PM,9/28/25 2:11 PM,6 minutes and 50 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Maria Majana,300,38,Prep,,9/28/25 2:05 PM,9/28/25 2:11 PM,6 minutes and 50 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,294,,Lobby,,9/28/25 2:10 PM,9/28/25 2:12 PM,1 minute and 59 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,320,,Lobby,,9/28/25 2:19 PM,9/28/25 2:21 PM,2 minutes and 15 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Sergio Abundiz,317,1,Lobby,,9/28/25 2:15 PM,9/28/25 2:22 PM,6 minutes and 43 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Lizeth Alonso,13,,Lobby,,9/28/25 2:18 PM,9/28/25 2:22 PM,4 minutes and 39 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Silvia Hernandez,312,22,Lobby,,9/28/25 2:19 PM,9/28/25 2:25 PM,6 minutes and 38 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Sergio Abundiz,317,1,Lobby,,9/28/25 2:18 PM,9/28/25 2:25 PM,7 minutes and 42 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Sergio Abundiz,317,1,Prep,,9/28/25 2:18 PM,9/28/25 2:25 PM,7 minutes and 42 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Sergio Abundiz,317,1,Tortillero,,9/28/25 2:18 PM,9/28/25 2:25 PM,7 minutes and 42 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Silvia Hernandez,307,23,Lobby,,9/28/25 2:26 PM,9/28/25 2:30 PM,3 minutes and 35 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Maria Majana,322,33,Lobby,,9/28/25 2:30 PM,9/28/25 2:34 PM,3 minutes and 25 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Maria Majana,322,33,Tortillero,,9/28/25 2:30 PM,9/28/25 2:34 PM,3 minutes and 25 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Lizeth Alonso,323,,Lobby,,9/28/25 2:32 PM,9/28/25 2:36 PM,4 minutes and 32 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Lizeth Alonso,324,,Lobby,,9/28/25 2:32 PM,9/28/25 2:38 PM,6 minutes and 34 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Silvia Hernandez,312,22,,2,9/28/25 2:11 PM,9/28/25 2:42 PM,31 minutes and 6 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Sergio Abundiz,317,1,,2,9/28/25 2:22 PM,9/28/25 2:42 PM,19 minutes and 57 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Esperansa Caviedes,308,18,,2,9/28/25 2:10 PM,9/28/25 2:42 PM,31 minutes and 17 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Maria Majana,300,38,,2,9/28/25 2:11 PM,9/28/25 2:42 PM,30 minutes and 20 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Lizeth Alonso,13,,,2,9/28/25 2:22 PM,9/28/25 2:42 PM,19 minutes and 22 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Maria Majana,300,38,,2,9/28/25 2:10 PM,9/28/25 2:42 PM,31 minutes and 16 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,290,40,,2,9/28/25 2:04 PM,9/28/25 2:42 PM,37 minutes and 32 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Juan  Camacho,305,40,,2,9/28/25 2:11 PM,9/28/25 2:42 PM,30 minutes and 27 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Esperansa Caviedes,87,18,,2,9/28/25 2:02 PM,9/28/25 2:42 PM,39 minutes and 38 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Sergio Abundiz,317,1,,2,9/28/25 2:25 PM,9/28/25 2:42 PM,16 minutes and 23 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,307,23,,2,9/28/25 2:30 PM,9/28/25 2:42 PM,12 minutes and 2 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Maria Majana,322,33,,2,9/28/25 2:34 PM,9/28/25 2:42 PM,8 minutes and 19 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Silvia Hernandez,312,22,,2,9/28/25 2:25 PM,9/28/25 2:42 PM,16 minutes and 32 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Isabel Cisneros,309,17,,2,9/28/25 2:08 PM,9/28/25 2:42 PM,34 minutes and 11 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Lizeth Alonso,324,,,2,9/28/25 2:38 PM,9/28/25 2:42 PM,3 minutes and 32 seconds,Zoila Salinas
+Tink-a-Tako - Potranco,Sergio Abundiz,327,32,Lobby,,9/28/25 2:41 PM,9/28/25 2:46 PM,4 minutes and 59 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,321,,Lobby,,9/28/25 2:36 PM,9/28/25 2:47 PM,10 minutes and 28 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,326,,Lobby,,9/28/25 2:41 PM,9/28/25 2:52 PM,10 minutes and 41 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,326,,Prep,,9/28/25 2:41 PM,9/28/25 2:52 PM,10 minutes and 41 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,326,,Tortillero,,9/28/25 2:41 PM,9/28/25 2:52 PM,10 minutes and 41 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,330,,Prep,,9/28/25 2:53 PM,9/28/25 2:55 PM,1 minute and 38 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,330,,Lobby,,9/28/25 2:53 PM,9/28/25 2:55 PM,1 minute and 38 seconds,Mayra Luna
+Tink-a-Tako - Potranco,Daniela Torres,331,,Lobby,,9/28/25 2:53 PM,9/28/25 2:56 PM,2 minutes and 27 seconds,Mayra Luna

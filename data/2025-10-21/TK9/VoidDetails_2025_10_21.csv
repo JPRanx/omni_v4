@@ -1,0 +1,6 @@
+Order #,Opened Date,Void Date,Server,Approver,Item Name,Reason,Item Quantity,Total Price
+45,10/21/25 7:20 AM,10/21/25 7:26 AM,Martina Ovalle ,Martina Ovalle ,Agua Fresca,Server Error,1.0,7.99
+277,10/21/25 2:49 PM,10/21/25 2:49 PM,Sami Martinez ,Maria  Salazar,Horchata,Server Error,1.0,3.99
+316,10/21/25 6:07 PM,10/21/25 8:20 PM,AM CASHIER,AM CASHIER,Tampiqueno Plt,Customer Changed Mind,1.0,18.99
+316,10/21/25 6:07 PM,10/21/25 8:20 PM,AM CASHIER,AM CASHIER,Bean & Cheese Taco,Customer Changed Mind,1.0,2.99
+316,10/21/25 6:07 PM,10/21/25 8:20 PM,AM CASHIER,AM CASHIER,Kids Burger,Customer Changed Mind,1.0,8.99

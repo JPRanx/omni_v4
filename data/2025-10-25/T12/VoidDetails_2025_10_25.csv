@@ -1,0 +1,24 @@
+Order #,Opened Date,Void Date,Server,Approver,Item Name,Reason,Item Quantity,Total Price
+16,10/25/25 7:28 AM,10/25/25 9:03 AM,Rosa Compean,Rosie  ORDONEZ,Chicken Fajita Taco,Customer Changed Mind,1.0,3.99
+117,10/25/25 9:38 AM,10/25/25 2:09 PM,Rosie  ORDONEZ,Rosie  ORDONEZ,Barbacoa Taco,Customer Changed Mind,2.0,9.58
+117,10/25/25 9:38 AM,10/25/25 2:09 PM,Rosie  ORDONEZ,Rosie  ORDONEZ,Bean & Cheese Taco,Customer Changed Mind,2.0,3.58
+141,10/25/25 10:08 AM,10/25/25 11:45 AM,Ivana Abundiz,Mayra Luna,Crispy Chich w/Egg,Customer Changed Mind,1.0,4.99
+141,10/25/25 10:08 AM,10/25/25 11:45 AM,Ivana Abundiz,Mayra Luna,Barbacoa Taco,Customer Changed Mind,1.0,4.79
+274,10/25/25 11:50 AM,10/25/25 9:59 PM,Juan  Camacho,Mayra Luna,Chips and Queso,Customer Changed Mind,1.0,7.99
+274,10/25/25 11:50 AM,10/25/25 9:59 PM,Juan  Camacho,Mayra Luna,Sweet Tea,Customer Changed Mind,1.0,3.45
+274,10/25/25 11:50 AM,10/25/25 9:59 PM,Juan  Camacho,Mayra Luna,Horchata,Customer Changed Mind,1.0,3.99
+324,10/25/25 12:49 PM,10/25/25 2:03 PM,Ivana Abundiz,Rosie  ORDONEZ,Picadillo Taco,Customer Changed Mind,1.0,2.99
+367,10/25/25 2:09 PM,10/25/25 9:58 PM,Sergio Abundiz,Mayra Luna,Carne Guisada Plate,Customer Changed Mind,1.0,12.99
+367,10/25/25 2:09 PM,10/25/25 9:58 PM,Sergio Abundiz,Mayra Luna,Fajita Plate,Customer Changed Mind,1.0,14.99
+367,10/25/25 2:09 PM,10/25/25 9:58 PM,Sergio Abundiz,Mayra Luna,Trio Enchilladas Plate,Customer Changed Mind,1.0,14.99
+367,10/25/25 2:09 PM,10/25/25 9:58 PM,Sergio Abundiz,Mayra Luna,Coca-Cola,Customer Changed Mind,1.0,3.69
+367,10/25/25 2:09 PM,10/25/25 9:58 PM,Sergio Abundiz,Mayra Luna,Coca-Cola,Customer Changed Mind,1.0,3.69
+367,10/25/25 2:09 PM,10/25/25 9:58 PM,Sergio Abundiz,Mayra Luna,Big Red,Customer Changed Mind,1.0,3.69
+367,10/25/25 2:09 PM,10/25/25 9:58 PM,Sergio Abundiz,Mayra Luna,Dr. Pepper,Customer Changed Mind,1.0,3.69
+367,10/25/25 2:09 PM,10/25/25 9:58 PM,Sergio Abundiz,Mayra Luna,Dr. Pepper,Customer Changed Mind,1.0,3.69
+397,10/25/25 3:34 PM,10/25/25 9:59 PM,Sergio Abundiz,Mayra Luna,Tripa Taco,Customer Changed Mind,1.0,4.99
+367,10/25/25 2:09 PM,10/25/25 9:58 PM,Sergio Abundiz,Mayra Luna,Carne Guisada Plate,Customer Changed Mind,1.0,12.99
+367,10/25/25 2:09 PM,10/25/25 9:58 PM,Sergio Abundiz,Mayra Luna,Carne Guisada Plate,Customer Changed Mind,1.0,12.99
+367,10/25/25 2:09 PM,10/25/25 9:58 PM,Sergio Abundiz,Mayra Luna,Fajita Plate,Customer Changed Mind,1.0,14.99
+369,10/25/25 2:11 PM,10/25/25 10:05 PM,Lizeth Alonso,Mayra Luna,Coca-Cola,Customer Changed Mind,1.0,3.69
+369,10/25/25 2:11 PM,10/25/25 10:05 PM,Lizeth Alonso,Mayra Luna,Papa Ranchera Taco,Customer Changed Mind,1.0,1.99

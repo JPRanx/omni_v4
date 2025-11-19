@@ -1,0 +1,6 @@
+Order #,Opened Date,Void Date,Server,Approver,Item Name,Reason,Item Quantity,Total Price
+192,9/24/25 11:13 AM,9/24/25 12:09 PM,Sami Martinez ,Maria  Salazar,Lemonade,Customer Changed Mind,1.0,3.99
+192,9/24/25 11:13 AM,9/24/25 12:09 PM,Sami Martinez ,Maria  Salazar,To-Go Cup/ Plate,Customer Changed Mind,1.0,0.35
+256,9/24/25 1:59 PM,9/24/25 8:29 PM,Martina Ovalle ,AM CASHIER,Carne Guisada Taco,Server Error,2.0,8.78
+256,9/24/25 1:59 PM,9/24/25 8:29 PM,Martina Ovalle ,AM CASHIER,Bean & Cheese Taco,Server Error,2.0,5.98
+256,9/24/25 1:59 PM,9/24/25 8:29 PM,Martina Ovalle ,AM CASHIER,Lemonade,Server Error,1.0,3.99

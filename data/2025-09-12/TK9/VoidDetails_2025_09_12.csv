@@ -1,0 +1,9 @@
+Order #,Opened Date,Void Date,Server,Approver,Item Name,Reason,Item Quantity,Total Price
+225,9/12/25 11:24 AM,9/12/25 11:26 AM,Cin Cin,Cinthia Patlan,Chorizo & Bean Taco,Customer Changed Mind,1.0,1.99
+260,9/12/25 12:31 PM,9/12/25 12:48 PM,Cin Cin,Maria  Salazar,Large Tortilla Soup,Server Error,1.0,10.99
+296,9/12/25 1:44 PM,9/12/25 2:33 PM,Maria  Salazar,Maria  Salazar,Side Carne guisada,Customer Changed Mind,1.0,4.25
+312,9/12/25 2:27 PM,9/12/25 3:42 PM,Maria  Salazar,Maria  Salazar,Crispy Chich w/Egg,86ed,3.0,23.85
+312,9/12/25 2:27 PM,9/12/25 3:42 PM,Maria  Salazar,Maria  Salazar,Coffee?. ,86ed,1.0,2.75
+325,9/12/25 3:18 PM,9/12/25 3:42 PM,Maria  Salazar,Maria  Salazar,Ham & Egg Taco,86ed,1.0,2.49
+325,9/12/25 3:18 PM,9/12/25 3:42 PM,Maria  Salazar,Maria  Salazar,Country & Egg Taco,86ed,1.0,2.29
+325,9/12/25 3:18 PM,9/12/25 3:42 PM,Maria  Salazar,Maria  Salazar,frijol huevo,86ed,1.0,1.99

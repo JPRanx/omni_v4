@@ -1,0 +1,7 @@
+Discount,Count,Orders,Amount
+Open % Item,5,3,4.99
+Military Discount,3,2,1.96
+Employee Discount - Item,2,1,4.8
+Manager Comp - Item,3,1,9.19
+Police Discount,2,1,6.0
+Total,15,8,26.94

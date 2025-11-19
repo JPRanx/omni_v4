@@ -1,0 +1,9 @@
+Order #,Opened Date,Void Date,Server,Approver,Item Name,Reason,Item Quantity,Total Price
+52,9/11/25 7:59 AM,9/11/25 8:00 AM,Daniela Torres,Mayra Luna,Bean & Bacon Taco,Customer Changed Mind,1.0,1.99
+94,9/11/25 8:57 AM,9/11/25 11:57 AM,Maria Majana,Rosie  ORDONEZ,Side Bacon,Testing/Training,1.0,3.99
+195,9/11/25 11:33 AM,9/11/25 12:09 PM,Norma Vasquez,Rosie  ORDONEZ,Bean & Cheese Taco,Server Error,1.0,1.79
+231,9/11/25 12:27 PM,9/11/25 12:32 PM,Daniela Torres,Mayra Luna,Side Cilantro,Customer Changed Mind,1.0,0.65
+231,9/11/25 12:27 PM,9/11/25 12:32 PM,Daniela Torres,Mayra Luna,Side Onion,Customer Changed Mind,1.0,0.65
+312,9/11/25 4:26 PM,9/11/25 4:46 PM,Juan  Camacho,Mayra Luna,Side De Tripa Crispy,Server Error,1.0,5.15
+331,9/11/25 5:43 PM,9/11/25 5:47 PM,Sergio Abundiz,Mayra Luna,Beef Chalupa,Customer Changed Mind,1.0,4.49
+373,9/11/25 9:35 PM,9/11/25 9:38 PM,Melissa Urena,Mayra Luna,Side Cheese,Customer Changed Mind,1.0,2.99

@@ -1,0 +1,23 @@
+Location,Entry Id,Created Date,Action,Amount,Cash Drawer,Payout Reason,No Sale Reason,Comment,Employee,Employee 2
+Tink-a-Tako - Potranco,800000031086448153,10/23/25 1:57 PM,TIP_OUT,-6.00,House,,,Tips paid out from shift review.,Ivana Abundiz,Ivana Abundiz
+Tink-a-Tako - Potranco,800000031086472876,10/23/25 1:58 PM,CASH_COLLECTED,108.08,House,,,Cash revenue collected from shift review.,Maria Majana,Maria Majana
+Tink-a-Tako - Potranco,800000031086473852,10/23/25 1:58 PM,TIP_OUT,-64.00,House,,,Tips paid out from shift review.,Maria Majana,Maria Majana
+Tink-a-Tako - Potranco,800000031086493597,10/23/25 1:58 PM,CASH_COLLECTED,445.29,House,,,Cash revenue collected from shift review.,Daniela Torres,Daniela Torres
+Tink-a-Tako - Potranco,800000031086493939,10/23/25 1:58 PM,TIP_OUT,-27.94,House,,,Tips paid out from shift review.,Daniela Torres,Daniela Torres
+Tink-a-Tako - Potranco,800000031086633292,10/23/25 2:03 PM,TIP_OUT,-69.00,House,,,Tips paid out from shift review.,Norma Vasquez,Norma Vasquez
+Tink-a-Tako - Potranco,800000031086634821,10/23/25 2:03 PM,CASH_COLLECTED,140.19,House,,,Cash revenue collected from shift review.,Norma Vasquez,Norma Vasquez
+Tink-a-Tako - Potranco,800000031086750190,10/23/25 2:06 PM,CASH_COLLECTED,36.73,House,,,Cash revenue collected from shift review.,Esperansa Caviedes,Esperansa Caviedes
+Tink-a-Tako - Potranco,800000031086751771,10/23/25 2:06 PM,TIP_OUT,-69.51,House,,,Tips paid out from shift review.,Esperansa Caviedes,Esperansa Caviedes
+Tink-a-Tako - Potranco,800000031089150747,10/23/25 3:20 PM,CASH_PAYMENT,16.71,Drive Box,,,Cash payment,Lizeth Alonso,
+Tink-a-Tako - Potranco,800000031095679711,10/23/25 5:40 PM,CASH_PAYMENT,3.88,Drive Box,,,Cash payment,Lizeth Alonso,
+Tink-a-Tako - Potranco,800000031100641460,10/23/25 6:57 PM,CASH_PAYMENT,17.30,Drive Box,,,Cash payment,Lizeth Alonso,
+Tink-a-Tako - Potranco,800000031102405961,10/23/25 7:27 PM,PAY_OUT,-20.00,House,Supplies,,Pago pendiente Maria ,Mayra Luna,
+Tink-a-Tako - Potranco,800000031102449647,10/23/25 7:28 PM,PAY_OUT,-62.24,House,Knives,,Cozzini Bros #C19654694,Mayra Luna,
+Tink-a-Tako - Potranco,800000031105159450,10/23/25 8:24 PM,CASH_PAYMENT,24.63,Drive Box,,,Cash payment,Lizeth Alonso,
+Tink-a-Tako - Potranco,800000031107272311,10/23/25 9:28 PM,CASH_PAYMENT,23.12,Drive Box,,,Cash payment,Lizeth Alonso,
+Tink-a-Tako - Potranco,800000031107827345,10/23/25 9:52 PM,TIP_OUT,-143.35,House,,,Tips paid out from shift review.,Isabel Cisneros,Isabel Cisneros
+Tink-a-Tako - Potranco,800000031107830709,10/23/25 9:52 PM,CASH_COLLECTED,133.64,House,,,Cash revenue collected from shift review.,Isabel Cisneros,Isabel Cisneros
+Tink-a-Tako - Potranco,800000031107984793,10/23/25 10:00 PM,TIP_OUT,-36.00,House,,,Tips paid out from shift review.,Lizeth Alonso,Lizeth Alonso
+Tink-a-Tako - Potranco,800000031108081743,10/23/25 10:05 PM,TIP_OUT,-82.20,House,,,Tips paid out from shift review.,Juan  Camacho,Juan  Camacho
+Tink-a-Tako - Potranco,800000031108082565,10/23/25 10:05 PM,CASH_COLLECTED,134.69,House,,,Cash revenue collected from shift review.,Juan  Camacho,Juan  Camacho
+Tink-a-Tako - Potranco,800000031108178925,10/23/25 10:10 PM,CLOSE_OUT_EXACT,0.00,Drive Box,,,Close out balance matches expected balance,Mayra Luna,

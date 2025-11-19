@@ -1,0 +1,981 @@
+Location,Server,Check #,Table,Station,Expediter Level,Fired Date,Fulfilled Date,Fulfillment Time,Fulfilled By
+12060 Potranco Road,Melissa  Urena,1,,Drive Thru,,10/25/25 6:56 AM,10/25/25 6:57 AM,59 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,1,,Food,,10/25/25 6:56 AM,10/25/25 6:57 AM,59 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,4,,Drive Thru,,10/25/25 7:07 AM,10/25/25 7:09 AM,2 minutes and 19 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,4,,Food,,10/25/25 7:07 AM,10/25/25 7:09 AM,2 minutes and 19 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,2,,Drive Thru,,10/25/25 7:04 AM,10/25/25 7:09 AM,5 minutes and 13 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,2,,Food,,10/25/25 7:04 AM,10/25/25 7:09 AM,5 minutes and 13 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,5,,Food,,10/25/25 7:07 AM,10/25/25 7:13 AM,6 minutes and 10 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,7,,Drive Thru,,10/25/25 7:15 AM,10/25/25 7:19 AM,4 minutes and 9 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,7,,Food,,10/25/25 7:15 AM,10/25/25 7:19 AM,4 minutes and 9 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,9,7,No Print,,10/25/25 7:30 AM,10/25/25 7:36 AM,6 minutes and 6 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,9,7,Food,,10/25/25 7:30 AM,10/25/25 7:36 AM,6 minutes and 6 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,8,,Food,,10/25/25 7:41 AM,10/25/25 7:45 AM,4 minutes and 31 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,8,,Drive Thru,,10/25/25 7:41 AM,10/25/25 7:45 AM,4 minutes and 31 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,10,16,No Print,,10/25/25 7:37 AM,10/25/25 7:51 AM,14 minutes and 10 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,10,16,Food,,10/25/25 7:37 AM,10/25/25 7:51 AM,14 minutes and 10 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,12,,Food,,10/25/25 7:52 AM,10/25/25 7:58 AM,5 minutes and 39 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,12,,Drive Thru,,10/25/25 7:52 AM,10/25/25 7:58 AM,5 minutes and 39 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,13,,Drive Thru,,10/25/25 7:56 AM,10/25/25 7:58 AM,1 minute and 52 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,13,,Food,,10/25/25 7:56 AM,10/25/25 7:58 AM,1 minute and 52 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,9,7,No Print,,10/25/25 7:59 AM,10/25/25 8:06 AM,6 minutes and 50 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,9,7,Food,,10/25/25 7:59 AM,10/25/25 8:06 AM,6 minutes and 50 seconds,KDS - Login Don't Delete
+12060 Potranco Road,siri quiroz,15,,No Print,,10/25/25 7:57 AM,10/25/25 8:06 AM,8 minutes and 53 seconds,KDS - Login Don't Delete
+12060 Potranco Road,siri quiroz,15,,Food,,10/25/25 7:57 AM,10/25/25 8:06 AM,8 minutes and 53 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,16,,Food,,10/25/25 7:59 AM,10/25/25 8:07 AM,8 minutes and 24 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,16,,Drive Thru,,10/25/25 7:59 AM,10/25/25 8:07 AM,8 minutes and 24 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,17,,Drive Thru,,10/25/25 8:01 AM,10/25/25 8:07 AM,5 minutes and 53 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,17,,Food,,10/25/25 8:01 AM,10/25/25 8:07 AM,5 minutes and 53 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,21,,Drive Thru,,10/25/25 8:04 AM,10/25/25 8:07 AM,2 minutes and 57 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,21,,Food,,10/25/25 8:04 AM,10/25/25 8:07 AM,2 minutes and 57 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Sugey Cabrera,19,31,No Print,,10/25/25 8:03 AM,10/25/25 8:08 AM,4 minutes and 48 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Sugey Cabrera,19,31,Food,,10/25/25 8:03 AM,10/25/25 8:08 AM,4 minutes and 48 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Sugey Cabrera,19,31,Drive Thru,,10/25/25 8:03 AM,10/25/25 8:08 AM,4 minutes and 48 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,9,7,,1,10/25/25 7:36 AM,10/25/25 8:08 AM,31 minutes and 49 seconds,KDS - Login Don't Delete
+12060 Potranco Road,siri quiroz,15,,,1,10/25/25 8:06 AM,10/25/25 8:08 AM,2 minutes and 30 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,10,16,,1,10/25/25 7:51 AM,10/25/25 8:08 AM,17 minutes and 37 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,9,7,,1,10/25/25 8:06 AM,10/25/25 8:08 AM,2 minutes and 33 seconds,KDS - Login Don't Delete
+12060 Potranco Road,siri quiroz,20,,Food,,10/25/25 8:03 AM,10/25/25 8:09 AM,5 minutes and 48 seconds,KDS - Login Don't Delete
+12060 Potranco Road,siri quiroz,20,,Drive Thru,,10/25/25 8:03 AM,10/25/25 8:09 AM,5 minutes and 48 seconds,KDS - Login Don't Delete
+12060 Potranco Road,siri quiroz,20,,,1,10/25/25 8:09 AM,10/25/25 8:09 AM,4 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,9,7,,1,10/25/25 7:31 AM,10/25/25 8:09 AM,38 minutes and 22 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Sugey Cabrera,19,31,,1,10/25/25 8:03 AM,10/25/25 8:12 AM,8 minutes and 39 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,22,,Food,,10/25/25 8:11 AM,10/25/25 8:14 AM,2 minutes and 37 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,22,,Drive Thru,,10/25/25 8:11 AM,10/25/25 8:14 AM,2 minutes and 37 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,23,,Food,,10/25/25 8:12 AM,10/25/25 8:15 AM,2 minutes and 44 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,23,,Drive Thru,,10/25/25 8:12 AM,10/25/25 8:15 AM,2 minutes and 44 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,24,,Drive Thru,,10/25/25 8:13 AM,10/25/25 8:15 AM,2 minutes and 15 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,24,,Food,,10/25/25 8:13 AM,10/25/25 8:15 AM,2 minutes and 15 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,25,,Drive Thru,,10/25/25 8:16 AM,10/25/25 8:19 AM,3 minutes and 20 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,25,,Food,,10/25/25 8:16 AM,10/25/25 8:19 AM,3 minutes and 20 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,10,16,No Print,,10/25/25 8:16 AM,10/25/25 8:22 AM,5 minutes and 46 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,10,16,Food,,10/25/25 8:16 AM,10/25/25 8:22 AM,5 minutes and 46 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,26,21,No Print,,10/25/25 8:19 AM,10/25/25 8:22 AM,2 minutes and 23 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,26,21,Food,,10/25/25 8:19 AM,10/25/25 8:22 AM,2 minutes and 23 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,26,21,Drive Thru,,10/25/25 8:19 AM,10/25/25 8:22 AM,2 minutes and 23 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,27,,Food,,10/25/25 8:20 AM,10/25/25 8:22 AM,2 minutes and 8 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,27,,Drive Thru,,10/25/25 8:20 AM,10/25/25 8:22 AM,2 minutes and 8 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,10,16,,1,10/25/25 8:22 AM,10/25/25 8:27 AM,4 minutes and 54 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,26,21,,1,10/25/25 8:19 AM,10/25/25 8:27 AM,7 minutes and 21 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Sugey Cabrera,28,26,No Print,,10/25/25 8:25 AM,10/25/25 8:27 AM,1 minute and 55 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Sugey Cabrera,28,26,Food,,10/25/25 8:25 AM,10/25/25 8:27 AM,1 minute and 55 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,29,1,,1,10/25/25 8:28 AM,10/25/25 8:30 AM,1 minute and 29 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Sugey Cabrera,28,26,,1,10/25/25 8:25 AM,10/25/25 8:30 AM,4 minutes and 11 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,29,1,,1,10/25/25 8:29 AM,10/25/25 8:34 AM,4 minutes and 56 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,30,,Drive Thru,,10/25/25 8:29 AM,10/25/25 8:35 AM,5 minutes and 39 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,30,,Food,,10/25/25 8:29 AM,10/25/25 8:35 AM,5 minutes and 39 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,31,,Food,,10/25/25 8:36 AM,10/25/25 8:38 AM,2 minutes and 23 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,31,,Drive Thru,,10/25/25 8:36 AM,10/25/25 8:38 AM,2 minutes and 23 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,32,,Drive Thru,,10/25/25 8:38 AM,10/25/25 8:41 AM,3 minutes and 31 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,32,,Food,,10/25/25 8:38 AM,10/25/25 8:41 AM,3 minutes and 31 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,10,16,,1,10/25/25 8:31 AM,10/25/25 8:45 AM,14 minutes and 7 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,33,,Drive Thru,,10/25/25 8:40 AM,10/25/25 8:45 AM,5 minutes and 40 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,33,,Food,,10/25/25 8:40 AM,10/25/25 8:45 AM,5 minutes and 40 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,34,,Drive Thru,,10/25/25 8:46 AM,10/25/25 8:48 AM,2 minutes and 56 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,34,,Food,,10/25/25 8:46 AM,10/25/25 8:48 AM,2 minutes and 56 seconds,KDS - Login Don't Delete
+12060 Potranco Road,siri quiroz,20,,,1,10/25/25 8:45 AM,10/25/25 8:51 AM,5 minutes and 57 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,37,2,,1,10/25/25 8:50 AM,10/25/25 8:51 AM,1 minute and 1 second,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,36,,Drive Thru,,10/25/25 8:50 AM,10/25/25 8:52 AM,2 minutes and 31 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,36,,Food,,10/25/25 8:50 AM,10/25/25 8:52 AM,2 minutes and 31 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,39,16,,1,10/25/25 8:51 AM,10/25/25 8:53 AM,1 minute and 50 seconds,KDS - Login Don't Delete
+12060 Potranco Road,siri quiroz,35,,,1,10/25/25 8:47 AM,10/25/25 8:53 AM,6 minutes and 14 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,37,2,,1,10/25/25 8:53 AM,10/25/25 8:55 AM,2 minutes and 46 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,40,,Drive Thru,,10/25/25 8:53 AM,10/25/25 8:57 AM,4 minutes and 6 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,40,,Food,,10/25/25 8:53 AM,10/25/25 8:57 AM,4 minutes and 6 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,41,,Drive Thru,,10/25/25 8:53 AM,10/25/25 8:57 AM,3 minutes and 59 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,41,,Food,,10/25/25 8:53 AM,10/25/25 8:57 AM,3 minutes and 59 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,38,25,No Print,,10/25/25 8:53 AM,10/25/25 8:58 AM,4 minutes and 56 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,38,25,Food,,10/25/25 8:53 AM,10/25/25 8:58 AM,4 minutes and 56 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,38,25,Drive Thru,,10/25/25 8:53 AM,10/25/25 8:58 AM,4 minutes and 56 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,39,16,No Print,,10/25/25 8:53 AM,10/25/25 8:58 AM,4 minutes and 17 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,39,16,Food,,10/25/25 8:53 AM,10/25/25 8:58 AM,4 minutes and 17 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,39,16,,1,10/25/25 8:58 AM,10/25/25 8:58 AM,24 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,38,25,,1,10/25/25 8:53 AM,10/25/25 8:58 AM,5 minutes and 23 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,29,1,No Print,,10/25/25 8:54 AM,10/25/25 8:58 AM,4 minutes and 6 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,29,1,Food,,10/25/25 8:54 AM,10/25/25 8:58 AM,4 minutes and 6 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,29,1,,1,10/25/25 8:58 AM,10/25/25 9:00 AM,1 minute and 25 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Sugey Cabrera,43,34,No Print,,10/25/25 8:55 AM,10/25/25 9:02 AM,7 minutes and 15 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Sugey Cabrera,43,34,Food,,10/25/25 8:55 AM,10/25/25 9:02 AM,7 minutes and 15 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,37,2,No Print,,10/25/25 8:58 AM,10/25/25 9:02 AM,3 minutes and 49 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,37,2,Food,,10/25/25 8:58 AM,10/25/25 9:02 AM,3 minutes and 49 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,44,,Food,,10/25/25 9:01 AM,10/25/25 9:04 AM,3 minutes and 19 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,44,,Drive Thru,,10/25/25 9:01 AM,10/25/25 9:04 AM,3 minutes and 19 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,42,23,No Print,,10/25/25 8:53 AM,10/25/25 9:05 AM,11 minutes and 48 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,42,23,Food,,10/25/25 8:53 AM,10/25/25 9:05 AM,11 minutes and 48 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,46,,Food,,10/25/25 9:05 AM,10/25/25 9:07 AM,1 minute and 52 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,46,,Drive Thru,,10/25/25 9:05 AM,10/25/25 9:07 AM,1 minute and 52 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,37,2,,1,10/25/25 9:02 AM,10/25/25 9:07 AM,5 minutes and 8 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,46,,,1,10/25/25 9:07 AM,10/25/25 9:11 AM,4 minutes and 14 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,42,23,,1,10/25/25 8:53 AM,10/25/25 9:11 AM,17 minutes and 36 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Sugey Cabrera,49,6,No Print,,10/25/25 9:08 AM,10/25/25 9:12 AM,3 minutes and 12 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Sugey Cabrera,49,6,Food,,10/25/25 9:08 AM,10/25/25 9:12 AM,3 minutes and 12 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Sugey Cabrera,43,34,,1,10/25/25 8:55 AM,10/25/25 9:12 AM,17 minutes and 13 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Sugey Cabrera,49,6,,1,10/25/25 9:08 AM,10/25/25 9:13 AM,4 minutes and 19 seconds,KDS - Login Don't Delete
+12060 Potranco Road,siri quiroz,20,,Food,,10/25/25 9:09 AM,10/25/25 9:14 AM,5 minutes and 16 seconds,KDS - Login Don't Delete
+12060 Potranco Road,siri quiroz,20,,Drive Thru,,10/25/25 9:09 AM,10/25/25 9:14 AM,5 minutes and 16 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,50,,Drive Thru,,10/25/25 9:11 AM,10/25/25 9:14 AM,3 minutes and 48 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,50,,Food,,10/25/25 9:11 AM,10/25/25 9:14 AM,3 minutes and 48 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,51,3,No Print,,10/25/25 9:11 AM,10/25/25 9:15 AM,4 minutes,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,51,3,Food,,10/25/25 9:11 AM,10/25/25 9:15 AM,4 minutes,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,51,3,Drive Thru,,10/25/25 9:11 AM,10/25/25 9:15 AM,4 minutes,KDS - Login Don't Delete
+12060 Potranco Road,Candy Del Angel,53,,No Print,,10/25/25 9:13 AM,10/25/25 9:15 AM,2 minutes and 33 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Candy Del Angel,53,,Food,,10/25/25 9:13 AM,10/25/25 9:15 AM,2 minutes and 33 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Candy Del Angel,53,,Drive Thru,,10/25/25 9:13 AM,10/25/25 9:15 AM,2 minutes and 33 seconds,KDS - Login Don't Delete
+12060 Potranco Road,siri quiroz,20,,,1,10/25/25 9:14 AM,10/25/25 9:15 AM,1 minute and 31 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Candy Del Angel,53,,,1,10/25/25 9:15 AM,10/25/25 9:16 AM,13 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,51,3,,1,10/25/25 9:11 AM,10/25/25 9:16 AM,4 minutes and 45 seconds,KDS - Login Don't Delete
+12060 Potranco Road,siri quiroz,20,,Food,,10/25/25 9:17 AM,10/25/25 9:21 AM,4 minutes and 37 seconds,KDS - Login Don't Delete
+12060 Potranco Road,siri quiroz,20,,Drive Thru,,10/25/25 9:17 AM,10/25/25 9:21 AM,4 minutes and 37 seconds,KDS - Login Don't Delete
+12060 Potranco Road,siri quiroz,20,,,1,10/25/25 9:21 AM,10/25/25 9:25 AM,3 minutes and 27 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,55,15,,1,10/25/25 9:22 AM,10/25/25 9:25 AM,2 minutes and 46 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,57,25,,1,10/25/25 9:23 AM,10/25/25 9:25 AM,1 minute and 42 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,54,,Food,,10/25/25 9:21 AM,10/25/25 9:26 AM,4 minutes and 37 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,54,,Drive Thru,,10/25/25 9:21 AM,10/25/25 9:26 AM,4 minutes and 37 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,56,,Drive Thru,,10/25/25 9:22 AM,10/25/25 9:26 AM,4 minutes and 33 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,56,,Food,,10/25/25 9:22 AM,10/25/25 9:26 AM,4 minutes and 33 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,58,,Food,,10/25/25 9:24 AM,10/25/25 9:29 AM,4 minutes and 51 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,55,15,,1,10/25/25 9:25 AM,10/25/25 9:31 AM,6 minutes and 3 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,62,,Drive Thru,,10/25/25 9:28 AM,10/25/25 9:32 AM,4 minutes and 36 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,59,14,,1,10/25/25 9:26 AM,10/25/25 9:32 AM,5 minutes and 49 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,61,,Drive Thru,,10/25/25 9:26 AM,10/25/25 9:32 AM,6 minutes and 12 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,61,,Food,,10/25/25 9:26 AM,10/25/25 9:32 AM,6 minutes and 12 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,62,,Food,,10/25/25 9:28 AM,10/25/25 9:32 AM,4 minutes and 36 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,51,3,No Print,,10/25/25 9:30 AM,10/25/25 9:34 AM,3 minutes and 20 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,51,3,Food,,10/25/25 9:30 AM,10/25/25 9:34 AM,3 minutes and 20 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,63,,Drive Thru,,10/25/25 9:30 AM,10/25/25 9:36 AM,6 minutes and 15 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,63,,Food,,10/25/25 9:30 AM,10/25/25 9:36 AM,6 minutes and 15 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,51,3,,1,10/25/25 9:34 AM,10/25/25 9:38 AM,3 minutes and 52 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,66,20,,1,10/25/25 9:35 AM,10/25/25 9:38 AM,2 minutes and 49 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,65,,Food,,10/25/25 9:34 AM,10/25/25 9:38 AM,4 minutes and 10 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,64,,Drive Thru,,10/25/25 9:34 AM,10/25/25 9:38 AM,4 minutes and 50 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,64,,Food,,10/25/25 9:34 AM,10/25/25 9:38 AM,4 minutes and 50 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,57,25,No Print,,10/25/25 9:36 AM,10/25/25 9:40 AM,3 minutes and 39 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,57,25,Food,,10/25/25 9:36 AM,10/25/25 9:40 AM,3 minutes and 39 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,55,15,,1,10/25/25 9:39 AM,10/25/25 9:41 AM,2 minutes and 3 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,57,25,,1,10/25/25 9:40 AM,10/25/25 9:41 AM,56 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,70,1,,1,10/25/25 9:39 AM,10/25/25 9:41 AM,1 minute and 36 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,69,,Food,,10/25/25 9:40 AM,10/25/25 9:44 AM,4 minutes and 5 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,69,,Drive Thru,,10/25/25 9:40 AM,10/25/25 9:44 AM,4 minutes and 5 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,68,,Drive Thru,,10/25/25 9:36 AM,10/25/25 9:44 AM,7 minutes and 59 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,68,,Food,,10/25/25 9:36 AM,10/25/25 9:44 AM,7 minutes and 59 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,66,20,No Print,,10/25/25 9:38 AM,10/25/25 9:47 AM,8 minutes and 22 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,66,20,Food,,10/25/25 9:38 AM,10/25/25 9:47 AM,8 minutes and 22 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,70,1,No Print,,10/25/25 9:41 AM,10/25/25 9:47 AM,5 minutes and 56 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,70,1,Food,,10/25/25 9:41 AM,10/25/25 9:47 AM,5 minutes and 56 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Sugey Cabrera,67,22,No Print,,10/25/25 9:37 AM,10/25/25 9:47 AM,9 minutes and 42 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Sugey Cabrera,67,22,Food,,10/25/25 9:37 AM,10/25/25 9:47 AM,9 minutes and 42 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,66,20,,1,10/25/25 9:47 AM,10/25/25 9:47 AM,6 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Sugey Cabrera,67,22,,1,10/25/25 9:37 AM,10/25/25 9:47 AM,10 minutes and 6 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,70,1,,1,10/25/25 9:47 AM,10/25/25 9:47 AM,49 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,71,,Food,,10/25/25 9:41 AM,10/25/25 9:47 AM,6 minutes and 56 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,71,,Drive Thru,,10/25/25 9:41 AM,10/25/25 9:47 AM,6 minutes and 56 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,73,16,No Print,,10/25/25 9:46 AM,10/25/25 9:50 AM,4 minutes and 18 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,73,16,Food,,10/25/25 9:46 AM,10/25/25 9:50 AM,4 minutes and 18 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,75,,Drive Thru,,10/25/25 9:51 AM,10/25/25 9:54 AM,3 minutes and 7 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,75,,Food,,10/25/25 9:51 AM,10/25/25 9:54 AM,3 minutes and 7 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,76,,Food,,10/25/25 9:52 AM,10/25/25 9:54 AM,2 minutes and 21 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,77,,Drive Thru,,10/25/25 9:53 AM,10/25/25 9:55 AM,2 minutes and 15 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,77,,Food,,10/25/25 9:53 AM,10/25/25 9:55 AM,2 minutes and 15 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,73,16,,1,10/25/25 9:46 AM,10/25/25 10:00 AM,13 minutes and 44 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,78,12,,1,10/25/25 9:53 AM,10/25/25 10:00 AM,7 minutes and 4 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,79,,Drive Thru,,10/25/25 9:53 AM,10/25/25 10:00 AM,6 minutes and 33 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,79,,Food,,10/25/25 9:53 AM,10/25/25 10:00 AM,6 minutes and 33 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Sugey Cabrera,80,2,No Print,,10/25/25 9:55 AM,10/25/25 10:02 AM,6 minutes and 51 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Sugey Cabrera,80,2,Food,,10/25/25 9:55 AM,10/25/25 10:02 AM,6 minutes and 51 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Sugey Cabrera,80,2,Drive Thru,,10/25/25 9:55 AM,10/25/25 10:02 AM,6 minutes and 51 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Sugey Cabrera,80,2,,1,10/25/25 9:55 AM,10/25/25 10:03 AM,7 minutes and 39 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,86,,Drive Thru,,10/25/25 10:02 AM,10/25/25 10:04 AM,2 minutes and 15 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,86,,Food,,10/25/25 10:02 AM,10/25/25 10:04 AM,2 minutes and 15 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,78,12,No Print,,10/25/25 9:56 AM,10/25/25 10:04 AM,8 minutes and 19 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,78,12,Food,,10/25/25 9:56 AM,10/25/25 10:04 AM,8 minutes and 19 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,85,4,,1,10/25/25 10:01 AM,10/25/25 10:05 AM,3 minutes and 50 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Sugey Cabrera,81,3,,1,10/25/25 9:57 AM,10/25/25 10:06 AM,8 minutes and 48 seconds,KDS - Login Don't Delete
+12060 Potranco Road,siri quiroz,74,,Food,,10/25/25 9:58 AM,10/25/25 10:07 AM,9 minutes and 45 seconds,KDS - Login Don't Delete
+12060 Potranco Road,siri quiroz,74,,Drive Thru,,10/25/25 9:58 AM,10/25/25 10:07 AM,9 minutes and 45 seconds,KDS - Login Don't Delete
+12060 Potranco Road,siri quiroz,82,,Food,,10/25/25 10:01 AM,10/25/25 10:07 AM,6 minutes and 13 seconds,KDS - Login Don't Delete
+12060 Potranco Road,siri quiroz,82,,Drive Thru,,10/25/25 10:01 AM,10/25/25 10:07 AM,6 minutes and 13 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Sugey Cabrera,83,35,No Print,,10/25/25 10:02 AM,10/25/25 10:09 AM,7 minutes and 18 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Sugey Cabrera,83,35,Food,,10/25/25 10:02 AM,10/25/25 10:09 AM,7 minutes and 18 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Candy Del Angel,53,,No Print,,10/25/25 10:06 AM,10/25/25 10:09 AM,2 minutes and 53 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Candy Del Angel,53,,Food,,10/25/25 10:06 AM,10/25/25 10:09 AM,2 minutes and 53 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,87,,Food,,10/25/25 10:04 AM,10/25/25 10:10 AM,6 minutes and 4 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,87,,Drive Thru,,10/25/25 10:04 AM,10/25/25 10:10 AM,6 minutes and 4 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,88,,Drive Thru,,10/25/25 10:08 AM,10/25/25 10:12 AM,4 minutes and 26 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,88,,Food,,10/25/25 10:08 AM,10/25/25 10:12 AM,4 minutes and 26 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,78,12,,1,10/25/25 10:04 AM,10/25/25 10:13 AM,8 minutes and 59 seconds,KDS - Login Don't Delete
+12060 Potranco Road,siri quiroz,74,,,1,10/25/25 10:07 AM,10/25/25 10:13 AM,6 minutes and 10 seconds,KDS - Login Don't Delete
+12060 Potranco Road,siri quiroz,82,,,1,10/25/25 10:07 AM,10/25/25 10:14 AM,6 minutes and 13 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,90,,Drive Thru,,10/25/25 10:11 AM,10/25/25 10:14 AM,2 minutes and 54 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,90,,Food,,10/25/25 10:11 AM,10/25/25 10:14 AM,2 minutes and 54 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Candy Del Angel,53,,,1,10/25/25 10:09 AM,10/25/25 10:14 AM,4 minutes and 54 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,93,31,,1,10/25/25 10:14 AM,10/25/25 10:14 AM,33 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Sugey Cabrera,83,35,,1,10/25/25 10:02 AM,10/25/25 10:14 AM,12 minutes and 39 seconds,KDS - Login Don't Delete
+12060 Potranco Road,siri quiroz,89,,Food,,10/25/25 10:10 AM,10/25/25 10:15 AM,4 minutes and 49 seconds,KDS - Login Don't Delete
+12060 Potranco Road,siri quiroz,89,,Drive Thru,,10/25/25 10:10 AM,10/25/25 10:15 AM,4 minutes and 49 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,91,,Drive Thru,,10/25/25 10:13 AM,10/25/25 10:16 AM,2 minutes and 55 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,91,,Food,,10/25/25 10:13 AM,10/25/25 10:16 AM,2 minutes and 55 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,94,,Food,,10/25/25 10:14 AM,10/25/25 10:16 AM,2 minutes and 57 seconds,KDS - Login Don't Delete
+12060 Potranco Road,siri quiroz,89,,,1,10/25/25 10:15 AM,10/25/25 10:16 AM,1 minute and 48 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,94,,Drive Thru,,10/25/25 10:14 AM,10/25/25 10:16 AM,2 minutes and 57 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,95,15,No Print,,10/25/25 10:15 AM,10/25/25 10:18 AM,2 minutes and 22 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,95,15,Food,,10/25/25 10:15 AM,10/25/25 10:18 AM,2 minutes and 22 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,95,15,Drive Thru,,10/25/25 10:15 AM,10/25/25 10:18 AM,2 minutes and 22 seconds,KDS - Login Don't Delete
+12060 Potranco Road,siri quiroz,97,,Food,,10/25/25 10:17 AM,10/25/25 10:18 AM,1 minute and 18 seconds,KDS - Login Don't Delete
+12060 Potranco Road,siri quiroz,97,,Drive Thru,,10/25/25 10:17 AM,10/25/25 10:18 AM,1 minute and 18 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,96,,Drive Thru,,10/25/25 10:15 AM,10/25/25 10:19 AM,3 minutes and 9 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,96,,Food,,10/25/25 10:15 AM,10/25/25 10:19 AM,3 minutes and 9 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,85,4,No Print,,10/25/25 10:13 AM,10/25/25 10:19 AM,6 minutes and 21 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,85,4,Food,,10/25/25 10:13 AM,10/25/25 10:19 AM,6 minutes and 21 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,98,,Drive Thru,,10/25/25 10:17 AM,10/25/25 10:19 AM,2 minutes and 27 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,98,,Food,,10/25/25 10:17 AM,10/25/25 10:19 AM,2 minutes and 27 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,85,4,,1,10/25/25 10:19 AM,10/25/25 10:19 AM,9 seconds,KDS - Login Don't Delete
+12060 Potranco Road,siri quiroz,97,,,1,10/25/25 10:18 AM,10/25/25 10:21 AM,2 minutes and 21 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,95,15,,1,10/25/25 10:15 AM,10/25/25 10:21 AM,5 minutes and 39 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,101,,Drive Thru,,10/25/25 10:21 AM,10/25/25 10:23 AM,2 minutes and 2 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,101,,Food,,10/25/25 10:21 AM,10/25/25 10:23 AM,2 minutes and 2 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,105,27,No Print,,10/25/25 10:23 AM,10/25/25 10:23 AM,26 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,105,27,Food,,10/25/25 10:23 AM,10/25/25 10:23 AM,26 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,93,31,No Print,,10/25/25 10:19 AM,10/25/25 10:24 AM,4 minutes and 22 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,93,31,Food,,10/25/25 10:19 AM,10/25/25 10:24 AM,4 minutes and 22 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,93,31,,1,10/25/25 10:24 AM,10/25/25 10:25 AM,48 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,105,27,,1,10/25/25 10:23 AM,10/25/25 10:25 AM,1 minute and 26 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,100,8,,1,10/25/25 10:21 AM,10/25/25 10:25 AM,3 minutes and 48 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,102,7,No Print,,10/25/25 10:23 AM,10/25/25 10:28 AM,5 minutes and 21 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,102,7,Food,,10/25/25 10:23 AM,10/25/25 10:28 AM,5 minutes and 21 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,106,5,No Print,,10/25/25 10:24 AM,10/25/25 10:29 AM,5 minutes and 6 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,106,5,Food,,10/25/25 10:24 AM,10/25/25 10:29 AM,5 minutes and 6 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,103,,Drive Thru,,10/25/25 10:27 AM,10/25/25 10:30 AM,3 minutes and 16 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,103,,Food,,10/25/25 10:27 AM,10/25/25 10:30 AM,3 minutes and 16 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Sugey Cabrera,99,14,No Print,,10/25/25 10:23 AM,10/25/25 10:30 AM,7 minutes and 30 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Sugey Cabrera,99,14,Food,,10/25/25 10:23 AM,10/25/25 10:30 AM,7 minutes and 30 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,110,,Drive Thru,,10/25/25 10:27 AM,10/25/25 10:30 AM,3 minutes and 6 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,110,,Food,,10/25/25 10:27 AM,10/25/25 10:30 AM,3 minutes and 6 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,102,7,,1,10/25/25 10:28 AM,10/25/25 10:31 AM,2 minutes and 37 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,106,5,,1,10/25/25 10:29 AM,10/25/25 10:31 AM,1 minute and 23 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Sugey Cabrera,99,14,,1,10/25/25 10:23 AM,10/25/25 10:31 AM,8 minutes and 56 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,111,,Food,,10/25/25 10:28 AM,10/25/25 10:32 AM,4 minutes and 7 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,100,8,No Print,,10/25/25 10:25 AM,10/25/25 10:32 AM,6 minutes and 23 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,100,8,Food,,10/25/25 10:25 AM,10/25/25 10:32 AM,6 minutes and 23 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,100,8,Drive Thru,,10/25/25 10:25 AM,10/25/25 10:32 AM,6 minutes and 23 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,104,21,No Print,,10/25/25 10:23 AM,10/25/25 10:32 AM,9 minutes,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,104,21,Food,,10/25/25 10:23 AM,10/25/25 10:32 AM,9 minutes,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,104,21,,1,10/25/25 10:23 AM,10/25/25 10:32 AM,9 minutes and 11 seconds,KDS - Login Don't Delete
+12060 Potranco Road,siri quiroz,107,,Food,,10/25/25 10:25 AM,10/25/25 10:33 AM,8 minutes and 10 seconds,KDS - Login Don't Delete
+12060 Potranco Road,siri quiroz,107,,Drive Thru,,10/25/25 10:25 AM,10/25/25 10:33 AM,8 minutes and 10 seconds,KDS - Login Don't Delete
+12060 Potranco Road,siri quiroz,107,,,1,10/25/25 10:33 AM,10/25/25 10:34 AM,1 minute and 3 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,100,8,,1,10/25/25 10:32 AM,10/25/25 10:34 AM,2 minutes and 13 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,109,18,No Print,,10/25/25 10:26 AM,10/25/25 10:34 AM,7 minutes and 41 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,109,18,Food,,10/25/25 10:26 AM,10/25/25 10:34 AM,7 minutes and 41 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,117,,Drive Thru,,10/25/25 10:31 AM,10/25/25 10:34 AM,2 minutes and 52 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,117,,Food,,10/25/25 10:31 AM,10/25/25 10:34 AM,2 minutes and 52 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,109,18,,1,10/25/25 10:26 AM,10/25/25 10:35 AM,8 minutes and 39 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,116,11,,1,10/25/25 10:31 AM,10/25/25 10:35 AM,4 minutes and 1 second,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,114,34,,1,10/25/25 10:31 AM,10/25/25 10:35 AM,4 minutes and 39 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,118,,Drive Thru,,10/25/25 10:34 AM,10/25/25 10:36 AM,1 minute and 35 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,118,,Food,,10/25/25 10:34 AM,10/25/25 10:36 AM,1 minute and 35 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,112,23,No Print,,10/25/25 10:29 AM,10/25/25 10:37 AM,8 minutes and 6 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,112,23,Food,,10/25/25 10:29 AM,10/25/25 10:37 AM,8 minutes and 6 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,114,34,No Print,,10/25/25 10:32 AM,10/25/25 10:40 AM,7 minutes and 17 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,114,34,Food,,10/25/25 10:32 AM,10/25/25 10:40 AM,7 minutes and 17 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,119,,Food,,10/25/25 10:36 AM,10/25/25 10:40 AM,4 minutes and 35 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,119,,Drive Thru,,10/25/25 10:36 AM,10/25/25 10:40 AM,4 minutes and 35 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,105,27,No Print,,10/25/25 10:38 AM,10/25/25 10:41 AM,3 minutes and 3 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,105,27,Food,,10/25/25 10:38 AM,10/25/25 10:41 AM,3 minutes and 3 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,122,,Drive Thru,,10/25/25 10:38 AM,10/25/25 10:41 AM,3 minutes and 24 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,122,,Food,,10/25/25 10:38 AM,10/25/25 10:41 AM,3 minutes and 24 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,78,12,,1,10/25/25 10:37 AM,10/25/25 10:41 AM,3 minutes and 30 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,105,27,,1,10/25/25 10:41 AM,10/25/25 10:41 AM,13 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Sugey Cabrera,113,25,No Print,,10/25/25 10:29 AM,10/25/25 10:41 AM,12 minutes and 4 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Sugey Cabrera,113,25,Food,,10/25/25 10:29 AM,10/25/25 10:41 AM,12 minutes and 4 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,126,30,,1,10/25/25 10:42 AM,10/25/25 10:42 AM,10 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Sugey Cabrera,113,25,,1,10/25/25 10:29 AM,10/25/25 10:42 AM,12 minutes and 46 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,85,4,,1,10/25/25 10:42 AM,10/25/25 10:42 AM,3 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,123,,Drive Thru,,10/25/25 10:39 AM,10/25/25 10:42 AM,3 minutes,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,123,,Food,,10/25/25 10:39 AM,10/25/25 10:42 AM,3 minutes,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,106,5,,1,10/25/25 10:43 AM,10/25/25 10:43 AM,9 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,129,17,,1,10/25/25 10:43 AM,10/25/25 10:43 AM,3 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,116,11,No Print,,10/25/25 10:37 AM,10/25/25 10:43 AM,6 minutes and 30 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,116,11,Food,,10/25/25 10:37 AM,10/25/25 10:43 AM,6 minutes and 30 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,126,30,Food,,10/25/25 10:44 AM,10/25/25 10:44 AM,3 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,116,11,,1,10/25/25 10:43 AM,10/25/25 10:44 AM,1 minute and 18 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,114,34,,1,10/25/25 10:40 AM,10/25/25 10:44 AM,4 minutes and 41 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,126,30,,1,10/25/25 10:44 AM,10/25/25 10:44 AM,7 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,112,23,,1,10/25/25 10:29 AM,10/25/25 10:45 AM,16 minutes and 9 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,124,,Food,,10/25/25 10:41 AM,10/25/25 10:45 AM,3 minutes and 46 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,124,,Drive Thru,,10/25/25 10:41 AM,10/25/25 10:45 AM,3 minutes and 46 seconds,KDS - Login Don't Delete
+12060 Potranco Road,siri quiroz,115,,Food,,10/25/25 10:36 AM,10/25/25 10:46 AM,9 minutes and 47 seconds,KDS - Login Don't Delete
+12060 Potranco Road,siri quiroz,115,,Drive Thru,,10/25/25 10:36 AM,10/25/25 10:46 AM,9 minutes and 47 seconds,KDS - Login Don't Delete
+12060 Potranco Road,siri quiroz,115,,,1,10/25/25 10:46 AM,10/25/25 10:46 AM,40 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Sugey Cabrera,121,28,No Print,,10/25/25 10:38 AM,10/25/25 10:46 AM,8 minutes and 44 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Sugey Cabrera,121,28,Food,,10/25/25 10:38 AM,10/25/25 10:46 AM,8 minutes and 44 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,127,6,No Print,,10/25/25 10:42 AM,10/25/25 10:46 AM,4 minutes,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,127,6,Food,,10/25/25 10:42 AM,10/25/25 10:46 AM,4 minutes,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,125,20,No Print,,10/25/25 10:42 AM,10/25/25 10:46 AM,4 minutes and 19 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,125,20,Food,,10/25/25 10:42 AM,10/25/25 10:46 AM,4 minutes and 19 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,128,,Drive Thru,,10/25/25 10:43 AM,10/25/25 10:47 AM,3 minutes and 53 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,128,,Food,,10/25/25 10:43 AM,10/25/25 10:47 AM,3 minutes and 53 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,127,6,,1,10/25/25 10:46 AM,10/25/25 10:47 AM,58 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Sugey Cabrera,121,28,,1,10/25/25 10:38 AM,10/25/25 10:48 AM,10 minutes and 38 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,125,20,,1,10/25/25 10:42 AM,10/25/25 10:48 AM,6 minutes and 15 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,130,,Drive Thru,,10/25/25 10:45 AM,10/25/25 10:49 AM,3 minutes and 8 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,130,,Food,,10/25/25 10:45 AM,10/25/25 10:49 AM,3 minutes and 8 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,134,,Drive Thru,,10/25/25 10:46 AM,10/25/25 10:50 AM,3 minutes and 5 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,134,,Food,,10/25/25 10:46 AM,10/25/25 10:50 AM,3 minutes and 5 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,126,30,,1,10/25/25 10:44 AM,10/25/25 10:50 AM,6 minutes and 18 seconds,KDS - Login Don't Delete
+12060 Potranco Road,siri quiroz,136,,,1,10/25/25 10:50 AM,10/25/25 10:51 AM,28 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Sugey Cabrera,133,2,,1,10/25/25 10:47 AM,10/25/25 10:51 AM,3 minutes and 47 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,134,,Food,,10/25/25 10:50 AM,10/25/25 10:51 AM,1 minute and 20 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,134,,Drive Thru,,10/25/25 10:50 AM,10/25/25 10:51 AM,1 minute and 20 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,112,23,No Print,,10/25/25 10:51 AM,10/25/25 10:52 AM,1 minute and 55 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,112,23,Food,,10/25/25 10:51 AM,10/25/25 10:52 AM,1 minute and 55 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,137,,Drive Thru,,10/25/25 10:51 AM,10/25/25 10:53 AM,2 minutes and 14 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,137,,Food,,10/25/25 10:51 AM,10/25/25 10:53 AM,2 minutes and 14 seconds,KDS - Login Don't Delete
+12060 Potranco Road,siri quiroz,131,,Food,,10/25/25 10:46 AM,10/25/25 10:54 AM,8 minutes and 25 seconds,KDS - Login Don't Delete
+12060 Potranco Road,siri quiroz,131,,Drive Thru,,10/25/25 10:46 AM,10/25/25 10:54 AM,8 minutes and 25 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,138,,Drive Thru,,10/25/25 10:52 AM,10/25/25 10:55 AM,2 minutes and 49 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,138,,Food,,10/25/25 10:52 AM,10/25/25 10:55 AM,2 minutes and 49 seconds,KDS - Login Don't Delete
+12060 Potranco Road,siri quiroz,131,,,1,10/25/25 10:54 AM,10/25/25 10:55 AM,1 minute and 13 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,112,23,,1,10/25/25 10:52 AM,10/25/25 10:55 AM,2 minutes and 57 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,140,,Drive Thru,,10/25/25 10:55 AM,10/25/25 10:57 AM,2 minutes and 38 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,140,,Food,,10/25/25 10:55 AM,10/25/25 10:57 AM,2 minutes and 38 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,141,31,,1,10/25/25 10:56 AM,10/25/25 10:57 AM,1 minute and 25 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,139,3,No Print,,10/25/25 10:54 AM,10/25/25 10:59 AM,4 minutes and 38 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,139,3,Food,,10/25/25 10:54 AM,10/25/25 10:59 AM,4 minutes and 38 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,139,3,Drive Thru,,10/25/25 10:54 AM,10/25/25 10:59 AM,4 minutes and 38 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,129,17,Food,,10/25/25 10:51 AM,10/25/25 11:00 AM,9 minutes and 27 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,129,17,No Print,,10/25/25 10:51 AM,10/25/25 11:00 AM,9 minutes and 27 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,129,17,,1,10/25/25 11:00 AM,10/25/25 11:01 AM,42 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,145,,Drive Thru,,10/25/25 11:01 AM,10/25/25 11:03 AM,1 minute and 55 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,145,,Food,,10/25/25 11:01 AM,10/25/25 11:03 AM,1 minute and 55 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,143,32,,1,10/25/25 10:58 AM,10/25/25 11:04 AM,6 minutes and 20 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,139,3,,1,10/25/25 10:59 AM,10/25/25 11:04 AM,5 minutes and 44 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,142,1,,1,10/25/25 10:58 AM,10/25/25 11:06 AM,8 minutes and 14 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,146,,Food,,10/25/25 11:01 AM,10/25/25 11:06 AM,4 minutes and 31 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,146,,Drive Thru,,10/25/25 11:01 AM,10/25/25 11:06 AM,4 minutes and 31 seconds,KDS - Login Don't Delete
+12060 Potranco Road,siri quiroz,144,,,1,10/25/25 11:01 AM,10/25/25 11:08 AM,7 minutes and 19 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,147,,Drive Thru,,10/25/25 11:02 AM,10/25/25 11:09 AM,6 minutes and 23 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,147,,Food,,10/25/25 11:02 AM,10/25/25 11:09 AM,6 minutes and 23 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,141,31,No Print,,10/25/25 11:01 AM,10/25/25 11:09 AM,7 minutes and 37 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,141,31,Food,,10/25/25 11:01 AM,10/25/25 11:09 AM,7 minutes and 37 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,141,31,Drive Thru,,10/25/25 11:01 AM,10/25/25 11:09 AM,7 minutes and 37 seconds,KDS - Login Don't Delete
+12060 Potranco Road,siri quiroz,149,,Food,,10/25/25 11:03 AM,10/25/25 11:10 AM,6 minutes and 57 seconds,KDS - Login Don't Delete
+12060 Potranco Road,siri quiroz,153,,Food,,10/25/25 11:04 AM,10/25/25 11:10 AM,5 minutes and 32 seconds,KDS - Login Don't Delete
+12060 Potranco Road,siri quiroz,153,,Drive Thru,,10/25/25 11:04 AM,10/25/25 11:10 AM,5 minutes and 32 seconds,KDS - Login Don't Delete
+12060 Potranco Road,siri quiroz,149,,Drive Thru,,10/25/25 11:03 AM,10/25/25 11:10 AM,6 minutes and 57 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Sugey Cabrera,148,14,No Print,,10/25/25 11:04 AM,10/25/25 11:11 AM,7 minutes and 15 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Sugey Cabrera,148,14,Food,,10/25/25 11:04 AM,10/25/25 11:11 AM,7 minutes and 15 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,141,31,,1,10/25/25 11:09 AM,10/25/25 11:11 AM,2 minutes and 26 seconds,KDS - Login Don't Delete
+12060 Potranco Road,siri quiroz,149,,,1,10/25/25 11:10 AM,10/25/25 11:11 AM,1 minute and 12 seconds,KDS - Login Don't Delete
+12060 Potranco Road,siri quiroz,153,,,1,10/25/25 11:10 AM,10/25/25 11:11 AM,1 minute and 14 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,129,17,Food,,10/25/25 11:10 AM,10/25/25 11:11 AM,1 minute and 1 second,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,129,17,,1,10/25/25 11:11 AM,10/25/25 11:13 AM,1 minute and 36 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,152,,Drive Thru,,10/25/25 11:04 AM,10/25/25 11:15 AM,10 minutes and 8 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,152,,Food,,10/25/25 11:04 AM,10/25/25 11:15 AM,10 minutes and 8 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,150,25,No Print,,10/25/25 11:04 AM,10/25/25 11:15 AM,10 minutes and 38 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,150,25,Food,,10/25/25 11:04 AM,10/25/25 11:15 AM,10 minutes and 38 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Sugey Cabrera,148,14,,1,10/25/25 11:04 AM,10/25/25 11:15 AM,11 minutes and 15 seconds,KDS - Login Don't Delete
+12060 Potranco Road,siri quiroz,155,,Food,,10/25/25 11:10 AM,10/25/25 11:15 AM,5 minutes and 3 seconds,KDS - Login Don't Delete
+12060 Potranco Road,siri quiroz,155,,Drive Thru,,10/25/25 11:10 AM,10/25/25 11:15 AM,5 minutes and 3 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,154,,Drive Thru,,10/25/25 11:05 AM,10/25/25 11:16 AM,11 minutes and 10 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,154,,Food,,10/25/25 11:05 AM,10/25/25 11:16 AM,11 minutes and 10 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,156,12,,1,10/25/25 11:08 AM,10/25/25 11:17 AM,9 minutes and 7 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,102,7,,1,10/25/25 11:09 AM,10/25/25 11:18 AM,9 minutes and 8 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,157,15,,1,10/25/25 11:08 AM,10/25/25 11:18 AM,9 minutes and 39 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,143,32,,1,10/25/25 11:06 AM,10/25/25 11:18 AM,12 minutes and 5 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,156,12,No Print,,10/25/25 11:10 AM,10/25/25 11:18 AM,8 minutes and 16 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,156,12,Food,,10/25/25 11:10 AM,10/25/25 11:18 AM,8 minutes and 16 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,156,12,Drive Thru,,10/25/25 11:10 AM,10/25/25 11:18 AM,8 minutes and 16 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,156,12,,1,10/25/25 11:18 AM,10/25/25 11:19 AM,50 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,150,25,,1,10/25/25 11:04 AM,10/25/25 11:19 AM,14 minutes and 57 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,162,8,,1,10/25/25 11:16 AM,10/25/25 11:19 AM,3 minutes and 20 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,157,15,,1,10/25/25 11:13 AM,10/25/25 11:19 AM,5 minutes and 46 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,158,,Drive Thru,,10/25/25 11:11 AM,10/25/25 11:21 AM,9 minutes and 2 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,158,,Food,,10/25/25 11:11 AM,10/25/25 11:21 AM,9 minutes and 2 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,159,,Drive Thru,,10/25/25 11:13 AM,10/25/25 11:21 AM,7 minutes and 59 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,159,,Food,,10/25/25 11:13 AM,10/25/25 11:21 AM,7 minutes and 59 seconds,KDS - Login Don't Delete
+12060 Potranco Road,siri quiroz,155,,,1,10/25/25 11:10 AM,10/25/25 11:22 AM,11 minutes and 45 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Sugey Cabrera,164,29,No Print,,10/25/25 11:17 AM,10/25/25 11:22 AM,5 minutes and 27 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Sugey Cabrera,164,29,Food,,10/25/25 11:17 AM,10/25/25 11:22 AM,5 minutes and 27 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,157,15,No Print,,10/25/25 11:18 AM,10/25/25 11:24 AM,5 minutes and 26 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,157,15,Food,,10/25/25 11:18 AM,10/25/25 11:24 AM,5 minutes and 26 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,157,15,Drive Thru,,10/25/25 11:18 AM,10/25/25 11:24 AM,5 minutes and 26 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,114,34,Food,,10/25/25 11:22 AM,10/25/25 11:24 AM,2 minutes and 2 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,160,,Drive Thru,,10/25/25 11:14 AM,10/25/25 11:24 AM,9 minutes and 46 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,160,,Food,,10/25/25 11:14 AM,10/25/25 11:24 AM,9 minutes and 46 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,161,4,,1,10/25/25 11:17 AM,10/25/25 11:25 AM,8 minutes and 25 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,163,,Drive Thru,,10/25/25 11:17 AM,10/25/25 11:25 AM,8 minutes and 22 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,163,,Food,,10/25/25 11:17 AM,10/25/25 11:25 AM,8 minutes and 22 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,157,15,,1,10/25/25 11:24 AM,10/25/25 11:26 AM,2 minutes and 10 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,165,,Drive Thru,,10/25/25 11:19 AM,10/25/25 11:27 AM,7 minutes and 32 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,165,,Food,,10/25/25 11:19 AM,10/25/25 11:27 AM,7 minutes and 32 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,167,21,,1,10/25/25 11:21 AM,10/25/25 11:29 AM,7 minutes and 14 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,162,8,No Print,,10/25/25 11:22 AM,10/25/25 11:29 AM,7 minutes and 14 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,162,8,Food,,10/25/25 11:22 AM,10/25/25 11:29 AM,7 minutes and 14 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,162,8,Drive Thru,,10/25/25 11:22 AM,10/25/25 11:29 AM,7 minutes and 14 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Sugey Cabrera,164,29,,1,10/25/25 11:17 AM,10/25/25 11:29 AM,11 minutes and 57 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,114,34,,1,10/25/25 11:24 AM,10/25/25 11:29 AM,5 minutes and 4 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,175,16,,1,10/25/25 11:30 AM,10/25/25 11:31 AM,1 minute and 2 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,141,31,,1,10/25/25 11:29 AM,10/25/25 11:31 AM,1 minute and 49 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,168,,Drive Thru,,10/25/25 11:23 AM,10/25/25 11:32 AM,9 minutes and 20 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,168,,Food,,10/25/25 11:23 AM,10/25/25 11:32 AM,9 minutes and 20 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,162,8,,1,10/25/25 11:29 AM,10/25/25 11:33 AM,4 minutes and 21 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,171,,Drive Thru,,10/25/25 11:29 AM,10/25/25 11:34 AM,5 minutes and 3 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,171,,Food,,10/25/25 11:29 AM,10/25/25 11:34 AM,5 minutes and 3 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,166,37,No Print,,10/25/25 11:23 AM,10/25/25 11:34 AM,11 minutes and 14 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,166,37,Food,,10/25/25 11:23 AM,10/25/25 11:34 AM,11 minutes and 14 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,176,,Food,,10/25/25 11:31 AM,10/25/25 11:34 AM,3 minutes and 27 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,171,,Drive Thru,,10/25/25 11:33 AM,10/25/25 11:34 AM,1 minute and 38 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,171,,Food,,10/25/25 11:33 AM,10/25/25 11:34 AM,1 minute and 38 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,172,,Drive Thru,,10/25/25 11:29 AM,10/25/25 11:36 AM,6 minutes and 41 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,172,,Food,,10/25/25 11:29 AM,10/25/25 11:36 AM,6 minutes and 41 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,174,7,,1,10/25/25 11:30 AM,10/25/25 11:36 AM,6 minutes and 32 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,178,,Food,,10/25/25 11:32 AM,10/25/25 11:37 AM,4 minutes and 21 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,178,,Drive Thru,,10/25/25 11:32 AM,10/25/25 11:37 AM,4 minutes and 21 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,183,,Drive Thru,,10/25/25 11:35 AM,10/25/25 11:37 AM,1 minute and 44 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,183,,Food,,10/25/25 11:35 AM,10/25/25 11:37 AM,1 minute and 44 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,166,37,,1,10/25/25 11:34 AM,10/25/25 11:37 AM,3 minutes and 1 second,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,177,34,,1,10/25/25 11:31 AM,10/25/25 11:37 AM,6 minutes and 37 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,169,10,,1,10/25/25 11:27 AM,10/25/25 11:38 AM,11 minutes,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,161,4,No Print,,10/25/25 11:23 AM,10/25/25 11:39 AM,15 minutes and 47 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,161,4,Food,,10/25/25 11:23 AM,10/25/25 11:39 AM,15 minutes and 47 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,161,4,,1,10/25/25 11:39 AM,10/25/25 11:40 AM,1 minute and 2 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Sugey Cabrera,148,14,,1,10/25/25 11:36 AM,10/25/25 11:41 AM,4 minutes and 12 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,184,,Food,,10/25/25 11:36 AM,10/25/25 11:42 AM,5 minutes and 26 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,184,,Drive Thru,,10/25/25 11:36 AM,10/25/25 11:42 AM,5 minutes and 26 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,157,15,Food,,10/25/25 11:41 AM,10/25/25 11:43 AM,1 minute and 39 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,157,15,Drive Thru,,10/25/25 11:41 AM,10/25/25 11:43 AM,1 minute and 39 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,129,17,,1,10/25/25 11:39 AM,10/25/25 11:43 AM,3 minutes and 54 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,180,20,No Print,,10/25/25 11:35 AM,10/25/25 11:44 AM,9 minutes and 54 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,180,20,Food,,10/25/25 11:35 AM,10/25/25 11:44 AM,9 minutes and 54 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,180,20,,1,10/25/25 11:35 AM,10/25/25 11:45 AM,10 minutes and 3 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,162,8,Food,,10/25/25 11:45 AM,10/25/25 11:46 AM,9 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,161,4,No Print,,10/25/25 11:45 AM,10/25/25 11:46 AM,11 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,161,4,Food,,10/25/25 11:45 AM,10/25/25 11:46 AM,11 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,194,3,No Print,,10/25/25 11:46 AM,10/25/25 11:47 AM,37 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,194,3,Food,,10/25/25 11:46 AM,10/25/25 11:47 AM,37 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,187,5,,1,10/25/25 11:45 AM,10/25/25 11:47 AM,1 minute and 43 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,191,12,,1,10/25/25 11:43 AM,10/25/25 11:47 AM,3 minutes and 29 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,175,16,,1,10/25/25 11:36 AM,10/25/25 11:47 AM,10 minutes and 58 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,186,,Drive Thru,,10/25/25 11:38 AM,10/25/25 11:49 AM,10 minutes and 51 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,186,,Food,,10/25/25 11:38 AM,10/25/25 11:49 AM,10 minutes and 51 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,194,3,,1,10/25/25 11:47 AM,10/25/25 11:49 AM,2 minutes and 11 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,162,8,,1,10/25/25 11:46 AM,10/25/25 11:49 AM,3 minutes and 23 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,161,4,,1,10/25/25 11:46 AM,10/25/25 11:49 AM,3 minutes and 19 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Sugey Cabrera,181,2,No Print,,10/25/25 11:35 AM,10/25/25 11:50 AM,15 minutes and 16 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Sugey Cabrera,181,2,Food,,10/25/25 11:35 AM,10/25/25 11:50 AM,15 minutes and 16 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Sugey Cabrera,181,2,Drive Thru,,10/25/25 11:35 AM,10/25/25 11:50 AM,15 minutes and 16 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Sugey Cabrera,181,2,,1,10/25/25 11:35 AM,10/25/25 11:51 AM,16 minutes and 15 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,157,15,,1,10/25/25 11:41 AM,10/25/25 11:51 AM,9 minutes and 49 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,201,31,,1,10/25/25 11:51 AM,10/25/25 11:51 AM,6 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,189,,Food,,10/25/25 11:42 AM,10/25/25 11:51 AM,9 minutes and 20 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,189,,Drive Thru,,10/25/25 11:42 AM,10/25/25 11:51 AM,9 minutes and 20 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,190,,Drive Thru,,10/25/25 11:44 AM,10/25/25 11:51 AM,7 minutes and 52 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,190,,Food,,10/25/25 11:44 AM,10/25/25 11:51 AM,7 minutes and 52 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,177,34,No Print,,10/25/25 11:38 AM,10/25/25 11:52 AM,13 minutes and 52 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,177,34,Food,,10/25/25 11:38 AM,10/25/25 11:52 AM,13 minutes and 52 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,177,34,Drive Thru,,10/25/25 11:38 AM,10/25/25 11:52 AM,13 minutes and 52 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Sugey Cabrera,164,29,No Print,,10/25/25 11:50 AM,10/25/25 11:52 AM,2 minutes and 45 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Sugey Cabrera,164,29,Food,,10/25/25 11:50 AM,10/25/25 11:52 AM,2 minutes and 45 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,177,34,,1,10/25/25 11:52 AM,10/25/25 11:53 AM,41 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,169,10,No Print,,10/25/25 11:49 AM,10/25/25 11:53 AM,3 minutes and 51 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,169,10,Food,,10/25/25 11:49 AM,10/25/25 11:53 AM,3 minutes and 51 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,192,,Drive Thru,,10/25/25 11:44 AM,10/25/25 11:53 AM,9 minutes and 6 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,192,,Food,,10/25/25 11:44 AM,10/25/25 11:53 AM,9 minutes and 6 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Sugey Cabrera,164,29,,1,10/25/25 11:52 AM,10/25/25 11:54 AM,1 minute and 5 seconds,KDS - Login Don't Delete
+12060 Potranco Road,siri quiroz,182,,Food,,10/25/25 11:38 AM,10/25/25 11:54 AM,16 minutes and 1 second,KDS - Login Don't Delete
+12060 Potranco Road,siri quiroz,182,,Drive Thru,,10/25/25 11:38 AM,10/25/25 11:54 AM,16 minutes and 1 second,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,201,31,,1,10/25/25 11:54 AM,10/25/25 11:55 AM,1 minute and 17 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,169,10,,1,10/25/25 11:53 AM,10/25/25 11:55 AM,2 minutes and 6 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,195,,Drive Thru,,10/25/25 11:47 AM,10/25/25 11:56 AM,8 minutes and 45 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,195,,Food,,10/25/25 11:47 AM,10/25/25 11:56 AM,8 minutes and 45 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,199,,Drive Thru,,10/25/25 11:50 AM,10/25/25 11:56 AM,6 minutes and 35 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,199,,Food,,10/25/25 11:50 AM,10/25/25 11:56 AM,6 minutes and 35 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,198,23,No Print,,10/25/25 11:50 AM,10/25/25 11:57 AM,6 minutes and 37 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,198,23,Food,,10/25/25 11:50 AM,10/25/25 11:57 AM,6 minutes and 37 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,203,,Drive Thru,,10/25/25 11:53 AM,10/25/25 11:58 AM,4 minutes and 59 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,203,,Food,,10/25/25 11:53 AM,10/25/25 11:58 AM,4 minutes and 59 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,203,,Drive Thru,,10/25/25 11:58 AM,10/25/25 11:59 AM,28 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,203,,Food,,10/25/25 11:58 AM,10/25/25 11:59 AM,28 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,191,12,No Print,,10/25/25 11:51 AM,10/25/25 11:59 AM,8 minutes and 22 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,191,12,Drinks,,10/25/25 11:51 AM,10/25/25 11:59 AM,8 minutes and 22 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,191,12,Food,,10/25/25 11:51 AM,10/25/25 11:59 AM,8 minutes and 22 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,191,12,Drive Thru,,10/25/25 11:51 AM,10/25/25 11:59 AM,8 minutes and 22 seconds,KDS - Login Don't Delete
+12060 Potranco Road,siri quiroz,182,,,1,10/25/25 11:54 AM,10/25/25 11:59 AM,5 minutes,KDS - Login Don't Delete
+12060 Potranco Road,Sugey Cabrera,202,14,No Print,,10/25/25 11:53 AM,10/25/25 12:00 PM,7 minutes and 9 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Sugey Cabrera,202,14,Food,,10/25/25 11:53 AM,10/25/25 12:00 PM,7 minutes and 9 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Sugey Cabrera,202,14,Drive Thru,,10/25/25 11:53 AM,10/25/25 12:00 PM,7 minutes and 9 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,200,25,No Print,,10/25/25 11:51 AM,10/25/25 12:01 PM,9 minutes and 28 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,200,25,Food,,10/25/25 11:51 AM,10/25/25 12:01 PM,9 minutes and 28 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,191,12,,1,10/25/25 11:59 AM,10/25/25 12:01 PM,2 minutes and 22 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,200,25,,1,10/25/25 11:51 AM,10/25/25 12:02 PM,10 minutes and 56 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Sugey Cabrera,202,14,,1,10/25/25 11:53 AM,10/25/25 12:02 PM,9 minutes and 29 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,198,23,,1,10/25/25 11:50 AM,10/25/25 12:02 PM,12 minutes and 11 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Candy Del Angel,53,,No Print,,10/25/25 11:56 AM,10/25/25 12:03 PM,6 minutes and 39 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Candy Del Angel,53,,Food,,10/25/25 11:56 AM,10/25/25 12:03 PM,6 minutes and 39 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,204,,Drive Thru,,10/25/25 11:56 AM,10/25/25 12:03 PM,7 minutes and 29 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,204,,Food,,10/25/25 11:56 AM,10/25/25 12:03 PM,7 minutes and 29 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,187,5,No Print,,10/25/25 11:55 AM,10/25/25 12:08 PM,12 minutes and 42 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,187,5,Food,,10/25/25 11:55 AM,10/25/25 12:08 PM,12 minutes and 42 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,187,5,Drinks,,10/25/25 11:55 AM,10/25/25 12:08 PM,12 minutes and 42 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,187,5,Drive Thru,,10/25/25 11:55 AM,10/25/25 12:08 PM,12 minutes and 42 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,175,16,,1,10/25/25 12:03 PM,10/25/25 12:08 PM,5 minutes and 14 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,207,17,,1,10/25/25 11:59 AM,10/25/25 12:08 PM,9 minutes and 27 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,201,31,,1,10/25/25 11:57 AM,10/25/25 12:08 PM,11 minutes and 22 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,201,31,No Print,,10/25/25 12:00 PM,10/25/25 12:08 PM,8 minutes and 9 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,201,31,Food,,10/25/25 12:00 PM,10/25/25 12:08 PM,8 minutes and 9 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,161,4,,1,10/25/25 12:03 PM,10/25/25 12:09 PM,5 minutes and 40 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,208,,Drive Thru,,10/25/25 12:08 PM,10/25/25 12:09 PM,54 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,208,,Food,,10/25/25 12:08 PM,10/25/25 12:09 PM,54 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,208,,Drive Thru,,10/25/25 12:02 PM,10/25/25 12:10 PM,7 minutes and 31 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,208,,Food,,10/25/25 12:02 PM,10/25/25 12:10 PM,7 minutes and 31 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,205,,Drive Thru,,10/25/25 11:57 AM,10/25/25 12:10 PM,12 minutes and 51 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,205,,Food,,10/25/25 11:57 AM,10/25/25 12:10 PM,12 minutes and 51 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,187,5,,1,10/25/25 12:08 PM,10/25/25 12:11 PM,3 minutes and 40 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Candy Del Angel,53,,,1,10/25/25 12:03 PM,10/25/25 12:12 PM,9 minutes and 9 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,174,7,,1,10/25/25 12:00 PM,10/25/25 12:12 PM,12 minutes and 4 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,201,31,,1,10/25/25 12:08 PM,10/25/25 12:12 PM,4 minutes and 5 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,209,,Drive Thru,,10/25/25 12:11 PM,10/25/25 12:13 PM,1 minute and 11 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,209,,Food,,10/25/25 12:11 PM,10/25/25 12:13 PM,1 minute and 11 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,209,,Drive Thru,,10/25/25 12:06 PM,10/25/25 12:13 PM,7 minutes and 2 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,209,,Food,,10/25/25 12:06 PM,10/25/25 12:13 PM,7 minutes and 2 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,211,,Food,,10/25/25 12:06 PM,10/25/25 12:13 PM,6 minutes and 32 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,210,15,No Print,,10/25/25 12:05 PM,10/25/25 12:13 PM,7 minutes and 45 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,210,15,Food,,10/25/25 12:05 PM,10/25/25 12:13 PM,7 minutes and 45 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,210,15,,1,10/25/25 12:13 PM,10/25/25 12:14 PM,33 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Sugey Cabrera,202,14,No Print,,10/25/25 12:14 PM,10/25/25 12:15 PM,1 minute and 2 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Sugey Cabrera,202,14,Food,,10/25/25 12:14 PM,10/25/25 12:15 PM,1 minute and 2 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,214,,Drive Thru,,10/25/25 12:08 PM,10/25/25 12:17 PM,8 minutes and 42 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,214,,Food,,10/25/25 12:08 PM,10/25/25 12:17 PM,8 minutes and 42 seconds,KDS - Login Don't Delete
+12060 Potranco Road,siri quiroz,216,,Food,,10/25/25 12:11 PM,10/25/25 12:17 PM,6 minutes and 54 seconds,KDS - Login Don't Delete
+12060 Potranco Road,siri quiroz,216,,Drive Thru,,10/25/25 12:11 PM,10/25/25 12:17 PM,6 minutes and 54 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,217,,Food,,10/25/25 12:13 PM,10/25/25 12:19 PM,6 minutes and 41 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,217,,Drive Thru,,10/25/25 12:13 PM,10/25/25 12:19 PM,6 minutes and 41 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,218,,Drive Thru,,10/25/25 12:13 PM,10/25/25 12:19 PM,6 minutes and 29 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,218,,Food,,10/25/25 12:13 PM,10/25/25 12:19 PM,6 minutes and 29 seconds,KDS - Login Don't Delete
+12060 Potranco Road,siri quiroz,216,,,1,10/25/25 12:17 PM,10/25/25 12:21 PM,3 minutes and 18 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Sugey Cabrera,202,14,,1,10/25/25 12:15 PM,10/25/25 12:21 PM,5 minutes and 59 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,166,37,,1,10/25/25 12:17 PM,10/25/25 12:22 PM,4 minutes and 30 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,224,7,No Print,,10/25/25 12:17 PM,10/25/25 12:23 PM,5 minutes and 37 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,224,7,Food,,10/25/25 12:17 PM,10/25/25 12:23 PM,5 minutes and 37 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Sugey Cabrera,213,27,No Print,,10/25/25 12:11 PM,10/25/25 12:23 PM,11 minutes and 39 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Sugey Cabrera,213,27,Food,,10/25/25 12:11 PM,10/25/25 12:23 PM,11 minutes and 39 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Sugey Cabrera,213,27,Drive Thru,,10/25/25 12:11 PM,10/25/25 12:23 PM,11 minutes and 39 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Sugey Cabrera,213,27,,1,10/25/25 12:14 PM,10/25/25 12:24 PM,10 minutes and 34 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,221,11,,1,10/25/25 12:15 PM,10/25/25 12:24 PM,9 minutes and 2 seconds,KDS - Login Don't Delete
+12060 Potranco Road,siri quiroz,222,,,1,10/25/25 12:16 PM,10/25/25 12:24 PM,8 minutes and 26 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,233,21,No Print,,10/25/25 12:24 PM,10/25/25 12:26 PM,1 minute and 18 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,233,21,Food,,10/25/25 12:24 PM,10/25/25 12:26 PM,1 minute and 18 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,224,7,,1,10/25/25 12:23 PM,10/25/25 12:26 PM,3 minutes and 30 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Sugey Cabrera,213,27,,1,10/25/25 12:11 PM,10/25/25 12:26 PM,14 minutes and 44 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,226,,Drive Thru,,10/25/25 12:19 PM,10/25/25 12:27 PM,8 minutes and 13 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,226,,Food,,10/25/25 12:19 PM,10/25/25 12:27 PM,8 minutes and 13 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,223,,Drive Thru,,10/25/25 12:17 PM,10/25/25 12:27 PM,10 minutes and 10 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,223,,Food,,10/25/25 12:17 PM,10/25/25 12:27 PM,10 minutes and 10 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,220,1,No Print,,10/25/25 12:17 PM,10/25/25 12:28 PM,10 minutes and 35 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,220,1,Food,,10/25/25 12:17 PM,10/25/25 12:28 PM,10 minutes and 35 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,228,,Drive Thru,,10/25/25 12:23 PM,10/25/25 12:30 PM,7 minutes and 15 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,228,,Food,,10/25/25 12:23 PM,10/25/25 12:30 PM,7 minutes and 15 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,231,,Drive Thru,,10/25/25 12:24 PM,10/25/25 12:30 PM,5 minutes and 40 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,231,,Food,,10/25/25 12:24 PM,10/25/25 12:30 PM,5 minutes and 40 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,234,8,Food,,10/25/25 12:27 PM,10/25/25 12:31 PM,3 minutes and 27 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,234,8,Drive Thru,,10/25/25 12:27 PM,10/25/25 12:31 PM,3 minutes and 27 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,221,11,No Print,,10/25/25 12:20 PM,10/25/25 12:31 PM,11 minutes and 53 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,221,11,Food,,10/25/25 12:20 PM,10/25/25 12:31 PM,11 minutes and 53 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,235,20,No Print,,10/25/25 12:27 PM,10/25/25 12:32 PM,4 minutes and 58 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,235,20,Food,,10/25/25 12:27 PM,10/25/25 12:32 PM,4 minutes and 58 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,220,1,,1,10/25/25 12:17 PM,10/25/25 12:32 PM,14 minutes and 57 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,221,11,,1,10/25/25 12:31 PM,10/25/25 12:32 PM,42 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,225,8,,1,10/25/25 12:19 PM,10/25/25 12:34 PM,15 minutes and 5 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,238,,Drive Thru,,10/25/25 12:29 PM,10/25/25 12:34 PM,5 minutes and 26 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,238,,Food,,10/25/25 12:29 PM,10/25/25 12:34 PM,5 minutes and 26 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,234,8,,1,10/25/25 12:31 PM,10/25/25 12:34 PM,3 minutes and 54 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,194,3,,1,10/25/25 12:21 PM,10/25/25 12:35 PM,13 minutes and 35 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,191,12,,1,10/25/25 12:28 PM,10/25/25 12:35 PM,6 minutes and 3 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,233,21,,1,10/25/25 12:24 PM,10/25/25 12:38 PM,13 minutes and 11 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,210,15,No Print,,10/25/25 12:35 PM,10/25/25 12:38 PM,3 minutes and 9 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,210,15,Food,,10/25/25 12:35 PM,10/25/25 12:38 PM,3 minutes and 9 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Sugey Cabrera,227,26,No Print,,10/25/25 12:29 PM,10/25/25 12:39 PM,9 minutes and 39 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Sugey Cabrera,227,26,Food,,10/25/25 12:29 PM,10/25/25 12:39 PM,9 minutes and 39 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,240,,Drive Thru,,10/25/25 12:30 PM,10/25/25 12:39 PM,9 minutes and 2 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,240,,Food,,10/25/25 12:30 PM,10/25/25 12:39 PM,9 minutes and 2 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,240,,Drive Thru,,10/25/25 12:39 PM,10/25/25 12:39 PM,30 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,240,,Food,,10/25/25 12:39 PM,10/25/25 12:39 PM,30 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,210,15,,1,10/25/25 12:38 PM,10/25/25 12:39 PM,1 minute and 1 second,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,234,8,,1,10/25/25 12:26 PM,10/25/25 12:42 PM,15 minutes and 41 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,235,20,,1,10/25/25 12:27 PM,10/25/25 12:42 PM,15 minutes and 14 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Sugey Cabrera,227,26,,1,10/25/25 12:29 PM,10/25/25 12:42 PM,12 minutes and 54 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,243,,Drive Thru,,10/25/25 12:36 PM,10/25/25 12:43 PM,7 minutes and 3 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,243,,Food,,10/25/25 12:36 PM,10/25/25 12:43 PM,7 minutes and 3 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,243,,Drive Thru,,10/25/25 12:40 PM,10/25/25 12:43 PM,2 minutes and 45 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,243,,Food,,10/25/25 12:40 PM,10/25/25 12:43 PM,2 minutes and 45 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,237,10,,1,10/25/25 12:30 PM,10/25/25 12:44 PM,14 minutes and 7 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,210,15,,1,10/25/25 12:36 PM,10/25/25 12:44 PM,8 minutes and 41 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,201,31,,1,10/25/25 12:37 PM,10/25/25 12:44 PM,7 minutes and 20 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,244,18,,1,10/25/25 12:37 PM,10/25/25 12:44 PM,7 minutes and 1 second,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,242,4,No Print,,10/25/25 12:31 PM,10/25/25 12:45 PM,13 minutes and 39 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,242,4,Food,,10/25/25 12:31 PM,10/25/25 12:45 PM,13 minutes and 39 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,244,18,No Print,,10/25/25 12:41 PM,10/25/25 12:46 PM,5 minutes and 38 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,244,18,Food,,10/25/25 12:41 PM,10/25/25 12:46 PM,5 minutes and 38 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Sugey Cabrera,248,29,No Print,,10/25/25 12:43 PM,10/25/25 12:48 PM,4 minutes and 51 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Sugey Cabrera,248,29,Food,,10/25/25 12:43 PM,10/25/25 12:48 PM,4 minutes and 51 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,245,,Drive Thru,,10/25/25 12:40 PM,10/25/25 12:49 PM,8 minutes and 10 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,245,,Food,,10/25/25 12:40 PM,10/25/25 12:49 PM,8 minutes and 10 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Sugey Cabrera,248,29,,1,10/25/25 12:43 PM,10/25/25 12:50 PM,6 minutes and 5 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,249,,Drive Thru,,10/25/25 12:44 PM,10/25/25 12:50 PM,5 minutes and 46 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,249,,Food,,10/25/25 12:44 PM,10/25/25 12:50 PM,5 minutes and 46 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,244,18,,1,10/25/25 12:46 PM,10/25/25 12:53 PM,6 minutes and 28 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,242,4,,1,10/25/25 12:31 PM,10/25/25 12:53 PM,21 minutes and 43 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,224,7,,1,10/25/25 12:48 PM,10/25/25 12:53 PM,5 minutes,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,251,16,,1,10/25/25 12:48 PM,10/25/25 12:53 PM,4 minutes and 32 seconds,KDS - Login Don't Delete
+12060 Potranco Road,siri quiroz,246,,,1,10/25/25 12:41 PM,10/25/25 12:53 PM,12 minutes and 27 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,252,,Drive Thru,,10/25/25 12:54 PM,10/25/25 12:59 PM,5 minutes and 25 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,252,,Food,,10/25/25 12:54 PM,10/25/25 12:59 PM,5 minutes and 25 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,251,16,Food,,10/25/25 12:51 PM,10/25/25 1:01 PM,9 minutes and 54 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,251,16,No Print,,10/25/25 12:51 PM,10/25/25 1:01 PM,9 minutes and 54 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,251,16,,1,10/25/25 1:01 PM,10/25/25 1:02 PM,34 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Sugey Cabrera,253,14,No Print,,10/25/25 12:56 PM,10/25/25 1:02 PM,6 minutes and 13 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Sugey Cabrera,253,14,Food,,10/25/25 12:56 PM,10/25/25 1:02 PM,6 minutes and 13 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Sugey Cabrera,253,14,Drive Thru,,10/25/25 12:56 PM,10/25/25 1:02 PM,6 minutes and 13 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,255,,Drive Thru,,10/25/25 12:59 PM,10/25/25 1:03 PM,4 minutes and 12 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,255,,Food,,10/25/25 12:59 PM,10/25/25 1:03 PM,4 minutes and 12 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Sugey Cabrera,253,14,,1,10/25/25 12:56 PM,10/25/25 1:04 PM,8 minutes and 40 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,254,32,,1,10/25/25 12:56 PM,10/25/25 1:08 PM,12 minutes and 7 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Sugey Cabrera,227,26,Food,,10/25/25 1:08 PM,10/25/25 1:08 PM,49 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Sugey Cabrera,227,26,No Print,,10/25/25 1:08 PM,10/25/25 1:08 PM,49 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,254,32,No Print,,10/25/25 1:02 PM,10/25/25 1:08 PM,6 minutes and 22 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,254,32,Food,,10/25/25 1:02 PM,10/25/25 1:08 PM,6 minutes and 22 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Sugey Cabrera,227,26,,1,10/25/25 1:08 PM,10/25/25 1:11 PM,2 minutes and 51 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,221,11,,1,10/25/25 1:04 PM,10/25/25 1:11 PM,7 minutes and 31 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,187,5,,1,10/25/25 1:09 PM,10/25/25 1:11 PM,2 minutes and 8 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,259,,Drive Thru,,10/25/25 1:04 PM,10/25/25 1:12 PM,7 minutes and 48 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,259,,Food,,10/25/25 1:04 PM,10/25/25 1:12 PM,7 minutes and 48 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,259,,Drinks,,10/25/25 1:04 PM,10/25/25 1:12 PM,7 minutes and 48 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,259,,No Print,,10/25/25 1:04 PM,10/25/25 1:12 PM,7 minutes and 48 seconds,KDS - Login Don't Delete
+12060 Potranco Road,siri quiroz,256,,Food,,10/25/25 1:02 PM,10/25/25 1:14 PM,11 minutes and 52 seconds,KDS - Login Don't Delete
+12060 Potranco Road,siri quiroz,256,,Drive Thru,,10/25/25 1:02 PM,10/25/25 1:14 PM,11 minutes and 52 seconds,KDS - Login Don't Delete
+12060 Potranco Road,siri quiroz,267,,Food,,10/25/25 1:13 PM,10/25/25 1:15 PM,2 minutes and 15 seconds,KDS - Login Don't Delete
+12060 Potranco Road,siri quiroz,267,,Drive Thru,,10/25/25 1:13 PM,10/25/25 1:15 PM,2 minutes and 15 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Candy Del Angel,268,22,No Print,,10/25/25 1:12 PM,10/25/25 1:18 PM,6 minutes and 16 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Candy Del Angel,268,22,Food,,10/25/25 1:12 PM,10/25/25 1:18 PM,6 minutes and 16 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,244,18,No Print,,10/25/25 1:14 PM,10/25/25 1:18 PM,4 minutes and 35 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,244,18,Food,,10/25/25 1:14 PM,10/25/25 1:18 PM,4 minutes and 35 seconds,KDS - Login Don't Delete
+12060 Potranco Road,siri quiroz,256,,,1,10/25/25 1:14 PM,10/25/25 1:19 PM,4 minutes and 55 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,254,32,,1,10/25/25 1:08 PM,10/25/25 1:19 PM,10 minutes and 8 seconds,KDS - Login Don't Delete
+12060 Potranco Road,siri quiroz,267,,,1,10/25/25 1:15 PM,10/25/25 1:19 PM,3 minutes and 48 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,261,,Drive Thru,,10/25/25 1:10 PM,10/25/25 1:19 PM,8 minutes and 52 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,261,,Food,,10/25/25 1:10 PM,10/25/25 1:19 PM,8 minutes and 52 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,266,,Drive Thru,,10/25/25 1:12 PM,10/25/25 1:19 PM,7 minutes and 56 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,266,,Food,,10/25/25 1:12 PM,10/25/25 1:19 PM,7 minutes and 56 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,265,,Drive Thru,,10/25/25 1:15 PM,10/25/25 1:19 PM,4 minutes and 11 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,265,,Food,,10/25/25 1:15 PM,10/25/25 1:19 PM,4 minutes and 11 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,244,18,,1,10/25/25 1:18 PM,10/25/25 1:20 PM,1 minute and 49 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,270,,Drive Thru,,10/25/25 1:16 PM,10/25/25 1:20 PM,4 minutes and 1 second,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,270,,Food,,10/25/25 1:16 PM,10/25/25 1:20 PM,4 minutes and 1 second,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,274,,Drive Thru,,10/25/25 1:22 PM,10/25/25 1:23 PM,26 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,274,,Food,,10/25/25 1:22 PM,10/25/25 1:23 PM,26 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,265,,Drive Thru,,10/25/25 1:11 PM,10/25/25 1:23 PM,11 minutes and 52 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,265,,Food,,10/25/25 1:11 PM,10/25/25 1:23 PM,11 minutes and 52 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,272,,Drive Thru,,10/25/25 1:22 PM,10/25/25 1:25 PM,3 minutes and 20 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,272,,Food,,10/25/25 1:22 PM,10/25/25 1:25 PM,3 minutes and 20 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Candy Del Angel,268,22,,1,10/25/25 1:18 PM,10/25/25 1:26 PM,7 minutes and 49 seconds,KDS - Login Don't Delete
+12060 Potranco Road,siri quiroz,269,,,1,10/25/25 1:16 PM,10/25/25 1:26 PM,10 minutes and 17 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,271,4,,1,10/25/25 1:17 PM,10/25/25 1:26 PM,9 minutes and 10 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,271,4,No Print,,10/25/25 1:20 PM,10/25/25 1:26 PM,6 minutes and 9 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,271,4,Food,,10/25/25 1:20 PM,10/25/25 1:26 PM,6 minutes and 9 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,273,,Drive Thru,,10/25/25 1:22 PM,10/25/25 1:29 PM,6 minutes and 53 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,273,,Food,,10/25/25 1:22 PM,10/25/25 1:29 PM,6 minutes and 53 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,276,,Food,,10/25/25 1:25 PM,10/25/25 1:29 PM,3 minutes and 47 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,276,,Drive Thru,,10/25/25 1:25 PM,10/25/25 1:29 PM,3 minutes and 47 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,277,12,No Print,,10/25/25 1:26 PM,10/25/25 1:31 PM,4 minutes and 44 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,277,12,Food,,10/25/25 1:26 PM,10/25/25 1:31 PM,4 minutes and 44 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,277,12,Drive Thru,,10/25/25 1:26 PM,10/25/25 1:31 PM,4 minutes and 44 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,275,34,No Print,,10/25/25 1:24 PM,10/25/25 1:31 PM,6 minutes and 50 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,275,34,Food,,10/25/25 1:24 PM,10/25/25 1:31 PM,6 minutes and 50 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,282,29,No Print,,10/25/25 1:31 PM,10/25/25 1:32 PM,1 minute and 24 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,282,29,Food,,10/25/25 1:31 PM,10/25/25 1:32 PM,1 minute and 24 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,275,34,,1,10/25/25 1:31 PM,10/25/25 1:38 PM,7 minutes,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,271,4,,1,10/25/25 1:20 PM,10/25/25 1:38 PM,17 minutes and 45 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,251,16,,1,10/25/25 1:28 PM,10/25/25 1:38 PM,10 minutes and 15 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Sugey Cabrera,279,2,,1,10/25/25 1:28 PM,10/25/25 1:38 PM,9 minutes and 44 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,282,29,,1,10/25/25 1:31 PM,10/25/25 1:38 PM,7 minutes and 27 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,283,,Drive Thru,,10/25/25 1:31 PM,10/25/25 1:39 PM,7 minutes and 47 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,283,,Food,,10/25/25 1:31 PM,10/25/25 1:39 PM,7 minutes and 47 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,278,,Drive Thru,,10/25/25 1:28 PM,10/25/25 1:40 PM,11 minutes and 30 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,278,,Food,,10/25/25 1:28 PM,10/25/25 1:40 PM,11 minutes and 30 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Sugey Cabrera,279,2,No Print,,10/25/25 1:33 PM,10/25/25 1:40 PM,7 minutes and 32 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Sugey Cabrera,279,2,Food,,10/25/25 1:33 PM,10/25/25 1:40 PM,7 minutes and 32 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Sugey Cabrera,279,2,Drive Thru,,10/25/25 1:33 PM,10/25/25 1:40 PM,7 minutes and 32 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Sugey Cabrera,279,2,,1,10/25/25 1:40 PM,10/25/25 1:41 PM,1 minute and 14 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,271,4,,1,10/25/25 1:41 PM,10/25/25 1:43 PM,2 minutes and 5 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,254,32,Food,,10/25/25 1:40 PM,10/25/25 1:45 PM,5 minutes and 10 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,254,32,No Print,,10/25/25 1:40 PM,10/25/25 1:45 PM,5 minutes and 10 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,284,1,No Print,,10/25/25 1:36 PM,10/25/25 1:50 PM,13 minutes and 44 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,284,1,Food,,10/25/25 1:36 PM,10/25/25 1:50 PM,13 minutes and 44 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,288,,Drive Thru,,10/25/25 1:43 PM,10/25/25 1:53 PM,9 minutes and 38 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,288,,Food,,10/25/25 1:43 PM,10/25/25 1:53 PM,9 minutes and 38 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,285,,Drive Thru,,10/25/25 1:38 PM,10/25/25 1:54 PM,15 minutes and 45 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,285,,Food,,10/25/25 1:38 PM,10/25/25 1:54 PM,15 minutes and 45 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,284,1,,1,10/25/25 1:50 PM,10/25/25 1:56 PM,6 minutes and 30 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,254,32,,1,10/25/25 1:45 PM,10/25/25 1:56 PM,10 minutes and 52 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Leticia Roman,277,12,,1,10/25/25 1:26 PM,10/25/25 1:56 PM,30 minutes and 13 seconds,KDS - Login Don't Delete
+12060 Potranco Road,siri quiroz,287,,,1,10/25/25 1:39 PM,10/25/25 1:57 PM,17 minutes and 33 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,282,29,No Print,,10/25/25 1:49 PM,10/25/25 2:01 PM,11 minutes and 32 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,289,21,No Print,,10/25/25 1:54 PM,10/25/25 2:01 PM,7 minutes and 8 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,289,21,Food,,10/25/25 1:54 PM,10/25/25 2:01 PM,7 minutes and 8 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,282,29,Food,,10/25/25 1:49 PM,10/25/25 2:01 PM,11 minutes and 32 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,282,29,Drinks,,10/25/25 1:49 PM,10/25/25 2:01 PM,11 minutes and 32 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,282,29,Drive Thru,,10/25/25 1:49 PM,10/25/25 2:01 PM,11 minutes and 32 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,289,21,No Print,,10/25/25 1:53 PM,10/25/25 2:01 PM,7 minutes and 58 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,289,21,Food,,10/25/25 1:53 PM,10/25/25 2:01 PM,7 minutes and 58 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,290,,Drive Thru,,10/25/25 2:00 PM,10/25/25 2:07 PM,6 minutes and 58 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,290,,Food,,10/25/25 2:00 PM,10/25/25 2:07 PM,6 minutes and 58 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,289,21,,1,10/25/25 2:01 PM,10/25/25 2:15 PM,13 minutes and 48 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,289,21,,1,10/25/25 2:01 PM,10/25/25 2:15 PM,14 minutes and 15 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,282,29,,1,10/25/25 1:49 PM,10/25/25 2:15 PM,25 minutes and 47 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,289,21,,1,10/25/25 1:51 PM,10/25/25 2:15 PM,24 minutes and 39 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,291,3,No Print,,10/25/25 2:09 PM,10/25/25 2:15 PM,6 minutes and 27 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,291,3,Food,,10/25/25 2:09 PM,10/25/25 2:15 PM,6 minutes and 27 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,291,3,Drive Thru,,10/25/25 2:09 PM,10/25/25 2:15 PM,6 minutes and 27 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,294,,Drive Thru,,10/25/25 2:16 PM,10/25/25 2:22 PM,5 minutes and 57 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,294,,Food,,10/25/25 2:16 PM,10/25/25 2:22 PM,5 minutes and 57 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,297,,Drive Thru,,10/25/25 2:17 PM,10/25/25 2:22 PM,5 minutes and 17 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,297,,Food,,10/25/25 2:17 PM,10/25/25 2:22 PM,5 minutes and 17 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,291,3,,1,10/25/25 2:15 PM,10/25/25 2:26 PM,10 minutes and 30 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,275,34,,1,10/25/25 1:56 PM,10/25/25 2:26 PM,30 minutes and 4 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,291,3,,1,10/25/25 2:00 PM,10/25/25 2:26 PM,25 minutes and 55 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Lizbeth Garcia,293,29,,1,10/25/25 2:11 PM,10/25/25 2:26 PM,14 minutes and 18 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,295,1,,1,10/25/25 2:14 PM,10/25/25 2:26 PM,11 minutes and 16 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,296,1,,1,10/25/25 2:16 PM,10/25/25 2:26 PM,10 minutes and 3 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,299,15,Food,,10/25/25 2:17 PM,10/25/25 2:26 PM,8 minutes and 30 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,299,15,No Print,,10/25/25 2:17 PM,10/25/25 2:26 PM,8 minutes and 30 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,298,1,,1,10/25/25 2:17 PM,10/25/25 2:26 PM,8 minutes and 58 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,299,15,,1,10/25/25 2:17 PM,10/25/25 2:26 PM,8 minutes and 40 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Adrian Morales,284,1,,1,10/25/25 2:18 PM,10/25/25 2:26 PM,8 minutes and 13 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,299,15,Food,,10/25/25 2:28 PM,10/25/25 2:29 PM,17 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,299,15,Drive Thru,,10/25/25 2:28 PM,10/25/25 2:29 PM,17 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,301,5,No Print,,10/25/25 2:23 PM,10/25/25 2:32 PM,9 minutes and 12 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,301,5,Food,,10/25/25 2:23 PM,10/25/25 2:32 PM,9 minutes and 12 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,302,,Drive Thru,,10/25/25 2:27 PM,10/25/25 2:35 PM,7 minutes and 58 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,302,,Food,,10/25/25 2:27 PM,10/25/25 2:35 PM,7 minutes and 58 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,300,14,No Print,,10/25/25 2:26 PM,10/25/25 2:36 PM,9 minutes and 20 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,300,14,Food,,10/25/25 2:26 PM,10/25/25 2:36 PM,9 minutes and 20 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,303,,Drive Thru,,10/25/25 2:33 PM,10/25/25 2:39 PM,6 minutes and 1 second,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,303,,Food,,10/25/25 2:33 PM,10/25/25 2:39 PM,6 minutes and 1 second,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,303,,Drinks,,10/25/25 2:33 PM,10/25/25 2:39 PM,6 minutes and 1 second,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,303,,No Print,,10/25/25 2:33 PM,10/25/25 2:39 PM,6 minutes and 1 second,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,305,,Drive Thru,,10/25/25 2:36 PM,10/25/25 2:47 PM,10 minutes and 39 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,305,,Food,,10/25/25 2:36 PM,10/25/25 2:47 PM,10 minutes and 39 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,299,15,,1,10/25/25 2:29 PM,10/25/25 2:47 PM,18 minutes and 53 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,301,5,,1,10/25/25 2:23 PM,10/25/25 2:48 PM,24 minutes and 21 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,300,14,,1,10/25/25 2:26 PM,10/25/25 2:48 PM,21 minutes and 12 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,308,16,No Print,,10/25/25 2:42 PM,10/25/25 2:51 PM,8 minutes and 53 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,308,16,Food,,10/25/25 2:42 PM,10/25/25 2:51 PM,8 minutes and 53 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,306,,Drive Thru,,10/25/25 2:37 PM,10/25/25 2:52 PM,14 minutes and 20 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,306,,Food,,10/25/25 2:37 PM,10/25/25 2:52 PM,14 minutes and 20 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,307,,Drive Thru,,10/25/25 2:42 PM,10/25/25 2:53 PM,10 minutes and 39 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,307,,Food,,10/25/25 2:42 PM,10/25/25 2:53 PM,10 minutes and 39 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,301,5,Food,,10/25/25 2:51 PM,10/25/25 2:54 PM,2 minutes and 23 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,310,,Drive Thru,,10/25/25 2:45 PM,10/25/25 2:54 PM,8 minutes and 30 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,310,,Food,,10/25/25 2:45 PM,10/25/25 2:54 PM,8 minutes and 30 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,309,,Drive Thru,,10/25/25 2:44 PM,10/25/25 2:56 PM,11 minutes and 31 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,309,,Food,,10/25/25 2:44 PM,10/25/25 2:56 PM,11 minutes and 31 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,310,,Drive Thru,,10/25/25 2:45 PM,10/25/25 2:57 PM,12 minutes and 6 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,310,,Food,,10/25/25 2:45 PM,10/25/25 2:57 PM,12 minutes and 6 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,310,,Drinks,,10/25/25 2:45 PM,10/25/25 2:57 PM,12 minutes and 6 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,310,,No Print,,10/25/25 2:45 PM,10/25/25 2:57 PM,12 minutes and 6 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,301,5,,1,10/25/25 2:54 PM,10/25/25 3:01 PM,7 minutes and 16 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,308,16,,1,10/25/25 2:42 PM,10/25/25 3:01 PM,18 minutes and 49 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,313,25,,1,10/25/25 2:56 PM,10/25/25 3:01 PM,5 minutes and 21 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,300,14,Food,,10/25/25 2:58 PM,10/25/25 3:04 PM,6 minutes and 10 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,300,14,,1,10/25/25 3:04 PM,10/25/25 3:04 PM,4 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mia Juliet,314,,,1,10/25/25 3:03 PM,10/25/25 3:04 PM,1 minute and 42 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,312,2,No Print,,10/25/25 2:57 PM,10/25/25 3:11 PM,13 minutes and 28 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,312,2,Food,,10/25/25 2:57 PM,10/25/25 3:11 PM,13 minutes and 28 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,313,25,No Print,,10/25/25 3:00 PM,10/25/25 3:11 PM,11 minutes and 5 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,313,25,Food,,10/25/25 3:00 PM,10/25/25 3:11 PM,11 minutes and 5 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,313,25,,1,10/25/25 3:11 PM,10/25/25 3:15 PM,4 minutes,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,312,2,Food,,10/25/25 3:15 PM,10/25/25 3:22 PM,6 minutes and 47 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,312,2,Drive Thru,,10/25/25 3:15 PM,10/25/25 3:22 PM,6 minutes and 47 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,319,4,No Print,,10/25/25 3:15 PM,10/25/25 3:25 PM,10 minutes and 16 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,319,4,Food,,10/25/25 3:15 PM,10/25/25 3:25 PM,10 minutes and 16 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,315,1,,1,10/25/25 3:11 PM,10/25/25 3:26 PM,15 minutes and 43 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,312,2,,1,10/25/25 3:22 PM,10/25/25 3:26 PM,4 minutes and 30 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,312,2,,1,10/25/25 2:57 PM,10/25/25 3:26 PM,29 minutes and 15 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,320,7,No Print,,10/25/25 3:18 PM,10/25/25 3:27 PM,8 minutes and 54 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,320,7,Food,,10/25/25 3:18 PM,10/25/25 3:27 PM,8 minutes and 54 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,318,23,No Print,,10/25/25 3:15 PM,10/25/25 3:27 PM,11 minutes and 57 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,318,23,Food,,10/25/25 3:15 PM,10/25/25 3:27 PM,11 minutes and 57 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,315,1,No Print,,10/25/25 3:19 PM,10/25/25 3:28 PM,8 minutes and 42 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,315,1,Food,,10/25/25 3:19 PM,10/25/25 3:28 PM,8 minutes and 42 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,320,7,,1,10/25/25 3:27 PM,10/25/25 3:29 PM,1 minute and 30 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,313,25,No Print,,10/25/25 3:18 PM,10/25/25 3:29 PM,10 minutes and 23 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,313,25,Food,,10/25/25 3:18 PM,10/25/25 3:29 PM,10 minutes and 23 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mia Juliet,317,,Food,,10/25/25 3:06 PM,10/25/25 3:31 PM,25 minutes and 1 second,KDS - Login Don't Delete
+12060 Potranco Road,Mia Juliet,317,,Drive Thru,,10/25/25 3:06 PM,10/25/25 3:31 PM,25 minutes and 1 second,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,319,4,,1,10/25/25 3:15 PM,10/25/25 3:33 PM,18 minutes and 12 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,315,1,,1,10/25/25 3:28 PM,10/25/25 3:33 PM,4 minutes and 57 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,313,25,,1,10/25/25 3:29 PM,10/25/25 3:33 PM,4 minutes and 12 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mia Juliet,317,,,1,10/25/25 3:31 PM,10/25/25 3:33 PM,1 minute and 55 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,318,23,,1,10/25/25 3:27 PM,10/25/25 3:33 PM,5 minutes and 56 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,308,16,,1,10/25/25 3:08 PM,10/25/25 3:33 PM,25 minutes and 30 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,318,23,,1,10/25/25 3:10 PM,10/25/25 3:33 PM,22 minutes and 51 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,321,,,1,10/25/25 3:26 PM,10/25/25 3:43 PM,16 minutes and 54 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,322,12,No Print,,10/25/25 3:31 PM,10/25/25 3:45 PM,13 minutes and 50 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,322,12,Food,,10/25/25 3:31 PM,10/25/25 3:45 PM,13 minutes and 50 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,322,12,Drive Thru,,10/25/25 3:31 PM,10/25/25 3:45 PM,13 minutes and 50 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,322,12,,1,10/25/25 3:45 PM,10/25/25 3:47 PM,1 minute and 33 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,320,7,,1,10/25/25 3:44 PM,10/25/25 3:47 PM,3 minutes and 4 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,323,3,,1,10/25/25 3:43 PM,10/25/25 3:47 PM,3 minutes and 35 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,323,3,No Print,,10/25/25 3:51 PM,10/25/25 3:57 PM,6 minutes and 6 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,323,3,Food,,10/25/25 3:51 PM,10/25/25 3:57 PM,6 minutes and 6 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,324,16,No Print,,10/25/25 3:57 PM,10/25/25 4:03 PM,6 minutes and 40 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,324,16,Food,,10/25/25 3:57 PM,10/25/25 4:03 PM,6 minutes and 40 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,324,16,Drive Thru,,10/25/25 3:57 PM,10/25/25 4:03 PM,6 minutes and 40 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,323,3,,1,10/25/25 3:57 PM,10/25/25 4:06 PM,8 minutes and 35 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,324,16,,1,10/25/25 4:03 PM,10/25/25 4:06 PM,2 minutes and 14 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,324,16,,1,10/25/25 3:54 PM,10/25/25 4:06 PM,11 minutes and 30 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,327,,Drive Thru,,10/25/25 4:02 PM,10/25/25 4:06 PM,3 minutes and 36 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,327,,Food,,10/25/25 4:02 PM,10/25/25 4:06 PM,3 minutes and 36 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,326,31,No Print,,10/25/25 3:58 PM,10/25/25 4:08 PM,10 minutes and 32 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,326,31,Food,,10/25/25 3:58 PM,10/25/25 4:08 PM,10 minutes and 32 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,325,20,No Print,,10/25/25 3:56 PM,10/25/25 4:08 PM,12 minutes and 22 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,325,20,Food,,10/25/25 3:56 PM,10/25/25 4:08 PM,12 minutes and 22 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,325,20,,1,10/25/25 3:56 PM,10/25/25 4:16 PM,20 minutes and 28 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,326,31,,1,10/25/25 3:58 PM,10/25/25 4:16 PM,18 minutes and 39 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,318,23,,1,10/25/25 4:04 PM,10/25/25 4:16 PM,11 minutes and 55 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,322,12,,1,10/25/25 4:09 PM,10/25/25 4:17 PM,7 minutes and 51 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,323,3,Food,,10/25/25 4:15 PM,10/25/25 4:18 PM,2 minutes and 57 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mia Juliet,329,,Food,,10/25/25 4:07 PM,10/25/25 4:18 PM,11 minutes and 15 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mia Juliet,329,,Drive Thru,,10/25/25 4:07 PM,10/25/25 4:18 PM,11 minutes and 15 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,330,8,No Print,,10/25/25 4:13 PM,10/25/25 4:19 PM,5 minutes and 38 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,330,8,Food,,10/25/25 4:13 PM,10/25/25 4:19 PM,5 minutes and 38 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,328,,Drive Thru,,10/25/25 4:14 PM,10/25/25 4:20 PM,5 minutes and 37 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,328,,Food,,10/25/25 4:14 PM,10/25/25 4:20 PM,5 minutes and 37 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,323,3,,1,10/25/25 4:18 PM,10/25/25 4:29 PM,10 minutes and 47 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mia Juliet,329,,,1,10/25/25 4:18 PM,10/25/25 4:29 PM,10 minutes and 23 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,332,6,No Print,,10/25/25 4:28 PM,10/25/25 4:40 PM,12 minutes and 30 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,332,6,Food,,10/25/25 4:28 PM,10/25/25 4:40 PM,12 minutes and 30 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,333,,No Print,,10/25/25 4:33 PM,10/25/25 4:40 PM,6 minutes and 47 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,333,,Food,,10/25/25 4:33 PM,10/25/25 4:40 PM,6 minutes and 47 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,332,6,,1,10/25/25 4:28 PM,10/25/25 4:45 PM,17 minutes and 8 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,330,8,,1,10/25/25 4:13 PM,10/25/25 4:45 PM,31 minutes and 43 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,337,,Drive Thru,,10/25/25 4:47 PM,10/25/25 4:49 PM,2 minutes and 11 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,337,,Food,,10/25/25 4:47 PM,10/25/25 4:49 PM,2 minutes and 11 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,335,,Drive Thru,,10/25/25 4:45 PM,10/25/25 4:50 PM,4 minutes and 49 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,335,,Food,,10/25/25 4:45 PM,10/25/25 4:50 PM,4 minutes and 49 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,331,,Drive Thru,,10/25/25 4:38 PM,10/25/25 4:50 PM,11 minutes and 21 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,331,,Food,,10/25/25 4:38 PM,10/25/25 4:50 PM,11 minutes and 21 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,336,25,No Print,,10/25/25 4:40 PM,10/25/25 4:54 PM,13 minutes and 14 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,336,25,Food,,10/25/25 4:40 PM,10/25/25 4:54 PM,13 minutes and 14 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,336,25,,1,10/25/25 4:40 PM,10/25/25 4:57 PM,16 minutes and 44 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mia Juliet,329,,Food,,10/25/25 4:33 PM,10/25/25 4:57 PM,24 minutes and 20 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mia Juliet,329,,Drive Thru,,10/25/25 4:33 PM,10/25/25 4:57 PM,24 minutes and 20 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mia Juliet,329,,,1,10/25/25 4:57 PM,10/25/25 5:02 PM,4 minutes and 53 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,342,,Drive Thru,,10/25/25 5:19 PM,10/25/25 5:21 PM,2 minutes and 37 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,342,,Food,,10/25/25 5:19 PM,10/25/25 5:21 PM,2 minutes and 37 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,341,14,No Print,,10/25/25 5:19 PM,10/25/25 5:23 PM,3 minutes and 51 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,341,14,Food,,10/25/25 5:19 PM,10/25/25 5:23 PM,3 minutes and 51 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,341,14,,1,10/25/25 5:19 PM,10/25/25 5:26 PM,6 minutes and 2 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,333,,,1,10/25/25 4:40 PM,10/25/25 5:26 PM,45 minutes and 31 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,340,2,,1,10/25/25 5:17 PM,10/25/25 5:27 PM,10 minutes and 2 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,344,,Drive Thru,,10/25/25 5:41 PM,10/25/25 5:44 PM,2 minutes and 53 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,344,,Food,,10/25/25 5:41 PM,10/25/25 5:44 PM,2 minutes and 53 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,343,12,No Print,,10/25/25 5:41 PM,10/25/25 5:47 PM,6 minutes and 24 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,343,12,Food,,10/25/25 5:41 PM,10/25/25 5:47 PM,6 minutes and 24 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,345,,Drive Thru,,10/25/25 5:46 PM,10/25/25 5:48 PM,1 minute and 32 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,345,,Food,,10/25/25 5:46 PM,10/25/25 5:48 PM,1 minute and 32 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,348,1,No Print,,10/25/25 5:51 PM,10/25/25 5:54 PM,2 minutes and 46 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,348,1,Food,,10/25/25 5:51 PM,10/25/25 5:54 PM,2 minutes and 46 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,348,1,Drive Thru,,10/25/25 5:51 PM,10/25/25 5:54 PM,2 minutes and 46 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,347,3,No Print,,10/25/25 5:50 PM,10/25/25 5:56 PM,5 minutes and 54 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,347,3,Food,,10/25/25 5:50 PM,10/25/25 5:56 PM,5 minutes and 54 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,349,8,No Print,,10/25/25 5:58 PM,10/25/25 6:06 PM,7 minutes and 59 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,349,8,Food,,10/25/25 5:58 PM,10/25/25 6:06 PM,7 minutes and 59 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,350,,Drive Thru,,10/25/25 5:57 PM,10/25/25 6:07 PM,10 minutes and 7 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,350,,Food,,10/25/25 5:57 PM,10/25/25 6:07 PM,10 minutes and 7 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,348,1,No Print,,10/25/25 6:03 PM,10/25/25 6:14 PM,11 minutes and 17 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,348,1,Food,,10/25/25 6:03 PM,10/25/25 6:14 PM,11 minutes and 17 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,348,1,No Print,,10/25/25 6:03 PM,10/25/25 6:14 PM,10 minutes and 59 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,348,1,Food,,10/25/25 6:03 PM,10/25/25 6:14 PM,10 minutes and 59 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,348,1,,1,10/25/25 5:54 PM,10/25/25 6:16 PM,22 minutes and 11 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,343,12,,1,10/25/25 5:47 PM,10/25/25 6:16 PM,29 minutes and 5 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,348,1,,1,10/25/25 6:14 PM,10/25/25 6:16 PM,2 minutes and 19 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,348,1,,1,10/25/25 6:14 PM,10/25/25 6:16 PM,2 minutes and 21 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,352,16,No Print,,10/25/25 6:05 PM,10/25/25 6:17 PM,11 minutes and 13 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,352,16,Food,,10/25/25 6:05 PM,10/25/25 6:17 PM,11 minutes and 13 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,340,2,,1,10/25/25 5:57 PM,10/25/25 6:17 PM,19 minutes and 21 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,340,2,,1,10/25/25 5:58 PM,10/25/25 6:17 PM,18 minutes and 26 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,349,8,,1,10/25/25 5:58 PM,10/25/25 6:17 PM,18 minutes and 30 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,346,,Drive Thru,,10/25/25 6:12 PM,10/25/25 6:20 PM,7 minutes and 14 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,346,,Food,,10/25/25 6:12 PM,10/25/25 6:20 PM,7 minutes and 14 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,351,20,No Print,,10/25/25 6:14 PM,10/25/25 6:28 PM,14 minutes and 12 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,351,20,Food,,10/25/25 6:14 PM,10/25/25 6:28 PM,14 minutes and 12 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,356,,Drive Thru,,10/25/25 6:21 PM,10/25/25 6:28 PM,7 minutes and 39 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,356,,Food,,10/25/25 6:21 PM,10/25/25 6:28 PM,7 minutes and 39 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,351,20,No Print,,10/25/25 6:14 PM,10/25/25 6:29 PM,14 minutes and 7 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,351,20,Food,,10/25/25 6:14 PM,10/25/25 6:29 PM,14 minutes and 7 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,351,20,Drive Thru,,10/25/25 6:14 PM,10/25/25 6:29 PM,14 minutes and 7 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,351,20,,1,10/25/25 6:28 PM,10/25/25 6:32 PM,3 minutes and 18 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,351,20,,1,10/25/25 6:29 PM,10/25/25 6:32 PM,3 minutes and 1 second,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,351,20,,1,10/25/25 6:04 PM,10/25/25 6:32 PM,28 minutes and 53 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,352,16,,1,10/25/25 6:05 PM,10/25/25 6:33 PM,27 minutes and 8 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,357,,Drive Thru,,10/25/25 6:23 PM,10/25/25 6:33 PM,9 minutes and 49 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,357,,Food,,10/25/25 6:23 PM,10/25/25 6:33 PM,9 minutes and 49 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mia Juliet,355,,Food,,10/25/25 6:17 PM,10/25/25 6:35 PM,17 minutes and 43 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mia Juliet,355,,Drive Thru,,10/25/25 6:17 PM,10/25/25 6:35 PM,17 minutes and 43 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,348,1,,1,10/25/25 5:50 PM,10/25/25 6:36 PM,45 minutes and 12 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mia Juliet,355,,,1,10/25/25 6:17 PM,10/25/25 6:36 PM,18 minutes and 35 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,347,3,,1,10/25/25 5:50 PM,10/25/25 6:36 PM,46 minutes and 5 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,353,25,,1,10/25/25 6:07 PM,10/25/25 6:36 PM,28 minutes and 22 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,359,2,No Print,,10/25/25 6:30 PM,10/25/25 6:41 PM,10 minutes and 53 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,359,2,Food,,10/25/25 6:30 PM,10/25/25 6:41 PM,10 minutes and 53 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,359,2,,1,10/25/25 6:30 PM,10/25/25 6:50 PM,19 minutes and 30 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,352,16,,1,10/25/25 6:45 PM,10/25/25 6:50 PM,4 minutes and 37 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,364,37,No Print,,10/25/25 6:54 PM,10/25/25 6:56 PM,1 minute and 48 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,364,37,Food,,10/25/25 6:54 PM,10/25/25 6:56 PM,1 minute and 48 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mia Juliet,362,,Food,,10/25/25 6:42 PM,10/25/25 6:56 PM,13 minutes and 54 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mia Juliet,362,,Drive Thru,,10/25/25 6:42 PM,10/25/25 6:56 PM,13 minutes and 54 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mia Juliet,362,,,1,10/25/25 6:42 PM,10/25/25 6:56 PM,14 minutes and 2 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,363,17,No Print,,10/25/25 6:54 PM,10/25/25 6:59 PM,5 minutes and 52 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,363,17,Food,,10/25/25 6:54 PM,10/25/25 6:59 PM,5 minutes and 52 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,364,37,No Print,,10/25/25 7:09 PM,10/25/25 7:09 PM,34 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,364,37,Food,,10/25/25 7:09 PM,10/25/25 7:09 PM,34 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,366,14,No Print,,10/25/25 7:10 PM,10/25/25 7:13 PM,3 minutes and 4 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,366,14,Food,,10/25/25 7:10 PM,10/25/25 7:13 PM,3 minutes and 4 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,364,37,,1,10/25/25 7:09 PM,10/25/25 7:13 PM,3 minutes and 46 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,364,37,,1,10/25/25 6:54 PM,10/25/25 7:13 PM,18 minutes and 54 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,364,37,,1,10/25/25 7:05 PM,10/25/25 7:13 PM,8 minutes and 21 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Melissa  Urena,363,17,,1,10/25/25 6:54 PM,10/25/25 7:13 PM,19 minutes and 20 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,366,14,,1,10/25/25 7:10 PM,10/25/25 7:13 PM,3 minutes and 25 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,364,37,No Print,,10/25/25 7:14 PM,10/25/25 7:25 PM,10 minutes and 49 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,364,37,Food,,10/25/25 7:14 PM,10/25/25 7:25 PM,10 minutes and 49 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,368,,Drive Thru,,10/25/25 7:16 PM,10/25/25 7:26 PM,9 minutes and 20 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,368,,Food,,10/25/25 7:16 PM,10/25/25 7:26 PM,9 minutes and 20 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,367,,Drive Thru,,10/25/25 7:16 PM,10/25/25 7:26 PM,10 minutes and 17 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,367,,Food,,10/25/25 7:16 PM,10/25/25 7:26 PM,10 minutes and 17 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,364,37,,1,10/25/25 7:25 PM,10/25/25 7:26 PM,1 minute and 39 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,369,,Drive Thru,,10/25/25 7:21 PM,10/25/25 7:27 PM,6 minutes and 53 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,369,,Food,,10/25/25 7:21 PM,10/25/25 7:27 PM,6 minutes and 53 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,370,,Drive Thru,,10/25/25 7:23 PM,10/25/25 7:33 PM,9 minutes and 22 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,370,,Food,,10/25/25 7:23 PM,10/25/25 7:33 PM,9 minutes and 22 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,364,37,No Print,,10/25/25 7:47 PM,10/25/25 7:53 PM,5 minutes and 25 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,364,37,Food,,10/25/25 7:47 PM,10/25/25 7:53 PM,5 minutes and 25 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,372,32,No Print,,10/25/25 7:45 PM,10/25/25 7:53 PM,7 minutes and 31 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,372,32,Food,,10/25/25 7:45 PM,10/25/25 7:53 PM,7 minutes and 31 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,372,32,Drive Thru,,10/25/25 7:45 PM,10/25/25 7:53 PM,7 minutes and 31 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,372,32,,1,10/25/25 7:53 PM,10/25/25 8:01 PM,8 minutes and 22 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,364,37,,1,10/25/25 7:53 PM,10/25/25 8:01 PM,8 minutes and 25 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,372,32,,1,10/25/25 7:37 PM,10/25/25 8:01 PM,24 minutes and 4 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,373,1,No Print,,10/25/25 8:00 PM,10/25/25 8:10 PM,9 minutes and 12 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,373,1,Food,,10/25/25 8:00 PM,10/25/25 8:10 PM,9 minutes and 12 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,374,4,No Print,,10/25/25 8:12 PM,10/25/25 8:20 PM,7 minutes and 37 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,374,4,Food,,10/25/25 8:12 PM,10/25/25 8:20 PM,7 minutes and 37 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,374,4,,1,10/25/25 8:20 PM,10/25/25 8:35 PM,15 minutes and 39 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,373,1,,1,10/25/25 8:00 PM,10/25/25 8:35 PM,34 minutes and 53 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Fernanda  Loera,374,4,,1,10/25/25 8:11 PM,10/25/25 8:35 PM,24 minutes and 15 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Mia Juliet,375,,,1,10/25/25 8:26 PM,10/25/25 8:41 PM,15 minutes and 4 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,376,3,No Print,,10/25/25 8:34 PM,10/25/25 8:41 PM,7 minutes and 21 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,376,3,Food,,10/25/25 8:34 PM,10/25/25 8:41 PM,7 minutes and 21 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Emanuel Sanchez,376,3,,1,10/25/25 8:34 PM,10/25/25 8:42 PM,8 minutes and 25 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,377,,Drive Thru,,10/25/25 8:40 PM,10/25/25 8:47 PM,7 minutes and 15 seconds,KDS - Login Don't Delete
+12060 Potranco Road,Carlos Morales,377,,Food,,10/25/25 8:40 PM,10/25/25 8:47 PM,7 minutes and 15 seconds,KDS - Login Don't Delete

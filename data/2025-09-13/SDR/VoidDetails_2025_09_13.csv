@@ -1,0 +1,11 @@
+Order #,Opened Date,Void Date,Server,Approver,Item Name,Reason,Item Quantity,Total Price
+107,9/13/25 9:40 AM,9/13/25 10:02 AM,Angelique Jacobo,Zoila Salinas,Unsweet Tea,Server Error,1.0,3.45
+107,9/13/25 9:40 AM,9/13/25 10:02 AM,Angelique Jacobo,Zoila Salinas,Coffee?,Server Error,1.0,2.99
+128,9/13/25 10:00 AM,9/13/25 10:38 AM,Angelique Jacobo,Zoila Salinas,Barbacoa Taco,Customer Changed Mind,1.0,4.79
+178,9/13/25 10:49 AM,9/13/25 11:00 AM,Angelique Jacobo,Zoila Salinas,Kids Cheese Quesadilla,Customer Changed Mind,1.0,6.99
+316,9/13/25 1:33 PM,9/13/25 2:07 PM,Lisa Velasquez,Candy Del Angel,Small Tortilla Soup,Customer Changed Mind,1.0,8.99
+327,9/13/25 1:45 PM,9/13/25 2:25 PM,Adrian Morales,Candy Del Angel,Chorizo & Egg Plate,Customer Changed Mind,1.0,9.49
+327,9/13/25 1:45 PM,9/13/25 2:25 PM,Adrian Morales,Candy Del Angel,Caldo de Res,Customer Changed Mind,1.0,11.99
+353,9/13/25 3:05 PM,9/13/25 3:26 PM,Angelique Jacobo,Gabriel Tovar ,Soft Taco,Customer Changed Mind,1.0,3.99
+353,9/13/25 3:05 PM,9/13/25 3:26 PM,Angelique Jacobo,Gabriel Tovar ,Rice 8oz,Customer Changed Mind,1.0,3.99
+353,9/13/25 3:05 PM,9/13/25 3:26 PM,Angelique Jacobo,Gabriel Tovar ,Beans 8oz,Customer Changed Mind,1.0,3.99

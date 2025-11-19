@@ -1,0 +1,5 @@
+Sales category,Items,Net sales,Discount amount,Refund amount,Gross sales,Tax amount
+Food,1674.0,6097.02,44.54,0.0,6141.56,502.73
+NA Beverage,558.0,1248.0,0.0,0.0,1248.0,102.73
+Liquor,10.0,74.92,0.0,0.0,74.92,6.18
+Total,2242.0,7419.94,44.54,0.0,7464.48,611.64

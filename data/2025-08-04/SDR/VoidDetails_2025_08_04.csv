@@ -1,0 +1,10 @@
+Order #,Opened Date,Void Date,Server,Approver,Item Name,Reason,Item Quantity,Total Price
+107,8/4/25 11:14 AM,8/4/25 12:09 PM,Leticia Roman,Zoila Salinas,Fajita Taco,Customer Changed Mind,1.0,3.99
+107,8/4/25 11:14 AM,8/4/25 12:25 PM,Leticia Roman,Zoila Salinas,Side Borracho beans,Server Error,1.0,2.99
+133,8/4/25 12:04 PM,8/4/25 2:04 PM,Leticia Roman,Nadia Reyes,Porkchop taco,Server Error,2.0,10.98
+133,8/4/25 12:04 PM,8/4/25 2:04 PM,Leticia Roman,Nadia Reyes,Bacon Taco,Server Error,1.0,2.29
+133,8/4/25 12:04 PM,8/4/25 2:04 PM,Leticia Roman,Nadia Reyes,Chips and Queso,Server Error,1.0,5.99
+156,8/4/25 12:25 PM,8/4/25 2:21 PM,Zoila Salinas,Zoila Salinas,Mon -Cheese Enchiladas,Customer Changed Mind,1.0,8.99
+156,8/4/25 12:25 PM,8/4/25 2:21 PM,Zoila Salinas,Zoila Salinas,Lemonade,Customer Changed Mind,1.0,3.99
+207,8/4/25 4:24 PM,8/4/25 8:57 PM,Candy Del Angel,Candy Del Angel,Gordita Plt,Customer Changed Mind,1.0,13.99
+236,8/4/25 7:04 PM,8/4/25 9:14 PM,Rosalinda Rodriguez,Candy Del Angel,Modelo Especial,Customer Changed Mind,1.0,4.69

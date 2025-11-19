@@ -1,0 +1,43 @@
+Location,Entry Id,Created Date,Action,Amount,Cash Drawer,Payout Reason,No Sale Reason,Comment,Employee,Employee 2
+12060 Potranco Road,800000030951345020,10/19/25 8:07 AM,CASH_PAYMENT,6.78,DRIVE THRU 1,,,Cash payment,Mario Jimenez,
+12060 Potranco Road,800000030951351085,10/19/25 8:07 AM,CASH_PAYMENT,10.12,DRIVE THRU 1,,,Cash payment,Mario Jimenez,
+12060 Potranco Road,800000030951721148,10/19/25 8:29 AM,CASH_PAYMENT,15.08,DRIVE THRU 1,,,Cash payment,Mario Jimenez,
+12060 Potranco Road,800000030952238374,10/19/25 8:54 AM,CASH_PAYMENT,15.13,DRIVE THRU 1,,,Cash payment,Mario Jimenez,
+12060 Potranco Road,800000030952388935,10/19/25 9:00 AM,CASH_PAYMENT,18.34,DRIVE THRU 1,,,Cash payment,Mario Jimenez,
+12060 Potranco Road,800000030952761106,10/19/25 9:14 AM,CASH_PAYMENT,8.73,DRIVE THRU 1,,,Cash payment,Mario Jimenez,
+12060 Potranco Road,800000030952795674,10/19/25 9:16 AM,CASH_PAYMENT,16.65,DRIVE THRU 1,,,Cash payment,Mario Jimenez,
+12060 Potranco Road,800000030953185819,10/19/25 9:30 AM,CASH_PAYMENT,4.31,DRIVE THRU 1,,,Cash payment,Mario Jimenez,
+12060 Potranco Road,800000030953269229,10/19/25 9:32 AM,CASH_PAYMENT,7.67,DRIVE THRU 1,,,Cash payment,Mario Jimenez,
+12060 Potranco Road,800000030953469431,10/19/25 9:39 AM,CASH_PAYMENT,9.39,Host Drawer,,,Cash payment,siri quiroz,
+12060 Potranco Road,800000030953516357,10/19/25 9:41 AM,CASH_PAYMENT,16.94,DRIVE THRU 1,,,Cash payment,Mario Jimenez,
+12060 Potranco Road,800000030954187722,10/19/25 10:02 AM,CASH_PAYMENT,18.31,DRIVE THRU 1,,,Cash payment,Mario Jimenez,
+12060 Potranco Road,800000030954805830,10/19/25 10:18 AM,CASH_PAYMENT,24.70,Host Drawer,,,Cash payment,siri quiroz,
+12060 Potranco Road,800000030955366858,10/19/25 10:32 AM,CASH_PAYMENT,8.85,DRIVE THRU 1,,,Cash payment,Mario Jimenez,
+12060 Potranco Road,800000030955466695,10/19/25 10:34 AM,CASH_PAYMENT,35.69,DRIVE THRU 1,,,Cash payment,Mario Jimenez,
+12060 Potranco Road,800000030956656428,10/19/25 11:01 AM,CASH_PAYMENT,6.46,Host Drawer,,,Cash payment,siri quiroz,
+12060 Potranco Road,800000030956685966,10/19/25 11:01 AM,CASH_PAYMENT,7.57,DRIVE THRU 1,,,Cash payment,Mario Jimenez,
+12060 Potranco Road,800000030957934674,10/19/25 11:24 AM,CASH_PAYMENT,24.62,Host Drawer,,,Cash payment,siri quiroz,
+12060 Potranco Road,800000030958009853,10/19/25 11:25 AM,CASH_PAYMENT,16.40,Host Drawer,,,Cash payment,siri quiroz,
+12060 Potranco Road,800000030958855536,10/19/25 11:39 AM,CASH_PAYMENT,7.13,DRIVE THRU 1,,,Cash payment,Mario Jimenez,
+12060 Potranco Road,800000030959222035,10/19/25 11:45 AM,CASH_PAYMENT,9.50,DRIVE THRU 1,,,Cash payment,Mario Jimenez,
+12060 Potranco Road,800000030959421760,10/19/25 11:49 AM,CASH_PAYMENT,5.81,DRIVE THRU 1,,,Cash payment,Mario Jimenez,
+12060 Potranco Road,800000030959736739,10/19/25 11:54 AM,CASH_PAYMENT,2.48,Host Drawer,,,Cash payment,siri quiroz,
+12060 Potranco Road,800000030962337608,10/19/25 12:34 PM,CASH_PAYMENT,22.00,DRIVE THRU 1,,,Cash payment,Mario Jimenez,
+12060 Potranco Road,800000030963224173,10/19/25 12:48 PM,CASH_PAYMENT,0.18,DRIVE THRU 1,,,Cash payment,Mario Jimenez,
+12060 Potranco Road,800000030964199156,10/19/25 1:03 PM,CASH_PAYMENT,12.96,Host Drawer,,,Cash payment,siri quiroz,
+12060 Potranco Road,800000030966969534,10/19/25 1:49 PM,CASH_PAYMENT,14.90,DRIVE THRU 1,,,Cash payment,Mario Jimenez,
+12060 Potranco Road,800000030970081263,10/19/25 2:46 PM,CASH_PAYMENT,37.78,Host Drawer,,,Cash payment,siri quiroz,
+12060 Potranco Road,800000030970164210,10/19/25 2:48 PM,CASH_PAYMENT,19.74,DRIVE THRU 1,,,Cash payment,Mario Jimenez,
+12060 Potranco Road,800000030970752468,10/19/25 2:59 PM,CASH_COLLECTED,238.41,House,,,Cash revenue collected from shift review.,Mario Jimenez,Mario Jimenez
+12060 Potranco Road,800000030970752894,10/19/25 2:59 PM,TIP_OUT,-97.45,House,,,Tips paid out from shift review.,Mario Jimenez,Mario Jimenez
+12060 Potranco Road,800000030971472111,10/19/25 3:12 PM,TIP_OUT,-20.31,House,,,Tips paid out from shift review.,siri quiroz,siri quiroz
+12060 Potranco Road,800000030971661718,10/19/25 3:16 PM,CASH_COLLECTED,36.08,House,,,Cash revenue collected from shift review.,Adrian Morales,Adrian Morales
+12060 Potranco Road,800000030971661821,10/19/25 3:16 PM,TIP_OUT,-194.37,House,,,Tips paid out from shift review.,Adrian Morales,Adrian Morales
+12060 Potranco Road,800000030972220315,10/19/25 3:26 PM,CASH_COLLECTED,6.45,House,,,Cash revenue collected from shift review.,Fernanda  Loera,Fernanda  Loera
+12060 Potranco Road,800000030972220960,10/19/25 3:26 PM,TIP_OUT,-96.64,House,,,Tips paid out from shift review.,Fernanda  Loera,Fernanda  Loera
+12060 Potranco Road,800000030972281713,10/19/25 3:27 PM,CASH_COLLECTED,44.90,House,,,Cash revenue collected from shift review.,Leticia Roman,Leticia Roman
+12060 Potranco Road,800000030972283408,10/19/25 3:27 PM,TIP_OUT,-93.40,House,,,Tips paid out from shift review.,Leticia Roman,Leticia Roman
+12060 Potranco Road,800000030972286504,10/19/25 3:27 PM,TIP_OUT,-94.85,House,,,Tips paid out from shift review.,Emanuel Sanchez,Emanuel Sanchez
+12060 Potranco Road,800000030972286962,10/19/25 3:27 PM,CASH_COLLECTED,7.55,House,,,Cash revenue collected from shift review.,Emanuel Sanchez,Emanuel Sanchez
+12060 Potranco Road,800000030972404931,10/19/25 3:30 PM,CASH_COLLECTED,226.22,House,,,Cash revenue collected from shift review.,Sugey Cabrera,Sugey Cabrera
+12060 Potranco Road,800000030972405122,10/19/25 3:30 PM,TIP_OUT,-112.11,House,,,Tips paid out from shift review.,Sugey Cabrera,Sugey Cabrera

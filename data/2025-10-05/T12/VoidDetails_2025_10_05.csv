@@ -1,0 +1,10 @@
+Order #,Opened Date,Void Date,Server,Approver,Item Name,Reason,Item Quantity,Total Price
+24,10/5/25 8:43 AM,10/5/25 10:15 AM,Esperansa Caviedes,Rosie  ORDONEZ,Fajita & Egg Plt,Server Error,1.0,12.99
+69,10/5/25 9:49 AM,10/5/25 2:52 PM,Ivana Abundiz,Mayra Luna,Large Menudo,Server Error,1.0,12.99
+69,10/5/25 9:49 AM,10/5/25 2:52 PM,Ivana Abundiz,Mayra Luna,Side Cilantro,Server Error,1.0,0.65
+174,10/5/25 11:20 AM,10/5/25 3:08 PM,Rosa Compean,Rosie  ORDONEZ,Barbacoa Taco,Customer Changed Mind,1.0,4.79
+174,10/5/25 11:20 AM,10/5/25 3:08 PM,Rosa Compean,Rosie  ORDONEZ,gallon TEA,Server Error,1.0,11.99
+235,10/5/25 12:18 PM,10/5/25 3:08 PM,Rosa Compean,Rosie  ORDONEZ,Puffy Taco Plt,Server Error,1.0,13.99
+235,10/5/25 12:18 PM,10/5/25 3:08 PM,Rosa Compean,Rosie  ORDONEZ,Soft Chicken Tacos Plt,Server Error,1.0,11.99
+242,10/5/25 12:20 PM,10/5/25 12:23 PM,Zoila Salinas,Zoila Salinas,Coffee,Server Error,75.0,224.25
+270,10/5/25 12:56 PM,10/5/25 1:13 PM,Esperansa Caviedes,Rosie  ORDONEZ,Tamales Docena,Server Error,1.0,15.99

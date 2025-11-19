@@ -1,0 +1,11 @@
+Payment type,Payment sub type,Count,Amount,Tips,Grat,Tax amount,Refunds,Tip refunds,Legacy tips,Total,Tips/Grat %
+Cash,,52,700.69,25.0,0.0,53.42,0,0,25.00,725.69,3.9
+Credit/debit,,137,3400.55,357.08,31.76,259.16,0,0,357.08,3789.39,12.4
+Credit/debit,AMEX,7,305.06,29.76,25.02,23.27,0,0,29.76,359.84,19.4
+Credit/debit,MASTERCARD,47,985.67,107.01,6.74,75.12,0,0,107.01,1099.42,12.5
+Credit/debit,VISA,83,2109.82,220.31,0.0,160.77,0,0,220.31,2330.13,11.3
+Gift Card,,0,0.0,0.0,0.0,0.0,0.0,0.0,0.00,0.00,
+Other,,0,0.0,0.0,0.0,0.0,0.0,0.0,0.00,0.00,
+Subtotal,,189,4101.24,382.08,31.76,312.58,0.0,0.0,382.08,4515.08,10.9
+Deposit Sales Collected,,,,,,,,,,8.73,
+Total,,,,,,,,,,4523.81,

@@ -1,0 +1,6 @@
+Service / day part,Orders,Net sales,Discount amount,Refund amount,Gross sales,Tax amount
+Breakfast,115,1719.62,24.28,0.0,1743.9,141.71
+Lunch,128,2461.1,51.02,0.0,2512.12,202.75
+Dinner,62,1324.49,17.29,0.0,1341.78,109.05
+No Service,41,543.31,0.99,0.0,544.3,44.8
+Total,346,6048.52,93.58,0.0,6142.10,498.31

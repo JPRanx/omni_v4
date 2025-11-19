@@ -1,0 +1,8 @@
+Order #,Opened Date,Void Date,Server,Approver,Item Name,Reason,Item Quantity,Total Price
+92,8/10/25 10:06 AM,8/10/25 2:56 PM,siri quiroz,Gabriel Tovar ,Bacon & Egg Taco,Customer Changed Mind,2.0,3.98
+92,8/10/25 10:06 AM,8/10/25 2:56 PM,siri quiroz,Gabriel Tovar ,Bean & Cheese Taco,Customer Changed Mind,1.0,2.79
+124,8/10/25 10:32 AM,8/10/25 2:55 PM,siri quiroz,Gabriel Tovar ,Chorizo & Egg Taco,Customer Changed Mind,1.0,2.79
+124,8/10/25 10:32 AM,8/10/25 2:55 PM,siri quiroz,Gabriel Tovar ,Papa & Egg Taco,Customer Changed Mind,2.0,6.98
+130,8/10/25 10:36 AM,8/10/25 12:27 PM,Rosalinda Rodriguez,Candy Del Angel,Coffee?,Server Error,2.0,5.98
+265,8/10/25 12:54 PM,8/10/25 2:37 PM,Gabriel Tovar ,Gabriel Tovar ,Chips and Queso,Server Error,1.0,5.99
+293,8/10/25 1:26 PM,8/10/25 3:57 PM,Rosalinda Rodriguez,Candy Del Angel,Chips and Queso,Customer Changed Mind,1.0,5.99

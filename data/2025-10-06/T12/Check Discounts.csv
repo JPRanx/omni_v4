@@ -1,0 +1,5 @@
+Discount,Count,Orders,Amount
+Open $ Check,1,1,10.99
+Employee Discount - Check,1,1,11.98
+Open % Check,2,2,3.11
+Total,4,4,26.08

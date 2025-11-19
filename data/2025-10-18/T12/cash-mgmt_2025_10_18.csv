@@ -1,0 +1,59 @@
+Location,Entry Id,Created Date,Action,Amount,Cash Drawer,Payout Reason,No Sale Reason,Comment,Employee,Employee 2
+Tink-a-Tako - Potranco,800000030895169788,10/18/25 8:04 AM,CASH_PAYMENT,1.94,Front Left,,,Cash payment,Ivana Abundiz,
+Tink-a-Tako - Potranco,800000030895321432,10/18/25 8:12 AM,CASH_PAYMENT,8.18,Front Left,,,Cash payment,Ivana Abundiz,
+Tink-a-Tako - Potranco,800000030902621483,10/18/25 11:33 AM,CASH_PAYMENT,74.36,Front Left,,,Cash payment,Ivana Abundiz,
+Tink-a-Tako - Potranco,800000030904140169,10/18/25 11:58 AM,CASH_PAYMENT,8.65,Front Left,,,Cash payment,Mayra Luna,
+Tink-a-Tako - Potranco,800000030905314676,10/18/25 12:16 PM,CASH_PAYMENT,20.56,Front Left,,,Cash payment,Mayra Luna,
+Tink-a-Tako - Potranco,800000030909374328,10/18/25 1:19 PM,CASH_PAYMENT,3.24,Front Left,,,Cash payment,Ivana Abundiz,
+Tink-a-Tako - Potranco,800000030910093171,10/18/25 1:30 PM,CASH_PAYMENT,15.75,Front Left,,,Cash payment,Ivana Abundiz,
+Tink-a-Tako - Potranco,800000030910416319,10/18/25 1:35 PM,CLOSE_OUT_EXACT,0.00,Front Left,,,Close out balance matches expected balance,Ivana Abundiz,
+Tink-a-Tako - Potranco,800000030911293955,10/18/25 1:49 PM,CASH_PAYMENT,10.42,Drive Box,,,Cash payment,Lizeth Alonso,
+Tink-a-Tako - Potranco,800000030911393429,10/18/25 1:51 PM,CASH_COLLECTED,45.23,House,,,Cash revenue collected from shift review.,Sergio Abundiz,Sergio Abundiz
+Tink-a-Tako - Potranco,800000030911394184,10/18/25 1:51 PM,TIP_OUT,-103.81,House,,,Tips paid out from shift review.,Sergio Abundiz,Sergio Abundiz
+Tink-a-Tako - Potranco,800000030911546028,10/18/25 1:53 PM,CASH_PAYMENT,24.35,Drive Box,,,Cash payment,Lizeth Alonso,
+Tink-a-Tako - Potranco,800000030912003240,10/18/25 2:01 PM,CASH_PAYMENT,18.80,Front Left (2),,,Cash payment,Ivana Abundiz,
+Tink-a-Tako - Potranco,800000030912139064,10/18/25 2:03 PM,CASH_PAYMENT,28.30,Drive Box,,,Cash payment,Lizeth Alonso,
+Tink-a-Tako - Potranco,800000030912171175,10/18/25 2:03 PM,CLOSE_OUT_EXACT,0.00,Front Left (2),,,Close out balance matches expected balance,Ivana Abundiz,
+Tink-a-Tako - Potranco,800000030912346477,10/18/25 2:06 PM,TIP_OUT,-16.82,House,,,Tips paid out from shift review.,Ivana Abundiz,Ivana Abundiz
+Tink-a-Tako - Potranco,800000030912596691,10/18/25 2:10 PM,CLOSE_OUT_EXACT,0.00,Front Left (3),,,Close out balance matches expected balance,Mayra Luna,
+Tink-a-Tako - Potranco,800000030912835578,10/18/25 2:14 PM,CASH_COLLECTED,41.83,House,,,Cash revenue collected from shift review.,Rosie  ORDONEZ,Rosie  ORDONEZ
+Tink-a-Tako - Potranco,800000030913233676,10/18/25 2:20 PM,TIP_OUT,-80.44,House,,,Tips paid out from shift review.,Isabel Cisneros,Isabel Cisneros
+Tink-a-Tako - Potranco,800000030913234223,10/18/25 2:20 PM,CASH_COLLECTED,126.37,House,,,Cash revenue collected from shift review.,Isabel Cisneros,Isabel Cisneros
+Tink-a-Tako - Potranco,800000030913244975,10/18/25 2:20 PM,TIP_OUT,-75.27,House,,,Tips paid out from shift review.,Silvia Hernandez,Silvia Hernandez
+Tink-a-Tako - Potranco,800000030913245979,10/18/25 2:20 PM,CASH_COLLECTED,155.80,House,,,Cash revenue collected from shift review.,Silvia Hernandez,Silvia Hernandez
+Tink-a-Tako - Potranco,800000030913248773,10/18/25 2:21 PM,TIP_OUT,-85.80,House,,,Tips paid out from shift review.,Esperansa Caviedes,Esperansa Caviedes
+Tink-a-Tako - Potranco,800000030913249683,10/18/25 2:21 PM,CASH_COLLECTED,59.44,House,,,Cash revenue collected from shift review.,Esperansa Caviedes,Esperansa Caviedes
+Tink-a-Tako - Potranco,800000030913350042,10/18/25 2:22 PM,TIP_OUT,-72.92,House,,,Tips paid out from shift review.,Maria Majana,Maria Majana
+Tink-a-Tako - Potranco,800000030913350793,10/18/25 2:22 PM,CASH_COLLECTED,46.45,House,,,Cash revenue collected from shift review.,Maria Majana,Maria Majana
+Tink-a-Tako - Potranco,800000030913983642,10/18/25 2:32 PM,CASH_PAYMENT,3.25,Drive Box,,,Cash payment,Lizeth Alonso,
+Tink-a-Tako - Potranco,800000030914129117,10/18/25 2:35 PM,TIP_OUT,-129.24,House,,,Tips paid out from shift review.,Rosa Compean,Rosa Compean
+Tink-a-Tako - Potranco,800000030914129960,10/18/25 2:35 PM,CASH_COLLECTED,147.07,House,,,Cash revenue collected from shift review.,Rosa Compean,Rosa Compean
+Tink-a-Tako - Potranco,800000030914207241,10/18/25 2:36 PM,CASH_PAYMENT,18.88,Drive Box,,,Cash payment,Lizeth Alonso,
+Tink-a-Tako - Potranco,800000030914820468,10/18/25 2:46 PM,CASH_PAYMENT,9.92,Drive Box,,,Cash payment,Lizeth Alonso,
+Tink-a-Tako - Potranco,800000030915360546,10/18/25 2:55 PM,CASH_PAYMENT,9.49,Drive Box,,,Cash payment,Lizeth Alonso,
+Tink-a-Tako - Potranco,800000030915752687,10/18/25 3:02 PM,CASH_PAYMENT,24.73,Drive Box,,,Cash payment,Lizeth Alonso,
+Tink-a-Tako - Potranco,800000030917157190,10/18/25 3:24 PM,CASH_PAYMENT,20.33,Drive Box,,,Cash payment,Lizeth Alonso,
+Tink-a-Tako - Potranco,800000030917369984,10/18/25 3:28 PM,CASH_PAYMENT,10.31,Drive Box,,,Cash payment,Lizeth Alonso,
+Tink-a-Tako - Potranco,800000030917800993,10/18/25 3:35 PM,CASH_PAYMENT,37.32,Drive Box,,,Cash payment,Lizeth Alonso,
+Tink-a-Tako - Potranco,800000030920810814,10/18/25 4:19 PM,CASH_PAYMENT,17.30,Drive Box,,,Cash payment,Lizeth Alonso,
+Tink-a-Tako - Potranco,800000030924380701,10/18/25 5:04 PM,CASH_PAYMENT,14.91,Drive Box,,,Cash payment,Lizeth Alonso,
+Tink-a-Tako - Potranco,800000030927369713,10/18/25 5:38 PM,CASH_PAYMENT,12.98,Drive Box,,,Cash payment,Lizeth Alonso,
+Tink-a-Tako - Potranco,800000030927461277,10/18/25 5:39 PM,CASH_PAYMENT,30.06,Drive Box,,,Cash payment,Lizeth Alonso,
+Tink-a-Tako - Potranco,800000030931187599,10/18/25 6:20 PM,CASH_PAYMENT,44.13,Drive Box,,,Cash payment,Lizeth Alonso,
+Tink-a-Tako - Potranco,800000030931799885,10/18/25 6:27 PM,CASH_PAYMENT,14.06,Drive Box,,,Cash payment,Lizeth Alonso,
+Tink-a-Tako - Potranco,800000030934299432,10/18/25 6:56 PM,CASH_COLLECTED,466.37,House,,,Cash revenue collected from shift review.,Daniela Torres,Daniela Torres
+Tink-a-Tako - Potranco,800000030934299833,10/18/25 6:56 PM,TIP_OUT,-93.06,House,,,Tips paid out from shift review.,Daniela Torres,Daniela Torres
+Tink-a-Tako - Potranco,800000030937316223,10/18/25 7:33 PM,CASH_PAYMENT,31.37,Drive Box,,,Cash payment,Lizeth Alonso,
+Tink-a-Tako - Potranco,800000030938015900,10/18/25 7:42 PM,CASH_PAYMENT,7.46,Drive Box,,,Cash payment,Lizeth Alonso,
+Tink-a-Tako - Potranco,800000030939435473,10/18/25 8:02 PM,CASH_PAYMENT,31.65,Drive Box,,,Cash payment,Lizeth Alonso,
+Tink-a-Tako - Potranco,800000030939732329,10/18/25 8:06 PM,CASH_PAYMENT,7.34,Drive Box,,,Cash payment,Lizeth Alonso,
+Tink-a-Tako - Potranco,800000030940003896,10/18/25 8:10 PM,CASH_PAYMENT,1.94,Drive Box,,,Cash payment,Lizeth Alonso,
+Tink-a-Tako - Potranco,800000030940125442,10/18/25 8:12 PM,CASH_PAYMENT,34.59,Drive Box,,,Cash payment,Lizeth Alonso,
+Tink-a-Tako - Potranco,800000030942082704,10/18/25 8:44 PM,CASH_PAYMENT,12.63,Drive Box,,,Cash payment,Lizeth Alonso,
+Tink-a-Tako - Potranco,800000030945446721,10/18/25 9:57 PM,TIP_OUT,-30.59,House,,,Tips paid out from shift review.,Lizeth Alonso,Lizeth Alonso
+Tink-a-Tako - Potranco,800000030945858416,10/18/25 10:08 PM,CASH_COLLECTED,445.64,House,,,Cash revenue collected from shift review.,Juan  Camacho,Juan  Camacho
+Tink-a-Tako - Potranco,800000030945859202,10/18/25 10:08 PM,TIP_OUT,-283.26,House,,,Tips paid out from shift review.,Juan  Camacho,Juan  Camacho
+Tink-a-Tako - Potranco,800000030946006116,10/18/25 10:12 PM,PAY_OUT,-66.00,House,Supplies,,PAGO EVELYN PENDIENTE DE SU CHEQUE - BRIANNA,Mayra Luna,
+Tink-a-Tako - Potranco,800000030946021786,10/18/25 10:13 PM,CASH_COLLECTED,64.66,House,,,Cash revenue collected from shift review.,Nadia  Reyes,Nadia  Reyes
+Tink-a-Tako - Potranco,800000030946023159,10/18/25 10:13 PM,TIP_OUT,-97.04,House,,,Tips paid out from shift review.,Nadia  Reyes,Nadia  Reyes
+Tink-a-Tako - Potranco,800000030946169765,10/18/25 10:17 PM,CLOSE_OUT_EXACT,0.00,Drive Box,,,Close out balance matches expected balance,Mayra Luna,

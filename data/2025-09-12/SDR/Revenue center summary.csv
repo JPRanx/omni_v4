@@ -1,0 +1,6 @@
+Revenue center,Items,Net sales,Discount amount,Refund amount,Gross sales,Tax amount
+Bar,1.0,2.99,0.0,0,2.99,0.25
+Dining Room,879.0,4198.4,37.08,0,4235.48,346.23
+Drive Thru,456.0,1600.26,5.99,0,1606.25,131.97
+No Revenue Center,12.0,48.26,46.44,0,94.7,3.99
+Total,1348.0,5849.91,89.51,0,5939.42,482.44

@@ -44,7 +44,14 @@ class DataValidator:
         },
         'kitchen': {
             'Location', 'Server', 'Check #', 'Fired Date',
-            'Fulfilled Date', 'Fulfillment Time'
+            'Fulfilled Date', 'Fulfillment Time', 'Table', 'Expediter Level'
+        },
+        'eod': {
+            'Check #', 'Date', 'Amount', 'Server', 'Cash Drawer', 'Table',
+            'Dining Option'
+        },
+        'payroll': {
+            'Employee', 'Job Title', 'Total Hours', 'Total Pay'
         }
     }
 

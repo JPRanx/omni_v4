@@ -1,0 +1,330 @@
+/**
+ * CashFlowModal.css
+ *
+ * Styles for the Cash Flow Modal with Sankey + Inspector Panel
+ * Phase 1: Core Structure with Professional Polish
+ */
+
+/* ====================================
+   Inspector Panel Container
+   ==================================== */
+
+.inspector-panel {
+  padding: 1.5rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  color: #3D3128;
+}
+
+/* ====================================
+   Breadcrumb Trail
+   ==================================== */
+
+.inspector-breadcrumb {
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid #E8DED0;
+  font-size: 0.875rem;
+  color: #8B7355;
+}
+
+.breadcrumb-home {
+  font-weight: 600;
+  color: #3D3128;
+}
+
+.breadcrumb-sep {
+  margin: 0 0.5rem;
+  color: #C4B5A0;
+}
+
+.breadcrumb-item {
+  color: #8B7355;
+  transition: color 0.2s ease;
+}
+
+.breadcrumb-item:last-child {
+  color: #3D3128;
+  font-weight: 600;
+}
+
+/* ====================================
+   Metrics Grid
+   ==================================== */
+
+.inspector-metrics {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.metric-card {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+}
+
+.metric-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.12);
+}
+
+/* Metric card variants with gradients */
+.metric-cash {
+  background: linear-gradient(135deg, #2E7D32 0%, #4CAF50 100%);
+  color: white;
+}
+
+.metric-tips {
+  background: linear-gradient(135deg, #1565C0 0%, #1976D2 100%);
+  color: white;
+}
+
+.metric-payouts {
+  background: linear-gradient(135deg, #C62828 0%, #E53935 100%);
+  color: white;
+}
+
+.metric-net {
+  background: linear-gradient(135deg, #558B2F 0%, #689F38 100%);
+  color: white;
+}
+
+.metric-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  opacity: 0.9;
+  margin-bottom: 0.5rem;
+}
+
+.metric-value {
+  font-size: 1.5rem;
+  font-weight: 300;
+  letter-spacing: -0.02em;
+}
+
+/* ====================================
+   Details Section
+   ==================================== */
+
+.inspector-details {
+  margin-bottom: 1.5rem;
+}
+
+.details-title {
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #8B7355;
+  margin-bottom: 1rem;
+}
+
+.details-content {
+  background: #FAF6F0;
+  border: 1px solid #E8DED0;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.details-placeholder {
+  text-align: center;
+  color: #8B7355;
+  font-size: 0.875rem;
+  margin: 2rem 0;
+}
+
+.details-section h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #3D3128;
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #E8DED0;
+}
+
+.overview-stats,
+.stat-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #E8DED0;
+}
+
+.stat-row:last-child {
+  border-bottom: none;
+}
+
+.stat-label {
+  font-size: 0.875rem;
+  color: #8B7355;
+  font-weight: 500;
+}
+
+.stat-value {
+  font-size: 0.875rem;
+  color: #3D3128;
+  font-weight: 600;
+}
+
+/* Shift and Drawer Breakdown */
+.shift-breakdown,
+.drawer-breakdown {
+  margin-top: 0.75rem;
+}
+
+.shift-row,
+.drawer-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0.75rem;
+  background: white;
+  border-radius: 0.25rem;
+  margin-bottom: 0.5rem;
+  transition: background 0.2s ease;
+}
+
+.shift-row:hover,
+.drawer-row:hover {
+  background: #F5F0E8;
+}
+
+.shift-name,
+.drawer-name {
+  font-size: 0.875rem;
+  color: #8B7355;
+  font-weight: 500;
+}
+
+.shift-value,
+.drawer-value {
+  font-size: 0.875rem;
+  color: #3D3128;
+  font-weight: 600;
+}
+
+.details-note {
+  text-align: center;
+  color: #8B7355;
+  font-size: 0.875rem;
+  font-style: italic;
+  margin-top: 0.75rem;
+}
+
+/* ====================================
+   Mini Visualizations (Placeholder)
+   ==================================== */
+
+.inspector-viz {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background: #FAF6F0;
+  border: 1px solid #E8DED0;
+  border-radius: 0.5rem;
+}
+
+.inspector-viz h4 {
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #8B7355;
+  margin-bottom: 0.75rem;
+}
+
+#miniVizContainer {
+  min-height: 100px;
+  background: white;
+  border-radius: 0.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #8B7355;
+  font-size: 0.875rem;
+}
+
+/* ====================================
+   Action Buttons
+   ==================================== */
+
+.inspector-actions {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.btn-action {
+  flex: 1;
+  padding: 0.75rem 1rem;
+  background: linear-gradient(135deg, #B89968 0%, #C4A77D 100%);
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.btn-action:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  background: linear-gradient(135deg, #C4A77D 0%, #D4B88D 100%);
+}
+
+.btn-action:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* ====================================
+   Responsive Adjustments
+   ==================================== */
+
+@media (max-width: 1024px) {
+  .inspector-metrics {
+    grid-template-columns: 1fr;
+  }
+
+  .metric-value {
+    font-size: 1.25rem;
+  }
+}
+
+/* ====================================
+   Smooth Transitions
+   ==================================== */
+
+.inspector-panel * {
+  transition: all 0.2s ease;
+}
+
+/* ====================================
+   Scrollbar Styling (iPad/Webkit)
+   ==================================== */
+
+.inspector-panel::-webkit-scrollbar {
+  width: 8px;
+}
+
+.inspector-panel::-webkit-scrollbar-track {
+  background: #FAF6F0;
+  border-radius: 4px;
+}
+
+.inspector-panel::-webkit-scrollbar-thumb {
+  background: #C4B5A0;
+  border-radius: 4px;
+}
+
+.inspector-panel::-webkit-scrollbar-thumb:hover {
+  background: #B89968;
+}

@@ -30,6 +30,7 @@ from src.processing.stages.timeslot_grading_stage import TimeslotGradingStage
 from src.processing.stages.processing_stage import ProcessingStage
 from src.processing.stages.pattern_learning_stage import PatternLearningStage
 from src.processing.stages.storage_stage import StorageStage
+from src.processing.stages.supabase_storage_stage import SupabaseStorageStage
 from src.ingestion.data_validator import DataValidator
 from src.processing.labor_calculator import LaborCalculator
 from src.processing.order_categorizer import OrderCategorizer
@@ -42,7 +43,41 @@ from src.infrastructure.database.in_memory_client import InMemoryDatabaseClient
 from src.infrastructure.logging import setup_logging, PipelineMetrics
 from src.infrastructure.config.loader import ConfigLoader
 from src.models.labor_dto import LaborDTO
+from src.processing.cash_flow_extractor import CashFlowExtractor
 from src.core.result import Result
+
+
+def discover_available_dates(data_dir: Path) -> List[str]:
+    """
+    Scan data directory for available date folders.
+
+    Args:
+        data_dir: Path to data directory
+
+    Returns:
+        List of date strings (YYYY-MM-DD) sorted chronologically
+    """
+    available_dates = []
+
+    if not data_dir.exists():
+        return available_dates
+
+    # Scan for directories matching YYYY-MM-DD pattern
+    for item in data_dir.iterdir():
+        if item.is_dir():
+            dir_name = item.name
+            # Validate date format YYYY-MM-DD
+            try:
+                datetime.strptime(dir_name, '%Y-%m-%d')
+                available_dates.append(dir_name)
+            except ValueError:
+                # Not a valid date folder, skip
+                continue
+
+    # Sort chronologically
+    available_dates.sort()
+
+    return available_dates
 
 
 def extract_labor_dto_from_payroll(
@@ -134,7 +169,8 @@ def run_pipeline_for_date(
     timeslot_pattern_manager: TimeslotPatternManager,
     database_client: InMemoryDatabaseClient,
     config_loader: ConfigLoader,
-    verbose: bool = False
+    verbose: bool = False,
+    use_supabase: bool = False
 ) -> tuple[bool, PipelineMetrics]:
     """
     Run pipeline for a single restaurant and date.
@@ -149,12 +185,13 @@ def run_pipeline_for_date(
         database_client: DatabaseClient instance
         config_loader: ConfigLoader instance
         verbose: Whether to print verbose output
+        use_supabase: Whether to use Supabase storage (Investigation Modal data)
 
     Returns:
         Tuple of (success, metrics)
     """
-    # Auto-detect data path
-    data_path = str(project_root / "tests" / "fixtures" / "sample_data" / business_date / restaurant_code)
+    # Auto-detect data path - use V4's data directory
+    data_path = str(project_root / "data" / business_date / restaurant_code)
 
     # Check if data exists
     if not Path(data_path).exists():
@@ -178,7 +215,12 @@ def run_pipeline_for_date(
     timeslot_grading_stage = TimeslotGradingStage(windower, grader, timeslot_pattern_manager)
     processing_stage = ProcessingStage(calculator)
     pattern_learning_stage = PatternLearningStage(pattern_manager, timeslot_pattern_manager)
-    storage_stage = StorageStage(database_client)
+
+    # Choose storage stage based on flag
+    if use_supabase:
+        storage_stage = SupabaseStorageStage()
+    else:
+        storage_stage = StorageStage(database_client)
 
     # Create context
     context = PipelineContext(
@@ -258,7 +300,13 @@ def run_pipeline_for_date(
 
     storage_result = context.get('storage_result')
     if storage_result:
-        total_rows = sum(storage_result.row_counts.values())
+        # Handle both object with row_counts attribute and dict
+        if hasattr(storage_result, 'row_counts'):
+            total_rows = sum(storage_result.row_counts.values())
+        elif isinstance(storage_result, dict) and 'row_counts' in storage_result:
+            total_rows = sum(storage_result['row_counts'].values())
+        else:
+            total_rows = 0
         metrics.record_rows_written(total_rows)
 
     metrics.pipeline_completed()
@@ -290,7 +338,8 @@ def run_batch_processing(
     restaurant_codes: List[str],
     start_date: str,
     end_date: str,
-    verbose: bool = False
+    verbose: bool = False,
+    use_supabase: bool = False
 ) -> Dict[str, Any]:
     """
     Run batch processing for multiple restaurants and dates.
@@ -300,6 +349,7 @@ def run_batch_processing(
         start_date: Start date (YYYY-MM-DD)
         end_date: End date (YYYY-MM-DD)
         verbose: Whether to print verbose output
+        use_supabase: Whether to use Supabase storage (Investigation Modal data)
 
     Returns:
         Dictionary with batch results and summary
@@ -368,7 +418,8 @@ def run_batch_processing(
                 timeslot_pattern_manager=timeslot_pattern_managers[restaurant_code],
                 database_client=database_client,
                 config_loader=config_loader,
-                verbose=verbose
+                verbose=verbose,
+                use_supabase=use_supabase
             )
 
             if result is None or result[0] is None:
@@ -408,6 +459,22 @@ def run_batch_processing(
                         run_data['overtime_cost'] = float(labor_dto.total_overtime_cost)
                         run_data['regular_hours'] = float(labor_dto.total_regular_hours)
 
+                    # Extract cash flow data
+                    cash_flow_extractor = CashFlowExtractor()
+                    # Construct data path (same as in run_pipeline_for_date)
+                    csv_dir = project_root / "data" / business_date / restaurant_code
+                    cash_flow_result = cash_flow_extractor.extract_from_csvs(
+                        csv_dir=csv_dir,
+                        business_date=business_date,
+                        restaurant_code=restaurant_code
+                    )
+
+                    if cash_flow_result.is_ok():
+                        cash_flow = cash_flow_result.unwrap()
+                        run_data['cash_flow'] = cash_flow.to_dict()
+                    else:
+                        logger.warning(f"[{restaurant_code}] [{business_date}] Cash flow extraction failed: {cash_flow_result.unwrap_err()}")
+
                     # Get sales from raw dataframes
                     raw_dfs = context.get('raw_dataframes')
                     if raw_dfs and 'sales' in raw_dfs:
@@ -429,21 +496,53 @@ def run_batch_processing(
                     if categorization_metadata:
                         run_data['categorized_orders'] = categorization_metadata.get('categorized_orders', 0)
 
-                    # Add timeslot metrics
-                    timeslot_metrics = context.get('timeslot_metrics')
-                    if timeslot_metrics:
-                        run_data['timeslot_metrics'] = {
-                            'total_slots': timeslot_metrics.get('total_slots', 0),
-                            'active_slots': timeslot_metrics.get('active_slots', 0),
-                            'passed_standards': timeslot_metrics.get('passed_standards', 0),
-                            'overall_pass_rate': timeslot_metrics.get('overall_pass_rate', 0.0),
-                            'morning_pass_rate': timeslot_metrics.get('morning_pass_rate', 0.0),
-                            'evening_pass_rate': timeslot_metrics.get('evening_pass_rate', 0.0),
-                            'morning_hot_streaks': timeslot_metrics.get('morning_hot_streaks', 0),
-                            'morning_cold_streaks': timeslot_metrics.get('morning_cold_streaks', 0),
-                            'evening_hot_streaks': timeslot_metrics.get('evening_hot_streaks', 0),
-                            'evening_cold_streaks': timeslot_metrics.get('evening_cold_streaks', 0)
+                    # Add shift metrics if available
+                    shift_metrics = context.get('shift_metrics')
+                    if shift_metrics:
+                        # ShiftMetricsDTO has to_dict() method
+                        run_data['shift_metrics'] = shift_metrics.to_dict()
+
+                    # Add shift-level category statistics (unique orders only)
+                    shift_category_stats = context.get('shift_category_stats')
+                    if shift_category_stats:
+                        run_data['shift_category_stats'] = shift_category_stats
+
+                    # Add full timeslot data for Investigation Modal
+                    timeslots = context.get('timeslots')
+                    if timeslots:
+                        # Serialize all timeslots (morning + evening) using to_dict()
+                        timeslot_list = []
+                        for shift in ['morning', 'evening']:
+                            for timeslot in timeslots.get(shift, []):
+                                timeslot_list.append(timeslot.to_dict())
+                        run_data['timeslot_metrics'] = timeslot_list
+
+                    # Add timeslot summary metrics
+                    timeslot_summary = context.get('timeslot_metrics')
+                    if timeslot_summary:
+                        run_data['timeslot_summary'] = {
+                            'total_slots': timeslot_summary.get('total_slots', 0),
+                            'active_slots': timeslot_summary.get('active_slots', 0),
+                            'passed_standards': timeslot_summary.get('passed_standards', 0),
+                            'overall_pass_rate': timeslot_summary.get('overall_pass_rate', 0.0),
+                            'morning_pass_rate': timeslot_summary.get('morning_pass_rate', 0.0),
+                            'evening_pass_rate': timeslot_summary.get('evening_pass_rate', 0.0),
+                            'morning_hot_streaks': timeslot_summary.get('morning_hot_streaks', 0),
+                            'morning_cold_streaks': timeslot_summary.get('morning_cold_streaks', 0),
+                            'evening_hot_streaks': timeslot_summary.get('evening_hot_streaks', 0),
+                            'evening_cold_streaks': timeslot_summary.get('evening_cold_streaks', 0)
                         }
+
+                    # Add auto-clockout summary if available
+                    auto_clockout_summary = context.get('auto_clockout_summary')
+                    if auto_clockout_summary:
+                        run_data['auto_clockout_summary'] = auto_clockout_summary.to_dict()
+
+                    # Add time entries for weekly overtime calculation
+                    time_entries = context.get('time_entries')
+                    if time_entries:
+                        # Serialize TimeEntry list
+                        run_data['time_entries'] = [entry.to_dict() for entry in time_entries]
 
                     results['pipeline_runs'].append(run_data)
                 else:
@@ -502,22 +601,44 @@ def print_summary_report(results: Dict[str, Any]):
 
 def main():
     """Main entry point."""
-    if len(sys.argv) < 4:
-        print("Usage: python run_date_range.py <restaurant_codes> <start_date> <end_date> [--output <file.json>] [--verbose]")
+    if len(sys.argv) < 2:
+        print("Usage: python run_date_range.py <restaurant_codes> [start_date] [end_date] [--output <file.json>] [--verbose] [--supabase]")
         print("\nExamples:")
-        print("  python scripts/run_date_range.py SDR 2025-08-20 2025-08-31")
-        print("  python scripts/run_date_range.py ALL 2025-08-20 2025-08-25 --output report.json")
-        print("  python scripts/run_date_range.py \"SDR,T12\" 2025-08-20 2025-08-31 --verbose")
+        print("  python scripts/run_date_range.py ALL                          # Auto-detect all dates")
+        print("  python scripts/run_date_range.py SDR AUTO AUTO                # Auto-detect all dates for SDR")
+        print("  python scripts/run_date_range.py SDR 2025-08-20 2025-08-31    # Explicit date range")
+        print("  python scripts/run_date_range.py ALL --supabase               # Auto-detect dates, store to Supabase")
+        print("  python scripts/run_date_range.py \"SDR,T12\" --verbose          # Multiple restaurants, auto-detect dates")
         print("\nRestaurant Codes:")
         print("  ALL        - Process all restaurants (SDR, T12, TK9)")
         print("  SDR        - Single restaurant")
         print("  SDR,T12    - Comma-separated list")
+        print("\nDate Arguments:")
+        print("  AUTO       - Auto-detect available dates in data/ directory")
+        print("  (omit)     - Auto-detect if not provided")
+        print("  YYYY-MM-DD - Explicit start/end dates")
+        print("\nFlags:")
+        print("  --supabase - Store data to Supabase (Investigation Modal compatible format)")
+        print("  --verbose  - Print detailed progress information")
+        print("  --output   - Export batch results to JSON file")
         sys.exit(1)
 
     # Parse arguments
     restaurant_input = sys.argv[1]
-    start_date = sys.argv[2]
-    end_date = sys.argv[3]
+
+    # Determine if dates are provided or if we should auto-detect
+    # Check if argument 2 looks like a date or a flag
+    start_date = None
+    end_date = None
+    arg_index = 2
+
+    if len(sys.argv) > arg_index and not sys.argv[arg_index].startswith('--'):
+        start_date = sys.argv[arg_index]
+        arg_index += 1
+
+        if len(sys.argv) > arg_index and not sys.argv[arg_index].startswith('--'):
+            end_date = sys.argv[arg_index]
+            arg_index += 1
 
     # Parse restaurant codes
     if restaurant_input.upper() == "ALL":
@@ -525,17 +646,37 @@ def main():
     else:
         restaurant_codes = [code.strip() for code in restaurant_input.split(",")]
 
+    # Auto-detect dates if not provided or if AUTO is specified
+    if not start_date or not end_date or start_date.upper() == "AUTO" or end_date.upper() == "AUTO":
+        data_dir = project_root / "data"
+        available_dates = discover_available_dates(data_dir)
+
+        if not available_dates:
+            print(f"\n[ERROR] No date folders found in {data_dir}")
+            print("Please copy your date folders (YYYY-MM-DD) to the data/ directory.")
+            sys.exit(1)
+
+        start_date = available_dates[0]
+        end_date = available_dates[-1]
+
+        print(f"\n[AUTO-DETECT] Found {len(available_dates)} dates: {start_date} to {end_date}")
+        print(f"              Available dates: {', '.join(available_dates)}")
+
     # Parse optional flags
     output_file = None
     verbose = False
+    use_supabase = False
 
-    i = 4
+    i = arg_index
     while i < len(sys.argv):
         if sys.argv[i] == "--output" and i + 1 < len(sys.argv):
             output_file = sys.argv[i + 1]
             i += 2
         elif sys.argv[i] == "--verbose":
             verbose = True
+            i += 1
+        elif sys.argv[i] == "--supabase":
+            use_supabase = True
             i += 1
         else:
             print(f"Unknown argument: {sys.argv[i]}")
@@ -545,23 +686,36 @@ def main():
     setup_logging(level="INFO" if verbose else "WARNING")
 
     try:
+        # Print mode indicator
+        if use_supabase:
+            print("\n[SUPABASE MODE] Data will be stored to Supabase (Investigation Modal format)")
+        else:
+            print("\n[LOCAL MODE] Data will be stored in-memory only")
+
         # Run batch processing
         results = run_batch_processing(
             restaurant_codes=restaurant_codes,
             start_date=start_date,
             end_date=end_date,
-            verbose=verbose
+            verbose=verbose,
+            use_supabase=use_supabase
         )
 
         # Print summary
         print_summary_report(results)
 
-        # Export to JSON if requested
+        # Export to JSON if requested (default to outputs/pipeline_runs/)
         if output_file:
-            with open(output_file, 'w') as f:
+            output_path = Path(output_file)
+            # If relative path without directory, put in outputs/pipeline_runs/
+            if not output_path.is_absolute() and output_path.parent == Path('.'):
+                output_path = project_root / "outputs" / "pipeline_runs" / output_file
+
+            output_path.parent.mkdir(parents=True, exist_ok=True)
+            with open(output_path, 'w') as f:
                 json.dump(results, f, indent=2)
 
-            print(f"\n>>> Results exported to: {output_file}")
+            print(f"\n>>> Results exported to: {output_path}")
 
         # Return non-zero exit code if any failures
         if results['summary']['total_failed'] > 0:

@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cash Flow Modal Demo</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #FAF6F0;
+      color: #3D3128;
+      padding: 2rem;
+    }
+
+    .demo-container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .demo-header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    .demo-header h1 {
+      font-size: 2rem;
+      font-weight: 600;
+      color: #3D3128;
+      margin-bottom: 0.5rem;
+    }
+
+    .demo-header p {
+      color: #8B7355;
+      font-size: 1rem;
+    }
+
+    .test-button {
+      display: inline-block;
+      background: linear-gradient(135deg, #B89968 0%, #D4A574 100%);
+      color: white;
+      padding: 1rem 2rem;
+      border-radius: 0.5rem;
+      font-size: 1.125rem;
+      font-weight: 600;
+      cursor: pointer;
+      border: none;
+      box-shadow: 0 4px 12px rgba(184, 153, 104, 0.3);
+      transition: all 0.3s ease;
+    }
+
+    .test-button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 16px rgba(184, 153, 104, 0.4);
+    }
+
+    .overview-card {
+      background: white;
+      border-radius: 0.75rem;
+      padding: 2rem;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      margin-bottom: 2rem;
+    }
+
+    .overview-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.5rem;
+      margin-top: 1.5rem;
+    }
+
+    .metric-card {
+      cursor: pointer;
+      transition: all 0.2s ease;
+      border-radius: 0.5rem;
+      padding: 1rem;
+    }
+
+    .metric-card:hover {
+      background: rgba(250, 246, 240, 0.5);
+      transform: translateY(-2px);
+    }
+
+    .metric-label {
+      font-size: 0.875rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: #8B7355;
+      margin-bottom: 0.5rem;
+    }
+
+    .metric-value {
+      font-size: 2rem;
+      font-weight: 300;
+      color: #3D3128;
+    }
+
+    .cash-highlight {
+      border: 2px solid #B89968;
+      background: linear-gradient(135deg, rgba(184, 153, 104, 0.05) 0%, rgba(212, 165, 116, 0.05) 100%);
+    }
+
+    .instructions {
+      background: #FFF9F0;
+      border-left: 4px solid #B89968;
+      padding: 1rem;
+      border-radius: 0.5rem;
+      margin-bottom: 2rem;
+    }
+
+    .instructions h3 {
+      font-size: 1rem;
+      font-weight: 600;
+      color: #3D3128;
+      margin-bottom: 0.5rem;
+    }
+
+    .instructions p {
+      color: #5D4E3A;
+      line-height: 1.6;
+    }
+
+    /* Modal styles */
+    .modal-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.7);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 9999;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.3s ease;
+    }
+
+    .modal-overlay.active {
+      opacity: 1;
+      pointer-events: all;
+    }
+
+    .modal-container {
+      background: white;
+      border-radius: 0.75rem;
+      max-width: 1200px;
+      max-height: 90vh;
+      width: 90%;
+      overflow: hidden;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+      transform: scale(0.9);
+      transition: transform 0.3s ease;
+    }
+
+    .modal-overlay.active .modal-container {
+      transform: scale(1);
+    }
+
+    .modal-header {
+      background: linear-gradient(135deg, #B89968 0%, #D4A574 100%);
+      color: white;
+      padding: 1.5rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .modal-title {
+      font-size: 1.5rem;
+      font-weight: 600;
+    }
+
+    .modal-close-btn {
+      background: none;
+      border: none;
+      color: white;
+      font-size: 2rem;
+      cursor: pointer;
+      line-height: 1;
+      opacity: 0.9;
+      transition: opacity 0.2s ease;
+    }
+
+    .modal-close-btn:hover {
+      opacity: 1;
+    }
+
+    .modal-body {
+      padding: 2rem;
+      max-height: 70vh;
+      overflow-y: auto;
+    }
+
+    .summary-card {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.5rem;
+      margin-bottom: 2rem;
+      padding: 1.5rem;
+      background: linear-gradient(135deg, rgba(144, 238, 144, 0.1) 0%, rgba(250, 246, 240, 0.5) 100%);
+      border: 1px solid #E8DCC8;
+      border-radius: 0.75rem;
+    }
+
+    .summary-item {
+      text-align: center;
+    }
+
+    .summary-label {
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: #8B7355;
+      margin-bottom: 0.5rem;
+    }
+
+    .summary-value {
+      font-size: 1.875rem;
+      font-weight: 300;
+    }
+
+    .vendor-section {
+      margin-bottom: 2rem;
+    }
+
+    .vendor-section h3 {
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: #3D3128;
+      margin-bottom: 1rem;
+    }
+
+    .vendor-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1rem;
+    }
+
+    .vendor-card {
+      padding: 1rem;
+      background: white;
+      border: 1px solid #E8DCC8;
+      border-radius: 0.5rem;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .vendor-card:hover {
+      background: #FAF6F0;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .vendor-name {
+      font-size: 1rem;
+      font-weight: 600;
+      color: #3D3128;
+      margin-bottom: 0.5rem;
+    }
+
+    .vendor-amount {
+      font-size: 1.5rem;
+      font-weight: 300;
+      color: #C44536;
+      margin-bottom: 0.25rem;
+    }
+
+    .vendor-count {
+      font-size: 0.75rem;
+      color: #8B7355;
+    }
+
+    .restaurant-section {
+      margin-top: 2rem;
+    }
+
+    .restaurant-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .restaurant-card {
+      padding: 1.5rem;
+      background: white;
+      border: 2px solid #E8DCC8;
+      border-radius: 0.75rem;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .restaurant-card:hover {
+      border-color: #B89968;
+      transform: translateY(-4px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    }
+
+    .restaurant-name {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: #3D3128;
+      margin-bottom: 1rem;
+    }
+
+    .restaurant-metrics {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+
+    .restaurant-metric-label {
+      font-size: 0.75rem;
+      color: #8B7355;
+      margin-bottom: 0.25rem;
+    }
+
+    .restaurant-metric-value {
+      font-size: 1.25rem;
+      font-weight: 600;
+    }
+
+    .modal-footer {
+      padding: 1rem 2rem;
+      background: #FAF6F0;
+      border-top: 1px solid #E8DCC8;
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    .modal-footer button {
+      background: #B89968;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border-radius: 0.5rem;
+      border: none;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.2s ease;
+    }
+
+    .modal-footer button:hover {
+      background: #A68958;
+    }
+
+    .hidden {
+      display: none !important;
+    }
+  </style>
+</head>
+<body>
+  <div class="demo-container">
+    <div class="demo-header">
+      <h1>💵 Cash Flow Modal Demo</h1>
+      <p>Week 7, Day 4 - Interactive Cash Flow Tracking</p>
+    </div>
+
+    <div class="instructions">
+      <h3>📋 Instructions</h3>
+      <p>Click the highlighted "💵 Total Cash" card below to open the Cash Flow Modal. The modal shows vendor payouts with full transaction details (reason + comments), restaurant breakdowns, and summary metrics.</p>
+    </div>
+
+    <div class="overview-card">
+      <h2>📊 Week Overview</h2>
+      <div class="overview-grid">
+        <div class="metric-card">
+          <div class="metric-label">💰 Total Sales</div>
+          <div class="metric-value">$188,611.26</div>
+        </div>
+
+        <div class="metric-card">
+          <div class="metric-label">💸 Total Labor</div>
+          <div class="metric-value">$46,706.98</div>
+        </div>
+
+        <div class="metric-card cash-highlight" onclick="openCashModal()">
+          <div class="metric-label">💵 Total Cash</div>
+          <div class="metric-value">$12,450.50</div>
+        </div>
+
+        <div class="metric-card">
+          <div class="metric-label">⏰ Overtime Hours</div>
+          <div class="metric-value">0.0</div>
+        </div>
+      </div>
+    </div>
+
+    <div style="text-align: center;">
+      <button class="test-button" onclick="openCashModal()">
+        Open Cash Flow Modal
+      </button>
+    </div>
+  </div>
+
+  <!-- Cash Flow Modal -->
+  <div id="cashModal" class="modal-overlay">
+    <div class="modal-container">
+      <div class="modal-header">
+        <div class="modal-title">💵 Cash Flow Analysis</div>
+        <button class="modal-close-btn" onclick="closeCashModal()">×</button>
+      </div>
+
+      <div class="modal-body">
+        <!-- Summary Card -->
+        <div class="summary-card">
+          <div class="summary-item">
+            <div class="summary-label">💰 Total Cash Collected</div>
+            <div class="summary-value" style="color: #2E7D32;">$12,450.50</div>
+          </div>
+          <div class="summary-item">
+            <div class="summary-label">🎯 Tips Distributed</div>
+            <div class="summary-value" style="color: #3D3128;">$3,250.75</div>
+          </div>
+          <div class="summary-item">
+            <div class="summary-label">🏪 Vendor Payouts (COGS)</div>
+            <div class="summary-value" style="color: #C44536;">$4,800.00</div>
+          </div>
+          <div class="summary-item">
+            <div class="summary-label">📊 Net Cash</div>
+            <div class="summary-value" style="color: #2E7D32;">$4,399.75</div>
+          </div>
+        </div>
+
+        <!-- Vendor Payouts -->
+        <div class="vendor-section">
+          <h3>🏪 Vendor Payouts (COGS) <span style="font-size: 0.875rem; font-weight: 400; color: #8B7355;">4 transactions</span></h3>
+          <div class="vendor-grid">
+            <div class="vendor-card" onclick="alert('Vendor Details:\n\nSysco Food Services\n$2,100.00\n\nReason: Sysco weekly delivery - produce and dry goods\nComments: Invoice #SY-2025-0820\nDate: 2025-08-20\nManager: Maria Rodriguez\nShift: Morning')">
+              <div class="vendor-name">Sysco Food Services</div>
+              <div class="vendor-amount">$2,100.00</div>
+              <div class="vendor-count">1 payout</div>
+            </div>
+
+            <div class="vendor-card" onclick="alert('Vendor Details:\n\nUS Foods\n$1,500.00\n\nReason: US Foods emergency order - chicken and beef\nComments: Urgent restock for weekend\nDate: 2025-08-21\nManager: Carlos Martinez\nShift: Morning')">
+              <div class="vendor-name">US Foods</div>
+              <div class="vendor-amount">$1,500.00</div>
+              <div class="vendor-count">1 payout</div>
+            </div>
+
+            <div class="vendor-card" onclick="alert('Vendor Details:\n\nLabatt (Beverage)\n$850.00\n\nReason: Labatt beverage delivery - beer and wine\nComments: (none)\nDate: 2025-08-22\nManager: Maria Rodriguez\nShift: Morning')">
+              <div class="vendor-name">Labatt (Beverage)</div>
+              <div class="vendor-amount">$850.00</div>
+              <div class="vendor-count">1 payout</div>
+            </div>
+
+            <div class="vendor-card" onclick="alert('Vendor Details:\n\nRestaurant Depot\n$350.00\n\nReason: Restaurant Depot - cleaning supplies\nComments: Monthly restock\nDate: 2025-08-23\nManager: Carlos Martinez\nShift: Evening')">
+              <div class="vendor-name">Restaurant Depot</div>
+              <div class="vendor-amount">$350.00</div>
+              <div class="vendor-count">1 payout</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Restaurants -->
+        <div class="restaurant-section">
+          <h3>🏪 Restaurants</h3>
+          <div class="restaurant-grid">
+            <div class="restaurant-card">
+              <div class="restaurant-name">SDR</div>
+              <div class="restaurant-metrics">
+                <div>
+                  <div class="restaurant-metric-label">Cash Collected</div>
+                  <div class="restaurant-metric-value" style="color: #2E7D32;">$4,150.20</div>
+                </div>
+                <div>
+                  <div class="restaurant-metric-label">Vendor Payouts</div>
+                  <div class="restaurant-metric-value" style="color: #C44536;">$1,600.00</div>
+                </div>
+                <div>
+                  <div class="restaurant-metric-label">Tips</div>
+                  <div class="restaurant-metric-value">$1,050.25</div>
+                </div>
+                <div>
+                  <div class="restaurant-metric-label">Net Cash</div>
+                  <div class="restaurant-metric-value" style="font-weight: 700;">$1,499.95</div>
+                </div>
+              </div>
+              <div style="margin-top: 1rem; font-size: 0.75rem; color: #B89968; font-weight: 600;">
+                Click to view daily breakdown →
+              </div>
+            </div>
+
+            <div class="restaurant-card">
+              <div class="restaurant-name">T12</div>
+              <div class="restaurant-metrics">
+                <div>
+                  <div class="restaurant-metric-label">Cash Collected</div>
+                  <div class="restaurant-metric-value" style="color: #2E7D32;">$4,200.15</div>
+                </div>
+                <div>
+                  <div class="restaurant-metric-label">Vendor Payouts</div>
+                  <div class="restaurant-metric-value" style="color: #C44536;">$1,700.00</div>
+                </div>
+                <div>
+                  <div class="restaurant-metric-label">Tips</div>
+                  <div class="restaurant-metric-value">$1,100.50</div>
+                </div>
+                <div>
+                  <div class="restaurant-metric-label">Net Cash</div>
+                  <div class="restaurant-metric-value" style="font-weight: 700;">$1,399.65</div>
+                </div>
+              </div>
+              <div style="margin-top: 1rem; font-size: 0.75rem; color: #B89968; font-weight: 600;">
+                Click to view daily breakdown →
+              </div>
+            </div>
+
+            <div class="restaurant-card">
+              <div class="restaurant-name">TK9</div>
+              <div class="restaurant-metrics">
+                <div>
+                  <div class="restaurant-metric-label">Cash Collected</div>
+                  <div class="restaurant-metric-value" style="color: #2E7D32;">$4,100.15</div>
+                </div>
+                <div>
+                  <div class="restaurant-metric-label">Vendor Payouts</div>
+                  <div class="restaurant-metric-value" style="color: #C44536;">$1,500.00</div>
+                </div>
+                <div>
+                  <div class="restaurant-metric-label">Tips</div>
+                  <div class="restaurant-metric-value">$1,100.00</div>
+                </div>
+                <div>
+                  <div class="restaurant-metric-label">Net Cash</div>
+                  <div class="restaurant-metric-value" style="font-weight: 700;">$1,500.15</div>
+                </div>
+              </div>
+              <div style="margin-top: 1rem; font-size: 0.75rem; color: #B89968; font-weight: 600;">
+                Click to view daily breakdown →
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <button onclick="closeCashModal()">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function openCashModal() {
+      const modal = document.getElementById('cashModal');
+      modal.classList.add('active');
+    }
+
+    function closeCashModal() {
+      const modal = document.getElementById('cashModal');
+      modal.classList.remove('active');
+    }
+
+    // Close on escape key
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') {
+        closeCashModal();
+      }
+    });
+
+    // Close on overlay click
+    document.getElementById('cashModal').addEventListener('click', function(e) {
+      if (e.target === this) {
+        closeCashModal();
+      }
+    });
+  </script>
+</body>
+</html>

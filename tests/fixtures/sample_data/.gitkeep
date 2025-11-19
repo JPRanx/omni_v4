@@ -1,0 +1,35 @@
+# Test fixtures directory
+
+This directory contains sample Toast POS data files for testing.
+
+## ⚠️ IMPORTANT: Employee Data Privacy
+
+Files in this directory contain employee names and personal information and should NEVER be committed to git.
+
+The .gitignore is configured to exclude:
+- PayrollExport*.csv (employee names, hours, pay)
+- TimeEntries*.csv (employee names, clock in/out times)
+- All CSV and Excel files in this directory
+
+## For Developers
+
+When adding test data:
+1. Place files in date-specific subdirectories (e.g., 2025-10-20/SDR/)
+2. Ensure .gitignore rules are working: `git check-ignore -v <file>`
+3. Never commit files with real employee data
+4. Use anonymized/fake data for committed test fixtures if needed
+
+## Current Structure
+
+```
+sample_data/
+├── YYYY-MM-DD/
+│   ├── SDR/
+│   │   ├── PayrollExport_YYYY_MM_DD.csv (ignored)
+│   │   ├── TimeEntries_YYYY_MM_DD.csv (ignored)
+│   │   └── ... other Toast reports
+│   ├── T12/
+│   └── TK9/
+```
+
+Files exist locally but are not tracked in version control.

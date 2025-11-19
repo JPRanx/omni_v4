@@ -31,7 +31,7 @@ data/logs/*
 # Test artifacts
 .pytest_cache/
 .coverage
-htmlcov/
+outputs/coverage/
 
 # OS
 .DS_Store
@@ -52,10 +52,20 @@ tests/fixtures/sample_data/**/*.csv
 tests/fixtures/sample_data/**/*.xlsx
 !tests/fixtures/sample_data/.gitkeep
 
-# Test output files
+# Generated outputs (organized structure)
+outputs/pipeline_runs/*.json
+outputs/dashboard_exports/*.js
+outputs/metrics/*.json
+outputs/test_results/*.json
+outputs/logs/*.log
+outputs/checkpoints/
+
+# Legacy locations (if any files remain)
+batch_results*.json
 test_*.json
 test_*.js
-batch_results*.json
-*_results.json
 dashboard_data.js
+*_results.json
+
+# Temporary files
 nul

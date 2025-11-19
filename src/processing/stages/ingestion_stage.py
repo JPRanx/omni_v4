@@ -6,8 +6,9 @@ for downstream processing stages.
 """
 
 from pathlib import Path
-from typing import Dict
+from typing import Dict, Optional
 import pandas as pd
+import time
 
 from src.core.result import Result
 from src.core.errors import IngestionError
@@ -15,7 +16,11 @@ from src.orchestration.pipeline.context import PipelineContext
 from src.ingestion.data_source import DataSource
 from src.ingestion.csv_data_source import CSVDataSource
 from src.ingestion.data_validator import DataValidator
+from src.ingestion.time_entries_loader import TimeEntriesLoader
 from src.models.ingestion_result import IngestionResult
+from src.infrastructure.logging import get_logger
+
+logger = get_logger(__name__)
 
 
 class IngestionStage:
@@ -39,6 +44,8 @@ class IngestionStage:
     OPTIONAL_FILES = {
         'cash_activity': 'Cash activity.csv',
         'kitchen': 'Kitchen Details.csv',  # Or Kitchen Details_YYYY_MM_DD.csv
+        'payroll': 'PayrollExport.csv',  # Or PayrollExport_YYYY_MM_DD.csv
+        'eod': 'EOD.csv',  # Or EOD_YYYY_MM_DD.csv - End of Day report
     }
 
     def __init__(self, validator: DataValidator):
@@ -70,23 +77,32 @@ class IngestionStage:
         Returns:
             Result[PipelineContext]: Updated context or error
         """
+        start_time = time.time()
+
         # Extract required inputs
         date = context.get('date')
         restaurant = context.get('restaurant')
         data_path = context.get('data_path')
 
+        # Bind context for all logs in this execution
+        bound_logger = logger.bind(restaurant=restaurant, date=date)
+        bound_logger.info("ingestion_started", data_path=data_path)
+
         # Validate inputs
         if date is None:
+            bound_logger.error("ingestion_failed", reason="missing_date")
             return Result.fail(
                 IngestionError("Missing required context key: 'date'")
             )
 
         if restaurant is None:
+            bound_logger.error("ingestion_failed", reason="missing_restaurant")
             return Result.fail(
                 IngestionError("Missing required context key: 'restaurant'")
             )
 
         if data_path is None:
+            bound_logger.error("ingestion_failed", reason="missing_data_path")
             return Result.fail(
                 IngestionError("Missing required context key: 'data_path'")
             )
@@ -116,6 +132,25 @@ class IngestionStage:
 
         sales_amount = sales_result.unwrap()
 
+        # Extract payroll data if present (optional)
+        payroll_summary = self._extract_payroll_summary(dfs)
+
+        # Load TimeEntries for shift analysis (optional)
+        time_entries_result = TimeEntriesLoader.load_from_directory(
+            Path(data_path),
+            restaurant,
+            date
+        )
+
+        time_entries = []
+        if time_entries_result.is_ok():
+            time_entries = time_entries_result.unwrap()
+            bound_logger.info("time_entries_loaded", count=len(time_entries))
+        else:
+            # TimeEntries not found is okay - log warning and continue
+            bound_logger.warning("time_entries_not_found",
+                               reason=str(time_entries_result.unwrap_err()))
+
         # Save DataFrames to temp files (following V4 pattern of path references)
         temp_paths_result = self._save_temp_files(dfs, restaurant, date)
         if temp_paths_result.is_err():
@@ -143,6 +178,24 @@ class IngestionStage:
         context.set('ingestion_result', ingestion_result.unwrap())
         context.set('sales', sales_amount)
         context.set('raw_dataframes', dfs)
+
+        # Store payroll summary if present
+        if payroll_summary is not None:
+            context.set('total_payroll_cost', payroll_summary)
+
+        # Store time entries if loaded
+        if len(time_entries) > 0:
+            context.set('time_entries', time_entries)
+
+        # Calculate duration and log success
+        duration_ms = (time.time() - start_time) * 1000
+        files_loaded = len(dfs)
+
+        bound_logger.info("ingestion_complete",
+                          sales=round(sales_amount, 2),
+                          files=files_loaded,
+                          quality_level=quality_level,
+                          duration_ms=round(duration_ms, 0))
 
         return Result.ok(context)
 
@@ -279,6 +332,95 @@ class IngestionStage:
                     context={'value': sales_df['Net sales'].iloc[0]}
                 )
             )
+
+    def _extract_payroll_summary(self, dfs: Dict[str, pd.DataFrame]) -> Optional[float]:
+        """
+        Extract payroll summary from PayrollExport DataFrame (optional).
+
+        Calculates total payroll cost from 'Total Pay' column.
+        Gracefully handles missing or invalid payroll data.
+
+        Args:
+            dfs: Dictionary of loaded DataFrames
+
+        Returns:
+            float | None: Total payroll cost or None if not available
+        """
+        # Check if payroll data is present
+        if 'payroll' not in dfs:
+            return None
+
+        payroll_df = dfs['payroll']
+
+        # Check if DataFrame is empty
+        if payroll_df.empty:
+            return None
+
+        # Check if required column exists
+        if 'Total Pay' not in payroll_df.columns:
+            # Log warning but don't fail - graceful degradation
+            return None
+
+        try:
+            # Sum all Total Pay values, handling NaN gracefully
+            total_payroll = payroll_df['Total Pay'].fillna(0).sum()
+            return float(total_payroll)
+        except (ValueError, TypeError):
+            # Failed to parse payroll data - return None (graceful degradation)
+            return None
+
+    def _extract_overtime_from_payroll(self, dfs: Dict[str, pd.DataFrame]) -> Dict[str, float]:
+        """
+        Extract overtime data from PayrollExport DataFrame (optional).
+
+        Extracts overtime hours and costs from 'Overtime Hours' and 'Overtime Pay' columns.
+        Following V3's approach of reading daily overtime from PayrollExport.
+
+        Args:
+            dfs: Dictionary of loaded DataFrames
+
+        Returns:
+            Dict with keys: total_overtime_hours, total_overtime_cost
+        """
+        result = {
+            'total_overtime_hours': 0.0,
+            'total_overtime_cost': 0.0
+        }
+
+        # Check if payroll data is present
+        if 'payroll' not in dfs:
+            return result
+
+        payroll_df = dfs['payroll']
+
+        # Check if DataFrame is empty
+        if payroll_df.empty:
+            return result
+
+        # Extract overtime hours
+        if 'Overtime Hours' in payroll_df.columns:
+            try:
+                overtime_hours = payroll_df['Overtime Hours'].fillna(0).sum()
+                result['total_overtime_hours'] = float(overtime_hours)
+            except (ValueError, TypeError):
+                # Failed to parse - leave as 0.0
+                pass
+
+        # Extract overtime pay
+        if 'Overtime Pay' in payroll_df.columns:
+            try:
+                # Handle currency format: remove $, commas
+                overtime_pay_series = payroll_df['Overtime Pay'].fillna(0)
+                if overtime_pay_series.dtype == object:
+                    # String format - clean it
+                    overtime_pay_series = overtime_pay_series.astype(str).str.replace('$', '').str.replace(',', '')
+                overtime_pay = pd.to_numeric(overtime_pay_series, errors='coerce').fillna(0).sum()
+                result['total_overtime_cost'] = float(overtime_pay)
+            except (ValueError, TypeError):
+                # Failed to parse - leave as 0.0
+                pass
+
+        return result
 
     def _save_temp_files(
         self,

@@ -7,9 +7,11 @@ Tests:
 - Missing input handling
 - Invalid input type handling
 - Context updates (learned_patterns, pattern_warnings)
-- Integration with PatternManager
+- Integration with DailyLaborPatternManager
 
 Coverage Goal: 90%+
+
+Note: Refactored in Week 4 Day 7 to use DailyLaborPatternManager instead of PatternManager.
 """
 
 import pytest
@@ -19,8 +21,8 @@ from src.processing.stages.pattern_learning_stage import PatternLearningStage
 from src.processing.labor_calculator import LaborMetrics
 from src.orchestration.pipeline import PipelineContext
 from src.core.result import Result
-from src.models.pattern import Pattern
-from src.core.patterns.manager import PatternManager
+from src.models.daily_labor_pattern import DailyLaborPattern
+from src.core.patterns.daily_labor_manager import DailyLaborPatternManager
 
 
 # ============================================================================
@@ -52,8 +54,8 @@ def sample_labor_metrics():
 
 @pytest.fixture
 def mock_pattern_manager():
-    """Mock PatternManager for testing."""
-    return Mock(spec=PatternManager)
+    """Mock DailyLaborPatternManager for testing."""
+    return Mock(spec=DailyLaborPatternManager)
 
 
 @pytest.fixture
@@ -98,18 +100,18 @@ class TestSuccessfulPatternLearning:
         assert updated_context.get('learned_patterns')[0] == mock_pattern
 
     def test_pattern_manager_called_correctly(self, pattern_learning_stage, context_with_metrics, mock_pattern_manager):
-        """Test PatternManager is called with correct arguments."""
+        """Test DailyLaborPatternManager is called with correct arguments."""
         mock_pattern_manager.learn_pattern.return_value = Result.ok(Mock())
 
         pattern_learning_stage.execute(context_with_metrics)
 
-        # Verify PatternManager.learn_pattern was called
+        # Verify DailyLaborPatternManager.learn_pattern was called
         mock_pattern_manager.learn_pattern.assert_called_once()
         call_args = mock_pattern_manager.learn_pattern.call_args
         assert call_args.kwargs['restaurant_code'] == 'SDR'
-        assert call_args.kwargs['date'] == '2025-01-15'
-        assert call_args.kwargs['metric_type'] == 'labor_percentage'
-        assert call_args.kwargs['value'] == 25.0
+        assert call_args.kwargs['day_of_week'] == 2  # 2025-01-15 is Wednesday (day 2)
+        assert call_args.kwargs['observed_labor_percentage'] == 25.0  # labor_percentage
+        assert call_args.kwargs['observed_total_hours'] == 100.0  # total_hours
 
     def test_stores_empty_warnings_on_success(self, pattern_learning_stage, context_with_metrics, mock_pattern_manager):
         """Test stores empty warnings list on successful learning."""
@@ -151,7 +153,7 @@ class TestResilientErrorHandling:
         assert updated_context.has('pattern_warnings')
         warnings = updated_context.get('pattern_warnings')
         assert len(warnings) == 1
-        assert 'Failed to learn labor pattern' in warnings[0]
+        assert 'Failed to learn daily labor pattern' in warnings[0]
         assert 'Test error' in warnings[0]
 
     def test_pattern_learning_failure_stores_empty_patterns(self, pattern_learning_stage, context_with_metrics, mock_pattern_manager):

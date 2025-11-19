@@ -450,3 +450,237 @@ class TestIngestionStage:
         result = stage.execute(context)
         assert hasattr(result, 'is_ok')
         assert hasattr(result, 'is_err')
+
+    # PayrollExport tests (optional file)
+
+    def test_optional_files_defined(self, stage):
+        """Test that PayrollExport is defined in OPTIONAL_FILES"""
+        assert 'payroll' in stage.OPTIONAL_FILES
+        assert stage.OPTIONAL_FILES['payroll'] == 'PayrollExport.csv'
+
+    def test_execute_with_payroll_export(self, stage, temp_dir):
+        """Test successful execution with PayrollExport file present"""
+        # Add PayrollExport file
+        payroll_df = pd.DataFrame({
+            'Employee': ['Alice', 'Bob'],
+            'Job Title': ['Server', 'Cook'],
+            'Regular Hours': [8.0, 8.0],
+            'Overtime Hours': [0.0, 0.0],
+            'Total Hours': [8.0, 8.0],
+            'Regular Pay': [100.0, 120.0],
+            'Overtime Pay': [0.0, 0.0],
+            'Total Pay': [100.0, 120.0]
+        })
+        payroll_df.to_csv(temp_dir / 'PayrollExport.csv', index=False)
+
+        context = PipelineContext(restaurant_code='SDR', date='2025-01-15', config={})
+        context.set('date', '2025-01-15')
+        context.set('restaurant', 'SDR')
+        context.set('data_path', str(temp_dir))
+
+        result = stage.execute(context)
+
+        assert result.is_ok()
+        context = result.unwrap()
+
+        # Check that payroll data is loaded
+        dfs = context.get('raw_dataframes')
+        assert 'payroll' in dfs
+        assert len(dfs['payroll']) == 2
+
+        # Check that payroll summary is extracted
+        assert context.has('total_payroll_cost')
+        total_payroll = context.get('total_payroll_cost')
+        assert total_payroll == 220.0  # 100 + 120
+
+    def test_execute_without_payroll_export(self, stage, temp_dir):
+        """Test successful execution when PayrollExport is missing (optional)"""
+        # Don't add PayrollExport file
+        context = PipelineContext(restaurant_code='SDR', date='2025-01-15', config={})
+        context.set('date', '2025-01-15')
+        context.set('restaurant', 'SDR')
+        context.set('data_path', str(temp_dir))
+
+        result = stage.execute(context)
+
+        # Should succeed even without PayrollExport
+        assert result.is_ok()
+        context = result.unwrap()
+
+        # PayrollExport should not be in dataframes
+        dfs = context.get('raw_dataframes')
+        assert 'payroll' not in dfs
+
+        # Total payroll cost should not be in context
+        assert not context.has('total_payroll_cost')
+
+    def test_execute_with_payroll_export_date_suffix(self, stage, temp_dir):
+        """Test PayrollExport loading with date suffix in filename"""
+        # Add PayrollExport with date suffix
+        payroll_df = pd.DataFrame({
+            'Employee': ['Alice'],
+            'Job Title': ['Server'],
+            'Regular Hours': [8.0],
+            'Overtime Hours': [0.0],
+            'Total Hours': [8.0],
+            'Regular Pay': [100.0],
+            'Overtime Pay': [0.0],
+            'Total Pay': [100.0]
+        })
+        payroll_df.to_csv(temp_dir / 'PayrollExport_2025_01_15.csv', index=False)
+
+        context = PipelineContext(restaurant_code='SDR', date='2025-01-15', config={})
+        context.set('date', '2025-01-15')
+        context.set('restaurant', 'SDR')
+        context.set('data_path', str(temp_dir))
+
+        result = stage.execute(context)
+
+        assert result.is_ok()
+        context = result.unwrap()
+
+        # Check that payroll data is loaded
+        dfs = context.get('raw_dataframes')
+        assert 'payroll' in dfs
+        assert len(dfs['payroll']) == 1
+        assert context.get('total_payroll_cost') == 100.0
+
+    def test_payroll_summary_with_nan_values(self, stage, temp_dir):
+        """Test payroll summary calculation with NaN values"""
+        # Add PayrollExport with some NaN values
+        payroll_df = pd.DataFrame({
+            'Employee': ['Alice', 'Bob', 'Charlie'],
+            'Job Title': ['Server', 'Cook', 'Manager'],
+            'Regular Hours': [8.0, 8.0, 8.0],
+            'Overtime Hours': [0.0, 0.0, 0.0],
+            'Total Hours': [8.0, 8.0, 8.0],
+            'Regular Pay': [100.0, 120.0, None],  # NaN for Charlie
+            'Overtime Pay': [0.0, 0.0, 0.0],
+            'Total Pay': [100.0, 120.0, None]  # NaN for Charlie
+        })
+        payroll_df.to_csv(temp_dir / 'PayrollExport.csv', index=False)
+
+        context = PipelineContext(restaurant_code='SDR', date='2025-01-15', config={})
+        context.set('date', '2025-01-15')
+        context.set('restaurant', 'SDR')
+        context.set('data_path', str(temp_dir))
+
+        result = stage.execute(context)
+
+        assert result.is_ok()
+        context = result.unwrap()
+
+        # Should handle NaN gracefully (treat as 0)
+        total_payroll = context.get('total_payroll_cost')
+        assert total_payroll == 220.0  # 100 + 120 + 0
+
+    def test_payroll_summary_with_empty_dataframe(self, stage, temp_dir):
+        """Test payroll summary when DataFrame is empty"""
+        # Add empty PayrollExport file
+        payroll_df = pd.DataFrame(columns=[
+            'Employee', 'Job Title', 'Regular Hours', 'Overtime Hours',
+            'Total Hours', 'Regular Pay', 'Overtime Pay', 'Total Pay'
+        ])
+        payroll_df.to_csv(temp_dir / 'PayrollExport.csv', index=False)
+
+        context = PipelineContext(restaurant_code='SDR', date='2025-01-15', config={})
+        context.set('date', '2025-01-15')
+        context.set('restaurant', 'SDR')
+        context.set('data_path', str(temp_dir))
+
+        result = stage.execute(context)
+
+        # Should succeed (graceful degradation)
+        assert result.is_ok()
+        context = result.unwrap()
+
+        # Empty payroll should not set total_payroll_cost
+        assert not context.has('total_payroll_cost')
+
+    def test_payroll_summary_missing_total_pay_column(self, stage, temp_dir):
+        """Test payroll summary when Total Pay column is missing"""
+        # Add PayrollExport without Total Pay column
+        payroll_df = pd.DataFrame({
+            'Employee': ['Alice', 'Bob'],
+            'Job Title': ['Server', 'Cook'],
+            'Regular Hours': [8.0, 8.0],
+            'Overtime Hours': [0.0, 0.0],
+            'Total Hours': [8.0, 8.0]
+            # Missing: Total Pay
+        })
+        payroll_df.to_csv(temp_dir / 'PayrollExport.csv', index=False)
+
+        context = PipelineContext(restaurant_code='SDR', date='2025-01-15', config={})
+        context.set('date', '2025-01-15')
+        context.set('restaurant', 'SDR')
+        context.set('data_path', str(temp_dir))
+
+        result = stage.execute(context)
+
+        # Should succeed with graceful degradation
+        assert result.is_ok()
+        context = result.unwrap()
+
+        # PayrollExport loaded but no summary calculated
+        dfs = context.get('raw_dataframes')
+        assert 'payroll' in dfs
+        assert not context.has('total_payroll_cost')
+
+    def test_payroll_metadata_tracked(self, stage, temp_dir):
+        """Test that PayrollExport presence is tracked in metadata"""
+        # Add PayrollExport file
+        payroll_df = pd.DataFrame({
+            'Employee': ['Alice'],
+            'Job Title': ['Server'],
+            'Regular Hours': [8.0],
+            'Overtime Hours': [0.0],
+            'Total Hours': [8.0],
+            'Regular Pay': [100.0],
+            'Overtime Pay': [0.0],
+            'Total Pay': [100.0]
+        })
+        payroll_df.to_csv(temp_dir / 'PayrollExport.csv', index=False)
+
+        context = PipelineContext(restaurant_code='SDR', date='2025-01-15', config={})
+        context.set('date', '2025-01-15')
+        context.set('restaurant', 'SDR')
+        context.set('data_path', str(temp_dir))
+
+        result = stage.execute(context)
+        context = result.unwrap()
+
+        ingestion_result = context.get('ingestion_result')
+        metadata = ingestion_result.metadata
+
+        # Check that payroll is tracked in optional_files_present
+        assert 'optional_files_present' in metadata
+        assert 'payroll' in metadata['optional_files_present']
+
+    def test_payroll_with_zero_values(self, stage, temp_dir):
+        """Test payroll summary with zero pay values"""
+        # Add PayrollExport with zero pay
+        payroll_df = pd.DataFrame({
+            'Employee': ['Alice', 'Bob'],
+            'Job Title': ['Server', 'Cook'],
+            'Regular Hours': [8.0, 8.0],
+            'Overtime Hours': [0.0, 0.0],
+            'Total Hours': [8.0, 8.0],
+            'Regular Pay': [0.0, 0.0],
+            'Overtime Pay': [0.0, 0.0],
+            'Total Pay': [0.0, 0.0]
+        })
+        payroll_df.to_csv(temp_dir / 'PayrollExport.csv', index=False)
+
+        context = PipelineContext(restaurant_code='SDR', date='2025-01-15', config={})
+        context.set('date', '2025-01-15')
+        context.set('restaurant', 'SDR')
+        context.set('data_path', str(temp_dir))
+
+        result = stage.execute(context)
+
+        assert result.is_ok()
+        context = result.unwrap()
+
+        # Should have zero payroll cost
+        total_payroll = context.get('total_payroll_cost')
+        assert total_payroll == 0.0

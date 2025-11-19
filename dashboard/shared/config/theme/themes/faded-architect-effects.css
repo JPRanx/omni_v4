@@ -1,0 +1,548 @@
+/**
+ * Dashboard V3 - Faded Architect Theme Effects
+ *
+ * Soft, contemplative CSS effects for architectural charcoal studies
+ * Everything is blended, smudged, and lives ON the paper
+ *
+ * Effects Include:
+ * - Heavy paper texture with multiple layers
+ * - Thick gradient borders that fade from center to edges
+ * - Soft text shadows for hand-drawn feel
+ * - Completely flat design - no elevation
+ * - Subtle hover states (darker = more pressure)
+ * - Soft edges on all elements (slight blur)
+ * - Architectural hand-lettering style
+ *
+ * Version: 3.0.0
+ * Date: 2025-11-01
+ */
+
+/* ============================================
+   PAPER TEXTURE - Heavy drafting paper
+   ============================================ */
+
+[data-theme="faded-architect"] {
+  position: relative;
+
+  /* Base color with layered texture */
+  background:
+    /* Cool gray paper base */
+    #E8E8E6,
+
+    /* Vertical paper fibers */
+    repeating-linear-gradient(
+      0deg,
+      rgba(100, 100, 100, 0.03) 0px,
+      transparent 1px,
+      transparent 2px,
+      rgba(100, 100, 100, 0.03) 3px
+    ),
+
+    /* Horizontal paper fibers */
+    repeating-linear-gradient(
+      90deg,
+      rgba(100, 100, 100, 0.03) 0px,
+      transparent 1px,
+      transparent 2px,
+      rgba(100, 100, 100, 0.03) 3px
+    ) !important;
+}
+
+/* Heavy noise texture overlay */
+[data-theme="faded-architect"]::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.35;
+  pointer-events: none;
+  z-index: 1;
+
+  /* SVG fractal noise for paper tooth */
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.18'/%3E%3C/svg%3E");
+  background-size: 200px 200px;
+}
+
+/* Ensure content is above texture */
+[data-theme="faded-architect"] > * {
+  position: relative;
+  z-index: 2;
+}
+
+/* ============================================
+   CARDS - Gradient borders that fade
+   ============================================ */
+
+[data-theme="faded-architect"] .dashboard-card,
+[data-theme="faded-architect"] .card,
+[data-theme="faded-architect"] .panel,
+[data-theme="faded-architect"] [class*="card"] {
+  position: relative;
+  border: none !important;
+  background: transparent !important;
+
+  /* Completely flat - no shadows */
+  box-shadow: none !important;
+  border-radius: 0 !important;
+
+  /* Slight transparency for blending */
+  opacity: 0.98;
+}
+
+/* Thick gradient border that fades from center */
+[data-theme="faded-architect"] .dashboard-card::before,
+[data-theme="faded-architect"] .card::before {
+  content: '';
+  position: absolute;
+  top: -6px;
+  left: -6px;
+  right: -6px;
+  bottom: -6px;
+  z-index: -1;
+
+  /* Radial gradient fades from center to edges */
+  background:
+    radial-gradient(
+      ellipse at center,
+      rgba(120, 120, 120, 0.25) 0%,   /* Darkest at center */
+      rgba(120, 120, 120, 0.18) 30%,  /* Fades out */
+      rgba(120, 120, 120, 0.10) 60%,  /* Lighter */
+      rgba(120, 120, 120, 0.05) 80%,  /* Very light */
+      transparent 100%                 /* Fades to nothing */
+    );
+
+  /* Soft blur for blending */
+  filter: blur(3px);
+}
+
+/* Inner gradient for subtle depth */
+[data-theme="faded-architect"] .dashboard-card::after,
+[data-theme="faded-architect"] .card::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  z-index: 1;
+
+  /* Subtle inner gradient */
+  background:
+    linear-gradient(
+      135deg,
+      rgba(237, 237, 235, 0.6) 0%,    /* Lighter top-left */
+      rgba(237, 237, 235, 0.4) 40%,   /* Fades */
+      rgba(237, 237, 235, 0.2) 70%,   /* More fade */
+      transparent 100%                 /* Transparent bottom-right */
+    );
+}
+
+/* ============================================
+   TEXT - Soft edges and faded appearance
+   ============================================ */
+
+[data-theme="faded-architect"] * {
+  /* Smooth text rendering */
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Soft text shadow for hand-drawn feel */
+  text-shadow:
+    0 0 1px rgba(100, 100, 100, 0.15),
+    0 0 2px rgba(100, 100, 100, 0.08),
+    0 0 4px rgba(100, 100, 100, 0.04) !important;
+}
+
+/* Headers - Architectural hand-lettering */
+[data-theme="faded-architect"] h1,
+[data-theme="faded-architect"] h2,
+[data-theme="faded-architect"] h3,
+[data-theme="faded-architect"] h4,
+[data-theme="faded-architect"] .header-title,
+[data-theme="faded-architect"] .section-header {
+  font-family: 'Architects Daughter', 'Courier Prime', 'Courier New', monospace !important;
+  letter-spacing: 0.05em !important;
+  font-weight: 400 !important;  /* Normal weight - just charcoal pressure */
+  opacity: 0.88 !important;     /* Slightly faded */
+
+  /* Soft shadow for depth */
+  text-shadow:
+    0 0 2px rgba(90, 90, 90, 0.2),
+    0 0 4px rgba(90, 90, 90, 0.12),
+    0 0 6px rgba(90, 90, 90, 0.06) !important;
+}
+
+/* Metrics - Hand-drawn numbers */
+[data-theme="faded-architect"] .metric-value,
+[data-theme="faded-architect"] [class*="metric"] {
+  font-family: 'Courier Prime', 'Courier New', monospace !important;
+  opacity: 0.92 !important;
+
+  /* Multiple soft shadows for charcoal depth */
+  text-shadow:
+    0 0 2px rgba(80, 80, 80, 0.35),
+    0 0 4px rgba(80, 80, 80, 0.18),
+    0 0 8px rgba(80, 80, 80, 0.08),
+    0 0 12px rgba(80, 80, 80, 0.04) !important;
+}
+
+/* Subtle fade on all text */
+[data-theme="faded-architect"] p,
+[data-theme="faded-architect"] span,
+[data-theme="faded-architect"] div {
+  opacity: 0.90;
+}
+
+/* ============================================
+   TABLES - Soft gradient lines
+   ============================================ */
+
+[data-theme="faded-architect"] table {
+  border: none !important;
+  border-collapse: separate !important;
+  border-spacing: 0 !important;
+}
+
+/* Table headers - Soft underline */
+[data-theme="faded-architect"] th,
+[data-theme="faded-architect"] thead th {
+  border: none !important;
+
+  /* Gradient line that fades at edges */
+  background-image:
+    linear-gradient(
+      to right,
+      transparent 0%,
+      rgba(120, 120, 120, 0.15) 5%,
+      rgba(120, 120, 120, 0.15) 95%,
+      transparent 100%
+    ) !important;
+
+  background-position: bottom !important;
+  background-size: 100% 2px !important;
+  background-repeat: no-repeat !important;
+  padding-bottom: 10px !important;
+}
+
+/* Table rows - Very soft dividers */
+[data-theme="faded-architect"] td,
+[data-theme="faded-architect"] tbody td {
+  border: none !important;
+
+  /* Subtle gradient line */
+  background-image:
+    linear-gradient(
+      to right,
+      transparent 0%,
+      rgba(120, 120, 120, 0.08) 8%,
+      rgba(120, 120, 120, 0.08) 92%,
+      transparent 100%
+    ) !important;
+
+  background-position: bottom !important;
+  background-size: 100% 1px !important;
+  background-repeat: no-repeat !important;
+}
+
+/* ============================================
+   HOVER STATES - Darker (more pressure)
+   ============================================ */
+
+[data-theme="faded-architect"] .dashboard-card:hover,
+[data-theme="faded-architect"] .card:hover {
+  /* No movement - completely flat */
+  transform: none !important;
+
+  /* Slightly less transparent = darker appearance */
+  opacity: 1 !important;
+}
+
+/* Darken the gradient border on hover */
+[data-theme="faded-architect"] .dashboard-card:hover::before,
+[data-theme="faded-architect"] .card:hover::before {
+  background:
+    radial-gradient(
+      ellipse at center,
+      rgba(100, 100, 100, 0.35) 0%,   /* Darker center */
+      rgba(100, 100, 100, 0.25) 30%,  /* More opaque */
+      rgba(100, 100, 100, 0.15) 60%,
+      rgba(100, 100, 100, 0.08) 80%,
+      transparent 100%
+    ) !important;
+}
+
+/* Table row hover - Slight darkening */
+[data-theme="faded-architect"] tbody tr:hover {
+  background: rgba(100, 100, 100, 0.04) !important;
+}
+
+/* ============================================
+   BUTTONS - Flat with soft frame
+   ============================================ */
+
+[data-theme="faded-architect"] button,
+[data-theme="faded-architect"] .btn,
+[data-theme="faded-architect"] [role="button"] {
+  border: none !important;
+  background: transparent !important;
+  position: relative;
+  border-radius: 0 !important;
+
+  /* Muted text */
+  color: #4A4A4A !important;
+  opacity: 0.85;
+
+  /* Soft transitions */
+  transition: opacity 0.15s ease !important;
+}
+
+/* Soft frame around button */
+[data-theme="faded-architect"] button::before,
+[data-theme="faded-architect"] .btn::before {
+  content: '';
+  position: absolute;
+  top: -3px;
+  left: -3px;
+  right: -3px;
+  bottom: -3px;
+  z-index: -1;
+
+  /* Soft gradient frame */
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(120, 120, 120, 0.18),
+      rgba(120, 120, 120, 0.08),
+      transparent
+    );
+
+  /* Blur for softness */
+  filter: blur(2px);
+}
+
+/* Hover - darker (more pressure) */
+[data-theme="faded-architect"] button:hover,
+[data-theme="faded-architect"] .btn:hover {
+  opacity: 1 !important;
+}
+
+/* Active - even darker */
+[data-theme="faded-architect"] button:active,
+[data-theme="faded-architect"] .btn:active {
+  opacity: 0.95 !important;
+}
+
+/* ============================================
+   INPUTS - Soft frames
+   ============================================ */
+
+[data-theme="faded-architect"] input,
+[data-theme="faded-architect"] textarea,
+[data-theme="faded-architect"] select {
+  border: none !important;
+  border-radius: 0 !important;
+  background: rgba(237, 237, 235, 0.6) !important;
+
+  /* Soft inner shadow */
+  box-shadow:
+    inset 0 0 4px rgba(100, 100, 100, 0.08),
+    inset 0 0 8px rgba(100, 100, 100, 0.04) !important;
+
+  transition: all 0.15s ease !important;
+}
+
+[data-theme="faded-architect"] input:focus,
+[data-theme="faded-architect"] textarea:focus,
+[data-theme="faded-architect"] select:focus {
+  background: rgba(237, 237, 235, 0.8) !important;
+
+  /* Slightly darker inner shadow on focus */
+  box-shadow:
+    inset 0 0 6px rgba(100, 100, 100, 0.12),
+    inset 0 0 12px rgba(100, 100, 100, 0.06),
+    0 0 0 1px rgba(120, 120, 120, 0.15) !important;
+
+  outline: none !important;
+}
+
+/* ============================================
+   BADGES AND STATUS - Soft tinted areas
+   ============================================ */
+
+[data-theme="faded-architect"] .badge,
+[data-theme="faded-architect"] [class*="badge"],
+[data-theme="faded-architect"] .status {
+  border-radius: 0 !important;
+  border: none !important;
+
+  /* Soft shadow instead of border */
+  box-shadow:
+    0 0 4px rgba(120, 120, 120, 0.1),
+    0 0 8px rgba(120, 120, 120, 0.05) !important;
+
+  opacity: 0.9;
+}
+
+/* ============================================
+   MODALS - Still flat, no elevation
+   ============================================ */
+
+[data-theme="faded-architect"] .modal,
+[data-theme="faded-architect"] [role="dialog"] {
+  border: none !important;
+  border-radius: 0 !important;
+
+  /* No elevation shadow */
+  box-shadow: none !important;
+
+  /* Soft frame like cards */
+  position: relative;
+}
+
+[data-theme="faded-architect"] .modal::before {
+  content: '';
+  position: absolute;
+  top: -8px;
+  left: -8px;
+  right: -8px;
+  bottom: -8px;
+  z-index: -1;
+
+  /* Thicker gradient for modals */
+  background:
+    radial-gradient(
+      ellipse at center,
+      rgba(100, 100, 100, 0.30) 0%,
+      rgba(100, 100, 100, 0.20) 40%,
+      rgba(100, 100, 100, 0.12) 70%,
+      transparent 100%
+    );
+
+  filter: blur(4px);
+}
+
+/* Modal backdrop - Soft vignette */
+[data-theme="faded-architect"] .modal-backdrop,
+[data-theme="faded-architect"] [class*="overlay"] {
+  background:
+    radial-gradient(
+      ellipse at center,
+      rgba(232, 232, 230, 0.3) 0%,
+      rgba(232, 232, 230, 0.6) 50%,
+      rgba(232, 232, 230, 0.8) 100%
+    ) !important;
+}
+
+/* ============================================
+   SCROLLBAR - Soft gray
+   ============================================ */
+
+[data-theme="faded-architect"] ::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+[data-theme="faded-architect"] ::-webkit-scrollbar-track {
+  background: rgba(120, 120, 120, 0.06);
+  border: none;
+}
+
+[data-theme="faded-architect"] ::-webkit-scrollbar-thumb {
+  background: rgba(120, 120, 120, 0.25);
+  border: none;
+
+  /* Soft shadow */
+  box-shadow:
+    inset 0 0 4px rgba(100, 100, 100, 0.15);
+}
+
+[data-theme="faded-architect"] ::-webkit-scrollbar-thumb:hover {
+  background: rgba(100, 100, 100, 0.35);
+}
+
+/* ============================================
+   TABS - Soft paper tabs
+   ============================================ */
+
+[data-theme="faded-architect"] .tab,
+[data-theme="faded-architect"] [role="tab"] {
+  border: none !important;
+  border-radius: 0 !important;
+  background: rgba(100, 100, 100, 0.06) !important;
+  opacity: 0.7;
+}
+
+[data-theme="faded-architect"] .tab.active,
+[data-theme="faded-architect"] [role="tab"][aria-selected="true"] {
+  background: rgba(237, 237, 235, 0.9) !important;
+  opacity: 1 !important;
+
+  /* Soft shadow instead of elevation */
+  box-shadow:
+    0 -2px 6px rgba(120, 120, 120, 0.08),
+    0 0 12px rgba(120, 120, 120, 0.04) !important;
+}
+
+/* ============================================
+   LINKS - Soft underline
+   ============================================ */
+
+[data-theme="faded-architect"] a {
+  text-decoration: none !important;
+
+  /* Soft underline */
+  border-bottom: 1px solid rgba(120, 120, 120, 0.25) !important;
+
+  transition: all 0.15s ease !important;
+}
+
+[data-theme="faded-architect"] a:hover {
+  border-bottom-color: rgba(100, 100, 100, 0.45) !important;
+  opacity: 1 !important;
+}
+
+/* ============================================
+   SELECTION - Soft highlight
+   ============================================ */
+
+[data-theme="faded-architect"] ::selection {
+  background: rgba(120, 120, 120, 0.2) !important;
+  color: inherit !important;
+}
+
+[data-theme="faded-architect"] ::-moz-selection {
+  background: rgba(120, 120, 120, 0.2) !important;
+  color: inherit !important;
+}
+
+/* ============================================
+   REMOVE ALL DEPTH
+   ============================================ */
+
+[data-theme="faded-architect"] * {
+  /* No box shadows except our custom soft ones */
+  box-shadow: none !important;
+
+  /* No transforms */
+  transform: none !important;
+}
+
+/* ============================================
+   DATA VISUALIZATION - Soft, hand-drawn
+   ============================================ */
+
+[data-theme="faded-architect"] .chart-bar,
+[data-theme="faded-architect"] [class*="chart"] {
+  opacity: 0.85;
+
+  /* Soft edges on charts */
+  filter: blur(0.3px);
+}
+
+/* ============================================
+   END OF FADED ARCHITECT EFFECTS
+   ============================================ */

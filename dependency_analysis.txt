@@ -1,0 +1,255 @@
+=============================================================================
+OMNI V4 COMPREHENSIVE DEPENDENCY ANALYSIS
+=============================================================================
+
+Analysis Date: 2025-11-19
+Purpose: Map complete dependency tree to identify active vs orphaned files
+Method: Trace from 3 entry points + validate PROGRESS.md claims
+
+=============================================================================
+PART 1: ENTRY POINT DEPENDENCY TREES
+=============================================================================
+
+-----------------------------------------------------------------------------
+1.1 PIPELINE ENTRY POINT: scripts/run_date_range.py
+-----------------------------------------------------------------------------
+
+PURPOSE: Main batch processing pipeline for restaurant data
+
+DIRECT IMPORTS (Core Pipeline):
+├── src.orchestration.pipeline.PipelineContext
+├── src.processing.stages.ingestion_stage.IngestionStage
+├── src.processing.stages.order_categorization_stage.OrderCategorizationStage
+├── src.processing.stages.timeslot_grading_stage.TimeslotGradingStage
+├── src.processing.stages.processing_stage.ProcessingStage
+├── src.processing.stages.pattern_learning_stage.PatternLearningStage
+├── src.processing.stages.storage_stage.StorageStage
+├── src.processing.stages.supabase_storage_stage.SupabaseStorageStage
+├── src.ingestion.data_validator.DataValidator
+├── src.processing.labor_calculator.LaborCalculator
+├── src.processing.order_categorizer.OrderCategorizer
+├── src.processing.timeslot_windower.TimeslotWindower
+├── src.processing.timeslot_grader.TimeslotGrader
+├── src.core.patterns.daily_labor_manager.DailyLaborPatternManager
+├── src.core.patterns.in_memory_daily_labor_storage.InMemoryDailyLaborPatternStorage
+├── src.core.patterns.timeslot_pattern_manager.TimeslotPatternManager
+├── src.infrastructure.database.in_memory_client.InMemoryDatabaseClient
+├── src.infrastructure.logging (setup_logging, PipelineMetrics)
+├── src.infrastructure.config.loader.ConfigLoader
+├── src.models.labor_dto.LaborDTO
+├── src.processing.cash_flow_extractor.CashFlowExtractor
+└── src.core.result.Result
+
+PIPELINE STAGES (Execution Order):
+1. IngestionStage (lines 210)
+   - Loads 7 CSV files from data/<date>/<restaurant>/
+   - Validates data with L1/L2 validation
+   - Stores raw DataFrames in context
+
+2. OrderCategorizationStage (lines 212)
+   - Uses OrderCategorizer to categorize orders (Lobby/Drive-Thru/ToGo)
+   - Calculates service mix percentages
+   - Stores categorization_metadata in context
+
+3. TimeslotGradingStage (lines 215)
+   - Uses TimeslotWindower to create 64 x 15-min slots
+   - Uses TimeslotGrader to grade each slot
+   - Uses TimeslotPatternManager for pattern-based grading
+   - Stores timeslots and timeslot_metrics in context
+
+4. ProcessingStage (lines 278)
+   - Uses LaborCalculator to calculate labor %
+   - Grades labor performance (A+ to F)
+   - Stores labor_percentage and labor_grade in context
+
+5. PatternLearningStage (lines 278)
+   - Uses DailyLaborPatternManager for daily patterns
+   - Uses TimeslotPatternManager for timeslot patterns
+   - Learns and updates patterns based on current data
+   - Stores learned_patterns in context
+
+6. StorageStage / SupabaseStorageStage (lines 278)
+   - Stores results to InMemoryDatabaseClient OR Supabase
+   - Controlled by --supabase flag
+   - Stores storage_result in context
+
+ADDITIONAL DATA EXTRACTION (lines 463-476):
+- CashFlowExtractor: Extracts cash flow data from CSVs
+- Added to run_data['cash_flow'] in batch results
+
+DATA FILES READ:
+- Input: data/<YYYY-MM-DD>/<RESTAURANT>/*.csv
+  Expected CSVs (from PROGRESS.md): PayrollExport, Net sales summary, Kitchen Details,
+  Order Details, EOD, Customers, Guest Checks (7 total)
+
+OUTPUT FILES CREATED:
+- outputs/pipeline_runs/<filename>.json (if --output flag specified)
+- Contains complete batch_results with all metrics
+
+CONFIGURATION FILES USED:
+- config/<restaurant>.yaml (via ConfigLoader)
+
+STATUS: ✅ ACTIVE (Core pipeline entry point)
+
+-----------------------------------------------------------------------------
+1.2 EXPORT ENTRY POINT: scripts/generate_dashboard_data.py
+-----------------------------------------------------------------------------
+
+PURPOSE: Transform batch results to V3 dashboard format (v4Data.js)
+
+DIRECT IMPORTS:
+├── src.storage.supabase_client.SupabaseClient (optional)
+├── src.output.v3_data_transformer.V3DataTransformer (optional)
+├── src.processing.overtime_calculator.OvertimeCalculator (optional)
+└── src.models.time_entry_dto.TimeEntryDTO (optional)
+
+KEY FUNCTIONS:
+1. load_batch_results() - Loads JSON from outputs/pipeline_runs/
+2. group_runs_by_week() - Groups by calendar week (Monday-Sunday)
+3. transform_to_dashboard_format() - Main transformation logic
+4. generate_js_module() - Creates ES6 JavaScript module
+
+TRANSFORMATION FLOW:
+Input: batch_results_<date>.json from outputs/pipeline_runs/
+  ↓
+Group by week (Monday-Sunday groups)
+  ↓
+For each week:
+  - Load patterns from Supabase (if available)
+  - Group runs by restaurant
+  - Calculate restaurant totals (sales, labor, COGS, cash flow)
+  - Transform each day using V3DataTransformer (lines 476-482)
+  - Enrich timeslots with pattern data (lines 505-516)
+  - Calculate service mix aggregates
+  - Build dailyBreakdown array
+  ↓
+Create dashboard data structure:
+  - overview: totals across all restaurants
+  - metrics: array of metric cards
+  - restaurants: array of restaurant objects
+  - autoClockout: overtime employees (via OvertimeCalculator)
+  ↓
+Generate JavaScript ES6 module
+  ↓
+Output: dashboard/data/v4Data.js
+
+READS FROM:
+- outputs/pipeline_runs/batch_results_*.json
+- Supabase database (patterns, if available)
+
+WRITES TO:
+- dashboard/data/v4Data.js (default)
+- OR custom path via --output flag
+
+KEY DATA STRUCTURES:
+- Uses V3DataTransformer for Investigation Modal format (line 476)
+- Enriches timeslots with pattern learning data (lines 161-223)
+- Builds hierarchical cash flow structure for modal (lines 329-466)
+- Calculates COGS from vendor_payouts (line 427)
+
+STATUS: ✅ ACTIVE (Critical export pipeline)
+
+-----------------------------------------------------------------------------
+1.3 DASHBOARD ENTRY POINT: dashboard/index.html
+-----------------------------------------------------------------------------
+
+PURPOSE: Frontend iPad dashboard interface
+
+LOADED RESOURCES:
+External Libraries:
+├── Google Fonts (Crimson Text, Source Sans 3)
+├── Tailwind CSS CDN
+└── (No Plotly.js loaded - Sankey diagram not available?)
+
+Stylesheets:
+├── ./styles/main.css
+└── ./styles/CashFlowModal.css
+
+Component Scripts (Non-module):
+└── ./components/CashFlowInspector.js
+
+ES6 Module:
+└── ./app.js (type="module")
+
+Diagnostic Scripts:
+├── ./diagnostics/parityChecker.js
+├── ./tests/dataParity.test.js
+└── ./diagnostics/deepEqual.js
+
+DASHBOARD app.js IMPORTS:
+├── ../shared/config/index.js
+├── ../engines/index.js
+├── ./components/Header.js
+├── ./components/WeekTabs.js
+├── ./components/OverviewCard.js
+├── ./components/RestaurantCards.js
+├── ./components/AutoClockoutTable.js
+├── ./components/InvestigationModal.js ⭐ (ORIGINAL VERSION)
+├── ./components/OvertimeDetailsModal.js
+├── ./components/CashFlowModal.js
+├── ./components/ThemeSwitcher.js
+├── ../shared/utils/dataValidator.js
+└── ./data/v4Data.js ⭐ (DATA SOURCE)
+
+DATA SOURCE CONFIRMED:
+- app.js line 27: import { v4Data } from './data/v4Data.js'
+- app.js line 36: this.data = v4Data
+- Dashboard uses dashboard/data/v4Data.js directly
+
+INVESTIGATION MODAL LOADED:
+- app.js line 18: import { initializeInvestigationModal } from './components/InvestigationModal.js'
+- This is the ORIGINAL InvestigationModal.js (NOT _CLEAN or _DISCONNECTED)
+
+STATUS: ✅ ACTIVE (Main dashboard)
+
+FINDING: The dashboard uses the ORIGINAL InvestigationModal.js, not the experimental
+versions (_CLEAN.js or _DISCONNECTED.js). The test modals (test_*.html) are orphaned.
+
+=============================================================================
+PART 2: V4DATA.JS ANALYSIS
+=============================================================================
+
+CRITICAL QUESTION: How many v4Data.js files exist and which is used?
+
+SEARCH RESULTS:
+FOUND v4Data.js FILES:
+1. dashboard/data/v4Data.js (853KB, Nov 17 08:54) ⭐ USED BY DASHBOARD
+2. outputs/dashboard/v4Data.js (44MB, Nov 17 08:32)
+3. outputs/dashboard/v4Data_with_patterns.js
+4. outputs/dashboard/v4Data_with_trends.js
+5. dashboard/data/v4Data_test.js
+6. v4Data_oct.js (1.2MB, Nov 13) ⚠️ ORPHANED (wrong location)
+
+ACTIVE v4Data.js: dashboard/data/v4Data.js
+- Date Range: 2025-08-04 to 2025-10-29 (13 weeks, 87 days)
+- Generated: 2025-11-17 08:54 AM
+- Size: 853KB
+
+🚨 CRITICAL FINDING - DATA IS COMPLETE:
+- category_stats occurrences: 174 (87 days × 2 shifts ✓)
+- "Lobby" occurrences: 174 ✓
+- "Drive-Thru" occurrences: 174 ✓
+- "ToGo" occurrences: 174 ✓
+
+VERDICT: ALL 3 CATEGORIES ARE PRESENT IN v4Data.js!
+
+Sample structure verified:
+"category_stats": {
+  "Lobby": { "total": X, "passed": Y, "failed": Z },
+  "Drive-Thru": { "total": X, "passed": Y, "failed": Z },
+  "ToGo": { "total": X, "passed": Y, "failed": Z }
+}
+
+CONCLUSION: The Investigation Modal bug is NOT a data issue.
+The data exists and is correct. The problem is in how
+dashboard/components/InvestigationModal.js is reading or displaying the data.
+
+This invalidates the need for InvestigationModal_CLEAN.js and
+InvestigationModal_DISCONNECTED.js - they were solving the wrong problem.
+
+=============================================================================
+PART 3: TEST COVERAGE MAPPING
+=============================================================================
+
+Analyzing test files and their coverage of source code...
+

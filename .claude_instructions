@@ -1,0 +1,432 @@
+# Claude Builder Instructions - Directory Governance Protocol
+
+**VERSION:** 1.0
+**LAST UPDATED:** 2025-11-11
+**MANDATORY COMPLIANCE:** All Builder instances must follow these protocols
+
+---
+
+## 🔒 CORE PRINCIPLES
+
+### Directory Health Score: 100/100
+**The directory must ALWAYS maintain a perfect 100/100 health score.**
+
+This is not optional. This is not negotiable. The directory structure is a professional masterpiece that must be preserved.
+
+---
+
+## 📋 MANDATORY WORKFLOW
+
+### BEFORE Starting ANY Work
+
+```bash
+# 1. Check directory health
+python scripts/directory_guardian.py --check
+
+# 2. Verify score is 100/100
+# If not 100, STOP and fix before proceeding
+
+# 3. Review PROGRESS.md for context
+```
+
+**Response Format (Required in First Message):**
+```
+Directory Health: 100/100 [OK]
+Last Check: [timestamp]
+Ready to proceed: YES/NO
+```
+
+### DURING Work Session
+
+#### Before Creating ANY File:
+
+1. **Check Allowed Locations** in `config/directory_rules.yaml`
+2. **Verify No Duplication** - Search for similar functionality
+3. **Confirm Correct Directory**:
+   - Python source → `src/` (not `scripts/` unless it's a script)
+   - Scripts → `scripts/` (operational scripts only)
+   - Tests → `tests/`
+   - Docs → `docs/` (with proper subdirectory)
+   - Generated → `outputs/` (NEVER edit manually)
+   - Config → `config/`
+
+#### Before Modifying ANY File:
+
+1. **Check if Generated** - Files in `outputs/` are NEVER edited manually
+2. **Read First** - Always use Read tool before Edit tool
+3. **Consider Side Effects** - Will this break tests?
+4. **Update Tests** - If changing logic, update corresponding tests
+
+#### After EVERY File Operation:
+
+```bash
+# Immediately check compliance
+python scripts/directory_guardian.py --check
+```
+
+**If violations detected:**
+- Fix IMMEDIATELY before continuing
+- Never proceed with violations unresolved
+- Use `--fix` flag if applicable
+
+### BEFORE Ending Session:
+
+```bash
+# 1. Run full compliance check
+python scripts/directory_guardian.py --check
+
+# 2. Run test suite
+pytest
+
+# 3. Update PROGRESS.md
+# Add entry with:
+# - Date
+# - What was accomplished
+# - Files created/modified
+# - Test status
+# - Health score confirmation
+
+# 4. Generate health report
+python scripts/directory_guardian.py --report
+```
+
+---
+
+## ⛔ AUTOMATIC REJECTION TRIGGERS
+
+These actions will cause IMMEDIATE workflow failure:
+
+### 1. Health Score Drop
+- **Trigger:** Score falls below 95/100
+- **Action:** STOP ALL WORK, fix violations
+- **Recovery:** Run `python scripts/directory_guardian.py --fix`
+
+### 2. Creating Files in Wrong Location
+- **Trigger:** File created outside designated directories
+- **Action:** Delete and recreate in correct location
+- **Prevention:** Check `config/directory_rules.yaml` first
+
+### 3. Adding Debug Code
+- **Forbidden Patterns:**
+  - `TODO` comments (use GitHub issues instead)
+  - `FIXME` markers
+  - `breakpoint()`
+  - `import pdb`
+  - `print()` in src/ (use logging instead)
+- **Action:** Remove before commit
+
+### 4. Editing Generated Files
+- **Trigger:** Modifying files in `outputs/`
+- **Action:** Regenerate using appropriate script
+- **Prevention:** Check if file is in `outputs/` before editing
+
+### 5. Duplicate Functionality
+- **Trigger:** Creating file/function similar to existing code
+- **Action:** Refactor to reuse existing code
+- **Prevention:** Search codebase before creating new
+
+---
+
+## 📂 DIRECTORY STRUCTURE RULES
+
+### Source Code (`src/`)
+
+```
+src/
+├── core/              # Core business logic ONLY
+├── infrastructure/    # External dependencies (DB, config, logging)
+├── ingestion/         # Data loading & validation
+├── models/            # DTOs (Data Transfer Objects)
+├── orchestration/     # Pipeline coordination
+└── processing/        # Processing logic & stages
+```
+
+**Rules:**
+- All production Python code goes here
+- Each module must have `__init__.py`
+- No scripts, no tools, no utilities (those go in `scripts/`)
+
+### Scripts (`scripts/`)
+
+```
+scripts/
+├── run_*.py           # Pipeline execution scripts
+├── generate_*.py      # Data generation scripts
+├── serve_*.py         # Server scripts
+└── directory_guardian.py  # Governance tool
+```
+
+**Rules:**
+- Operational scripts ONLY
+- Entry points for users
+- Can import from `src/` but `src/` cannot import from `scripts/`
+
+### Tests (`tests/`)
+
+```
+tests/
+├── unit/              # Unit tests (fast, isolated)
+├── integration/       # Integration tests
+├── fixtures/          # Test data
+└── benchmarks/        # Performance tests
+```
+
+**Rules:**
+- Test file names: `test_*.py`
+- Mirror `src/` structure in `unit/`
+- All new code requires tests
+
+### Documentation (`docs/`)
+
+```
+docs/
+├── README.md                      # Documentation index
+├── architecture/                  # Design docs
+├── analysis/                      # Comparisons, audits
+├── integration/                   # Integration guides
+└── guides/                        # User guides
+```
+
+**Rules:**
+- Use UPPER_SNAKE_CASE for .md files
+- Organize by category (architecture, analysis, integration, guides)
+- Update index when adding new docs
+
+### Outputs (`outputs/`)
+
+```
+outputs/
+├── pipeline_runs/                 # Batch results
+├── dashboard_exports/             # Dashboard data
+├── metrics/                       # Performance metrics
+├── test_results/                  # Test outputs
+├── coverage/                      # Coverage reports
+├── health/                        # Guardian reports
+└── logs/                          # Log files
+```
+
+**Rules:**
+- **NEVER** manually edit files here
+- All files generated by scripts
+- Git-ignored (except .gitkeep)
+- Delete and regenerate if corrupted
+
+### Configuration (`config/`)
+
+```
+config/
+├── base.yaml                      # Base config
+├── directory_rules.yaml           # Guardian rules
+├── environments/                  # Environment overrides
+└── restaurants/                   # Restaurant configs
+```
+
+**Rules:**
+- YAML format only
+- No sensitive data (use .env)
+- Hierarchical overrides (base → env → restaurant)
+
+### Archive (`archive/`)
+
+```
+archive/
+├── daily_logs/                    # WEEK*.md progress files
+├── deprecated_scripts/            # Old scripts
+└── old_docs/                      # Historical docs
+```
+
+**Rules:**
+- Move here, don't delete
+- Maintain directory structure
+- Add README explaining why archived
+
+---
+
+## 🎯 FILE NAMING CONVENTIONS
+
+### Python Files
+- **Modules:** `snake_case.py` (e.g., `labor_calculator.py`)
+- **Tests:** `test_*.py` (e.g., `test_labor_calculator.py`)
+- **Scripts:** `verb_noun.py` (e.g., `run_pipeline.py`, `generate_dashboard.py`)
+
+### Documentation
+- **Docs:** `UPPER_SNAKE_CASE.md` (e.g., `ARCHITECTURE_DECISIONS.md`)
+- **Guides:** `TITLE_CASE.md` (e.g., `Getting_Started.md`)
+
+### Configuration
+- **Config:** `snake_case.yaml` (e.g., `base.yaml`, `directory_rules.yaml`)
+
+### Data Files
+- **JSON:** `snake_case.json` (e.g., `batch_results.json`)
+- **Generated:** Include timestamp if versioned (e.g., `batch_results_20251111.json`)
+
+---
+
+## 📊 RESPONSE TEMPLATE (Required)
+
+Every Builder response involving file operations MUST include:
+
+```
+==================================================
+DIRECTORY HEALTH STATUS
+==================================================
+Health Score: X/100 [OK/!!]
+Files Created:
+  - path/to/file.py (reason)
+Files Modified:
+  - path/to/file.py (reason)
+Tests Updated: YES/NO
+Guardian Check: PASSED/FAILED
+Violations Fixed: N
+==================================================
+```
+
+---
+
+## 🔧 COMMON OPERATIONS
+
+### Creating a New Feature
+
+```python
+# 1. Create DTO in src/models/
+src/models/new_feature_dto.py
+
+# 2. Implement logic in src/processing/ or src/core/
+src/processing/new_feature_processor.py
+
+# 3. Add tests
+tests/unit/processing/test_new_feature_processor.py
+
+# 4. Update documentation
+docs/architecture/NEW_FEATURE.md
+
+# 5. Update config if needed
+config/base.yaml
+```
+
+### Fixing a Bug
+
+```python
+# 1. Write failing test first
+tests/unit/path/test_bugfix.py
+
+# 2. Fix the bug
+src/path/module.py
+
+# 3. Verify test passes
+pytest tests/unit/path/test_bugfix.py
+
+# 4. Run full suite
+pytest
+
+# 5. Document if critical
+docs/analysis/BUG_FIX_SUMMARY.md
+```
+
+### Adding Documentation
+
+```python
+# 1. Determine category
+# architecture/ analysis/ integration/ guides/
+
+# 2. Create file with proper naming
+docs/category/DOCUMENT_TITLE.md
+
+# 3. Update category README
+docs/category/README.md
+
+# 4. Update main index
+docs/README.md
+```
+
+---
+
+## 🚨 EMERGENCY PROCEDURES
+
+### Health Score Dropped Below 100
+
+```bash
+# 1. STOP ALL WORK immediately
+# 2. Run guardian with verbose output
+python scripts/directory_guardian.py --check --report
+
+# 3. Review violations in outputs/health/
+# 4. Apply fixes
+python scripts/directory_guardian.py --fix
+
+# 5. Manually fix what can't be auto-fixed
+# 6. Verify score restored
+python scripts/directory_guardian.py --check
+
+# 7. Resume work ONLY if score = 100/100
+```
+
+### File Created in Wrong Location
+
+```bash
+# 1. Identify correct location from config/directory_rules.yaml
+# 2. Move file to correct location
+# 3. Update all imports
+# 4. Run tests to verify nothing broke
+# 5. Check guardian compliance
+```
+
+### Tests Failing
+
+```bash
+# 1. STOP creating new code
+# 2. Fix failing tests first
+# 3. Never commit with failing tests
+# 4. If tests fail in CI, revert changes
+```
+
+---
+
+## 📚 REFERENCE FILES
+
+- **Rules:** `config/directory_rules.yaml`
+- **Progress:** `PROGRESS.md`
+- **Project Structure:** `README.md`
+- **Architecture:** `docs/architecture/README.md`
+- **Audit Report:** `docs/DIRECTORY_AUDIT_2025-11-11.md`
+
+---
+
+## ✅ SESSION CHECKLIST
+
+Print this checklist and verify each item:
+
+- [ ] Health check passed (100/100)
+- [ ] All files in correct locations
+- [ ] No TODO/FIXME in source code
+- [ ] No debug statements (breakpoint, pdb)
+- [ ] All tests passing
+- [ ] Documentation updated
+- [ ] PROGRESS.md updated
+- [ ] Health report generated
+
+---
+
+## 🎓 LEARNING OBJECTIVES
+
+By following this protocol, Builder will learn:
+
+1. **Directory Organization** - Professional software structure
+2. **Separation of Concerns** - Each directory has clear purpose
+3. **Generated vs. Source** - Never edit generated files
+4. **Test-Driven Development** - Tests before/with features
+5. **Documentation Discipline** - Keep docs current
+
+---
+
+**REMEMBER:**
+
+> The directory structure is a reflection of code quality.
+> A clean directory means clean code.
+> Maintain 100/100 health or nothing else matters.
+
+---
+
+**Last Updated:** 2025-11-11
+**Maintained By:** Directory Guardian System
+**Version:** 1.0

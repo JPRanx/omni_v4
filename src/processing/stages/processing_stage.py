@@ -15,10 +15,16 @@ Outputs (to context):
 - 'labor_metrics': LaborMetrics with calculated metrics and grading
 """
 
+import time
 from src.orchestration.pipeline import PipelineContext
 from src.core.result import Result
 from src.processing.labor_calculator import LaborCalculator, LaborMetrics
+from src.processing.shift_splitter import ShiftSplitter
+from src.processing.auto_clockout_analyzer import AutoClockoutAnalyzer
 from src.models.labor_dto import LaborDTO
+from src.infrastructure.logging import get_logger
+
+logger = get_logger(__name__)
 
 
 class ProcessingStage:
@@ -59,6 +65,14 @@ class ProcessingStage:
             ValueError: If required inputs missing from context
             Any error from LaborCalculator.calculate()
         """
+        start_time = time.time()
+
+        # Bind context
+        restaurant = context.get('restaurant', 'UNKNOWN')
+        date = context.get('date', 'UNKNOWN')
+        bound_logger = logger.bind(restaurant=restaurant, date=date)
+        bound_logger.info("processing_started")
+
         # Get inputs from context
         labor_dto = context.get('labor_dto')
         sales = context.get('sales')
@@ -109,6 +123,63 @@ class ProcessingStage:
         context.set('labor_percentage', metrics.labor_percentage)
         context.set('labor_status', metrics.status)
         context.set('labor_grade', metrics.grade)
+
+        # Calculate shift-level breakdown if time entries available
+        time_entries = context.get('time_entries', [])
+        raw_dataframes = context.get('raw_dataframes', {})
+
+        if len(time_entries) > 0 or raw_dataframes:
+            shift_metrics = ShiftSplitter.split_day(
+                restaurant_code=restaurant,
+                business_date=date,
+                daily_sales=float(sales),
+                daily_labor=float(labor_dto.total_labor_cost),
+                time_entries=time_entries,
+                raw_dataframes=raw_dataframes
+            )
+
+            context.set('shift_metrics', shift_metrics)
+            bound_logger.info("shift_split_complete",
+                            morning_manager=shift_metrics.morning_manager,
+                            evening_manager=shift_metrics.evening_manager)
+        else:
+            bound_logger.warning("shift_split_skipped",
+                               reason="No time entries or order data available")
+
+        # Analyze auto clock-outs if time entries available
+        if len(time_entries) > 0:
+            auto_clockout_result = AutoClockoutAnalyzer.analyze(
+                time_entries=time_entries,
+                restaurant_code=restaurant,
+                business_date=date
+            )
+
+            if auto_clockout_result.is_ok():
+                auto_clockout_summary = auto_clockout_result.unwrap()
+                context.set('auto_clockout_summary', auto_clockout_summary)
+
+                # Log summary if any auto-clockouts detected
+                if auto_clockout_summary.total_detected > 0:
+                    bound_logger.warning("auto_clockouts_detected",
+                                       count=auto_clockout_summary.total_detected,
+                                       cost_impact=round(auto_clockout_summary.estimated_cost_impact, 2))
+            else:
+                bound_logger.warning("auto_clockout_analysis_failed",
+                                   error=str(auto_clockout_result.unwrap_err()))
+
+        # Calculate duration and log success
+        duration_ms = (time.time() - start_time) * 1000
+
+        # Log with alert if labor cost is high
+        log_level = "warning" if metrics.labor_percentage > 35 else "info"
+        log_method = getattr(bound_logger, log_level)
+
+        log_method("processing_complete",
+                   labor_pct=round(metrics.labor_percentage, 1),
+                   total_hours=round(metrics.total_hours, 1),
+                   status=metrics.status,
+                   grade=metrics.grade,
+                   duration_ms=round(duration_ms, 0))
 
         return Result.ok(context)
 

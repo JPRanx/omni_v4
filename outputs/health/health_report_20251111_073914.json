@@ -1,0 +1,34 @@
+{
+  "timestamp": "2025-11-11T07:39:14.536118",
+  "score": 97,
+  "status": "good",
+  "violations": [
+    {
+      "type": "size_limit_exceeded",
+      "severity": "warning",
+      "file_path": "tests/integration/test_full_pipeline.py",
+      "message": "Python files should be under 1000 lines - consider refactoring: 1056 lines (max: 1000)",
+      "auto_fix": null,
+      "points_deducted": -3,
+      "category": "size"
+    }
+  ],
+  "fixes_applied": [],
+  "stats": {
+    "total_violations": 1,
+    "by_severity": {
+      "warning": 1
+    },
+    "by_category": {
+      "size": 1
+    },
+    "by_type": {
+      "size_limit_exceeded": 1
+    },
+    "total_fixes_applied": 0,
+    "successful_fixes": 0
+  },
+  "recommendations": [
+    "Fix 1 violation(s) to reach 100/100"
+  ]
+}

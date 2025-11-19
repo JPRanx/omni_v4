@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OMNI V4 Dashboard - 2025-08-20 to 2025-08-31</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            min-height: 100vh;
+        }
+
+        .header {
+            text-align: center;
+            color: white;
+            margin-bottom: 30px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .header h1 {
+            font-size: 42px;
+            font-weight: 300;
+            margin-bottom: 10px;
+        }
+
+        .header .subtitle {
+            font-size: 18px;
+            opacity: 0.9;
+        }
+
+        .date-range {
+            font-size: 24px;
+            margin: 15px 0;
+        }
+
+        .generated {
+            font-size: 14px;
+            opacity: 0.8;
+        }
+
+        .summary-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .summary-card {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            text-align: center;
+        }
+
+        .summary-card h3 {
+            font-size: 16px;
+            color: #666;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .summary-card .value {
+            font-size: 36px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .restaurants-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .restaurant-card {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease;
+        }
+
+        .restaurant-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+        }
+
+        .restaurant-name {
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid;
+        }
+
+        .sdr-name {
+            color: #FF6B6B;
+            border-color: #FF6B6B;
+        }
+
+        .t12-name {
+            color: #4ECDC4;
+            border-color: #4ECDC4;
+        }
+
+        .tk9-name {
+            color: #45B7D1;
+            border-color: #45B7D1;
+        }
+
+        .metric-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 12px 0;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        .metric-label {
+            font-weight: 600;
+            color: #555;
+        }
+
+        .metric-value {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .labor-excellent { color: #27ae60; }
+        .labor-good { color: #2ecc71; }
+        .labor-warning { color: #f39c12; }
+        .labor-critical { color: #e74c3c; }
+
+        .daily-details {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            margin-top: 20px;
+        }
+
+        .daily-details h2 {
+            margin-bottom: 20px;
+            color: #333;
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 10px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f8f9fa;
+            font-weight: 600;
+            color: #333;
+            text-transform: uppercase;
+            font-size: 12px;
+            letter-spacing: 0.5px;
+        }
+
+        tr:hover {
+            background-color: #f8f9fa;
+        }
+
+        .footer {
+            text-align: center;
+            color: white;
+            margin-top: 30px;
+            padding: 20px;
+            font-size: 14px;
+            opacity: 0.8;
+        }
+
+        .powered-by {
+            font-size: 12px;
+            margin-top: 10px;
+        }
+
+        @media print {
+            body {
+                background: white;
+            }
+
+            .header, .footer {
+                color: black;
+            }
+
+            .restaurant-card, .daily-details {
+                box-shadow: none;
+                border: 1px solid #ddd;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>OMNI V4 Dashboard</h1>
+        <p class="subtitle">Restaurant Analytics & Labor Management</p>
+        <div class="date-range">2025-08-20 to 2025-08-31 (12 days)</div>
+        <p class="generated">Generated: November 03, 2025 at 09:10 AM</p>
+    </div>
+
+    <div class="summary-cards">
+        <div class="summary-card">
+            <h3>Total Runs</h3>
+            <div class="value">36</div>
+        </div>
+        <div class="summary-card">
+            <h3>Restaurants</h3>
+            <div class="value">3</div>
+        </div>
+        <div class="summary-card">
+            <h3>Days Processed</h3>
+            <div class="value">12</div>
+        </div>
+        <div class="summary-card">
+            <h3>Success Rate</h3>
+            <div class="value">100%</div>
+        </div>
+    </div>
+
+    <div class="restaurants-grid">
+
+        <div class="restaurant-card">
+            <div class="restaurant-name sdr-name">
+                Sandra's Mexican Cuisine
+            </div>
+
+            <div class="metric-row">
+                <span class="metric-label">Days Processed:</span>
+                <span class="metric-value">12</span>
+            </div>
+
+            <div class="metric-row">
+                <span class="metric-label">Average Labor %:</span>
+                <span class="metric-value labor-good">28.1%</span>
+            </div>
+
+            <div class="metric-row">
+                <span class="metric-label">Labor Grade:</span>
+                <span class="metric-value labor-good">C</span>
+            </div>
+
+            <div class="metric-row">
+                <span class="metric-label">Status:</span>
+                <span class="metric-value labor-good">ACCEPTABLE</span>
+            </div>
+
+            <div class="metric-row">
+                <span class="metric-label">Min Labor %:</span>
+                <span class="metric-value">20.7%</span>
+            </div>
+
+            <div class="metric-row">
+                <span class="metric-label">Max Labor %:</span>
+                <span class="metric-value">41.2%</span>
+            </div>
+
+            <div class="metric-row">
+                <span class="metric-label">Patterns Learned:</span>
+                <span class="metric-value">12</span>
+            </div>
+        </div>
+
+        <div class="restaurant-card">
+            <div class="restaurant-name t12-name">
+                Tink-A-Tako #12
+            </div>
+
+            <div class="metric-row">
+                <span class="metric-label">Days Processed:</span>
+                <span class="metric-value">12</span>
+            </div>
+
+            <div class="metric-row">
+                <span class="metric-label">Average Labor %:</span>
+                <span class="metric-value labor-excellent">24.4%</span>
+            </div>
+
+            <div class="metric-row">
+                <span class="metric-label">Labor Grade:</span>
+                <span class="metric-value labor-excellent">B</span>
+            </div>
+
+            <div class="metric-row">
+                <span class="metric-label">Status:</span>
+                <span class="metric-value labor-excellent">GOOD</span>
+            </div>
+
+            <div class="metric-row">
+                <span class="metric-label">Min Labor %:</span>
+                <span class="metric-value">19.1%</span>
+            </div>
+
+            <div class="metric-row">
+                <span class="metric-label">Max Labor %:</span>
+                <span class="metric-value">28.6%</span>
+            </div>
+
+            <div class="metric-row">
+                <span class="metric-label">Patterns Learned:</span>
+                <span class="metric-value">12</span>
+            </div>
+        </div>
+
+        <div class="restaurant-card">
+            <div class="restaurant-name tk9-name">
+                Tink-A-Tako #9
+            </div>
+
+            <div class="metric-row">
+                <span class="metric-label">Days Processed:</span>
+                <span class="metric-value">12</span>
+            </div>
+
+            <div class="metric-row">
+                <span class="metric-label">Average Labor %:</span>
+                <span class="metric-value labor-excellent">23.5%</span>
+            </div>
+
+            <div class="metric-row">
+                <span class="metric-label">Labor Grade:</span>
+                <span class="metric-value labor-excellent">B</span>
+            </div>
+
+            <div class="metric-row">
+                <span class="metric-label">Status:</span>
+                <span class="metric-value labor-excellent">GOOD</span>
+            </div>
+
+            <div class="metric-row">
+                <span class="metric-label">Min Labor %:</span>
+                <span class="metric-value">19.5%</span>
+            </div>
+
+            <div class="metric-row">
+                <span class="metric-label">Max Labor %:</span>
+                <span class="metric-value">31.0%</span>
+            </div>
+
+            <div class="metric-row">
+                <span class="metric-label">Patterns Learned:</span>
+                <span class="metric-value">12</span>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="daily-details">
+        <h2>Daily Performance Details</h2>
+
+        <h3 style="margin-top: 30px; color: #667eea;">SDR - Daily Breakdown</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Labor %</th>
+                    <th>Grade</th>
+                    <th>Status</th>
+                    <th>Duration (ms)</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                <tr>
+                    <td>2025-08-20</td>
+                    <td class="labor-critical">36.8%</td>
+                    <td class="labor-critical">F</td>
+                    <td class="labor-critical">CRITICAL</td>
+                    <td>66.4</td>
+                </tr>
+
+                <tr>
+                    <td>2025-08-21</td>
+                    <td class="labor-good">28.1%</td>
+                    <td class="labor-good">C</td>
+                    <td class="labor-good">ACCEPTABLE</td>
+                    <td>53.9</td>
+                </tr>
+
+                <tr>
+                    <td>2025-08-22</td>
+                    <td class="labor-excellent">21.8%</td>
+                    <td class="labor-excellent">B+</td>
+                    <td class="labor-excellent">GOOD</td>
+                    <td>54.8</td>
+                </tr>
+
+                <tr>
+                    <td>2025-08-23</td>
+                    <td class="labor-excellent">23.0%</td>
+                    <td class="labor-excellent">B</td>
+                    <td class="labor-excellent">GOOD</td>
+                    <td>58.0</td>
+                </tr>
+
+                <tr>
+                    <td>2025-08-24</td>
+                    <td class="labor-good">28.0%</td>
+                    <td class="labor-good">C</td>
+                    <td class="labor-good">ACCEPTABLE</td>
+                    <td>53.3</td>
+                </tr>
+
+                <tr>
+                    <td>2025-08-25</td>
+                    <td class="labor-critical">41.2%</td>
+                    <td class="labor-critical">F</td>
+                    <td class="labor-critical">SEVERE</td>
+                    <td>50.6</td>
+                </tr>
+
+                <tr>
+                    <td>2025-08-26</td>
+                    <td class="labor-good">29.4%</td>
+                    <td class="labor-good">C</td>
+                    <td class="labor-good">ACCEPTABLE</td>
+                    <td>57.0</td>
+                </tr>
+
+                <tr>
+                    <td>2025-08-27</td>
+                    <td class="labor-good">29.9%</td>
+                    <td class="labor-good">C</td>
+                    <td class="labor-good">ACCEPTABLE</td>
+                    <td>51.0</td>
+                </tr>
+
+                <tr>
+                    <td>2025-08-28</td>
+                    <td class="labor-good">29.0%</td>
+                    <td class="labor-good">C</td>
+                    <td class="labor-good">ACCEPTABLE</td>
+                    <td>51.5</td>
+                </tr>
+
+                <tr>
+                    <td>2025-08-29</td>
+                    <td class="labor-excellent">20.7%</td>
+                    <td class="labor-excellent">B+</td>
+                    <td class="labor-excellent">GOOD</td>
+                    <td>53.8</td>
+                </tr>
+
+                <tr>
+                    <td>2025-08-30</td>
+                    <td class="labor-excellent">25.0%</td>
+                    <td class="labor-excellent">B</td>
+                    <td class="labor-excellent">GOOD</td>
+                    <td>55.1</td>
+                </tr>
+
+                <tr>
+                    <td>2025-08-31</td>
+                    <td class="labor-excellent">24.1%</td>
+                    <td class="labor-excellent">B</td>
+                    <td class="labor-excellent">GOOD</td>
+                    <td>53.3</td>
+                </tr>
+
+            </tbody>
+        </table>
+
+        <h3 style="margin-top: 30px; color: #667eea;">T12 - Daily Breakdown</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Labor %</th>
+                    <th>Grade</th>
+                    <th>Status</th>
+                    <th>Duration (ms)</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                <tr>
+                    <td>2025-08-20</td>
+                    <td class="labor-good">27.3%</td>
+                    <td class="labor-good">C+</td>
+                    <td class="labor-good">ACCEPTABLE</td>
+                    <td>52.4</td>
+                </tr>
+
+                <tr>
+                    <td>2025-08-21</td>
+                    <td class="labor-good">28.1%</td>
+                    <td class="labor-good">C</td>
+                    <td class="labor-good">ACCEPTABLE</td>
+                    <td>55.4</td>
+                </tr>
+
+                <tr>
+                    <td>2025-08-22</td>
+                    <td class="labor-excellent">19.4%</td>
+                    <td class="labor-excellent">A</td>
+                    <td class="labor-excellent">EXCELLENT</td>
+                    <td>56.8</td>
+                </tr>
+
+                <tr>
+                    <td>2025-08-23</td>
+                    <td class="labor-excellent">24.7%</td>
+                    <td class="labor-excellent">B</td>
+                    <td class="labor-excellent">GOOD</td>
+                    <td>54.3</td>
+                </tr>
+
+                <tr>
+                    <td>2025-08-24</td>
+                    <td class="labor-excellent">19.1%</td>
+                    <td class="labor-excellent">A</td>
+                    <td class="labor-excellent">EXCELLENT</td>
+                    <td>54.7</td>
+                </tr>
+
+                <tr>
+                    <td>2025-08-25</td>
+                    <td class="labor-excellent">24.7%</td>
+                    <td class="labor-excellent">B</td>
+                    <td class="labor-excellent">GOOD</td>
+                    <td>51.4</td>
+                </tr>
+
+                <tr>
+                    <td>2025-08-26</td>
+                    <td class="labor-good">26.4%</td>
+                    <td class="labor-good">C+</td>
+                    <td class="labor-good">ACCEPTABLE</td>
+                    <td>51.9</td>
+                </tr>
+
+                <tr>
+                    <td>2025-08-27</td>
+                    <td class="labor-good">28.6%</td>
+                    <td class="labor-good">C</td>
+                    <td class="labor-good">ACCEPTABLE</td>
+                    <td>54.7</td>
+                </tr>
+
+                <tr>
+                    <td>2025-08-28</td>
+                    <td class="labor-excellent">23.6%</td>
+                    <td class="labor-excellent">B</td>
+                    <td class="labor-excellent">GOOD</td>
+                    <td>55.7</td>
+                </tr>
+
+                <tr>
+                    <td>2025-08-29</td>
+                    <td class="labor-excellent">21.1%</td>
+                    <td class="labor-excellent">B+</td>
+                    <td class="labor-excellent">GOOD</td>
+                    <td>55.1</td>
+                </tr>
+
+                <tr>
+                    <td>2025-08-30</td>
+                    <td class="labor-good">27.5%</td>
+                    <td class="labor-good">C+</td>
+                    <td class="labor-good">ACCEPTABLE</td>
+                    <td>62.2</td>
+                </tr>
+
+                <tr>
+                    <td>2025-08-31</td>
+                    <td class="labor-excellent">22.2%</td>
+                    <td class="labor-excellent">B+</td>
+                    <td class="labor-excellent">GOOD</td>
+                    <td>53.7</td>
+                </tr>
+
+            </tbody>
+        </table>
+
+        <h3 style="margin-top: 30px; color: #667eea;">TK9 - Daily Breakdown</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Labor %</th>
+                    <th>Grade</th>
+                    <th>Status</th>
+                    <th>Duration (ms)</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                <tr>
+                    <td>2025-08-20</td>
+                    <td class="labor-warning">31.0%</td>
+                    <td class="labor-warning">D+</td>
+                    <td class="labor-warning">WARNING</td>
+                    <td>47.4</td>
+                </tr>
+
+                <tr>
+                    <td>2025-08-21</td>
+                    <td class="labor-excellent">21.6%</td>
+                    <td class="labor-excellent">B+</td>
+                    <td class="labor-excellent">GOOD</td>
+                    <td>49.4</td>
+                </tr>
+
+                <tr>
+                    <td>2025-08-22</td>
+                    <td class="labor-good">25.0%</td>
+                    <td class="labor-good">C+</td>
+                    <td class="labor-good">ACCEPTABLE</td>
+                    <td>49.9</td>
+                </tr>
+
+                <tr>
+                    <td>2025-08-23</td>
+                    <td class="labor-good">27.9%</td>
+                    <td class="labor-good">C+</td>
+                    <td class="labor-good">ACCEPTABLE</td>
+                    <td>47.1</td>
+                </tr>
+
+                <tr>
+                    <td>2025-08-24</td>
+                    <td class="labor-excellent">23.0%</td>
+                    <td class="labor-excellent">B</td>
+                    <td class="labor-excellent">GOOD</td>
+                    <td>45.9</td>
+                </tr>
+
+                <tr>
+                    <td>2025-08-25</td>
+                    <td class="labor-good">26.3%</td>
+                    <td class="labor-good">C+</td>
+                    <td class="labor-good">ACCEPTABLE</td>
+                    <td>46.7</td>
+                </tr>
+
+                <tr>
+                    <td>2025-08-26</td>
+                    <td class="labor-excellent">19.5%</td>
+                    <td class="labor-excellent">A</td>
+                    <td class="labor-excellent">EXCELLENT</td>
+                    <td>50.1</td>
+                </tr>
+
+                <tr>
+                    <td>2025-08-27</td>
+                    <td class="labor-excellent">19.7%</td>
+                    <td class="labor-excellent">A</td>
+                    <td class="labor-excellent">EXCELLENT</td>
+                    <td>46.9</td>
+                </tr>
+
+                <tr>
+                    <td>2025-08-28</td>
+                    <td class="labor-excellent">19.5%</td>
+                    <td class="labor-excellent">A</td>
+                    <td class="labor-excellent">EXCELLENT</td>
+                    <td>52.4</td>
+                </tr>
+
+                <tr>
+                    <td>2025-08-29</td>
+                    <td class="labor-excellent">23.0%</td>
+                    <td class="labor-excellent">B+</td>
+                    <td class="labor-excellent">GOOD</td>
+                    <td>47.9</td>
+                </tr>
+
+                <tr>
+                    <td>2025-08-30</td>
+                    <td class="labor-excellent">20.8%</td>
+                    <td class="labor-excellent">B+</td>
+                    <td class="labor-excellent">GOOD</td>
+                    <td>46.0</td>
+                </tr>
+
+                <tr>
+                    <td>2025-08-31</td>
+                    <td class="labor-good">25.1%</td>
+                    <td class="labor-good">C+</td>
+                    <td class="labor-good">ACCEPTABLE</td>
+                    <td>44.8</td>
+                </tr>
+
+            </tbody>
+        </table>
+
+    </div>
+
+    <div class="footer">
+        <p>OMNI V4 Restaurant Analytics System</p>
+        <p class="powered-by">Powered by accurate PayrollExport data - No inflated calculations</p>
+        <p class="powered-by">V4 uses actual labor costs from Toast POS system</p>
+    </div>
+</body>
+</html>

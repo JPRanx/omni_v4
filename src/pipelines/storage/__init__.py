@@ -1,1 +1,0 @@
-"""Storage Pipeline - Database persistence"""

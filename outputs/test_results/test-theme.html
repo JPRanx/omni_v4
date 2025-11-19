@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Theme System Test</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    .error { color: red; background: #fee; padding: 10px; margin: 10px 0; }
+    .success { color: green; background: #efe; padding: 10px; margin: 10px 0; }
+    .info { background: #eef; padding: 10px; margin: 10px 0; }
+  </style>
+</head>
+<body>
+  <h1>Theme System Diagnostic</h1>
+  <div id="output"></div>
+
+  <script type="module">
+    const output = document.getElementById('output');
+
+    function log(message, type = 'info') {
+      const div = document.createElement('div');
+      div.className = type;
+      div.textContent = message;
+      output.appendChild(div);
+      console.log(`[${type}]`, message);
+    }
+
+    try {
+      log('Step 1: Loading config...', 'info');
+      const configModule = await import('../shared/config/index.js');
+      log('✓ Config loaded successfully', 'success');
+
+      log('Step 2: Checking theme registry...', 'info');
+      if (configModule.default.theme.themes) {
+        log(`✓ Theme registry found: ${Object.keys(configModule.default.theme.themes).join(', ')}`, 'success');
+      } else {
+        log('✗ Theme registry not found', 'error');
+      }
+
+      log('Step 3: Testing getTheme function...', 'info');
+      if (configModule.default.theme.getTheme) {
+        const desertTheme = configModule.default.theme.getTheme('desert');
+        log(`✓ Got desert theme: ${desertTheme.name}`, 'success');
+        log(`  Colors defined: ${Object.keys(desertTheme.colors).length}`, 'info');
+      } else {
+        log('✗ getTheme function not found', 'error');
+      }
+
+      log('Step 4: Testing ThemeEngine...', 'info');
+      const { initializeEngines } = await import('../engines/index.js');
+      const engines = initializeEngines(configModule.default);
+      log('✓ Engines initialized', 'success');
+
+      log('Step 5: Loading semantic theme...', 'info');
+      const desertTheme = configModule.default.theme.getTheme('desert');
+      engines.themeEngine.loadSemanticTheme(desertTheme);
+      log('✓ Semantic theme loaded', 'success');
+
+      log('Step 6: Testing semantic methods...', 'info');
+      const testColor = engines.themeEngine.getSemanticTextColor('primary');
+      log(`✓ getSemanticTextColor('primary') = ${testColor}`, 'success');
+
+      const testBg = engines.themeEngine.getSemanticBackgroundColor('card');
+      log(`✓ getSemanticBackgroundColor('card') = ${testBg}`, 'success');
+
+      log('Step 7: Testing ThemeSwitcher import...', 'info');
+      const { ThemeSwitcher } = await import('./components/ThemeSwitcher.js');
+      log('✓ ThemeSwitcher imported successfully', 'success');
+
+      log('Step 8: Creating ThemeSwitcher instance...', 'info');
+      const themeSwitcher = new ThemeSwitcher(engines, configModule.default);
+      log('✓ ThemeSwitcher created', 'success');
+
+      log('=== ALL TESTS PASSED ===', 'success');
+
+    } catch (error) {
+      log(`✗ ERROR: ${error.message}`, 'error');
+      log(`Stack: ${error.stack}`, 'error');
+    }
+  </script>
+</body>
+</html>

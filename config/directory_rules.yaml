@@ -1,0 +1,390 @@
+# Directory Guardian Rules Configuration
+# Last Updated: 2025-11-11
+# Version: 1.0
+
+# ==============================================================================
+# FILE LOCATION RULES
+# ==============================================================================
+file_locations:
+  # Python source code must live in these directories
+  python_source: [src/, scripts/, tests/]
+
+  # Test files must be in tests/ directory
+  test_files: [tests/]
+
+  # Documentation belongs in docs/ or archive/
+  documentation: [docs/, archive/daily_logs/, dashboard/]
+
+  # Configuration files
+  configuration: [config/]
+
+  # Web/Dashboard files
+  web_files: [dashboard/]
+
+  # Generated/output files (must be git-ignored)
+  generated: [outputs/]
+
+  # Archive for historical files
+  archived: [archive/]
+
+# ==============================================================================
+# FORBIDDEN PATTERNS
+# ==============================================================================
+forbidden_patterns:
+  # Patterns forbidden in source code
+  in_source:
+    - pattern: "TODO"
+      severity: warning
+      message: "TODO comments should be tracked in issues, not code"
+      auto_fix: "comment_out"
+
+    - pattern: "FIXME"
+      severity: warning
+      message: "FIXME comments should be tracked in issues"
+      auto_fix: "comment_out"
+
+    - pattern: "HACK"
+      severity: warning
+      message: "HACK comments indicate technical debt"
+      auto_fix: "comment_out"
+
+    - pattern: "XXX"
+      severity: warning
+      message: "XXX markers should not be in production code"
+      auto_fix: "comment_out"
+
+    - pattern: "WIP"
+      severity: error
+      message: "Work-in-progress code should not be committed"
+      auto_fix: null
+
+    - pattern: "breakpoint()"
+      severity: error
+      message: "Debug breakpoints must be removed before commit"
+      auto_fix: "remove_line"
+
+    - pattern: "import pdb"
+      severity: error
+      message: "Debug imports must be removed before commit"
+      auto_fix: "remove_line"
+
+  # Patterns forbidden in any file
+  in_any:
+    - pattern: ".bak"
+      severity: error
+      message: "Backup files should not be committed"
+      auto_fix: "delete_file"
+
+    - pattern: ".tmp"
+      severity: error
+      message: "Temporary files should not be committed"
+      auto_fix: "delete_file"
+
+    - pattern: "~$"
+      severity: error
+      message: "Editor backup files should not be committed"
+      auto_fix: "delete_file"
+
+    - pattern: ".swp"
+      severity: error
+      message: "Vim swap files should not be committed"
+      auto_fix: "delete_file"
+
+    - pattern: ".orig"
+      severity: error
+      message: "Merge conflict files should not be committed"
+      auto_fix: "delete_file"
+
+# ==============================================================================
+# REQUIRED STRUCTURE
+# ==============================================================================
+required_structure:
+  # Required files in specific directories
+  "src/":
+    required_files: []
+    description: "Source code root"
+
+  "src/core/":
+    required_files: [__init__.py]
+    description: "Core business logic"
+
+  "src/infrastructure/":
+    required_files: [__init__.py]
+    description: "Infrastructure layer"
+
+  "src/ingestion/":
+    required_files: [__init__.py]
+    description: "Data ingestion"
+
+  "src/models/":
+    required_files: [__init__.py]
+    description: "Data Transfer Objects"
+
+  "src/orchestration/":
+    required_files: [__init__.py]
+    description: "Pipeline orchestration"
+
+  "src/processing/":
+    required_files: [__init__.py]
+    description: "Processing logic"
+
+  "tests/":
+    required_files: [__init__.py]
+    description: "Test suite root"
+
+  "scripts/":
+    required_files: []
+    description: "Operational scripts"
+
+  "config/":
+    required_files: [base.yaml, directory_rules.yaml]
+    description: "Configuration files"
+
+  "docs/":
+    required_files: [README.md]
+    description: "Documentation"
+
+  "outputs/":
+    required_files: []
+    description: "Generated output files"
+
+# ==============================================================================
+# FILE SIZE LIMITS
+# ==============================================================================
+size_limits:
+  # Maximum lines per file type
+  python:
+    max_lines: 1000
+    severity: warning
+    message: "Python files should be under 1000 lines - consider refactoring"
+
+  json:
+    max_lines: 10000
+    severity: warning
+    message: "JSON files over 10K lines may indicate incorrect location"
+
+  markdown:
+    max_lines: 2000
+    severity: warning
+    message: "Markdown files over 2K lines should be split"
+
+  yaml:
+    max_lines: 500
+    severity: warning
+    message: "YAML config files over 500 lines should be split"
+
+# ==============================================================================
+# NAMING CONVENTIONS
+# ==============================================================================
+naming_conventions:
+  # Python files
+  python_modules:
+    pattern: "^[a-z_][a-z0-9_]*\\.py$"
+    severity: error
+    message: "Python modules must use snake_case"
+
+  # Test files
+  test_files:
+    pattern: "^test_[a-z_][a-z0-9_]*\\.py$"
+    severity: error
+    message: "Test files must start with 'test_'"
+
+  # Configuration files
+  config_files:
+    pattern: "^[a-z_][a-z0-9_]*\\.(yaml|yml)$"
+    severity: warning
+    message: "Config files should use snake_case"
+
+  # Documentation files
+  docs_files:
+    pattern: "^[A-Z_][A-Z0-9_]*\\.md$"
+    severity: warning
+    message: "Documentation files should use UPPER_SNAKE_CASE"
+
+# ==============================================================================
+# HEALTH SCORING
+# ==============================================================================
+health_scoring:
+  # Points deducted for each violation type
+  violations:
+    misplaced_file: -5
+    forbidden_pattern_warning: -2
+    forbidden_pattern_error: -5
+    missing_required_file: -10
+    orphaned_file: -3
+    duplicate_functionality: -15
+    size_limit_exceeded: -3
+    naming_violation_warning: -1
+    naming_violation_error: -5
+    output_directory_modified: -20
+
+  # Starting score
+  base_score: 100
+
+  # Minimum acceptable score
+  minimum_score: 95
+
+  # Score thresholds
+  thresholds:
+    excellent: 100
+    good: 95
+    warning: 90
+    critical: 85
+
+# ==============================================================================
+# AUTO-FIX CAPABILITIES
+# ==============================================================================
+auto_fix:
+  # What can be automatically fixed
+  enabled:
+    - misplaced_files         # Move files to correct location
+    - missing_required_files  # Create missing __init__.py files
+    - backup_files            # Delete .bak, .tmp, ~ files
+    - debug_code              # Remove breakpoint(), pdb imports
+
+  # What requires manual intervention
+  manual:
+    - duplicate_functionality  # Requires code review
+    - size_limit_exceeded      # Requires refactoring
+    - output_modified          # Requires regeneration
+
+  # Safe mode (ask before fixing)
+  safe_mode: true
+
+  # Backup before fixing
+  create_backup: true
+
+# ==============================================================================
+# EXCEPTIONS
+# ==============================================================================
+exceptions:
+  # Files/directories exempt from rules
+  exempt_paths:
+    - venv/
+    - .git/
+    - __pycache__/
+    - node_modules/
+    - .pytest_cache/
+    - outputs/coverage/htmlcov/
+    - archive/
+
+  # Patterns that are allowed in specific contexts
+  allowed_patterns:
+    - path: "tests/"
+      pattern: "print("
+      reason: "Print statements allowed in tests for debugging"
+
+    - path: "archive/"
+      pattern: "TODO"
+      reason: "Archived files can contain TODO markers"
+
+    - path: "dashboard/"
+      pattern: "console.log("
+      reason: "Console logs allowed in dashboard development"
+
+    - path: "scripts/directory_guardian.py"
+      pattern: "TODO"
+      reason: "Guardian script discusses TODO markers in documentation"
+
+  # Root-level files that are exceptions
+  allowed_root_files:
+    - "setup.py"
+    - "README.md"
+    - "pytest.ini"
+    - "requirements.txt"
+    - ".gitignore"
+
+# ==============================================================================
+# MONITORING
+# ==============================================================================
+monitoring:
+  # Real-time monitoring settings
+  enabled: false
+  watch_patterns: ["*.py", "*.yaml", "*.md"]
+  ignore_patterns: ["*.pyc", "__pycache__", ".git"]
+
+  # Alerting thresholds
+  alert_on_score_drop: 10
+  alert_on_violation_count: 5
+
+  # Logging
+  log_file: "outputs/logs/guardian.log"
+  log_level: "INFO"
+
+# ==============================================================================
+# REPORTING
+# ==============================================================================
+reporting:
+  # Report formats
+  formats: [json, html, markdown]
+
+  # Report location
+  output_directory: "outputs/health/"
+
+  # Report frequency
+  generate_on_check: true
+  generate_on_fix: true
+  generate_on_commit: true
+
+  # Trend analysis
+  keep_history: true
+  history_days: 30
+
+  # Dashboard
+  dashboard_enabled: true
+  dashboard_port: 8081
+
+# ==============================================================================
+# GIT INTEGRATION
+# ==============================================================================
+git_integration:
+  # Pre-commit hook settings
+  pre_commit:
+    enabled: true
+    strict_mode: true
+    min_score: 95
+    run_tests: true
+    block_on_failure: true
+
+  # Commit message validation
+  commit_messages:
+    require_health_score: false
+    format: "[Health: {score}/100] {message}"
+
+  # Branch protection
+  protected_branches: [main, master, production]
+
+# ==============================================================================
+# BUILDER INTEGRATION
+# ==============================================================================
+builder:
+  # Checklist phases
+  checklist_phases:
+    - session_start
+    - before_change
+    - after_change
+    - session_end
+
+  # Mandatory checks
+  mandatory_checks:
+    - health_score_check
+    - test_suite_status
+    - documentation_updated
+
+  # Session tracking
+  track_sessions: true
+  session_log: "outputs/logs/builder_sessions.log"
+
+  # Response template required
+  require_health_status: true
+
+# ==============================================================================
+# CUSTOM RULES
+# ==============================================================================
+custom_rules:
+  # Project-specific rules can be added here
+  # Example:
+  # - name: "no_hardcoded_paths"
+  #   pattern: "C:\\"
+  #   severity: error
+  #   message: "Use Path() instead of hardcoded paths"

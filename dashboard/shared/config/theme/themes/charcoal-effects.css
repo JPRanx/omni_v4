@@ -1,0 +1,499 @@
+/**
+ * Dashboard V3 - Charcoal Artist Theme Effects
+ *
+ * Advanced CSS effects that transform the dashboard into a charcoal artist's sketchbook
+ * These effects are automatically loaded when the Charcoal Artist theme is active
+ *
+ * Effects Include:
+ * - Paper texture overlay with grain and fibers
+ * - Rough, hand-drawn borders using multiple box-shadows
+ * - Sketched table lines (dashed/broken appearance)
+ * - Smudged shadows for charcoal depth
+ * - Instant button presses with no smooth transitions
+ * - Hand-drawn text with charcoal stroke depth
+ * - SVG displacement filters for irregular, organic edges
+ *
+ * Version: 3.0.0
+ * Date: 2025-11-01
+ */
+
+/* ============================================
+   PAPER TEXTURE OVERLAY
+   ============================================ */
+
+[data-theme="charcoal"] {
+  position: relative;
+}
+
+/* Layered paper texture background */
+[data-theme="charcoal"]::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  opacity: 0.4;
+  z-index: 1;
+
+  /* Multiple texture layers for realistic paper */
+  background-image:
+    /* Fine fiber texture using SVG turbulence */
+    url('data:image/svg+xml,%3Csvg width="200" height="200" xmlns="http://www.w3.org/2000/svg"%3E%3Cfilter id="paper"%3E%3CfeTurbulence baseFrequency="0.04" numOctaves="5" seed="2"/%3E%3CfeColorMatrix values="0 0 0 0 0, 0 0 0 0 0, 0 0 0 0 0, 0 0 0 0.3 0"/%3E%3C/filter%3E%3Crect width="200" height="200" filter="url(%23paper)"/%3E%3C/svg%3E'),
+
+    /* Diagonal grain pattern */
+    repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 2px,
+      rgba(0, 0, 0, 0.03) 2px,
+      rgba(0, 0, 0, 0.03) 4px
+    ),
+
+    /* Horizontal paper fibers */
+    repeating-linear-gradient(
+      90deg,
+      transparent,
+      transparent 40px,
+      rgba(0, 0, 0, 0.02) 40px,
+      rgba(0, 0, 0, 0.02) 41px
+    ),
+
+    /* Vertical paper fibers */
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 60px,
+      rgba(0, 0, 0, 0.015) 60px,
+      rgba(0, 0, 0, 0.015) 61px
+    );
+}
+
+/* Ensure content is above texture */
+[data-theme="charcoal"] > * {
+  position: relative;
+  z-index: 2;
+}
+
+/* ============================================
+   ROUGH CHARCOAL BORDERS
+   ============================================ */
+
+[data-theme="charcoal"] .dashboard-card,
+[data-theme="charcoal"] .card,
+[data-theme="charcoal"] .modal,
+[data-theme="charcoal"] .panel,
+[data-theme="charcoal"] [class*="card"] {
+  position: relative;
+  border: none !important;
+  border-radius: 0 !important;
+
+  /* Multiple box-shadows create rough, organic charcoal edge */
+  box-shadow:
+    /* Inner edge - darker */
+    inset 0 0 0 1px rgba(0, 0, 0, 0.25),
+    inset 1px 0 0 0 rgba(0, 0, 0, 0.18),
+    inset -1px 0 0 0 rgba(0, 0, 0, 0.18),
+    inset 0 1px 0 0 rgba(0, 0, 0, 0.18),
+    inset 0 -1px 0 0 rgba(0, 0, 0, 0.18),
+    /* Outer smudge effect */
+    2px 2px 4px rgba(0, 0, 0, 0.12),
+    -1px -1px 2px rgba(0, 0, 0, 0.06),
+    1px 0 2px rgba(0, 0, 0, 0.08),
+    0 1px 2px rgba(0, 0, 0, 0.08) !important;
+
+  /* Paper-like background with subtle variation */
+  background:
+    linear-gradient(
+      105deg,
+      rgba(250, 250, 245, 0.92) 0%,
+      rgba(245, 245, 240, 0.96) 40%,
+      rgba(250, 250, 245, 0.92) 100%
+    ) !important;
+}
+
+/* Rough edge effect using pseudo-element */
+[data-theme="charcoal"] .dashboard-card::before,
+[data-theme="charcoal"] .card::before {
+  content: '';
+  position: absolute;
+  top: -3px;
+  left: -3px;
+  right: -3px;
+  bottom: -3px;
+  z-index: -1;
+  opacity: 0.4;
+
+  /* Irregular edge using noise */
+  background:
+    repeating-linear-gradient(
+      45deg,
+      rgba(0, 0, 0, 0.1) 0px,
+      rgba(0, 0, 0, 0.1) 1px,
+      transparent 1px,
+      transparent 3px
+    );
+
+  border-radius: 0;
+}
+
+/* ============================================
+   TEXT - CHARCOAL STROKES
+   ============================================ */
+
+[data-theme="charcoal"] h1,
+[data-theme="charcoal"] h2,
+[data-theme="charcoal"] h3,
+[data-theme="charcoal"] h4,
+[data-theme="charcoal"] .header-title,
+[data-theme="charcoal"] .section-header {
+  /* Multiple text shadows create charcoal depth */
+  text-shadow:
+    1px 1px 1px rgba(0, 0, 0, 0.12),
+    0 0 2px rgba(0, 0, 0, 0.06),
+    1px 0 1px rgba(0, 0, 0, 0.08) !important;
+
+  /* Slightly irregular spacing for hand-drawn feel */
+  letter-spacing: 0.02em !important;
+  font-weight: 600 !important;
+}
+
+/* Metrics look hand-pressed with charcoal */
+[data-theme="charcoal"] .metric-value,
+[data-theme="charcoal"] [class*="metric"] {
+  font-family: 'Courier Prime', 'Courier New', monospace !important;
+
+  /* Layered shadows for pressed charcoal effect */
+  text-shadow:
+    1px 1px 0 rgba(0, 0, 0, 0.12),
+    2px 2px 2px rgba(0, 0, 0, 0.10),
+    0 0 4px rgba(0, 0, 0, 0.06),
+    1px 0 2px rgba(0, 0, 0, 0.08) !important;
+}
+
+/* ============================================
+   TABLES - SKETCHED LINES
+   ============================================ */
+
+[data-theme="charcoal"] table {
+  border-collapse: separate !important;
+  border-spacing: 0 !important;
+}
+
+/* Hand-drawn table header underline */
+[data-theme="charcoal"] th,
+[data-theme="charcoal"] thead th {
+  border-bottom: none !important;
+
+  /* Broken charcoal line effect */
+  background-image:
+    repeating-linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.7) 0,
+      rgba(0, 0, 0, 0.7) 8px,
+      transparent 8px,
+      transparent 10px,
+      rgba(0, 0, 0, 0.7) 10px,
+      rgba(0, 0, 0, 0.7) 18px,
+      transparent 18px,
+      transparent 19px
+    ) !important;
+
+  background-position: bottom !important;
+  background-size: 100% 2px !important;
+  background-repeat: no-repeat !important;
+  padding-bottom: 10px !important;
+}
+
+/* Sketchy row borders */
+[data-theme="charcoal"] td,
+[data-theme="charcoal"] tbody td {
+  border-bottom: none !important;
+
+  /* Fading charcoal line */
+  background-image:
+    linear-gradient(
+      90deg,
+      transparent 0%,
+      rgba(0, 0, 0, 0.12) 5%,
+      rgba(0, 0, 0, 0.12) 95%,
+      transparent 100%
+    ) !important;
+
+  background-position: bottom !important;
+  background-size: 100% 1px !important;
+  background-repeat: no-repeat !important;
+}
+
+/* ============================================
+   BUTTONS - PRESSED CHARCOAL
+   ============================================ */
+
+[data-theme="charcoal"] button,
+[data-theme="charcoal"] .btn,
+[data-theme="charcoal"] [role="button"] {
+  /* NO smooth transitions - instant response */
+  transition: none !important;
+  animation: none !important;
+
+  /* Rough charcoal border */
+  border: 2px solid rgba(0, 0, 0, 0.35) !important;
+  border-radius: 0 !important;
+
+  /* Sketchy shadow - offset layers */
+  box-shadow:
+    2px 2px 0 rgba(0, 0, 0, 0.25),
+    3px 3px 0 rgba(0, 0, 0, 0.12),
+    1px 1px 2px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Immediate hover - pressed once */
+[data-theme="charcoal"] button:hover,
+[data-theme="charcoal"] .btn:hover {
+  /* Instant transform - no animation */
+  transform: translate(1px, 1px) !important;
+
+  box-shadow:
+    1px 1px 0 rgba(0, 0, 0, 0.25),
+    2px 2px 0 rgba(0, 0, 0, 0.12) !important;
+}
+
+/* Deep press - no animation */
+[data-theme="charcoal"] button:active,
+[data-theme="charcoal"] .btn:active {
+  transform: translate(2px, 2px) !important;
+  box-shadow: none !important;
+}
+
+/* ============================================
+   HOVER STATES - CHARCOAL SMUDGE
+   ============================================ */
+
+[data-theme="charcoal"] .dashboard-card:hover,
+[data-theme="charcoal"] .card:hover {
+  /* No lift animation - just change shadow */
+  transform: none !important;
+
+  /* Smudged charcoal shadow */
+  box-shadow:
+    inset 0 0 0 1px rgba(0, 0, 0, 0.3),
+    inset 1px 0 0 0 rgba(0, 0, 0, 0.22),
+    inset -1px 0 0 0 rgba(0, 0, 0, 0.22),
+    inset 0 1px 0 0 rgba(0, 0, 0, 0.22),
+    inset 0 -1px 0 0 rgba(0, 0, 0, 0.22),
+    2px 2px 8px rgba(0, 0, 0, 0.18),
+    -1px -1px 4px rgba(0, 0, 0, 0.12),
+    3px 3px 6px rgba(0, 0, 0, 0.10) !important;
+}
+
+/* Table rows - instant highlight */
+[data-theme="charcoal"] tbody tr:hover {
+  background: rgba(0, 0, 0, 0.04) !important;
+  transition: none !important;
+}
+
+/* ============================================
+   INPUTS - SKETCHED FIELDS
+   ============================================ */
+
+[data-theme="charcoal"] input,
+[data-theme="charcoal"] textarea,
+[data-theme="charcoal"] select {
+  border: 2px solid rgba(0, 0, 0, 0.25) !important;
+  border-radius: 0 !important;
+
+  /* Rough inner shadow */
+  box-shadow:
+    inset 1px 1px 2px rgba(0, 0, 0, 0.08),
+    inset -1px -1px 2px rgba(0, 0, 0, 0.04) !important;
+
+  transition: none !important;
+}
+
+[data-theme="charcoal"] input:focus,
+[data-theme="charcoal"] textarea:focus,
+[data-theme="charcoal"] select:focus {
+  border-color: rgba(0, 0, 0, 0.5) !important;
+
+  box-shadow:
+    inset 1px 1px 3px rgba(0, 0, 0, 0.15),
+    inset -1px -1px 3px rgba(0, 0, 0, 0.08),
+    0 0 0 1px rgba(0, 0, 0, 0.2) !important;
+
+  outline: none !important;
+}
+
+/* ============================================
+   SCROLLBAR - CHARCOAL STYLE
+   ============================================ */
+
+[data-theme="charcoal"] ::-webkit-scrollbar {
+  width: 14px;
+  height: 14px;
+}
+
+[data-theme="charcoal"] ::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.06);
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 0;
+}
+
+[data-theme="charcoal"] ::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.35);
+  border: none;
+  border-radius: 0;
+
+  /* Rough texture */
+  box-shadow:
+    inset 0 0 3px rgba(0, 0, 0, 0.25);
+}
+
+[data-theme="charcoal"] ::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.45);
+}
+
+/* ============================================
+   BADGES AND STATUS - CHARCOAL MARKS
+   ============================================ */
+
+[data-theme="charcoal"] .badge,
+[data-theme="charcoal"] [class*="badge"],
+[data-theme="charcoal"] .status {
+  border-radius: 0 !important;
+
+  /* Rough border */
+  border: 1px solid rgba(0, 0, 0, 0.3) !important;
+
+  /* Charcoal smudge shadow */
+  box-shadow:
+    1px 1px 0 rgba(0, 0, 0, 0.15),
+    2px 2px 2px rgba(0, 0, 0, 0.08) !important;
+}
+
+/* ============================================
+   MODALS - PAPER ON PAPER
+   ============================================ */
+
+[data-theme="charcoal"] .modal,
+[data-theme="charcoal"] [role="dialog"] {
+  border: 3px solid rgba(0, 0, 0, 0.4) !important;
+  border-radius: 0 !important;
+
+  /* Heavy shadow for elevation */
+  box-shadow:
+    4px 4px 0 rgba(0, 0, 0, 0.2),
+    6px 6px 0 rgba(0, 0, 0, 0.12),
+    8px 8px 12px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Modal backdrop - charcoal smudge */
+[data-theme="charcoal"] .modal-backdrop,
+[data-theme="charcoal"] [class*="overlay"] {
+  background:
+    repeating-linear-gradient(
+      45deg,
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3) 2px,
+      rgba(0, 0, 0, 0.35) 2px,
+      rgba(0, 0, 0, 0.35) 4px
+    ) !important;
+}
+
+/* ============================================
+   TABS - PAPER TABS
+   ============================================ */
+
+[data-theme="charcoal"] .tab,
+[data-theme="charcoal"] [role="tab"] {
+  border: 2px solid rgba(0, 0, 0, 0.25) !important;
+  border-bottom: none !important;
+  border-radius: 0 !important;
+
+  background: rgba(0, 0, 0, 0.04) !important;
+}
+
+[data-theme="charcoal"] .tab.active,
+[data-theme="charcoal"] [role="tab"][aria-selected="true"] {
+  background: rgba(250, 250, 245, 1) !important;
+  border-color: rgba(0, 0, 0, 0.4) !important;
+
+  /* Active tab pops forward */
+  box-shadow:
+    2px -2px 0 rgba(0, 0, 0, 0.15),
+    0 -2px 4px rgba(0, 0, 0, 0.08) !important;
+}
+
+/* ============================================
+   DISABLE ALL SMOOTH ANIMATIONS
+   ============================================ */
+
+[data-theme="charcoal"] * {
+  /* Kill all transitions for instant tactile feedback */
+  transition: none !important;
+  transition-duration: 0s !important;
+
+  /* Kill all animations */
+  animation-duration: 0s !important;
+  animation-delay: 0s !important;
+}
+
+/* Exception: Allow fade-in for modals (optional) */
+[data-theme="charcoal"] .modal-enter {
+  animation-duration: 0s !important;
+}
+
+/* ============================================
+   TOOLTIPS - CHARCOAL NOTES
+   ============================================ */
+
+[data-theme="charcoal"] .tooltip,
+[data-theme="charcoal"] [role="tooltip"] {
+  border: 1px solid rgba(0, 0, 0, 0.4) !important;
+  border-radius: 0 !important;
+
+  background: rgba(245, 245, 240, 0.98) !important;
+
+  /* Small note shadow */
+  box-shadow:
+    2px 2px 0 rgba(0, 0, 0, 0.2),
+    3px 3px 4px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* ============================================
+   LINKS - UNDERLINED CHARCOAL
+   ============================================ */
+
+[data-theme="charcoal"] a {
+  /* Hand-drawn underline */
+  text-decoration: none !important;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3) !important;
+
+  /* Instant hover */
+  transition: none !important;
+}
+
+[data-theme="charcoal"] a:hover {
+  border-bottom-color: rgba(0, 0, 0, 0.6) !important;
+
+  /* Slight charcoal smudge */
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* ============================================
+   SELECTION - CHARCOAL HIGHLIGHT
+   ============================================ */
+
+[data-theme="charcoal"] ::selection {
+  background: rgba(0, 0, 0, 0.2) !important;
+  color: inherit !important;
+}
+
+[data-theme="charcoal"] ::-moz-selection {
+  background: rgba(0, 0, 0, 0.2) !important;
+  color: inherit !important;
+}
+
+/* ============================================
+   END OF CHARCOAL EFFECTS
+   ============================================ */

@@ -8,7 +8,6 @@ and error handling.
 from pathlib import Path
 from typing import Optional
 import pandas as pd
-import chardet
 
 from src.core.result import Result
 from src.core.errors import IngestionError
@@ -52,38 +51,48 @@ class CSVDataSource:
                 )
             )
 
-        # Detect encoding
-        encoding_result = self._detect_encoding(file_path)
-        if encoding_result.is_err():
-            return Result.fail(encoding_result.unwrap_err())
+        # Try loading with UTF-8 first, then fallback encodings
+        # This is more reliable than chardet for Toast POS CSV files
+        encodings_to_try = ['utf-8', 'utf-8-sig', 'latin-1']
+        last_error = None
 
-        encoding = encoding_result.unwrap()
+        for encoding in encodings_to_try:
+            try:
+                df = pd.read_csv(file_path, encoding=encoding)
+                return Result.ok(df)
+            except UnicodeDecodeError as e:
+                # Try next encoding
+                last_error = e
+                continue
+            except pd.errors.EmptyDataError:
+                return Result.fail(
+                    IngestionError(
+                        f"CSV file is empty: {filename}",
+                        context={'path': str(file_path)}
+                    )
+                )
+            except pd.errors.ParserError as e:
+                return Result.fail(
+                    IngestionError(
+                        f"Failed to parse CSV: {filename}",
+                        context={'path': str(file_path), 'error': str(e)}
+                    )
+                )
+            except Exception as e:
+                return Result.fail(
+                    IngestionError(
+                        f"Unexpected error loading CSV: {filename}",
+                        context={'path': str(file_path), 'error': str(e)}
+                    )
+                )
 
-        # Load CSV with detected encoding
-        try:
-            df = pd.read_csv(file_path, encoding=encoding)
-            return Result.ok(df)
-        except pd.errors.EmptyDataError:
-            return Result.fail(
-                IngestionError(
-                    f"CSV file is empty: {filename}",
-                    context={'path': str(file_path)}
-                )
+        # If all encodings failed, return the last error
+        return Result.fail(
+            IngestionError(
+                f"Failed to load CSV with any encoding: {filename}",
+                context={'path': str(file_path), 'error': str(last_error)}
             )
-        except pd.errors.ParserError as e:
-            return Result.fail(
-                IngestionError(
-                    f"Failed to parse CSV: {filename}",
-                    context={'path': str(file_path), 'error': str(e)}
-                )
-            )
-        except Exception as e:
-            return Result.fail(
-                IngestionError(
-                    f"Unexpected error loading CSV: {filename}",
-                    context={'path': str(file_path), 'error': str(e)}
-                )
-            )
+        )
 
     def list_available(self) -> Result[list[str]]:
         """
@@ -119,49 +128,6 @@ class CSVDataSource:
                 )
             )
 
-    def _detect_encoding(self, file_path: Path) -> Result[str]:
-        """
-        Detect the encoding of a CSV file.
-
-        Uses chardet library with fallback to common encodings.
-
-        Args:
-            file_path: Path to the CSV file
-
-        Returns:
-            Result[str]: Detected encoding on success
-        """
-        try:
-            # Read first 10KB for detection
-            with open(file_path, 'rb') as f:
-                raw_data = f.read(10000)
-
-            # Use chardet for detection
-            detection = chardet.detect(raw_data)
-            encoding = detection.get('encoding')
-
-            # Fallback chain if detection failed or confidence low
-            if not encoding or detection.get('confidence', 0) < 0.7:
-                # Try common encodings in order
-                for fallback in ['utf-8', 'latin-1', 'cp1252', 'iso-8859-1']:
-                    try:
-                        raw_data.decode(fallback)
-                        return Result.ok(fallback)
-                    except UnicodeDecodeError:
-                        continue
-
-                # If all fallbacks failed, use latin-1 (accepts all bytes)
-                return Result.ok('latin-1')
-
-            return Result.ok(encoding)
-
-        except Exception as e:
-            return Result.fail(
-                IngestionError(
-                    f"Failed to detect encoding for {file_path.name}",
-                    context={'path': str(file_path), 'error': str(e)}
-                )
-            )
 
     def __repr__(self) -> str:
         return f"CSVDataSource(base_path='{self.base_path}')"

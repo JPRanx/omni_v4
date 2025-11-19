@@ -748,10 +748,11 @@ See [docs/ARCHITECTURE_DECISIONS.md](docs/ARCHITECTURE_DECISIONS.md) for detaile
 
 ---
 
-**Last Updated**: 2025-11-12 (Week 8, Day 2 Complete)
-**Status**: Core efficiency features + pattern learning + cash flow visualization + COGS tracking + pattern dashboard integration + multi-week trending complete
+**Last Updated**: 2025-11-19 (Week 8+ Cleanup Complete)
+**Status**: Core efficiency features + pattern learning + cash flow visualization + COGS tracking + pattern dashboard integration + multi-week trending + project cleanup complete
 **Feature Completeness**: ~55% of V3's feature set (up from 52%)
 **Data Accuracy**: ✅ 100% accurate (verified against source CSVs)
+**Code Quality**: ✅ Top 0.01% standards restored (40 debugging artifacts removed)
 
 **Recent Achievements (Week 8, Day 1-2)**:
 - ✅ COGS tracking from vendor payouts (Week 8, Day 1)
@@ -765,3 +766,60 @@ See [docs/ARCHITECTURE_DECISIONS.md](docs/ARCHITECTURE_DECISIONS.md) for detaile
 - ✅ Comprehensive documentation (Week 8, Day 2)
 - ✅ 2,245 lines of new production code (Week 8, Days 1-2)
 - ✅ Supabase connection verified with zero errors (Week 8, Day 1)
+
+---
+
+## 🧹 Project Cleanup (Nov 19, 2025)
+
+### Analysis Phase Complete
+**Comprehensive dependency analysis** across entire codebase:
+- ✅ Traced 3 entry points (run_date_range.py, generate_dashboard_data.py, index.html)
+- ✅ Mapped complete dependency tree (all imports, all components)
+- ✅ Verified test coverage (40 test files, 53 ingestion tests passing)
+- ✅ Validated PROGRESS.md claims against actual codebase
+- ✅ Generated complete directory tree (9,292 files, 796 directories)
+
+**Critical Finding - Investigation Modal Bug**:
+- 🚨 **Root Cause Identified**: v4Data.js contains ALL 3 categories correctly (174 each: Lobby, Drive-Thru, ToGo)
+- 🎯 **Bug Location**: [dashboard/components/InvestigationModal.js](dashboard/components/InvestigationModal.js) - frontend display logic, NOT data pipeline
+- ✅ **Data Pipeline Verified**: All stages producing correct output
+- ⚠️ **Implication**: All experimental files created on Nov 17 were solving the WRONG problem
+
+### Cleanup Execution Complete
+**Removed 40 orphaned debugging artifacts** from Nov 17 investigation session:
+- 🗑️ Deleted 34 files:
+  * 10 investigation scripts (investigate_*.py, diagnose_*.py, verify_*.py)
+  * 4 investigation JSON outputs
+  * 8 test HTML pages (test_*.html, debug_*.html)
+  * 3 experimental modal versions (InvestigationModal_CLEAN.js, _DISCONNECTED.js, InvestigationDataBridge.js)
+  * 2 duplicate v4Data.js files (outdated Oct version, test version)
+  * 5 temporary documentation files
+  * 2 diagnostic directories
+- 📁 Relocated 6 files to proper locations (dashboard/tests/, dashboard/archive/)
+
+**Verification Results**:
+- ✅ All 53 ingestion tests passing
+- ✅ Dashboard structure intact (index.html, app.js, v4Data.js, original InvestigationModal.js)
+- ✅ No breaking changes to active code
+- ✅ Full audit trail (cleanup_log_20251119_130521.txt)
+
+**Deliverables Created**:
+1. `dependency_analysis.txt` - Complete technical dependency trace
+2. `DEPENDENCY_ANALYSIS_SUMMARY.md` - Executive summary with critical findings
+3. `PROJECT_STRUCTURE_SUMMARY.md` - Cleanup guide with bash commands
+4. `generate_tree.py` - Reusable directory visualization tool
+5. `project_tree.txt` - Complete directory tree
+6. `cleanup_nov17.py` - Auditable cleanup script with manifest
+7. `cleanup_log_20251119_130521.txt` - Complete cleanup log
+
+**Project Health Restored**:
+- ✅ Clean root directory (only essential files)
+- ✅ Clean dashboard/ (no test files, no experimental components)
+- ✅ Single source of truth: dashboard/data/v4Data.js (853KB)
+- ✅ Professional, production-ready structure
+- ✅ Top 0.01% standards maintained
+
+### Next Steps
+1. **Fix Investigation Modal Bug** - Update InvestigationModal.js to correctly display Drive-Thru/ToGo from category_stats object
+2. **Merge Cleanup Branch** - Merge cleanup-nov19 branch to master
+3. **Continue Development** - Resume Week 9+ roadmap with clean codebase

@@ -106,13 +106,11 @@ class InvestigationModal {
 
   open(restaurantName, restaurantData) {
     console.log('[InvestigationModal] Opening modal for:', restaurantName);
-    console.log('[InvestigationModal] Restaurant data:', restaurantData);
 
     this.currentData = restaurantData;
 
     const modalContainer = document.getElementById('investigation-modal');
     const modal = modalContainer ? modalContainer.querySelector('.modal-overlay') : null;
-    console.log('[InvestigationModal] Modal element:', modal);
 
     if (modal) {
       // Remove hidden from BOTH outer container and inner modal
@@ -897,22 +895,16 @@ class InvestigationModal {
   }
 
   aggregateCategoryStats(morningSlots, eveningSlots, dayData) {
-    // SIMPLIFIED VERSION - JUST USE THE DAMN CATEGORY_STATS DIRECTLY!
-    console.log('[SIMPLIFIED] Getting category_stats from dayData:', dayData);
-
     const shifts = dayData.shifts || dayData.Shifts || {};
     const morningShift = shifts.Morning || shifts.morning || {};
     const eveningShift = shifts.Evening || shifts.evening || {};
 
-    // Get the actual category_stats from the data - NO CALCULATIONS!
+    // Get the actual category_stats from the data
     const morningStats = morningShift.category_stats || morningShift.categoryStats || {};
     const eveningStats = eveningShift.category_stats || eveningShift.categoryStats || {};
 
-    console.log('[SIMPLIFIED] Morning category_stats found:', morningStats);
-    console.log('[SIMPLIFIED] Evening category_stats found:', eveningStats);
-
-    // Just return the actual data structure as-is
-    const result = {
+    // Return the actual data structure as-is
+    return {
       morning: {
         'Lobby': morningStats.Lobby || morningStats.lobby || { total: 0, passed: 0, failed: 0 },
         'Drive-Thru': morningStats['Drive-Thru'] || morningStats.driveThru || { total: 0, passed: 0, failed: 0 },
@@ -924,9 +916,6 @@ class InvestigationModal {
         'ToGo': eveningStats.ToGo || eveningStats.togo || { total: 0, passed: 0, failed: 0 }
       }
     };
-
-    console.log('[SIMPLIFIED] Returning stats:', result);
-    return result;
   }
 
   renderCapacityAnalysis(analysis) {
@@ -971,27 +960,22 @@ class InvestigationModal {
     const morningPeakSlot = analysis.morningSlots.reduce((max, s) => (s.orders || s.totalOrders || 0) > (max.orders || max.totalOrders || 0) ? s : max, analysis.morningSlots[0] || {orders: 0, totalOrders: 0, time: '', timeWindow: ''});
     const eveningPeakSlot = analysis.eveningSlots.reduce((max, s) => (s.orders || s.totalOrders || 0) > (max.orders || max.totalOrders || 0) ? s : max, analysis.eveningSlots[0] || {orders: 0, totalOrders: 0, time: '', timeWindow: ''});
 
-    // Calculate ACTUAL per-category pass rates from timeslot data
-    // Each timeslot has by_category field with detailed metrics per category
+    // Calculate per-category pass rates from shift data
     const categoryStats = this.aggregateCategoryStats(analysis.morningSlots, analysis.eveningSlots, dayData);
 
     // Morning category stats
     const morningTablesPassed = categoryStats.morning.Lobby.passed;
     const morningTablesFailed = categoryStats.morning.Lobby.failed;
-
     const morningDrivePassed = categoryStats.morning['Drive-Thru'].passed;
     const morningDriveFailed = categoryStats.morning['Drive-Thru'].failed;
-
     const morningToGoPassed = categoryStats.morning.ToGo.passed;
     const morningToGoFailed = categoryStats.morning.ToGo.failed;
 
     // Evening category stats
     const eveningTablesPassed = categoryStats.evening.Lobby.passed;
     const eveningTablesFailed = categoryStats.evening.Lobby.failed;
-
     const eveningDrivePassed = categoryStats.evening['Drive-Thru'].passed;
     const eveningDriveFailed = categoryStats.evening['Drive-Thru'].failed;
-
     const eveningToGoPassed = categoryStats.evening.ToGo.passed;
     const eveningToGoFailed = categoryStats.evening.ToGo.failed;
 

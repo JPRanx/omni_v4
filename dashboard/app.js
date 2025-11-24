@@ -6,8 +6,8 @@
  */
 
 // Import configuration and engines
-import config from '../shared/config/index.js';
-import { initializeEngines } from '../engines/index.js';
+import config from './shared/config/index.js';
+import { initializeEngines } from './engines/index.js';
 
 // Import components
 import { renderHeader } from './components/Header.js';
@@ -21,7 +21,7 @@ import { initializeCashFlowModal } from './components/CashFlowModal.js';
 import { ThemeSwitcher } from './components/ThemeSwitcher.js';
 
 // Import utilities
-import { DataValidator } from '../shared/utils/dataValidator.js';
+import { DataValidator } from './shared/utils/dataValidator.js';
 
 // Import V4 data directly - no more services needed
 import { v4Data } from './data/v4Data.js';

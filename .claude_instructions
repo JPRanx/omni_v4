@@ -1,7 +1,7 @@
 # Claude Builder Instructions - Directory Governance Protocol
 
-**VERSION:** 1.0
-**LAST UPDATED:** 2025-11-11
+**VERSION:** 2.0
+**LAST UPDATED:** 2025-12-01
 **MANDATORY COMPLIANCE:** All Builder instances must follow these protocols
 
 ---
@@ -43,9 +43,9 @@ Ready to proceed: YES/NO
 1. **Check Allowed Locations** in `config/directory_rules.yaml`
 2. **Verify No Duplication** - Search for similar functionality
 3. **Confirm Correct Directory**:
-   - Python source → `src/` (not `scripts/` unless it's a script)
+   - Python source → `pipeline/` (not `scripts/` unless it's a script)
    - Scripts → `scripts/` (operational scripts only)
-   - Tests → `tests/`
+   - Tests → `tests/` (mirrors `pipeline/` structure)
    - Docs → `docs/` (with proper subdirectory)
    - Generated → `outputs/` (NEVER edit manually)
    - Config → `config/`
@@ -112,7 +112,7 @@ These actions will cause IMMEDIATE workflow failure:
   - `FIXME` markers
   - `breakpoint()`
   - `import pdb`
-  - `print()` in src/ (use logging instead)
+  - `print()` in pipeline/ (use logging instead)
 - **Action:** Remove before commit
 
 ### 4. Editing Generated Files
@@ -129,16 +129,31 @@ These actions will cause IMMEDIATE workflow failure:
 
 ## 📂 DIRECTORY STRUCTURE RULES
 
-### Source Code (`src/`)
+### Source Code (`pipeline/`)
 
 ```
-src/
-├── core/              # Core business logic ONLY
-├── infrastructure/    # External dependencies (DB, config, logging)
-├── ingestion/         # Data loading & validation
+pipeline/
+├── cli.py             # Entry point (main pipeline executor)
+├── stages/            # 7 pipeline stages (top-level, primary concept)
+│   ├── ingestion_stage.py
+│   ├── order_categorization_stage.py
+│   ├── timeslot_grading_stage.py
+│   ├── processing_stage.py
+│   ├── pattern_learning_stage.py
+│   ├── storage_stage.py
+│   └── supabase_storage_stage.py
+├── services/          # Business logic (calculators, graders)
+│   ├── labor_calculator.py
+│   ├── order_categorizer.py
+│   ├── result.py      # Result[T] monad
+│   ├── errors.py      # Custom exceptions
+│   └── patterns/      # Pattern learning managers
 ├── models/            # DTOs (Data Transfer Objects)
-├── orchestration/     # Pipeline coordination
-└── processing/        # Processing logic & stages
+├── ingestion/         # Data loading & validation
+├── storage/           # Supabase client + migrations
+├── infrastructure/    # External dependencies (DB, config, logging)
+├── orchestration/     # Pipeline context & stage protocol
+└── output/            # Output transformers
 ```
 
 **Rules:**
@@ -159,13 +174,20 @@ scripts/
 **Rules:**
 - Operational scripts ONLY
 - Entry points for users
-- Can import from `src/` but `src/` cannot import from `scripts/`
+- Can import from `pipeline/` but `pipeline/` cannot import from `scripts/`
 
 ### Tests (`tests/`)
 
 ```
 tests/
 ├── unit/              # Unit tests (fast, isolated)
+│   ├── infrastructure/  # Tests for pipeline/infrastructure/
+│   ├── ingestion/       # Tests for pipeline/ingestion/
+│   ├── models/          # Tests for pipeline/models/
+│   ├── orchestration/   # Tests for pipeline/orchestration/
+│   ├── services/        # Tests for pipeline/services/
+│   │   └── patterns/    # Tests for pipeline/services/patterns/
+│   └── stages/          # Tests for pipeline/stages/
 ├── integration/       # Integration tests
 ├── fixtures/          # Test data
 └── benchmarks/        # Performance tests
@@ -173,7 +195,7 @@ tests/
 
 **Rules:**
 - Test file names: `test_*.py`
-- Mirror `src/` structure in `unit/`
+- Mirror `pipeline/` structure in `unit/`
 - All new code requires tests
 
 ### Documentation (`docs/`)
@@ -288,14 +310,16 @@ Violations Fixed: N
 ### Creating a New Feature
 
 ```python
-# 1. Create DTO in src/models/
-src/models/new_feature_dto.py
+# 1. Create DTO in pipeline/models/
+pipeline/models/new_feature_dto.py
 
-# 2. Implement logic in src/processing/ or src/core/
-src/processing/new_feature_processor.py
+# 2. Implement logic in appropriate module
+pipeline/services/new_feature_calculator.py  # Business logic
+pipeline/stages/new_feature_stage.py         # Pipeline stage
 
-# 3. Add tests
-tests/unit/processing/test_new_feature_processor.py
+# 3. Add tests (mirror pipeline/ structure)
+tests/unit/services/test_new_feature_calculator.py
+tests/unit/stages/test_new_feature_stage.py
 
 # 4. Update documentation
 docs/architecture/NEW_FEATURE.md
@@ -308,13 +332,13 @@ config/base.yaml
 
 ```python
 # 1. Write failing test first
-tests/unit/path/test_bugfix.py
+tests/unit/services/test_bugfix.py
 
 # 2. Fix the bug
-src/path/module.py
+pipeline/services/module.py
 
 # 3. Verify test passes
-pytest tests/unit/path/test_bugfix.py
+pytest tests/unit/services/test_bugfix.py
 
 # 4. Run full suite
 pytest
@@ -427,6 +451,16 @@ By following this protocol, Builder will learn:
 
 ---
 
-**Last Updated:** 2025-11-11
+**Last Updated:** 2025-12-01
 **Maintained By:** Directory Guardian System
-**Version:** 1.0
+**Version:** 2.0
+
+---
+
+## 📝 CHANGELOG
+
+### v2.0 (2025-12-01)
+- Updated all references from `src/` to `pipeline/`
+- Updated test directory structure to mirror `pipeline/`
+- Added detailed `pipeline/` subdirectory descriptions
+- Updated example paths in common operations

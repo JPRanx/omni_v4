@@ -186,27 +186,39 @@ omni_v4/
 │   │   ├── storage_stage.py
 │   │   └── supabase_storage_stage.py
 │   ├── services/                        # Business logic
-│   │   ├── labor_calculator.py
-│   │   ├── order_categorizer.py
-│   │   ├── timeslot_grader.py
-│   │   ├── cash_flow_extractor.py
-│   │   ├── shift_splitter.py
+│   │   ├── labor_calculator.py          # Labor cost/percentage calculation
+│   │   ├── order_categorizer.py         # Lobby/Drive-Thru/ToGo classification
+│   │   ├── timeslot_grader.py           # 15-min window grading
+│   │   ├── timeslot_windower.py         # Creates 64 timeslots per day
+│   │   ├── cash_flow_extractor.py       # Cash flow tracking
+│   │   ├── shift_splitter.py            # Morning/Evening split
+│   │   ├── overtime_calculator.py       # Overtime hour tracking
+│   │   ├── pass_rate_calculator.py      # Pass/fail rate metrics
+│   │   ├── server_counter.py            # Server counting
+│   │   ├── auto_clockout_analyzer.py    # Auto-clockout detection
 │   │   ├── result.py                    # Result[T] monad
 │   │   ├── errors.py                    # Custom exceptions
 │   │   └── patterns/                    # Pattern learning managers
 │   │       ├── daily_labor_manager.py
 │   │       ├── timeslot_pattern_manager.py
-│   │       └── in_memory_storage.py
-│   ├── models/                          # Data Transfer Objects (16 DTOs)
+│   │       ├── in_memory_storage.py
+│   │       └── [5 more pattern modules]
+│   ├── models/                          # Data Transfer Objects (15 DTOs)
 │   │   ├── labor_dto.py
 │   │   ├── cash_flow_dto.py
 │   │   ├── timeslot_dto.py
 │   │   ├── order_dto.py
-│   │   └── [12 more DTOs]
+│   │   ├── daily_labor_pattern.py
+│   │   ├── timeslot_pattern.py
+│   │   ├── void_metrics_dto.py
+│   │   └── [8 more DTOs]
 │   ├── ingestion/                       # CSV loading & validation
-│   │   ├── csv_data_source.py
-│   │   ├── data_source.py               # Protocol
-│   │   └── data_validator.py            # L1/L2 validation
+│   │   ├── csv_data_source.py           # CSV file loader
+│   │   ├── data_source.py               # Protocol definition
+│   │   ├── data_validator.py            # L1/L2 validation
+│   │   ├── cash_extractor.py            # Cash activity extraction
+│   │   ├── void_extractor.py            # Void transaction extraction
+│   │   └── time_entries_loader.py       # Time entries loading
 │   ├── storage/                         # Supabase client + migrations
 │   │   ├── supabase_client.py
 │   │   └── migrations/                  # SQL schema files

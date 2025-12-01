@@ -1,8 +1,8 @@
 # OMNI V4 - Restaurant Analytics Pipeline
 
 **Version:** 4.0
-**Status:** 🟢 Week 7 Day 4 Complete (43% V3 Feature Parity)
-**Last Updated:** 2025-11-11
+**Status:** 🟢 Project Reorganization Complete (55% V3 Feature Parity)
+**Last Updated:** 2025-12-01
 
 ---
 
@@ -175,52 +175,57 @@ python scripts/build_and_serve.py --dates 2025-08-20 2025-08-31
 
 ```
 omni_v4/
-├── src/                                  # Source code (1.2 MB, 59 files)
-│   ├── core/                            # Core business logic
-│   │   ├── errors.py                    # Custom exceptions
+├── pipeline/                             # Python backend (clear purpose)
+│   ├── cli.py                           # Entry point (main pipeline executor)
+│   ├── stages/                          # 7 pipeline stages (elevated to top)
+│   │   ├── ingestion_stage.py
+│   │   ├── order_categorization_stage.py
+│   │   ├── timeslot_grading_stage.py
+│   │   ├── processing_stage.py
+│   │   ├── pattern_learning_stage.py
+│   │   ├── storage_stage.py
+│   │   └── supabase_storage_stage.py
+│   ├── services/                        # Business logic
+│   │   ├── labor_calculator.py
+│   │   ├── order_categorizer.py
+│   │   ├── timeslot_grader.py
+│   │   ├── cash_flow_extractor.py
+│   │   ├── shift_splitter.py
 │   │   ├── result.py                    # Result[T] monad
+│   │   ├── errors.py                    # Custom exceptions
 │   │   └── patterns/                    # Pattern learning managers
-│   ├── infrastructure/                  # Infrastructure layer
-│   │   ├── config/                      # YAML configuration loader
-│   │   ├── database/                    # Database clients (in-memory, Supabase)
-│   │   ├── logging/                     # Structured logging, metrics
-│   │   └── storage/                     # Pattern storage
+│   │       ├── daily_labor_manager.py
+│   │       ├── timeslot_pattern_manager.py
+│   │       └── in_memory_storage.py
+│   ├── models/                          # Data Transfer Objects (16 DTOs)
+│   │   ├── labor_dto.py
+│   │   ├── cash_flow_dto.py
+│   │   ├── timeslot_dto.py
+│   │   ├── order_dto.py
+│   │   └── [12 more DTOs]
 │   ├── ingestion/                       # CSV loading & validation
 │   │   ├── csv_data_source.py
 │   │   ├── data_source.py               # Protocol
 │   │   └── data_validator.py            # L1/L2 validation
-│   ├── models/                          # Data Transfer Objects (DTOs)
-│   │   ├── labor_dto.py
-│   │   ├── cash_flow_dto.py
-│   │   ├── timeslot_dto.py
-│   │   └── [8 more DTOs]
+│   ├── storage/                         # Supabase client + migrations
+│   │   ├── supabase_client.py
+│   │   └── migrations/                  # SQL schema files
+│   ├── infrastructure/                  # Infrastructure layer
+│   │   ├── config/                      # YAML configuration loader
+│   │   ├── database/                    # Database clients
+│   │   └── logging/                     # Structured logging, metrics
 │   ├── orchestration/                   # Pipeline orchestration
 │   │   └── pipeline/
 │   │       ├── context.py               # Shared state
 │   │       └── stage.py                 # Stage protocol
-│   └── processing/                      # Processing logic
-│       ├── stages/                      # 6 pipeline stages
-│       │   ├── ingestion_stage.py
-│       │   ├── order_categorization_stage.py
-│       │   ├── timeslot_grading_stage.py
-│       │   ├── processing_stage.py
-│       │   ├── pattern_learning_stage.py
-│       │   └── storage_stage.py
-│       ├── labor_calculator.py
-│       ├── order_categorizer.py
-│       ├── cash_flow_extractor.py
-│       ├── timeslot_windower.py
-│       └── timeslot_grader.py
+│   └── output/                          # Output transformers
+│       └── v3_data_transformer.py
 │
-├── scripts/                              # Operational scripts (156 KB, 8 files)
-│   ├── run_date_range.py                # ⭐ Main pipeline executor
+├── scripts/                              # Utility scripts
 │   ├── generate_dashboard_data.py       # ⭐ Data transformer
-│   ├── serve_dashboard.py               # ⭐ HTTP server
-│   ├── build_and_serve.py               # One-command workflow
 │   ├── run_single_day.py                # Single-day execution
 │   ├── run_pipeline_with_metrics.py     # Performance analysis
-│   ├── generate_dashboard.py            # HTML generation
-│   └── discover_toast_files.py          # Discovery utility
+│   └── backfill_to_supabase.py          # Database backfill
 │
 ├── tests/                                # Test suite (8.3 MB, 27 test files)
 │   ├── unit/                            # 85 unit tests
@@ -302,17 +307,16 @@ omni_v4/
 
 | Purpose | Command | Description |
 |---------|---------|-------------|
-| **Process New Data** | `python scripts/run_date_range.py ALL 2025-08-20 2025-08-31 --verbose` | Run pipeline for date range |
+| **Process New Data** | `python -m pipeline.cli ALL 2025-08-20 2025-08-31 --verbose` | Run pipeline for date range |
 | **Generate Dashboard** | `python scripts/generate_dashboard_data.py batch_results_aug_2025.json` | Transform results to dashboard format |
-| **View Dashboard** | `python scripts/serve_dashboard.py` | Serve dashboard on localhost:8080 |
-| **One Command** | `python scripts/build_and_serve.py --dates 2025-08-20 2025-08-31` | Process + generate + serve |
+| **View Dashboard** | `python -m http.server 8080 -d dashboard` | Serve dashboard on localhost:8080 |
 
 ### Development Workflow
 
 | Purpose | Command | Description |
 |---------|---------|-------------|
 | **Run Tests** | `pytest` | Run all tests |
-| **Test Coverage** | `pytest --cov=src --cov-report=html` | Generate coverage report |
+| **Test Coverage** | `pytest --cov=pipeline --cov-report=html` | Generate coverage report |
 | **Single Day** | `python scripts/run_single_day.py SDR 2025-08-20 --verbose` | Test single restaurant/day |
 | **With Metrics** | `python scripts/run_pipeline_with_metrics.py SDR 2025-08-20` | Performance analysis |
 
@@ -351,13 +355,13 @@ pip install black mypy flake8 pytest-cov
 
 ```bash
 # Format code
-black src/ scripts/ tests/
+black pipeline/ scripts/ tests/
 
 # Type checking
-mypy src/
+mypy pipeline/
 
 # Linting
-flake8 src/ scripts/ tests/
+flake8 pipeline/ scripts/ tests/
 ```
 
 ### Running Tests
@@ -376,14 +380,14 @@ pytest tests/integration/
 pytest tests/unit/ingestion/test_ingestion_stage.py -v
 
 # With coverage
-pytest --cov=src --cov-report=html
+pytest --cov=pipeline --cov-report=html
 # View coverage: open outputs/coverage/htmlcov/index.html
 ```
 
 ### Adding New Features
 
-1. **Create DTO** in `src/models/` if needed
-2. **Implement Logic** in appropriate module (`src/processing/`, etc.)
+1. **Create DTO** in `pipeline/models/` if needed
+2. **Implement Logic** in appropriate module (`pipeline/services/`, `pipeline/stages/`, etc.)
 3. **Add Tests** in `tests/unit/` and `tests/integration/`
 4. **Update Documentation** in `docs/`
 5. **Update Configuration** in `config/base.yaml` if needed
@@ -427,18 +431,19 @@ python scripts/directory_guardian.py --fix  # If violations detected
 
 ### Directory Standards
 
-- **src/** - Production source code only
-- **scripts/** - Operational scripts only
+- **pipeline/** - Production source code (Python backend)
+- **scripts/** - Utility scripts only
 - **tests/** - Test suite only
+- **dashboard/** - JavaScript frontend
 - **docs/** - Documentation only (organized by category)
 - **outputs/** - Generated files (never manually edited)
 - **config/** - YAML configuration only
-- **archive/** - Historical files only
+- **data/** - Input CSV files
 
 ### Code Quality Standards
 
 - ✅ No TODO/FIXME comments (use GitHub issues)
-- ✅ No debug statements (breakpoint, pdb, print in src/)
+- ✅ No debug statements (breakpoint, pdb, print in pipeline/)
 - ✅ No backup files (.bak, .tmp, ~)
 - ✅ Files in correct locations
 - ✅ Required __init__.py files present
@@ -457,7 +462,7 @@ python scripts/directory_guardian.py --fix  # If violations detected
 
 | Violation | Fix |
 |-----------|-----|
-| Python file in wrong location | Move to src/, scripts/, or tests/ |
+| Python file in wrong location | Move to pipeline/, scripts/, or tests/ |
 | TODO comment in source | Remove, use GitHub issues |
 | Debug statement | Remove breakpoint(), pdb |
 | Missing __init__.py | Auto-creates |
@@ -605,8 +610,8 @@ pytest -k "test_csv" -v
 ### Development Standards
 
 1. **All new code requires tests** (unit + integration)
-2. **Run formatter:** `black src/ scripts/ tests/`
-3. **Check types:** `mypy src/`
+2. **Run formatter:** `black pipeline/ scripts/ tests/`
+3. **Check types:** `mypy pipeline/`
 4. **Update docs** when adding features
 5. **Follow existing patterns** (Result[T], DTOs, stages)
 
@@ -636,14 +641,15 @@ pytest -k "test_csv" -v
 
 ## Contact
 
-- **Project Repository:** `C:\Users\Jorge Alexander\omni_v4\`
+- **GitHub Repository:** [https://github.com/JPRanx/omni_v4](https://github.com/JPRanx/omni_v4)
+- **Local Path:** `C:\Users\Jorge Alexander\omni_v4\`
 - **Related Project:** `restaurant_analytics_v3` (legacy V3 system)
 - **Documentation:** [docs/README.md](docs/README.md)
 - **Progress Tracking:** [PROGRESS.md](PROGRESS.md)
-- **Issues:** Create GitHub issue or contact system administrator
+- **Issues:** Create GitHub issue at repository
 
 ---
 
-**Last Updated:** 2025-11-11
+**Last Updated:** 2025-12-01
 **Version:** 4.0
-**Status:** 🟢 Active Development (Week 7 Day 4 Complete)
+**Status:** 🟢 Project Reorganization Complete (55% V3 Feature Parity)

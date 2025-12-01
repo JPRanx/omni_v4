@@ -14,8 +14,8 @@ import json
 import tempfile
 from pathlib import Path
 
-from src.models.storage_result import StorageResult
-from src.core import ValidationError, CheckpointError
+from pipeline.models.storage_result import StorageResult
+from pipeline.services import ValidationError, CheckpointError
 
 
 class TestStorageResultCreation:

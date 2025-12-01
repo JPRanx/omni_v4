@@ -9,12 +9,12 @@ import pandas as pd
 from pathlib import Path
 from datetime import datetime
 
-from src.processing.stages.order_categorization_stage import OrderCategorizationStage
-from src.processing.order_categorizer import OrderCategorizer
-from src.orchestration.pipeline.context import PipelineContext
-from src.ingestion.csv_data_source import CSVDataSource
-from src.ingestion.data_validator import DataValidator
-from src.processing.stages.ingestion_stage import IngestionStage
+from pipeline.stages.order_categorization_stage import OrderCategorizationStage
+from pipeline.services.order_categorizer import OrderCategorizer
+from pipeline.orchestration.pipeline.context import PipelineContext
+from pipeline.ingestion.csv_data_source import CSVDataSource
+from pipeline.ingestion.data_validator import DataValidator
+from pipeline.stages.ingestion_stage import IngestionStage
 
 
 class TestOrderCategorizationStage:

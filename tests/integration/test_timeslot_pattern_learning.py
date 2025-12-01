@@ -13,20 +13,20 @@ import pytest
 from pathlib import Path
 from datetime import datetime
 
-from src.core.patterns.timeslot_pattern_manager import TimeslotPatternManager
-from src.models.timeslot_pattern import TimeslotPattern
-from src.ingestion.csv_data_source import CSVDataSource
-from src.ingestion.data_validator import DataValidator
-from src.processing.stages.ingestion_stage import IngestionStage
-from src.processing.stages.order_categorization_stage import OrderCategorizationStage
-from src.processing.order_categorizer import OrderCategorizer
-from src.processing.timeslot_windower import TimeslotWindower
-from src.processing.timeslot_grader import TimeslotGrader
-from src.processing.stages.timeslot_grading_stage import TimeslotGradingStage
-from src.processing.stages.pattern_learning_stage import PatternLearningStage
-from src.core.patterns.daily_labor_manager import DailyLaborPatternManager
-from src.core.patterns.in_memory_daily_labor_storage import InMemoryDailyLaborPatternStorage
-from src.orchestration.pipeline.context import PipelineContext
+from pipeline.services.patterns.timeslot_pattern_manager import TimeslotPatternManager
+from pipeline.models.timeslot_pattern import TimeslotPattern
+from pipeline.ingestion.csv_data_source import CSVDataSource
+from pipeline.ingestion.data_validator import DataValidator
+from pipeline.stages.ingestion_stage import IngestionStage
+from pipeline.stages.order_categorization_stage import OrderCategorizationStage
+from pipeline.services.order_categorizer import OrderCategorizer
+from pipeline.services.timeslot_windower import TimeslotWindower
+from pipeline.services.timeslot_grader import TimeslotGrader
+from pipeline.stages.timeslot_grading_stage import TimeslotGradingStage
+from pipeline.stages.pattern_learning_stage import PatternLearningStage
+from pipeline.services.patterns.daily_labor_manager import DailyLaborPatternManager
+from pipeline.services.patterns.in_memory_daily_labor_storage import InMemoryDailyLaborPatternStorage
+from pipeline.orchestration.pipeline.context import PipelineContext
 
 
 class TestTimeslotPatternLearning:
@@ -90,7 +90,7 @@ class TestTimeslotPatternLearning:
 
         # Add minimal labor_metrics to context (required by PatternLearningStage)
         # This allows timeslot pattern learning to proceed even without full labor processing
-        from src.processing.labor_calculator import LaborMetrics
+        from pipeline.services.labor_calculator import LaborMetrics
         mock_labor_metrics = LaborMetrics(
             total_hours=100.0,
             labor_cost=1500.0,

@@ -19,7 +19,7 @@ from datetime import datetime
 project_root = Path(__file__).parent.parent
 sys.path.insert(0, str(project_root))
 
-from src.storage.supabase_client import SupabaseClient
+from pipeline.storage.supabase_client import SupabaseClient
 
 
 def transform_daily_operation(run: Dict[str, Any]) -> Dict[str, Any]:

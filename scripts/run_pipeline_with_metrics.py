@@ -20,18 +20,18 @@ from datetime import datetime
 project_root = Path(__file__).parent.parent
 sys.path.insert(0, str(project_root))
 
-from src.orchestration.pipeline import PipelineContext
-from src.processing.stages.ingestion_stage import IngestionStage
-from src.processing.stages.processing_stage import ProcessingStage
-from src.processing.stages.pattern_learning_stage import PatternLearningStage
-from src.processing.stages.storage_stage import StorageStage
-from src.ingestion.data_validator import DataValidator
-from src.processing.labor_calculator import LaborCalculator
-from src.core.patterns.daily_labor_manager import DailyLaborPatternManager
-from src.core.patterns.in_memory_daily_labor_storage import InMemoryDailyLaborPatternStorage
-from src.infrastructure.database.in_memory_client import InMemoryDatabaseClient
-from src.infrastructure.logging import setup_logging, PipelineMetrics
-from src.infrastructure.config.loader import ConfigLoader
+from pipeline.orchestration.pipeline import PipelineContext
+from pipeline.stages.ingestion_stage import IngestionStage
+from pipeline.stages.processing_stage import ProcessingStage
+from pipeline.stages.pattern_learning_stage import PatternLearningStage
+from pipeline.stages.storage_stage import StorageStage
+from pipeline.ingestion.data_validator import DataValidator
+from pipeline.services.labor_calculator import LaborCalculator
+from pipeline.services.patterns.daily_labor_manager import DailyLaborPatternManager
+from pipeline.services.patterns.in_memory_daily_labor_storage import InMemoryDailyLaborPatternStorage
+from pipeline.infrastructure.database.in_memory_client import InMemoryDatabaseClient
+from pipeline.infrastructure.logging import setup_logging, PipelineMetrics
+from pipeline.infrastructure.config.loader import ConfigLoader
 
 
 def run_pipeline(restaurant_code: str, business_date: str, data_path: str = None) -> PipelineMetrics:

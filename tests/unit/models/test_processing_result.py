@@ -14,8 +14,8 @@ import json
 import tempfile
 from pathlib import Path
 
-from src.models.processing_result import ProcessingResult
-from src.core import ValidationError, CheckpointError
+from pipeline.models.processing_result import ProcessingResult
+from pipeline.services import ValidationError, CheckpointError
 
 
 class TestProcessingResultCreation:

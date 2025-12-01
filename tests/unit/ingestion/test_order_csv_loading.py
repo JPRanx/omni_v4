@@ -8,10 +8,10 @@ order categorization without errors.
 import pytest
 from pathlib import Path
 
-from src.ingestion.csv_data_source import CSVDataSource
-from src.ingestion.data_validator import DataValidator
-from src.processing.stages.ingestion_stage import IngestionStage
-from src.orchestration.pipeline.context import PipelineContext
+from pipeline.ingestion.csv_data_source import CSVDataSource
+from pipeline.ingestion.data_validator import DataValidator
+from pipeline.stages.ingestion_stage import IngestionStage
+from pipeline.orchestration.pipeline.context import PipelineContext
 
 
 class TestOrderCSVLoading:

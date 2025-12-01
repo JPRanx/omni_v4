@@ -8,14 +8,14 @@ with actual order data from SDR 2025-08-20.
 import pytest
 from pathlib import Path
 
-from src.ingestion.csv_data_source import CSVDataSource
-from src.ingestion.data_validator import DataValidator
-from src.processing.stages.ingestion_stage import IngestionStage
-from src.processing.stages.order_categorization_stage import OrderCategorizationStage
-from src.processing.order_categorizer import OrderCategorizer
-from src.processing.timeslot_windower import TimeslotWindower
-from src.processing.timeslot_grader import TimeslotGrader
-from src.orchestration.pipeline.context import PipelineContext
+from pipeline.ingestion.csv_data_source import CSVDataSource
+from pipeline.ingestion.data_validator import DataValidator
+from pipeline.stages.ingestion_stage import IngestionStage
+from pipeline.stages.order_categorization_stage import OrderCategorizationStage
+from pipeline.services.order_categorizer import OrderCategorizer
+from pipeline.services.timeslot_windower import TimeslotWindower
+from pipeline.services.timeslot_grader import TimeslotGrader
+from pipeline.orchestration.pipeline.context import PipelineContext
 
 
 class TestTimeslotIntegration:

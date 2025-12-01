@@ -11,7 +11,7 @@ Tests functional result type in src/core/result.py:
 """
 
 import pytest
-from src.core.result import (
+from pipeline.services.result import (
     Result,
     from_optional,
     from_exception,

@@ -17,12 +17,20 @@ Note: Refactored in Week 4 Day 7 to use DailyLaborPatternManager instead of Patt
 import pytest
 from unittest.mock import Mock, MagicMock
 
-from src.processing.stages.pattern_learning_stage import PatternLearningStage
-from src.processing.labor_calculator import LaborMetrics
-from src.orchestration.pipeline import PipelineContext
-from src.core.result import Result
-from src.models.daily_labor_pattern import DailyLaborPattern
-from src.core.patterns.daily_labor_manager import DailyLaborPatternManager
+from pipeline.stages.pattern_learning_stage import PatternLearningStage
+from pipeline.services.labor_calculator import LaborMetrics
+from pipeline.orchestration.pipeline import PipelineContext
+from pipeline.services.result import Result
+from pipeline.models.daily_labor_pattern import DailyLaborPattern
+from pipeline.services.patterns.daily_labor_manager import DailyLaborPatternManager
+
+
+def create_mock_pattern(confidence=0.75, observations=5):
+    """Create a mock pattern with numeric attributes for logging."""
+    mock_pattern = Mock()
+    mock_pattern.confidence = confidence
+    mock_pattern.observations = observations
+    return mock_pattern
 
 
 # ============================================================================
@@ -86,7 +94,7 @@ class TestSuccessfulPatternLearning:
     def test_learn_pattern_successfully(self, pattern_learning_stage, context_with_metrics, mock_pattern_manager):
         """Test successful pattern learning."""
         # Setup mock to return successful pattern
-        mock_pattern = Mock()  # Use simple mock instead of real Pattern
+        mock_pattern = create_mock_pattern()  # Use helper for proper numeric attributes
         mock_pattern_manager.learn_pattern.return_value = Result.ok(mock_pattern)
 
         # Execute stage
@@ -101,7 +109,7 @@ class TestSuccessfulPatternLearning:
 
     def test_pattern_manager_called_correctly(self, pattern_learning_stage, context_with_metrics, mock_pattern_manager):
         """Test DailyLaborPatternManager is called with correct arguments."""
-        mock_pattern_manager.learn_pattern.return_value = Result.ok(Mock())
+        mock_pattern_manager.learn_pattern.return_value = Result.ok(create_mock_pattern())
 
         pattern_learning_stage.execute(context_with_metrics)
 
@@ -115,7 +123,7 @@ class TestSuccessfulPatternLearning:
 
     def test_stores_empty_warnings_on_success(self, pattern_learning_stage, context_with_metrics, mock_pattern_manager):
         """Test stores empty warnings list on successful learning."""
-        mock_pattern_manager.learn_pattern.return_value = Result.ok(Mock())
+        mock_pattern_manager.learn_pattern.return_value = Result.ok(create_mock_pattern())
 
         result = pattern_learning_stage.execute(context_with_metrics)
 
@@ -255,7 +263,7 @@ class TestContextIntegration:
     def test_preserves_existing_context_data(self, pattern_learning_stage, context_with_metrics, mock_pattern_manager):
         """Test stage preserves existing context data."""
         context_with_metrics.set('existing_key', 'existing_value')
-        mock_pattern_manager.learn_pattern.return_value = Result.ok(Mock())
+        mock_pattern_manager.learn_pattern.return_value = Result.ok(create_mock_pattern())
 
         result = pattern_learning_stage.execute(context_with_metrics)
 
@@ -264,7 +272,7 @@ class TestContextIntegration:
 
     def test_returns_same_context_object(self, pattern_learning_stage, context_with_metrics, mock_pattern_manager):
         """Test stage returns the same context object (mutated)."""
-        mock_pattern_manager.learn_pattern.return_value = Result.ok(Mock())
+        mock_pattern_manager.learn_pattern.return_value = Result.ok(create_mock_pattern())
 
         result = pattern_learning_stage.execute(context_with_metrics)
 
@@ -302,14 +310,14 @@ class TestPipelineStageProtocol:
 
     def test_execute_accepts_context(self, pattern_learning_stage, context_with_metrics, mock_pattern_manager):
         """Test execute accepts PipelineContext."""
-        mock_pattern_manager.learn_pattern.return_value = Result.ok(Mock())
+        mock_pattern_manager.learn_pattern.return_value = Result.ok(create_mock_pattern())
 
         result = pattern_learning_stage.execute(context_with_metrics)
         assert isinstance(result, Result)
 
     def test_execute_returns_result_context(self, pattern_learning_stage, context_with_metrics, mock_pattern_manager):
         """Test execute returns Result[PipelineContext]."""
-        mock_pattern_manager.learn_pattern.return_value = Result.ok(Mock())
+        mock_pattern_manager.learn_pattern.return_value = Result.ok(create_mock_pattern())
 
         result = pattern_learning_stage.execute(context_with_metrics)
 

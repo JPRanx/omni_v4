@@ -8,8 +8,8 @@ import pytest
 import pandas as pd
 from pathlib import Path
 
-from src.processing.order_categorizer import OrderCategorizer
-from src.ingestion.csv_data_source import CSVDataSource
+from pipeline.services.order_categorizer import OrderCategorizer
+from pipeline.ingestion.csv_data_source import CSVDataSource
 
 
 class TestOrderCategorizationIntegration:

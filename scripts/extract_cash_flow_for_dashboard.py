@@ -25,7 +25,7 @@ import logging
 project_root = Path(__file__).parent.parent
 sys.path.insert(0, str(project_root))
 
-from src.processing.cash_flow_extractor import CashFlowExtractor
+from pipeline.services.cash_flow_extractor import CashFlowExtractor
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)

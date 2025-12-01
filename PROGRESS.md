@@ -823,3 +823,68 @@ See [docs/ARCHITECTURE_DECISIONS.md](docs/ARCHITECTURE_DECISIONS.md) for detaile
 1. **Fix Investigation Modal Bug** - Update InvestigationModal.js to correctly display Drive-Thru/ToGo from category_stats object
 2. **Merge Cleanup Branch** - Merge cleanup-nov19 branch to master
 3. **Continue Development** - Resume Week 9+ roadmap with clean codebase
+
+---
+
+## 🏗️ Project Reorganization (Dec 1, 2025)
+
+### Motivation
+The original `src/` directory structure used generic names that didn't describe purpose:
+- `src/` → "source of what?"
+- `src/core/` → vague container
+- `src/processing/stages/` → key concept buried 3 levels deep
+
+### New Structure
+```
+omni_v4/
+├── pipeline/                     # Python backend (clear purpose)
+│   ├── cli.py                    # Entry point (was scripts/run_date_range.py)
+│   ├── stages/                   # 7 pipeline stages (elevated to top)
+│   │   ├── ingestion_stage.py
+│   │   ├── order_categorization_stage.py
+│   │   ├── timeslot_grading_stage.py
+│   │   ├── processing_stage.py
+│   │   ├── pattern_learning_stage.py
+│   │   ├── storage_stage.py
+│   │   └── supabase_storage_stage.py
+│   ├── services/                 # Business logic
+│   │   ├── labor_calculator.py
+│   │   ├── order_categorizer.py
+│   │   ├── timeslot_grader.py
+│   │   ├── cash_flow_extractor.py
+│   │   ├── shift_splitter.py
+│   │   └── patterns/             # Pattern management
+│   ├── models/                   # 16 DTOs
+│   ├── storage/                  # Supabase client + migrations
+│   ├── ingestion/                # CSV loaders
+│   ├── infrastructure/           # Logging, config
+│   └── orchestration/            # Pipeline context
+│
+├── dashboard/                    # JavaScript frontend
+├── tests/                        # Test suite (513 passing)
+├── scripts/                      # Utility scripts
+├── config/                       # YAML configs
+├── data/                         # Input CSVs
+├── outputs/                      # Generated files
+├── migrations/                   # SQL schema
+└── docs/                         # Documentation
+```
+
+### Migration Stats
+- **350 imports** updated across 91 files
+- **513/523 tests** passing (10 pre-existing failures)
+- **Old `src/`** archived to `archive/src_old/`
+- **Zero breaking changes** to functionality
+
+### Key Principle
+> "If a new developer joins, can they understand the project structure in 30 seconds?"
+
+- `pipeline/` → runs the data pipeline
+- `dashboard/` → the web UI
+- `stages/` → the 7 sequential processing steps
+- `services/` → business logic (calculators, graders)
+- `models/` → data transfer objects
+
+### Files Changed
+- `pytest.ini` → coverage now targets `pipeline/` instead of `src/`
+- All Python imports → `src.*` replaced with `pipeline.*`

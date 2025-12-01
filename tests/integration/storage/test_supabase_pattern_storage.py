@@ -16,9 +16,9 @@ import pytest
 from unittest.mock import Mock, MagicMock
 from datetime import datetime
 
-from src.infrastructure.storage.supabase_pattern_storage import SupabasePatternStorage
-from src.models.pattern import Pattern
-from src.core import PatternError, DatabaseError
+from pipeline.infrastructure.storage.supabase_pattern_storage import SupabasePatternStorage
+from pipeline.models.pattern import Pattern
+from pipeline.services import PatternError, DatabaseError
 
 
 # ============================================================================

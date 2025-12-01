@@ -11,7 +11,7 @@ Tests all custom exception classes in src/core/errors.py:
 """
 
 import pytest
-from src.core.errors import (
+from pipeline.services.errors import (
     OMNIError,
     ConfigError,
     IngestionError,

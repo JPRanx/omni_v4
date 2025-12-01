@@ -4,8 +4,8 @@ import pytest
 import pandas as pd
 import numpy as np
 
-from src.ingestion.data_validator import DataValidator
-from src.core.errors import ValidationError
+from pipeline.ingestion.data_validator import DataValidator
+from pipeline.services.errors import ValidationError
 
 
 class TestDataValidator:

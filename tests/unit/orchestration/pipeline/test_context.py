@@ -13,7 +13,7 @@ Tests:
 
 import pytest
 
-from src.orchestration.pipeline import PipelineContext
+from pipeline.orchestration.pipeline import PipelineContext
 
 
 # ============================================================================

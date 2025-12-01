@@ -21,20 +21,20 @@ from pathlib import Path
 from typing import Dict, Any
 from unittest.mock import Mock, MagicMock
 
-from src.core.result import Result
-from src.orchestration.pipeline.context import PipelineContext
-from src.processing.stages.ingestion_stage import IngestionStage
-from src.processing.stages.processing_stage import ProcessingStage
-from src.processing.stages.pattern_learning_stage import PatternLearningStage
-from src.processing.stages.storage_stage import StorageStage
-from src.infrastructure.database.in_memory_client import InMemoryDatabaseClient
-from src.core.patterns.in_memory_daily_labor_storage import InMemoryDailyLaborPatternStorage
-from src.core.patterns.daily_labor_manager import DailyLaborPatternManager
-from src.infrastructure.config.loader import ConfigLoader
-from src.ingestion.data_validator import DataValidator
-from src.processing.labor_calculator import LaborCalculator
-from src.models.labor_dto import LaborDTO
-from src.models.ingestion_result import IngestionResult
+from pipeline.services.result import Result
+from pipeline.orchestration.pipeline.context import PipelineContext
+from pipeline.stages.ingestion_stage import IngestionStage
+from pipeline.stages.processing_stage import ProcessingStage
+from pipeline.stages.pattern_learning_stage import PatternLearningStage
+from pipeline.stages.storage_stage import StorageStage
+from pipeline.infrastructure.database.in_memory_client import InMemoryDatabaseClient
+from pipeline.services.patterns.in_memory_daily_labor_storage import InMemoryDailyLaborPatternStorage
+from pipeline.services.patterns.daily_labor_manager import DailyLaborPatternManager
+from pipeline.infrastructure.config.loader import ConfigLoader
+from pipeline.ingestion.data_validator import DataValidator
+from pipeline.services.labor_calculator import LaborCalculator
+from pipeline.models.labor_dto import LaborDTO
+from pipeline.models.ingestion_result import IngestionResult
 
 
 # ==============================================================================
@@ -629,7 +629,7 @@ class TestErrorHandling:
         # Create mock pattern manager that fails
         mock_pattern_manager = Mock(spec=DailyLaborPatternManager)
         # Return a failure Result instead of raising an exception
-        from src.core.errors import PatternError
+        from pipeline.services.errors import PatternError
         mock_pattern_manager.learn_pattern.return_value = Result.fail(
             PatternError(message="Pattern learning failed", context={})
         )
@@ -1008,7 +1008,7 @@ class TestPatternAccumulation:
         config_loader
     ):
         """Verify exponential moving average works."""
-        from src.models.pattern import Pattern
+        from pipeline.models.pattern import Pattern
 
         restaurant_code = "SDR"
 

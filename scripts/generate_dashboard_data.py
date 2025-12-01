@@ -22,20 +22,20 @@ project_root = Path(__file__).parent.parent
 sys.path.insert(0, str(project_root))
 
 try:
-    from src.storage.supabase_client import SupabaseClient
+    from pipeline.storage.supabase_client import SupabaseClient
     SUPABASE_AVAILABLE = True
 except Exception:
     SUPABASE_AVAILABLE = False
 
 try:
-    from src.output.v3_data_transformer import V3DataTransformer
+    from pipeline.output.v3_data_transformer import V3DataTransformer
     V3_TRANSFORMER_AVAILABLE = True
 except Exception:
     V3_TRANSFORMER_AVAILABLE = False
 
 try:
-    from src.processing.overtime_calculator import OvertimeCalculator
-    from src.models.time_entry_dto import TimeEntryDTO
+    from pipeline.services.overtime_calculator import OvertimeCalculator
+    from pipeline.models.time_entry_dto import TimeEntryDTO
     OVERTIME_CALCULATOR_AVAILABLE = True
 except Exception:
     OVERTIME_CALCULATOR_AVAILABLE = False

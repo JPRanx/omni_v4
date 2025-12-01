@@ -7,12 +7,12 @@ import shutil
 from pathlib import Path
 from unittest.mock import Mock, patch
 
-from src.processing.stages.ingestion_stage import IngestionStage
-from src.ingestion.data_validator import DataValidator
-from src.ingestion.csv_data_source import CSVDataSource
-from src.orchestration.pipeline.context import PipelineContext
-from src.core.errors import IngestionError, ValidationError
-from src.models.ingestion_result import IngestionResult
+from pipeline.stages.ingestion_stage import IngestionStage
+from pipeline.ingestion.data_validator import DataValidator
+from pipeline.ingestion.csv_data_source import CSVDataSource
+from pipeline.orchestration.pipeline.context import PipelineContext
+from pipeline.services.errors import IngestionError, ValidationError
+from pipeline.models.ingestion_result import IngestionResult
 
 
 class TestIngestionStage:
@@ -329,7 +329,7 @@ class TestIngestionStage:
 
     # Temp file creation tests
 
-    @patch('src.processing.stages.ingestion_stage.Path.mkdir')
+    @patch('pipeline.stages.ingestion_stage.Path.mkdir')
     def test_execute_temp_dir_creation_failure(self, mock_mkdir, stage, valid_context):
         """Test error when temp directory creation fails"""
         mock_mkdir.side_effect = PermissionError("Permission denied")

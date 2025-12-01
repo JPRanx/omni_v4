@@ -15,7 +15,7 @@ import pytest
 from pathlib import Path
 from unittest.mock import patch
 
-from src.infrastructure.config.loader import ConfigLoader, ConfigError
+from pipeline.infrastructure.config.loader import ConfigLoader, ConfigError
 
 
 class TestConfigLoaderBasics:
@@ -488,7 +488,7 @@ class TestConvenienceFunction:
     })
     def test_load_config_convenience_function(self):
         """Test convenience function works."""
-        from src.infrastructure.config.loader import load_config
+        from pipeline.infrastructure.config.loader import load_config
 
         config = load_config(restaurant_code="SDR", env="dev")
 

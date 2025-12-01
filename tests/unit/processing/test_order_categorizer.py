@@ -9,7 +9,7 @@ import pytest
 import pandas as pd
 from pathlib import Path
 
-from src.processing.order_categorizer import OrderCategorizer
+from pipeline.services.order_categorizer import OrderCategorizer
 
 
 class TestOrderCategorizer:

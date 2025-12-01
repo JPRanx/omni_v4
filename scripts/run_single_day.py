@@ -24,19 +24,19 @@ from typing import Dict, Any, List, Optional
 project_root = Path(__file__).parent.parent
 sys.path.insert(0, str(project_root))
 
-from src.core.result import Result
-from src.orchestration.pipeline.context import PipelineContext
-from src.infrastructure.config.loader import ConfigLoader
-from src.infrastructure.database.in_memory_client import InMemoryDatabaseClient
-from src.core.patterns.in_memory_storage import InMemoryPatternStorage
-from src.core.patterns.manager import PatternManager
-from src.ingestion.data_validator import DataValidator
-from src.processing.labor_calculator import LaborCalculator
-from src.processing.stages.ingestion_stage import IngestionStage
-from src.processing.stages.processing_stage import ProcessingStage
-from src.processing.stages.pattern_learning_stage import PatternLearningStage
-from src.processing.stages.storage_stage import StorageStage
-from src.models.labor_dto import LaborDTO
+from pipeline.services.result import Result
+from pipeline.orchestration.pipeline.context import PipelineContext
+from pipeline.infrastructure.config.loader import ConfigLoader
+from pipeline.infrastructure.database.in_memory_client import InMemoryDatabaseClient
+from pipeline.services.patterns.in_memory_storage import InMemoryPatternStorage
+from pipeline.services.patterns.manager import PatternManager
+from pipeline.ingestion.data_validator import DataValidator
+from pipeline.services.labor_calculator import LaborCalculator
+from pipeline.stages.ingestion_stage import IngestionStage
+from pipeline.stages.processing_stage import ProcessingStage
+from pipeline.stages.pattern_learning_stage import PatternLearningStage
+from pipeline.stages.storage_stage import StorageStage
+from pipeline.models.labor_dto import LaborDTO
 import pandas as pd
 
 
@@ -333,7 +333,7 @@ def run_restaurant_pipeline(
         print("\n[PATTERN] Stage 5: Pattern Learning")
 
         # Create pattern learning stage
-        from src.processing.stages.pattern_learning_stage import PatternLearningStage
+        from pipeline.stages.pattern_learning_stage import PatternLearningStage
         pattern_learning_stage = PatternLearningStage(pattern_manager)
 
         pattern_result = pattern_learning_stage.execute(context)
@@ -362,7 +362,7 @@ def run_restaurant_pipeline(
         print("\n[STORAGE] Stage 6: Storage")
 
         # Create mock IngestionResult for storage
-        from src.models.ingestion_result import IngestionResult
+        from pipeline.models.ingestion_result import IngestionResult
         ingestion_dto = IngestionResult.create(
             restaurant_code=restaurant_code,
             business_date=date,

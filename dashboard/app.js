@@ -23,8 +23,502 @@ import { ThemeSwitcher } from './components/ThemeSwitcher.js';
 // Import utilities
 import { DataValidator } from './shared/utils/dataValidator.js';
 
-// Import V4 data directly - no more services needed
-import { v4Data } from './data/v4Data.js';
+// ============================================
+// Data Loading Functions
+// ============================================
+
+/**
+ * Load data from static v4Data.js file
+ */
+async function loadFromStatic() {
+  console.log('[DataLoader] Loading from static v4Data.js...');
+  const module = await import('./data/v4Data.js');
+  console.log('[DataLoader] ✅ Static data loaded');
+  return module.v4Data;
+}
+
+/**
+ * Load data from Supabase database
+ */
+async function loadFromSupabase() {
+  console.log('[DataLoader] Loading from Supabase...');
+
+  try {
+    // Initialize Supabase client
+    const { createClient } = window.supabase;
+    const supabaseUrl = 'https://cactkpgueegwkqprgdwe.supabase.co';
+    const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNhY3RrcGd1ZWVnd2txcHJnZHdlIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjI4NzM5MTQsImV4cCI6MjA3ODQ0OTkxNH0.TzpPyMg7Bhey4Vos-Ev2OVFEo80hfIkSBBpXTIgHsvg';
+
+    const supabase = createClient(supabaseUrl, supabaseKey);
+    console.log('[DataLoader] Supabase client initialized');
+
+    // Query all daily operations (261 rows expected)
+    const { data: dailyOps, error: dailyError } = await supabase
+      .from('daily_operations')
+      .select('*')
+      .order('business_date');
+
+    if (dailyError) throw dailyError;
+
+    // Query all shift operations (522 rows expected - 2 shifts per day)
+    const { data: shiftOps, error: shiftError } = await supabase
+      .from('shift_operations')
+      .select('*')
+      .order('business_date, shift_name');
+
+    if (shiftError) throw shiftError;
+
+    // Query all vendor payouts (detailed payout records)
+    const { data: vendorPayouts, error: vendorError } = await supabase
+      .from('vendor_payouts')
+      .select('*')
+      .order('business_date, shift_name, vendor_name');
+
+    if (vendorError) {
+      console.warn('[DataLoader] vendor_payouts query failed (table may not exist yet):', vendorError);
+    }
+
+    console.log(`[DataLoader] Fetched ${dailyOps.length} daily operations, ${shiftOps.length} shift operations, ${vendorPayouts?.length || 0} vendor payouts`);
+
+    // Debug: Log sample data
+    if (dailyOps.length > 0) {
+      console.log('[DataLoader] Sample daily operation:', dailyOps[0]);
+      console.log('[DataLoader] Daily ops columns:', Object.keys(dailyOps[0]));
+    }
+    if (shiftOps.length > 0) {
+      console.log('[DataLoader] Sample shift operation:', shiftOps[0]);
+      console.log('[DataLoader] Shift ops columns:', Object.keys(shiftOps[0]));
+    }
+
+    // Transform Supabase data to v4Data structure
+    const transformedData = transformSupabaseToV4Data(dailyOps, shiftOps, vendorPayouts || []);
+
+    console.log('[DataLoader] ✅ Supabase data loaded and transformed');
+    return transformedData;
+
+  } catch (error) {
+    console.error('[DataLoader] ❌ Failed to load from Supabase:', error);
+    console.log('[DataLoader] Falling back to static data...');
+    return loadFromStatic();
+  }
+}
+
+/**
+ * Transform Supabase query results to match v4Data.js structure
+ *
+ * DTO MAPPING REFERENCE (3-Way Consistency):
+ * ================================================
+ *
+ * RESTAURANT AGGREGATES (Top-level):
+ *   Supabase DB         →  v4Data.js       →  Dashboard Display
+ *   -----------            -----------         ------------------
+ *   total_sales         →  sales           →  Sales
+ *   labor_cost          →  laborCost       →  Labor Cost
+ *   food_cost           →  cogs            →  COGS
+ *   labor_status (last) →  status          →  Status (excellent/good/warning/critical)
+ *   labor_grade (last)  →  grade           →  Grade (A/B/C/D/F)
+ *
+ * DAILY BREAKDOWN:
+ *   Supabase DB         →  v4Data.js       →  Dashboard Display
+ *   -----------            -----------         ------------------
+ *   business_date       →  date            →  Date
+ *   restaurant_code     →  restaurant      →  Restaurant
+ *   total_sales         →  sales           →  Sales
+ *   labor_cost          →  labor           →  Labor (Note: different from aggregate!)
+ *   labor_percent       →  laborPercent    →  Labor %
+ *   food_cost           →  cogs            →  COGS
+ *   cash_collected      →  cashCollected   →  Cash Collected
+ *   tips_distributed    →  tipsDistributed →  Tips Distributed
+ *   vendor_payouts_total→  vendorPayouts   →  Vendor Payouts
+ *   net_cash            →  netCash         →  Net Cash
+ *
+ * SHIFT BREAKDOWN:
+ *   Supabase DB         →  v4Data.js       →  Dashboard Display
+ *   -----------            -----------         ------------------
+ *   shift_name          →  [key] (lowercase) → Shift Name
+ *   sales               →  sales           →  Sales
+ *   labor_cost          →  labor           →  Labor
+ *   order_count         →  orderCount      →  Order Count
+ *   manager             →  manager         →  Manager (from time entries)
+ *   voids               →  voids           →  Voids (currently 0, not extracted)
+ *   cash_collected      →  cashCollected   →  Cash Collected
+ *   tips_distributed    →  tipsDistributed →  Tips Distributed
+ *   vendor_payouts      →  vendorPayouts   →  Vendor Payouts
+ *   net_cash            →  netCash         →  Net Cash
+ *   category_stats      →  category_stats  →  Category Stats
+ *   CALCULATED          →  avgOrderValue   →  Avg Order Value (sales / orderCount)
+ *
+ * NOTE: After migration 002, manager and voids are now stored in Supabase.
+ *       Manager is extracted from time entries. Voids will be 0 until extraction is implemented.
+ */
+function transformSupabaseToV4Data(dailyOps, shiftOps, vendorPayouts = []) {
+  console.log('[Transform] Starting transformation...');
+
+  // Group daily operations by week
+  const weekMap = new Map();
+
+  dailyOps.forEach(day => {
+    const date = new Date(day.business_date);
+    const weekKey = getWeekKey(date);
+
+    if (!weekMap.has(weekKey)) {
+      weekMap.set(weekKey, {
+        startDate: null,
+        endDate: null,
+        dailyOps: [],
+        shiftOps: [],
+        vendorPayouts: []
+      });
+    }
+
+    const week = weekMap.get(weekKey);
+    week.dailyOps.push(day);
+
+    // Update week date range
+    if (!week.startDate || date < new Date(week.startDate)) {
+      week.startDate = day.business_date;
+    }
+    if (!week.endDate || date > new Date(week.endDate)) {
+      week.endDate = day.business_date;
+    }
+  });
+
+  // Add shift operations to their respective weeks
+  shiftOps.forEach(shift => {
+    const date = new Date(shift.business_date);
+    const weekKey = getWeekKey(date);
+
+    if (weekMap.has(weekKey)) {
+      weekMap.get(weekKey).shiftOps.push(shift);
+    }
+  });
+
+  // Add vendor payouts to their respective weeks
+  vendorPayouts.forEach(payout => {
+    const date = new Date(payout.business_date);
+    const weekKey = getWeekKey(date);
+
+    if (weekMap.has(weekKey)) {
+      weekMap.get(weekKey).vendorPayouts.push(payout);
+    }
+  });
+
+  // Build v4Data structure
+  const v4Data = {};
+  let weekNumber = 1;
+
+  // Sort weeks by start date
+  const sortedWeeks = Array.from(weekMap.entries())
+    .sort((a, b) => new Date(a[1].startDate) - new Date(b[1].startDate));
+
+  sortedWeeks.forEach(([weekKey, weekData]) => {
+    v4Data[`week${weekNumber}`] = buildWeekData(weekData, weekNumber);
+    weekNumber++;
+  });
+
+  console.log(`[Transform] ✅ Transformed into ${Object.keys(v4Data).length} weeks`);
+
+  // Debug: Log sample week structure
+  const firstWeek = v4Data[Object.keys(v4Data)[0]];
+  if (firstWeek && firstWeek.restaurants && firstWeek.restaurants.length > 0) {
+    const sampleRestaurant = firstWeek.restaurants[0];
+    console.log('[Transform] Sample restaurant structure:', {
+      name: sampleRestaurant.name,
+      sales: sampleRestaurant.sales,
+      laborCost: sampleRestaurant.laborCost,
+      dailyBreakdownCount: sampleRestaurant.dailyBreakdown?.length || 0
+    });
+
+    if (sampleRestaurant.dailyBreakdown && sampleRestaurant.dailyBreakdown.length > 0) {
+      const sampleDay = sampleRestaurant.dailyBreakdown[0];
+      console.log('[Transform] Sample daily breakdown:', {
+        date: sampleDay.date,
+        restaurant: sampleDay.restaurant,
+        sales: sampleDay.sales,
+        labor: sampleDay.labor,
+        shifts: Object.keys(sampleDay.shifts || {})
+      });
+
+      const shiftKeys = Object.keys(sampleDay.shifts || {});
+      if (shiftKeys.length > 0) {
+        console.log('[Transform] Sample shift:', sampleDay.shifts[shiftKeys[0]]);
+      }
+    }
+  }
+
+  return v4Data;
+}
+
+/**
+ * Get week key (Monday-Sunday) for a date
+ */
+function getWeekKey(date) {
+  const d = new Date(date);
+  const day = d.getDay();
+  const diff = d.getDate() - day + (day === 0 ? -6 : 1); // Adjust to Monday
+  const monday = new Date(d.setDate(diff));
+  return monday.toISOString().split('T')[0];
+}
+
+/**
+ * Build week data structure from daily/shift operations
+ */
+function buildWeekData(weekData, weekNumber) {
+  const { dailyOps, shiftOps, vendorPayouts = [] } = weekData;
+
+  // Debug: Check what restaurant codes we have in the data
+  const uniqueCodes = [...new Set(dailyOps.map(d => d.restaurant_code))];
+  console.log(`[BuildWeek] Week ${weekNumber}: Found restaurant codes:`, uniqueCodes);
+  console.log(`[BuildWeek] Week ${weekNumber}: ${dailyOps.length} daily ops, ${shiftOps.length} shift ops`);
+
+  // Group by restaurant
+  const restaurantMap = new Map();
+  const restaurants = ['SDR', 'T12', 'TK9'];
+
+  restaurants.forEach(code => {
+    const restaurantDays = dailyOps.filter(d => d.restaurant_code === code);
+    const restaurantShifts = shiftOps.filter(s => s.restaurant_code === code);
+
+    console.log(`[BuildWeek] Restaurant ${code}: ${restaurantDays.length} days, ${restaurantShifts.length} shifts`);
+
+    if (restaurantDays.length > 0) {
+      restaurantMap.set(code, {
+        name: getRestaurantName(code),
+        code: code,
+        dailyOps: restaurantDays,
+        shiftOps: restaurantShifts
+      });
+    }
+  });
+
+  // Build restaurants array with daily breakdown
+  const restaurantsArray = Array.from(restaurantMap.values()).map(restaurant => {
+    const dailyBreakdown = restaurant.dailyOps.map(day => {
+      // Get shifts for this day
+      const dayShifts = restaurant.shiftOps.filter(s => s.business_date === day.business_date);
+
+      // Build shifts object (not array) with lowercase keys
+      const shifts = {};
+      dayShifts.forEach(shift => {
+        // Shift key: Supabase: shift_name → v4Data: lowercase key (e.g., "morning", "evening")
+        const shiftKey = (shift.shift_name || shift.shift_type || 'unknown').toLowerCase();
+
+        // Map Supabase columns to v4Data structure (Shift Breakdown)
+        const shiftSales = shift.sales || 0;              // Supabase: sales → v4Data: sales
+        const shiftLabor = shift.labor_cost || 0;         // Supabase: labor_cost → v4Data: labor
+
+        // Calculate average order value from sales and order count
+        const orderCount = shift.order_count || 0;
+        const avgOrderValue = orderCount > 0 ? shiftSales / orderCount : 0;
+
+        shifts[shiftKey] = {
+          sales: shiftSales,
+          labor: shiftLabor,
+          laborPercent: shiftSales > 0 ? (shiftLabor / shiftSales) * 100 : 0,  // Calculated
+          manager: shift.manager || "Not Assigned",       // Supabase: manager → v4Data: manager (from time entries)
+          voids: shift.voids || 0,                        // Supabase: voids → v4Data: voids (currently 0)
+          orderCount: orderCount,                         // Supabase: order_count → v4Data: orderCount
+          avgOrderValue: avgOrderValue,                   // Calculated from sales / order_count
+          cashCollected: shift.cash_collected || 0,       // Supabase: cash_collected → v4Data: cashCollected
+          tipsDistributed: shift.tips_distributed || 0,   // Supabase: tips_distributed → v4Data: tipsDistributed
+          vendorPayouts: shift.vendor_payouts || 0,       // Supabase: vendor_payouts → v4Data: vendorPayouts
+          netCash: shift.net_cash || 0,                   // Supabase: net_cash → v4Data: netCash
+          category_stats: shift.category_stats || {}      // Supabase: category_stats → v4Data: category_stats
+        };
+      });
+
+      // Map Supabase columns to v4Data structure (Daily Breakdown)
+      const sales = day.total_sales || 0;           // Supabase: total_sales → v4Data: sales
+      const labor = day.labor_cost || 0;            // Supabase: labor_cost → v4Data: labor
+      const cogs = day.food_cost || 0;              // Supabase: food_cost → v4Data: cogs
+
+      return {
+        date: day.business_date,                    // Supabase: business_date → v4Data: date
+        restaurant: day.restaurant_code,            // Supabase: restaurant_code → v4Data: restaurant
+        sales: sales,
+        labor: labor,                               // NOTE: "labor" in daily, "laborCost" in aggregate
+        laborPercent: day.labor_percent || 0,       // Supabase: labor_percent → v4Data: laborPercent
+        cogs: cogs,
+        cogsPercent: sales > 0 ? (cogs / sales) * 100 : 0,
+        profit: sales - labor - cogs,               // Calculated field
+        profitMargin: sales > 0 ? ((sales - labor - cogs) / sales) * 100 : 0,  // Calculated field
+        cashCollected: day.cash_collected || 0,     // Supabase: cash_collected → v4Data: cashCollected
+        tipsDistributed: day.tips_distributed || 0, // Supabase: tips_distributed → v4Data: tipsDistributed
+        vendorPayouts: day.vendor_payouts_total || 0, // Supabase: vendor_payouts_total → v4Data: vendorPayouts
+        netCash: day.net_cash || 0,                 // Supabase: net_cash → v4Data: netCash
+        shifts: shifts                              // Object with lowercase shift names as keys
+      };
+    });
+
+    // Calculate restaurant totals (aggregate from daily operations)
+    const totalSales = restaurant.dailyOps.reduce((sum, d) => sum + (d.total_sales || 0), 0);
+    const totalLaborCost = restaurant.dailyOps.reduce((sum, d) => sum + (d.labor_cost || 0), 0);
+    const totalCogs = restaurant.dailyOps.reduce((sum, d) => sum + (d.food_cost || 0), 0);
+
+    // Get most recent day's status and grade for the restaurant
+    const mostRecentDay = restaurant.dailyOps[restaurant.dailyOps.length - 1];
+    const status = mostRecentDay?.labor_status || 'good';     // Supabase: labor_status → v4Data: status
+    const grade = mostRecentDay?.labor_grade || 'B';          // Supabase: labor_grade → v4Data: grade
+
+    return {
+      id: `rest-${restaurant.code.toLowerCase()}`,
+      name: restaurant.name,
+      code: restaurant.code,
+      sales: totalSales,                // Supabase: total_sales → v4Data: sales
+      laborCost: totalLaborCost,        // Supabase: labor_cost → v4Data: laborCost
+      laborPercent: totalSales > 0 ? (totalLaborCost / totalSales) * 100 : 0,
+      cogs: totalCogs,                  // Supabase: food_cost → v4Data: cogs
+      cogsPercent: totalSales > 0 ? (totalCogs / totalSales) * 100 : 0,
+      netProfit: totalSales - totalLaborCost - totalCogs,
+      profitMargin: totalSales > 0 ? ((totalSales - totalLaborCost - totalCogs) / totalSales) * 100 : 0,
+      status: status,                   // From most recent day's labor_status
+      grade: grade,                     // From most recent day's labor_grade
+      dailyBreakdown
+    };
+  });
+
+  // Calculate overview totals
+  const totalSales = dailyOps.reduce((sum, d) => sum + (d.total_sales || 0), 0);
+  const totalLaborCost = dailyOps.reduce((sum, d) => sum + (d.labor_cost || 0), 0);
+  const totalCash = dailyOps.reduce((sum, d) => sum + (d.cash_collected || 0), 0);
+  const totalTips = dailyOps.reduce((sum, d) => sum + (d.tips_distributed || 0), 0);
+  const totalVendorPayouts = dailyOps.reduce((sum, d) => sum + (d.vendor_payouts_total || 0), 0);
+  const totalNetCash = dailyOps.reduce((sum, d) => sum + (d.net_cash || 0), 0);
+  const totalOvertimeHours = dailyOps.reduce((sum, d) => sum + (d.overtime_hours || 0), 0);
+
+  // Build cashFlow structure with per-restaurant breakdown (for RestaurantCards)
+  const cashFlowRestaurants = {};
+  restaurantsArray.forEach(restaurant => {
+    // Get restaurant's daily ops
+    const restDailyOps = dailyOps.filter(d => d.restaurant_code === restaurant.code);
+    const restCash = restDailyOps.reduce((sum, d) => sum + (d.cash_collected || 0), 0);
+    const restTips = restDailyOps.reduce((sum, d) => sum + (d.tips_distributed || 0), 0);
+    const restPayouts = restDailyOps.reduce((sum, d) => sum + (d.vendor_payouts_total || 0), 0);
+    const restNetCash = restDailyOps.reduce((sum, d) => sum + (d.net_cash || 0), 0);
+
+    // Get shift data for this restaurant
+    const restShiftOps = shiftOps.filter(s => s.restaurant_code === restaurant.code);
+    const morningShifts = restShiftOps.filter(s => s.shift_name === 'Morning');
+    const eveningShifts = restShiftOps.filter(s => s.shift_name === 'Evening');
+
+    // Get vendor payouts for this restaurant (detailed records)
+    const restVendorPayouts = vendorPayouts
+      .filter(p => p.restaurant_code === restaurant.code)
+      .map(p => ({
+        vendor_name: p.vendor_name,
+        amount: p.amount,
+        reason: p.reason,
+        comments: p.comments,
+        time: p.payout_time,
+        manager: p.manager,
+        drawer: p.drawer,
+        shift: p.shift_name,
+        date: p.business_date
+      }));
+
+    cashFlowRestaurants[restaurant.code] = {
+      total_cash: restCash,
+      total_tips: restTips,
+      total_vendor_payouts: restPayouts,
+      net_cash: restNetCash,
+      vendor_payouts: restVendorPayouts,  // Array of detailed payout records
+      shifts: {
+        Morning: {
+          cash: morningShifts.reduce((sum, s) => sum + (s.cash_collected || 0), 0),
+          tips: morningShifts.reduce((sum, s) => sum + (s.tips_distributed || 0), 0),
+          payouts: morningShifts.reduce((sum, s) => sum + (s.vendor_payouts || 0), 0),
+          net: morningShifts.reduce((sum, s) => sum + (s.net_cash || 0), 0),
+          drawers: []
+        },
+        Evening: {
+          cash: eveningShifts.reduce((sum, s) => sum + (s.cash_collected || 0), 0),
+          tips: eveningShifts.reduce((sum, s) => sum + (s.tips_distributed || 0), 0),
+          payouts: eveningShifts.reduce((sum, s) => sum + (s.vendor_payouts || 0), 0),
+          net: eveningShifts.reduce((sum, s) => sum + (s.net_cash || 0), 0),
+          drawers: []
+        }
+      }
+    };
+  });
+
+  // Attach cashFlow to each restaurant object (for Investigation Modal)
+  restaurantsArray.forEach(restaurant => {
+    restaurant.cashFlow = cashFlowRestaurants[restaurant.code] || {};
+  });
+
+  // Build all vendor payouts for the week (for Investigation Modal)
+  const allVendorPayouts = vendorPayouts.map(p => ({
+    vendor_name: p.vendor_name,
+    amount: p.amount,
+    reason: p.reason,
+    comments: p.comments,
+    time: p.payout_time,
+    manager: p.manager,
+    drawer: p.drawer,
+    shift: p.shift_name,
+    date: p.business_date,
+    restaurant_code: p.restaurant_code
+  }));
+
+  const cashFlow = {
+    total_cash: totalCash,
+    total_tips: totalTips,
+    total_vendor_payouts: totalVendorPayouts,
+    net_cash: totalNetCash,
+    vendor_payouts: allVendorPayouts,  // Array of all detailed payout records
+    restaurants: cashFlowRestaurants
+  };
+
+  return {
+    weekNumber,
+    dateRange: {
+      start: weekData.startDate,
+      end: weekData.endDate
+    },
+    overview: {
+      totalSales,
+      totalLaborCost,
+      totalLabor: totalLaborCost,             // Alias for data validator compatibility
+      avgLaborPercent: totalSales > 0 ? (totalLaborCost / totalSales) * 100 : 0,
+      overtimeHours: totalOvertimeHours,      // For OverviewCard
+      totalCash,                              // For OverviewCard (camelCase)
+      total_cash: totalCash,                  // For CashFlowModal (snake_case)
+      total_tips: totalTips,                  // For CashFlowModal
+      total_vendor_payouts: totalVendorPayouts, // For CashFlowModal
+      net_cash: totalNetCash,                 // For CashFlowModal
+      cashFlow                                // For RestaurantCards and CashFlowModal
+    },
+    metrics: {},
+    restaurants: restaurantsArray,
+    autoClockoutAlerts: []
+  };
+}
+
+/**
+ * Get restaurant full name from code
+ */
+function getRestaurantName(code) {
+  const names = {
+    'SDR': "Sandra's Mexican Cuisine",
+    'T12': 'Tink-A-Tako #12',
+    'TK9': 'Tink-A-Tako #9'
+  };
+  return names[code] || code;
+}
+
+/**
+ * Load data based on localStorage preference
+ */
+async function loadData() {
+  const dataSource = localStorage.getItem('dataSource') || 'static';
+  console.log(`[DataLoader] Data source preference: ${dataSource}`);
+
+  if (dataSource === 'supabase') {
+    return await loadFromSupabase();
+  } else {
+    return await loadFromStatic();
+  }
+}
 
 /**
  * Main App Class
@@ -33,19 +527,24 @@ class DashboardApp {
   constructor() {
     this.engines = null;
     this.currentWeek = null; // Will be set to most recent week
-    this.data = v4Data; // Just use the data directly!
+    this.data = null; // Will be loaded based on user preference
     this.components = {};
     this.validationReport = null;
+    this.dataSource = localStorage.getItem('dataSource') || 'static';
 
-    console.log('[App] Dashboard initialized with local v4Data');
+    console.log(`[App] Dashboard initializing with ${this.dataSource} data source`);
   }
 
   /**
-   * Initialize the application - SIMPLIFIED VERSION
+   * Initialize the application - ASYNC VERSION WITH DATA LOADING
    */
-  initialize() {
+  async initialize() {
     try {
-      console.log('[App] Initializing Dashboard V3 (Simple Mode)...');
+      console.log('[App] Initializing Dashboard V3...');
+
+      // Step 0: Load data first
+      this.data = await loadData();
+      console.log('[App] ✅ Data loaded');
 
       // Step 1: Initialize engines
       this.engines = initializeEngines(config);
@@ -72,8 +571,8 @@ class DashboardApp {
       const route = this.engines.deviceRouter.getRoute();
       console.log(`[App] Device: ${deviceType}, Route: ${route}`);
 
-      // Step 5: Data is already loaded (v4Data)
-      console.log('[App] ✅ Data ready from v4Data.js');
+      // Step 5: Data is already loaded
+      console.log(`[App] ✅ Data ready from ${this.dataSource} source`);
 
       // Set current week to most recent week
       const allWeeks = Object.keys(this.data);
@@ -137,6 +636,8 @@ class DashboardApp {
     this.components.themeSwitcher.initialize();
 
     // Render data source toggle
+    this.renderDataSourceToggle();
+
     // Render overview card
     renderOverviewCard(this.engines, {
       data: weekData.overview,
@@ -165,6 +666,51 @@ class DashboardApp {
   }
 
   /**
+   * Render data source toggle button
+   */
+  renderDataSourceToggle() {
+    const container = document.getElementById('data-source-toggle');
+    if (!container) {
+      console.warn('[App] No data-source-toggle container found');
+      return;
+    }
+
+    const currentSource = this.dataSource;
+    const displayText = currentSource === 'static' ? 'Static (v4Data)' : 'Live (Supabase)';
+    const statusColor = currentSource === 'static' ? '#B89968' : '#10B981';
+
+    container.innerHTML = `
+      <button
+        id="toggle-data-source-btn"
+        style="
+          display: flex;
+          align-items: center;
+          gap: 8px;
+          padding: 8px 16px;
+          background: white;
+          border: 2px solid ${statusColor};
+          border-radius: 8px;
+          font-family: var(--font-primary);
+          font-size: 14px;
+          font-weight: 600;
+          color: ${statusColor};
+          cursor: pointer;
+          transition: all 0.2s ease;
+        "
+        onmouseover="this.style.background='${statusColor}'; this.style.color='white';"
+        onmouseout="this.style.background='white'; this.style.color='${statusColor}';"
+      >
+        <span style="font-size: 16px;">📊</span>
+        <span>Data: ${displayText}</span>
+      </button>
+    `;
+
+    // Add click handler
+    const button = document.getElementById('toggle-data-source-btn');
+    button.addEventListener('click', () => this.toggleDataSource());
+  }
+
+  /**
    * Handle week change
    */
   onWeekChange(week) {
@@ -187,6 +733,29 @@ class DashboardApp {
       detail: { restaurant }
     });
     modal.dispatchEvent(event);
+  }
+
+  /**
+   * Toggle data source between static and Supabase
+   */
+  toggleDataSource() {
+    const currentSource = localStorage.getItem('dataSource') || 'static';
+    const newSource = currentSource === 'static' ? 'supabase' : 'static';
+
+    console.log(`[App] Toggling data source from ${currentSource} to ${newSource}`);
+
+    // Save preference
+    localStorage.setItem('dataSource', newSource);
+
+    // Reload page to load new data source
+    window.location.reload();
+  }
+
+  /**
+   * Get current data source
+   */
+  getDataSource() {
+    return this.dataSource;
   }
 
   /**

@@ -494,10 +494,14 @@ class InvestigationModal {
     const passRate = totalSlots > 0 ? Math.round((totalPass / totalSlots) * 100) : 0;
 
     // Format date nicely
-    const dayName = day.day_name || day.day || 'Day';
     const dayDate = day.date || '';
+    const dayName = dayDate ? (() => {
+      const dateObj = new Date(dayDate + 'T12:00:00'); // Add time to avoid timezone issues
+      const dayNames = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+      return dayNames[dateObj.getDay()];
+    })() : 'Day';
     const shortDate = dayDate ? (() => {
-      const dateObj = new Date(dayDate);
+      const dateObj = new Date(dayDate + 'T12:00:00');
       return `${dateObj.getMonth() + 1}/${dateObj.getDate()}`;
     })() : '';
 
@@ -623,7 +627,15 @@ class InvestigationModal {
 
     // Match by day name (e.g., "Monday", "Tuesday") instead of date
     const dayData = dailyBreakdown.find(d => {
-      const dayNameInData = d.day_name || d.day || '';
+      // Derive day name from date field if day_name/day not present
+      const dayNameInData = d.day_name || d.day || (() => {
+        if (d.date) {
+          const dateObj = new Date(d.date + 'T12:00:00');
+          const dayNames = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+          return dayNames[dateObj.getDay()];
+        }
+        return '';
+      })();
       return dayNameInData === dayName;
     });
     console.log('[InvestigationModal] Found day data:', dayData);

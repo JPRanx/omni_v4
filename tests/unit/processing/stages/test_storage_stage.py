@@ -2,14 +2,14 @@
 
 import pytest
 from unittest.mock import Mock
-from src.processing.stages.storage_stage import StorageStage
-from src.infrastructure.database.in_memory_client import InMemoryDatabaseClient
-from src.orchestration.pipeline.context import PipelineContext
-from src.models.ingestion_result import IngestionResult
-from src.models.processing_result import ProcessingResult
-from src.models.storage_result import StorageResult
-from src.core.errors import StorageError
-from src.core.result import Result
+from pipeline.stages.storage_stage import StorageStage
+from pipeline.infrastructure.database.in_memory_client import InMemoryDatabaseClient
+from pipeline.orchestration.pipeline.context import PipelineContext
+from pipeline.models.ingestion_result import IngestionResult
+from pipeline.models.processing_result import ProcessingResult
+from pipeline.models.storage_result import StorageResult
+from pipeline.services.errors import StorageError
+from pipeline.services.result import Result
 
 
 class TestStorageStage:
@@ -123,13 +123,20 @@ class TestStorageStage:
 
     def test_execute_with_learned_patterns(self, stage, database_client, valid_context):
         """Test execution with learned patterns"""
-        # Create mock patterns
+        # Create mock patterns with to_dict() method for database storage
         mock_pattern_1 = Mock()
         mock_pattern_1.pattern_id = 'pattern_1'
         mock_pattern_1.restaurant_code = 'SDR'
         mock_pattern_1.pattern_type = 'rush_hour'
         mock_pattern_1.confidence = 0.95
         mock_pattern_1.last_updated = '2025-01-15T12:00:00'
+        mock_pattern_1.to_dict.return_value = {
+            'pattern_id': 'pattern_1',
+            'restaurant_code': 'SDR',
+            'pattern_type': 'rush_hour',
+            'confidence': 0.95,
+            'last_updated': '2025-01-15T12:00:00'
+        }
 
         mock_pattern_2 = Mock()
         mock_pattern_2.pattern_id = 'pattern_2'
@@ -137,6 +144,13 @@ class TestStorageStage:
         mock_pattern_2.pattern_type = 'slow_period'
         mock_pattern_2.confidence = 0.88
         mock_pattern_2.last_updated = '2025-01-15T14:00:00'
+        mock_pattern_2.to_dict.return_value = {
+            'pattern_id': 'pattern_2',
+            'restaurant_code': 'SDR',
+            'pattern_type': 'slow_period',
+            'confidence': 0.88,
+            'last_updated': '2025-01-15T14:00:00'
+        }
 
         valid_context.set('learned_patterns', [mock_pattern_1, mock_pattern_2])
 
@@ -167,6 +181,13 @@ class TestStorageStage:
         mock_pattern.pattern_type = 'test'
         mock_pattern.confidence = 0.9
         mock_pattern.last_updated = '2025-01-15T12:00:00'
+        mock_pattern.to_dict.return_value = {
+            'pattern_id': 'pattern_1',
+            'restaurant_code': 'SDR',
+            'pattern_type': 'test',
+            'confidence': 0.9,
+            'last_updated': '2025-01-15T12:00:00'
+        }
 
         valid_context.set('learned_patterns', [mock_pattern])
 

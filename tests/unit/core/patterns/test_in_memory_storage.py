@@ -12,9 +12,9 @@ Tests:
 
 import pytest
 
-from src.core.patterns.in_memory_storage import InMemoryPatternStorage
-from src.models.pattern import Pattern
-from src.core import PatternError
+from pipeline.services.patterns.in_memory_storage import InMemoryPatternStorage
+from pipeline.models.pattern import Pattern
+from pipeline.services import PatternError
 
 
 class TestInMemoryStorageBasics:

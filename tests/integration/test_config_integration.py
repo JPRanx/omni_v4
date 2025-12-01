@@ -12,7 +12,7 @@ import os
 import pytest
 from unittest.mock import patch
 
-from src.infrastructure.config.loader import ConfigLoader
+from pipeline.infrastructure.config.loader import ConfigLoader
 
 
 # Mock environment variables for testing
@@ -311,7 +311,7 @@ class TestRealWorldUsage:
     @patch.dict(os.environ, TEST_ENV_VARS)
     def test_convenience_function_works(self):
         """Test convenience function for quick loading."""
-        from src.infrastructure.config.loader import load_config
+        from pipeline.infrastructure.config.loader import load_config
 
         config = load_config(restaurant_code="SDR", env="dev")
         assert config["restaurant"]["code"] == "SDR"

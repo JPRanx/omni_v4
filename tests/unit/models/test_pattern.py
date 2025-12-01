@@ -15,8 +15,8 @@ Tests:
 import pytest
 from datetime import datetime
 
-from src.models.pattern import Pattern
-from src.core import ValidationError
+from pipeline.models.pattern import Pattern
+from pipeline.services import ValidationError
 
 
 class TestPatternCreation:

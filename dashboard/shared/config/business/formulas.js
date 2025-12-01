@@ -228,7 +228,7 @@ export const composite = {
 
     const totalSales = aggregations.totalSales(days);
     const avgDailySales = aggregations.average(days.map(d => d.sales || 0));
-    const totalLaborCost = days.reduce((sum, d) => sum + (d.laborCost || 0), 0);
+    const totalLaborCost = days.reduce((sum, d) => sum + (d.labor || 0), 0);
     const totalCogs = days.reduce((sum, d) => sum + (d.cogs || 0), 0);
     const netProfit = derived.netProfit(totalSales, totalLaborCost, totalCogs);
     const profitMargin = percentages.profitMargin(netProfit, totalSales);

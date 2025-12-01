@@ -6,8 +6,8 @@ import pandas as pd
 import tempfile
 import shutil
 
-from src.ingestion.csv_data_source import CSVDataSource
-from src.core.errors import IngestionError
+from pipeline.ingestion.csv_data_source import CSVDataSource
+from pipeline.services.errors import IngestionError
 
 
 class TestCSVDataSource:

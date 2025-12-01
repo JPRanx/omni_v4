@@ -15,11 +15,11 @@ Coverage Goal: 100%
 
 import pytest
 
-from src.processing.stages.processing_stage import ProcessingStage
-from src.processing.labor_calculator import LaborCalculator, LaborMetrics
-from src.orchestration.pipeline import PipelineContext
-from src.models.labor_dto import LaborDTO
-from src.core.result import Result
+from pipeline.stages.processing_stage import ProcessingStage
+from pipeline.services.labor_calculator import LaborCalculator, LaborMetrics
+from pipeline.orchestration.pipeline import PipelineContext
+from pipeline.models.labor_dto import LaborDTO
+from pipeline.services.result import Result
 
 
 # ============================================================================

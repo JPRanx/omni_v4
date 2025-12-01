@@ -14,8 +14,8 @@ import json
 import tempfile
 from pathlib import Path
 
-from src.models.ingestion_result import IngestionResult
-from src.core import ValidationError, CheckpointError
+from pipeline.models.ingestion_result import IngestionResult
+from pipeline.services import ValidationError, CheckpointError
 
 
 class TestIngestionResultCreation:
